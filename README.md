@@ -8,7 +8,7 @@ OS勉強用のソースコードとして、XINUを選択した理由は以下�
 
 ## 本リポジトリの使い方
 本リポジトリにはソースコードの調査結果として、Doxygenスタイルのコメントをソースコード中に残します。<br>
-Doxygenから生成したHTMLファイルは、docsディレクトリ以下もしくはGitHub Pagesで確認できます<br>
+Doxygenから生成したHTMLファイルは、[docsディレクトリ以下](./docs/html/)もしくは[GitHub Pages](https://nao1215.github.io/LearningXinuFromSource/html/index.html)で確認できます<br>
 
 ## XINUオリジナルソースコードの出典
 XINUオリジナルソースコードは、[パデュー大学](https://xinu.cs.purdue.edu/)からダウンロードできます。
