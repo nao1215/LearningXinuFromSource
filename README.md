@@ -25,4 +25,4 @@ XINUオリジナルソースコードは、[パデュー大学](https://xinu.cs.
 
 ## ライセンス
 XINUソースコードは、[XINUのライセンス](./COPYRIGHT)に従います。<br>
-「docsディレクトリ以下」および「ソースコード中のDoxygenスタイルのコメント部分」は、[MIT License](./LICENSE)に従います。
+「docsディレクトリ以下」および「Doxygenスタイルのコメント部分」は、[MIT License](./LICENSE)に従います。
