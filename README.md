@@ -14,7 +14,7 @@ Doxygenから生成したHTMLファイルは、docsディレクトリ以下も�
 XINUオリジナルソースコードは、[パデュー大学](https://xinu.cs.purdue.edu/)からダウンロードできます。
 - [Beagle Board Black版（ARM version、本リポジトリ）](https://xinu.cs.purdue.edu/files/Xinu-code-BeagleBoneBlack.tar.gz)
 - [Intel Galileo board版（X86 version）](https://xinu.cs.purdue.edu/files/Xinu-code-Galileo.tar.gz)
-- [Virtual Box用の開発環境（vbox 6.1.12による動作確認版）](ftp://ftp.cs.purdue.edu/pub/comer/private/Xinu/xinu-vbox-appliances.tar.gz)
+- [Virtual Box用の開発環境（vbox 6.1.12による動作確認版)](ftp://ftp.cs.purdue.edu/pub/comer/private/Xinu/xinu-vbox-appliances.tar.gz)
 
 ## XINUのビルド方法
 
