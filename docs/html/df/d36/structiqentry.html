@@ -65,6 +65,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>ipout（IP送信）プロセスを待機している送信用IPパケットのキュー  
+ <a href="../../df/d36/structiqentry.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../da/d2f/ip_8h_source.html">ip.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for iqentry:</div>
@@ -78,15 +81,21 @@ Collaboration diagram for iqentry:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:ab3aacdd78728cb15eeb4013b9a653232"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d1/dec/structnetpacket.html">netpacket</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/structiqentry.html#ab3aacdd78728cb15eeb4013b9a653232">iqbuf</a> [<a class="el" href="../../da/d2f/ip_8h.html#a850db13a8b701300895062fdae0353ef">IP_OQSIZ</a>]</td></tr>
+<tr class="memdesc:ab3aacdd78728cb15eeb4013b9a653232"><td class="mdescLeft">&#160;</td><td class="mdescRight">循環パケットキュー  <a href="#ab3aacdd78728cb15eeb4013b9a653232">More...</a><br /></td></tr>
 <tr class="separator:ab3aacdd78728cb15eeb4013b9a653232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0543d3f2dd931bde9bff5863af5891cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/structiqentry.html#a0543d3f2dd931bde9bff5863af5891cf">iqhead</a></td></tr>
+<tr class="memdesc:a0543d3f2dd931bde9bff5863af5891cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">次に送信するパケットのインデックス  <a href="#a0543d3f2dd931bde9bff5863af5891cf">More...</a><br /></td></tr>
 <tr class="separator:a0543d3f2dd931bde9bff5863af5891cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67ed9e1036976978b08bb4937b0a8d8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/structiqentry.html#a67ed9e1036976978b08bb4937b0a8d8f">iqsem</a></td></tr>
+<tr class="memdesc:a67ed9e1036976978b08bb4937b0a8d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">パケット（pkts）をカウントするセマフォ  <a href="#a67ed9e1036976978b08bb4937b0a8d8f">More...</a><br /></td></tr>
 <tr class="separator:a67ed9e1036976978b08bb4937b0a8d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a141e18908689ed683a0484b38549414e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/structiqentry.html#a141e18908689ed683a0484b38549414e">iqtail</a></td></tr>
+<tr class="memdesc:a141e18908689ed683a0484b38549414e"><td class="mdescLeft">&#160;</td><td class="mdescRight">次の空きスロットのインデックス。  <a href="#a141e18908689ed683a0484b38549414e">More...</a><br /></td></tr>
 <tr class="separator:a141e18908689ed683a0484b38549414e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Field Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>ipout（IP送信）プロセスを待機している送信用IPパケットのキュー </p>
+</div><h2 class="groupheader">Field Documentation</h2>
 <a id="ab3aacdd78728cb15eeb4013b9a653232"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3aacdd78728cb15eeb4013b9a653232">&#9670;&nbsp;</a></span>iqbuf</h2>
 
@@ -98,6 +107,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>循環パケットキュー </p>
 
 </div>
 </div>
@@ -113,6 +124,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>次に送信するパケットのインデックス </p>
+
 </div>
 </div>
 <a id="a67ed9e1036976978b08bb4937b0a8d8f"></a>
@@ -127,6 +140,8 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>パケット（pkts）をカウントするセマフォ </p>
+
 </div>
 </div>
 <a id="a141e18908689ed683a0484b38549414e"></a>
@@ -140,6 +155,8 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>次の空きスロットのインデックス。 </p>
 
 </div>
 </div>

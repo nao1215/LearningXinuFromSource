@@ -1,25 +1,46 @@
-/* ip.h  -  Constants related to Internet Protocol version 4 (IPv4) */
+/**
+ *  @file ip.h
+ *  @brief Internet Protocol version 4 (IPv4)に関する定数。
+ */
 
-#define	IP_BCAST	0xffffffff	/* IP local broadcast address	*/
-#define	IP_THIS		0xffffffff	/* "this host" src IP address	*/
-#define	IP_ALLZEROS	0x00000000	/* The all-zeros IP address     */
+//! IPローカルブロードキャストアドレス。
+#define IP_BCAST 0xffffffff
+//! 「このホスト」のソースIPアドレス。
+#define IP_THIS 0xffffffff
+//! 全てゼロのIPアドレス。
+#define IP_ALLZEROS 0x00000000
 
-#define	IP_ICMP		1		/* ICMP protocol type for IP 	*/
-#define	IP_UDP		17		/* UDP protocol type for IP 	*/
+//! IP向けのICMPプロトコルタイプ
+#define IP_ICMP 1
+//! IP向けのUDPプロトコルタイプ
+#define IP_UDP 17
 
-#define	IP_ASIZE	4		/* Bytes in an IP address	*/
-#define	IP_HDR_LEN	20		/* Bytes in an IP header	*/
-#define IP_VH		0x45 		/* IP version and hdr length 	*/
-
-#define	IP_OQSIZ	8		/* Size of IP output queue	*/
+//! IPアドレスのバイト数
+#define IP_ASIZE 4
+//! IPヘッダのバイト数。
+#define IP_HDR_LEN 20
+//! 「IPバージョン」および「HDRの長さ」
+#define IP_VH 0x45
+//! IPアウトプットキューのサイズ
+#define IP_OQSIZ 8
 
 /* Queue of outgoing IP packets waiting for ipout process */
 
-struct	iqentry	{
-	int32	iqhead;			/* Index of next packet to send	*/
-	int32	iqtail;			/* Index of next free slot	*/
-	sid32	iqsem;			/* Semaphore that counts pkts	*/
-	struct	netpacket *iqbuf[IP_OQSIZ];/* Circular packet queue	*/
+/**
+ * @struct iqentry
+ * @brief ipout（IP送信）プロセスを待機している送信用IPパケットのキュー
+ */
+struct iqentry
+{
+	//! 次に送信するパケットのインデックス
+	int32 iqhead;
+	//! 次の空きスロットのインデックス。
+	int32 iqtail;
+	//! パケット（pkts）をカウントするセマフォ
+	sid32 iqsem;
+	//! 循環パケットキュー
+	struct netpacket *iqbuf[IP_OQSIZ];
 };
 
-extern	struct	iqentry	ipoqueue;	/* Network output queue		*/
+//! ネットワーク送信キュー
+extern struct iqentry ipoqueue;

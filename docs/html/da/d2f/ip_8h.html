@@ -70,6 +70,9 @@ $(function() {
 <div class="title">ip.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Internet Protocol version 4 (IPv4)に関する定数。  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -132,35 +135,48 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/structiqentry.html">iqentry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ipout（IP送信）プロセスを待機している送信用IPパケットのキュー  <a href="../../df/d36/structiqentry.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a5febaa12f06bc08647b8c189eaa6ced5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a5febaa12f06bc08647b8c189eaa6ced5">IP_ALLZEROS</a>&#160;&#160;&#160;0x00000000	/* The all-zeros IP address     */</td></tr>
+<tr class="memitem:a5febaa12f06bc08647b8c189eaa6ced5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a5febaa12f06bc08647b8c189eaa6ced5">IP_ALLZEROS</a>&#160;&#160;&#160;0x00000000</td></tr>
+<tr class="memdesc:a5febaa12f06bc08647b8c189eaa6ced5"><td class="mdescLeft">&#160;</td><td class="mdescRight">全てゼロのIPアドレス。  <a href="#a5febaa12f06bc08647b8c189eaa6ced5">More...</a><br /></td></tr>
 <tr class="separator:a5febaa12f06bc08647b8c189eaa6ced5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b02fb0649b19ad4cc4afecfb4fa415"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#ae9b02fb0649b19ad4cc4afecfb4fa415">IP_ASIZE</a>&#160;&#160;&#160;4		/* Bytes in an IP address	*/</td></tr>
+<tr class="memitem:ae9b02fb0649b19ad4cc4afecfb4fa415"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#ae9b02fb0649b19ad4cc4afecfb4fa415">IP_ASIZE</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:ae9b02fb0649b19ad4cc4afecfb4fa415"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPアドレスのバイト数  <a href="#ae9b02fb0649b19ad4cc4afecfb4fa415">More...</a><br /></td></tr>
 <tr class="separator:ae9b02fb0649b19ad4cc4afecfb4fa415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a814976cf8344ac1836f91343eec32009"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a814976cf8344ac1836f91343eec32009">IP_BCAST</a>&#160;&#160;&#160;0xffffffff	/* IP local broadcast address	*/</td></tr>
+<tr class="memitem:a814976cf8344ac1836f91343eec32009"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a814976cf8344ac1836f91343eec32009">IP_BCAST</a>&#160;&#160;&#160;0xffffffff</td></tr>
+<tr class="memdesc:a814976cf8344ac1836f91343eec32009"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPローカルブロードキャストアドレス。  <a href="#a814976cf8344ac1836f91343eec32009">More...</a><br /></td></tr>
 <tr class="separator:a814976cf8344ac1836f91343eec32009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97a39840e4cc41ddcb3cbbdbfa440f01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a97a39840e4cc41ddcb3cbbdbfa440f01">IP_HDR_LEN</a>&#160;&#160;&#160;20		/* Bytes in an IP header	*/</td></tr>
+<tr class="memitem:a97a39840e4cc41ddcb3cbbdbfa440f01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a97a39840e4cc41ddcb3cbbdbfa440f01">IP_HDR_LEN</a>&#160;&#160;&#160;20</td></tr>
+<tr class="memdesc:a97a39840e4cc41ddcb3cbbdbfa440f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPヘッダのバイト数。  <a href="#a97a39840e4cc41ddcb3cbbdbfa440f01">More...</a><br /></td></tr>
 <tr class="separator:a97a39840e4cc41ddcb3cbbdbfa440f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8bba07d010199988bd73a78a58fd986"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#ac8bba07d010199988bd73a78a58fd986">IP_ICMP</a>&#160;&#160;&#160;1		/* ICMP protocol type for IP 	*/</td></tr>
+<tr class="memitem:ac8bba07d010199988bd73a78a58fd986"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#ac8bba07d010199988bd73a78a58fd986">IP_ICMP</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ac8bba07d010199988bd73a78a58fd986"><td class="mdescLeft">&#160;</td><td class="mdescRight">IP向けのICMPプロトコルタイプ  <a href="#ac8bba07d010199988bd73a78a58fd986">More...</a><br /></td></tr>
 <tr class="separator:ac8bba07d010199988bd73a78a58fd986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a850db13a8b701300895062fdae0353ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a850db13a8b701300895062fdae0353ef">IP_OQSIZ</a>&#160;&#160;&#160;8		/* Size of IP output queue	*/</td></tr>
+<tr class="memitem:a850db13a8b701300895062fdae0353ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a850db13a8b701300895062fdae0353ef">IP_OQSIZ</a>&#160;&#160;&#160;8</td></tr>
+<tr class="memdesc:a850db13a8b701300895062fdae0353ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPアウトプットキューのサイズ  <a href="#a850db13a8b701300895062fdae0353ef">More...</a><br /></td></tr>
 <tr class="separator:a850db13a8b701300895062fdae0353ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2261d0d4f0910efb963a3d39cd01b5b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a2261d0d4f0910efb963a3d39cd01b5b6">IP_THIS</a>&#160;&#160;&#160;0xffffffff	/* &quot;this host&quot; src IP address	*/</td></tr>
+<tr class="memitem:a2261d0d4f0910efb963a3d39cd01b5b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a2261d0d4f0910efb963a3d39cd01b5b6">IP_THIS</a>&#160;&#160;&#160;0xffffffff</td></tr>
+<tr class="memdesc:a2261d0d4f0910efb963a3d39cd01b5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">「このホスト」のソースIPアドレス。  <a href="#a2261d0d4f0910efb963a3d39cd01b5b6">More...</a><br /></td></tr>
 <tr class="separator:a2261d0d4f0910efb963a3d39cd01b5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaffd588244bcb3abfecd29478399b578"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#aaffd588244bcb3abfecd29478399b578">IP_UDP</a>&#160;&#160;&#160;17		/* UDP protocol type for IP 	*/</td></tr>
+<tr class="memitem:aaffd588244bcb3abfecd29478399b578"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#aaffd588244bcb3abfecd29478399b578">IP_UDP</a>&#160;&#160;&#160;17</td></tr>
+<tr class="memdesc:aaffd588244bcb3abfecd29478399b578"><td class="mdescLeft">&#160;</td><td class="mdescRight">IP向けのUDPプロトコルタイプ  <a href="#aaffd588244bcb3abfecd29478399b578">More...</a><br /></td></tr>
 <tr class="separator:aaffd588244bcb3abfecd29478399b578"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39f114c025552243cd6ba840f6d6a7ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a39f114c025552243cd6ba840f6d6a7ae">IP_VH</a>&#160;&#160;&#160;0x45 		/* IP version and hdr length 	*/</td></tr>
+<tr class="memitem:a39f114c025552243cd6ba840f6d6a7ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#a39f114c025552243cd6ba840f6d6a7ae">IP_VH</a>&#160;&#160;&#160;0x45</td></tr>
+<tr class="memdesc:a39f114c025552243cd6ba840f6d6a7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">「IPバージョン」および「HDRの長さ」  <a href="#a39f114c025552243cd6ba840f6d6a7ae">More...</a><br /></td></tr>
 <tr class="separator:a39f114c025552243cd6ba840f6d6a7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ad957bd10b66c0721e8bbb93df975082c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../df/d36/structiqentry.html">iqentry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2f/ip_8h.html#ad957bd10b66c0721e8bbb93df975082c">ipoqueue</a></td></tr>
+<tr class="memdesc:ad957bd10b66c0721e8bbb93df975082c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク送信キュー  <a href="#ad957bd10b66c0721e8bbb93df975082c">More...</a><br /></td></tr>
 <tr class="separator:ad957bd10b66c0721e8bbb93df975082c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Internet Protocol version 4 (IPv4)に関する定数。 </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a5febaa12f06bc08647b8c189eaa6ced5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5febaa12f06bc08647b8c189eaa6ced5">&#9670;&nbsp;</a></span>IP_ALLZEROS</h2>
 
@@ -168,10 +184,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_ALLZEROS&#160;&#160;&#160;0x00000000	/* The all-zeros IP address     */</td>
+          <td class="memname">#define IP_ALLZEROS&#160;&#160;&#160;0x00000000</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>全てゼロのIPアドレス。 </p>
 
 </div>
 </div>
@@ -182,10 +200,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_ASIZE&#160;&#160;&#160;4		/* Bytes in an IP address	*/</td>
+          <td class="memname">#define IP_ASIZE&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IPアドレスのバイト数 </p>
 
 </div>
 </div>
@@ -196,10 +216,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_BCAST&#160;&#160;&#160;0xffffffff	/* IP local broadcast address	*/</td>
+          <td class="memname">#define IP_BCAST&#160;&#160;&#160;0xffffffff</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IPローカルブロードキャストアドレス。 </p>
 
 </div>
 </div>
@@ -210,10 +232,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_HDR_LEN&#160;&#160;&#160;20		/* Bytes in an IP header	*/</td>
+          <td class="memname">#define IP_HDR_LEN&#160;&#160;&#160;20</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IPヘッダのバイト数。 </p>
 
 </div>
 </div>
@@ -224,10 +248,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_ICMP&#160;&#160;&#160;1		/* ICMP protocol type for IP 	*/</td>
+          <td class="memname">#define IP_ICMP&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IP向けのICMPプロトコルタイプ </p>
 
 </div>
 </div>
@@ -238,10 +264,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_OQSIZ&#160;&#160;&#160;8		/* Size of IP output queue	*/</td>
+          <td class="memname">#define IP_OQSIZ&#160;&#160;&#160;8</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IPアウトプットキューのサイズ </p>
 
 </div>
 </div>
@@ -252,10 +280,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_THIS&#160;&#160;&#160;0xffffffff	/* &quot;this host&quot; src IP address	*/</td>
+          <td class="memname">#define IP_THIS&#160;&#160;&#160;0xffffffff</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>「このホスト」のソースIPアドレス。 </p>
 
 </div>
 </div>
@@ -266,10 +296,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_UDP&#160;&#160;&#160;17		/* UDP protocol type for IP 	*/</td>
+          <td class="memname">#define IP_UDP&#160;&#160;&#160;17</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>IP向けのUDPプロトコルタイプ </p>
 
 </div>
 </div>
@@ -280,10 +312,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IP_VH&#160;&#160;&#160;0x45 		/* IP version and hdr length 	*/</td>
+          <td class="memname">#define IP_VH&#160;&#160;&#160;0x45</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>「IPバージョン」および「HDRの長さ」 </p>
 
 </div>
 </div>
@@ -299,6 +333,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ネットワーク送信キュー </p>
 
 </div>
 </div>
