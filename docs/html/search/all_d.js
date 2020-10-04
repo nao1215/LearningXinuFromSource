@@ -73,7 +73,7 @@ var searchData=
   ['nmarks',['nmarks',['../d3/de6/mark_8h.html#a4c8d86cec817e69508b459360707613e',1,'nmarks():&#160;mark.c'],['../d1/db7/mark_8c.html#a4c8d86cec817e69508b459360707613e',1,'nmarks():&#160;mark.c']]],
   ['nmentry',['nmentry',['../d6/dff/structnmentry.html',1,'']]],
   ['nnam',['Nnam',['../df/d77/conf_8h.html#a59d7505db09374b064287a7e0754e4af',1,'conf.h']]],
-  ['nnames',['nnames',['../d3/dd6/name_8h.html#a293c7195e8190a01207347c9e6a814f1',1,'nnames():&#160;naminit.c'],['../da/df5/naminit_8c.html#a293c7195e8190a01207347c9e6a814f1',1,'nnames():&#160;naminit.c'],['../d3/dd6/name_8h.html#a71bf80a643bcc6db346468d01abc470f',1,'NNAMES():&#160;name.h']]],
+  ['nnames',['NNAMES',['../d3/dd6/name_8h.html#a71bf80a643bcc6db346468d01abc470f',1,'NNAMES():&#160;name.h'],['../d3/dd6/name_8h.html#a293c7195e8190a01207347c9e6a814f1',1,'nnames():&#160;naminit.c'],['../da/df5/naminit_8c.html#a293c7195e8190a01207347c9e6a814f1',1,'nnames():&#160;naminit.c']]],
   ['nnull',['Nnull',['../df/d77/conf_8h.html#acfa6398c65a88f8021b34db8705a63b5',1,'conf.h']]],
   ['nonempty',['nonempty',['../d8/d38/queue_8h.html#a593faf2797d0e5fff71a1adf006a8677',1,'queue.h']]],
   ['notmarked',['notmarked',['../d3/de6/mark_8h.html#a35f40a076ee927db6629b2486c8cd7fd',1,'mark.h']]],
