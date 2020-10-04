@@ -1,0 +1,15 @@
+<map id="ttyhandle_out" name="ttyhandle_out">
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="153,56,232,83"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="161,107,224,133"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="297,56,359,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="297,5,359,32"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="280,157,376,184"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="dequeue" alt="" coords="540,183,611,209"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="301,107,355,133"/>
+<area shape="rect" id="node7" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="424,157,492,184"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="548,81,603,108"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="547,132,604,159"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="659,183,721,209"/>
+<area shape="rect" id="node11" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="769,183,835,209"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="424,107,492,133"/>
+</map>

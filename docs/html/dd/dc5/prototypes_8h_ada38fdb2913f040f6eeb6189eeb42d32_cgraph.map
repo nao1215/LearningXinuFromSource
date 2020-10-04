@@ -1,0 +1,7 @@
+<map id="panic" name="panic">
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="327,5,389,32"/>
+<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="107,31,165,57"/>
+<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="213,31,279,57"/>
+<area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="219,81,273,108"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="327,81,389,108"/>
+</map>

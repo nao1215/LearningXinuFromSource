@@ -1,0 +1,4 @@
+<map id="eth_phy_reset" name="eth_phy_reset">
+<area shape="rect" id="node2" href="$d8/d3b/ethinit_8c.html#ab83fa5426f644fc0ae43655d5edf3a10" title="eth_phy_read" alt="" coords="159,5,259,32"/>
+<area shape="rect" id="node3" href="$d8/d3b/ethinit_8c.html#a91087018c8501be759e0f6466757b5e7" title="eth_phy_write" alt="" coords="157,56,260,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="lfibclear" name="lfibclear">
+<area shape="rect" id="node2" href="$db/d7b/lfscreate_8c.html#ac12901346561aedab0419452b93e1921" title="lfscreate" alt="" coords="120,5,192,32"/>
+<area shape="rect" id="node3" href="$d8/dc8/lfsetup_8c.html#a3db01eed715ed5ef0da3c013cd6faa41" title="lfsetup" alt="" coords="125,56,187,83"/>
+<area shape="rect" id="node4" href="$d9/d09/lflgetc_8c.html#a6522f70cdc3678892f62e19e213db4ba" title="lflgetc" alt="" coords="240,31,297,57"/>
+<area shape="rect" id="node6" href="$d7/d0b/lflputc_8c.html#ac66da37dcb0f69c711dbb5f6972a85e2" title="lflputc" alt="" coords="240,81,297,108"/>
+<area shape="rect" id="node5" href="$d0/d2c/lflread_8c.html#ada61d46f19dd2b8316f2afd5fda0dcb7" title="lflread" alt="" coords="347,31,404,57"/>
+<area shape="rect" id="node7" href="$d5/d55/lflwrite_8c.html#acb341c8fb845fdfccb01e1cb329e711a" title="lflwrite" alt="" coords="345,81,405,108"/>
+</map>

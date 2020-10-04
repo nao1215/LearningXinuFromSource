@@ -1,0 +1,22 @@
+<map id="ttyhandler" name="ttyhandler">
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="407,26,503,53"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa75e6a6e7a74887d0b8076863e078bfa" title="ttyhandle_in" alt="" coords="136,305,228,332"/>
+<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#ad62d4702afc775e4aa366d2211871438" title="ttyhandle_out" alt="" coords="132,229,232,256"/>
+<area shape="rect" id="node3" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="556,26,624,53"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="685,26,740,53"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="dequeue" alt="" coords="677,128,748,154"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="684,77,741,104"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="796,128,859,154"/>
+<area shape="rect" id="node7" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="907,128,972,154"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="280,280,359,306"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="291,229,347,256"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="551,356,629,382"/>
+<area shape="rect" id="node17" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="427,406,482,433"/>
+<area shape="rect" id="node18" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="287,432,351,458"/>
+<area shape="rect" id="node19" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="289,482,350,509"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="288,178,351,205"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="423,229,486,256"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="423,280,486,306"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="427,77,482,104"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="556,77,624,104"/>
+</map>

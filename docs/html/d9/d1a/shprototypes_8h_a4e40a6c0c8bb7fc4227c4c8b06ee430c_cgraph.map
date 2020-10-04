@@ -1,0 +1,11 @@
+<map id="xsh_memstat" name="xsh_memstat">
+<area shape="rect" id="node2" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="170,5,239,32"/>
+<area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="312,107,363,133"/>
+<area shape="rect" id="node6" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="177,208,232,235"/>
+<area shape="rect" id="node8" href="$d8/d0c/xsh__memstat_8c.html#a9f0b59c1d9d3acb4a045bd65ad77a9d3" title="printMemUse" alt="" coords="155,157,255,184"/>
+<area shape="rect" id="node10" href="$d8/d0c/xsh__memstat_8c.html#a6640813332dfe87d9a82f21485e24e35" title="printFreeList" alt="" coords="157,107,252,133"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="431,183,478,209"/>
+<area shape="rect" id="node5" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="420,107,489,133"/>
+<area shape="rect" id="node7" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="303,259,372,285"/>
+<area shape="rect" id="node9" href="$d8/d0c/xsh__memstat_8c.html#aedc96a40e844bc2efc8bbef1b0782702" title="start" alt="" coords="313,157,361,184"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="lfibget" name="lfibget">
+<area shape="rect" id="node2" href="$d8/dee/lfiballoc_8c.html#ac4113cf1f3df6e0b6e5dd27cd078a91a" title="lfiballoc" alt="" coords="115,5,182,32"/>
+<area shape="rect" id="node3" href="$d8/dc8/lfsetup_8c.html#a3db01eed715ed5ef0da3c013cd6faa41" title="lfsetup" alt="" coords="239,31,301,57"/>
+<area shape="rect" id="node8" href="$d1/dd1/lfsckfmt_8c.html#a07b4240d32d44e5ea76b4b80b0774760" title="lfsckfmt" alt="" coords="114,107,183,133"/>
+<area shape="rect" id="node9" href="$da/d0f/lftruncate_8c.html#ae4e33b4c200ecd2ee9f389925658e537" title="lftruncate" alt="" coords="111,157,187,184"/>
+<area shape="rect" id="node4" href="$d9/d09/lflgetc_8c.html#a6522f70cdc3678892f62e19e213db4ba" title="lflgetc" alt="" coords="353,5,411,32"/>
+<area shape="rect" id="node6" href="$d7/d0b/lflputc_8c.html#ac66da37dcb0f69c711dbb5f6972a85e2" title="lflputc" alt="" coords="353,56,411,83"/>
+<area shape="rect" id="node5" href="$d0/d2c/lflread_8c.html#ada61d46f19dd2b8316f2afd5fda0dcb7" title="lflread" alt="" coords="460,5,517,32"/>
+<area shape="rect" id="node7" href="$d5/d55/lflwrite_8c.html#acb341c8fb845fdfccb01e1cb329e711a" title="lflwrite" alt="" coords="459,56,519,83"/>
+<area shape="rect" id="node10" href="$d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="235,157,305,184"/>
+</map>

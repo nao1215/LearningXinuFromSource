@@ -1,36 +1,59 @@
-/* queue.h - firstid, firstkey, isempty, lastkey, nonempty		*/
+/**
+ * @file queue.h
+ * @brief キュー構造体に関する宣言／定数／インライン関数を定義する。
+ */
 
-/* Queue structure declarations, constants, and inline functions	*/
-
-/* Default # of queue entries: 1 per process plus 2 for ready list plus	*/
-/*			2 for sleep list plus 2 per semaphore		*/
+/**
+ * キューテーブルのエントリ数（=NQENT）は、条件付きコンパイルによって、動的に<br>
+ * そのサイズを変更できる（queue.hの修正が不要となる）。
+ */
 #ifndef NQENT
-#define NQENT	(NPROC + 4 + NSEM + NSEM)
+/**
+ * キューテーブル配列に対するデフォルトキューエントリ数。
+ * NPROC個のプロセスに加えて、READYリスト／休眠リスト／セマフォリストの先頭と<br>
+ * 末尾のポインタを保持するためのエントリ数を定義している。<br>
+ * キューエントリは、プロセスごとに1個、レディリストに2個、休眠リストに2個、<br>
+ * セマフォに2個を割り当てている。
+ */
+#define NQENT (NPROC + 4 + NSEM + NSEM)
 #endif
 
-#define	EMPTY	(-1)		/* Null value for qnext or qprev index	*/
-#define	MAXKEY	0x7FFFFFFF	/* Max key that can be stored in queue	*/
-#define	MINKEY	0x80000000	/* Min key that can be stored in queue	*/
+//! 次のキューインデックスもしくは前のキューインデックスがNULL値
+#define EMPTY (-1)
+//! キューの中に格納できるキーの最大値
+#define MAXKEY 0x7FFFFFFF
+//! キューの中に格納できるキーの最小値
+#define MINKEY 0x80000000
 
-struct	qentry	{		/* One per process plus two per list	*/
-	int32	qkey;		/* Key on which the queue is ordered	*/
-	qid16	qnext;		/* Index of next process or tail	*/
-	qid16	qprev;		/* Index of previous process or head	*/
+/**
+ * @struct qentry
+ * @brief プロセスキューの一つであり、本構造体の配列がプロセスキューテーブルとなる。
+ * @details プロセスごとに1個、リストごとに2個必要。
+ */
+struct qentry
+{
+	//! キュー順序を決定するキー。
+	int32 qkey;
+	//! 次のプロセスか末尾のプロセスのインデックス。
+	qid16 qnext;
+	//! 前のプロセスか先頭のプロセスのインデックス。
+	qid16 qprev;
 };
 
-extern	struct qentry	queuetab[];
+/** プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。*/
+extern struct qentry queuetab[];
 
 /* Inline queue manipulation functions */
 
-#define	queuehead(q)	(q)
-#define	queuetail(q)	((q) + 1)
-#define	firstid(q)	(queuetab[queuehead(q)].qnext)
-#define	lastid(q)	(queuetab[queuetail(q)].qprev)
-#define	isempty(q)	(firstid(q) >= NPROC)
-#define	nonempty(q)	(firstid(q) <  NPROC)
-#define	firstkey(q)	(queuetab[firstid(q)].qkey)
-#define	lastkey(q)	(queuetab[ lastid(q)].qkey)
+#define queuehead(q) (q)
+#define queuetail(q) ((q) + 1)
+#define firstid(q) (queuetab[queuehead(q)].qnext)
+#define lastid(q) (queuetab[queuetail(q)].qprev)
+#define isempty(q) (firstid(q) >= NPROC)
+#define nonempty(q) (firstid(q) < NPROC)
+#define firstkey(q) (queuetab[firstid(q)].qkey)
+#define lastkey(q) (queuetab[lastid(q)].qkey)
 
 /* Inline to check queue id assumes interrupts are disabled */
 
-#define	isbadqid(x)	(((int32)(x) < NPROC) || (int32)(x) >= NQENT-1)
+#define isbadqid(x) (((int32)(x) < NPROC) || (int32)(x) >= NQENT - 1)
