@@ -1,4 +1,7 @@
-/* xinu.h - include all system header files */
+/**
+ * @file xinu.h
+ * @brief 全てのシステムヘッダファイルをインクルードする。
+ */
 
 #include <kernel.h>
 #include <conf.h>
