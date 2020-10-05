@@ -14,7 +14,6 @@
 #define IP_ICMP 1
 //! IP向けのUDPプロトコルタイプ
 #define IP_UDP 17
-
 //! IPアドレスのバイト数
 #define IP_ASIZE 4
 //! IPヘッダのバイト数。
@@ -23,8 +22,6 @@
 #define IP_VH 0x45
 //! IPアウトプットキューのサイズ
 #define IP_OQSIZ 8
-
-/* Queue of outgoing IP packets waiting for ipout process */
 
 /**
  * @struct iqentry
