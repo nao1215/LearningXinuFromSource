@@ -1,5 +1,5 @@
 <map id="shell/xsh_ps.c" name="shell/xsh_ps.c">
-<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="xinu.h" alt="" coords="1817,80,1874,107"/>
+<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1817,80,1874,107"/>
 <area shape="rect" id="node38" href="$d6/dd1/stdio_8h.html" title="stdio.h" alt="" coords="3708,155,3769,181"/>
 <area shape="rect" id="node39" href="$da/d66/string_8h.html" title="string.h" alt="" coords="3794,155,3859,181"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="3113,155,3181,181"/>
@@ -17,7 +17,7 @@
 <area shape="rect" id="node15" href="$dd/d71/tty_8h.html" title="tty.h" alt="" coords="549,155,597,181"/>
 <area shape="rect" id="node16" href="$d6/d7c/gpio_8h.html" title="gpio.h" alt="" coords="622,155,679,181"/>
 <area shape="rect" id="node17" href="$dd/d0b/gpioselect_8h.html" title="gpioselect.h" alt="" coords="703,155,795,181"/>
-<area shape="rect" id="node18" href="$db/de9/device_8h.html" title="device.h" alt="" coords="819,155,890,181"/>
+<area shape="rect" id="node18" href="$db/de9/device_8h.html" title="「デバイス名の最大長」と「デバイスID検証マクロ」を提供する。 " alt="" coords="819,155,890,181"/>
 <area shape="rect" id="node19" href="$dd/d78/interrupt_8h.html" title="interrupt.h" alt="" coords="915,155,995,181"/>
 <area shape="rect" id="node20" href="$d2/d4d/file_8h.html" title="リモートもしくはローカルのファイルシステムに関する共通の定義。 " alt="" coords="1019,155,1069,181"/>
 <area shape="rect" id="node21" href="$df/d53/rfilesys_8h.html" title="rfilesys.h" alt="" coords="1093,155,1168,181"/>

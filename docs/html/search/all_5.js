@@ -26,7 +26,7 @@ var searchData=
   ['end',['end',['../dc/d18/memory_8h.html#abce9f5dc9c83f2639b72024fdee5d388',1,'memory.h']]],
   ['enqueue',['enqueue',['../dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e',1,'enqueue(pid32, qid16):&#160;queue.c'],['../d2/dbd/queue_8c.html#ab236d908d5583b06530ddac83177a2dd',1,'enqueue(pid32 pid, qid16 q):&#160;queue.c']]],
   ['eof',['EOF',['../d0/daa/kernel_8h.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;kernel.h'],['../d4/d6c/doscan_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;doscan.c'],['../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fgetc.c'],['../dc/d67/fputc_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fputc.c'],['../d8/db4/fscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fscanf.c'],['../d0/d33/sscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;sscanf.c']]],
-  ['eoi',['eoi',['../d8/d84/structgpio__csreg.html#a9ed2982a671a2fc876be091e851361a4',1,'gpio_csreg::eoi()'],['../dd/d25/icu_8h.html#a04c9015da7e7ea45f3b80793809e2d7b',1,'EOI():&#160;icu.h']]],
+  ['eoi',['eoi',['../d8/d84/structgpio__csreg.html#a9ed2982a671a2fc876be091e851361a4',1,'gpio_csreg']]],
   ['eoi_5fvector',['eoi_vector',['../db/de8/structeth__a__cpdma.html#a1daadf9815bc9ddadd45ea3089efff0b',1,'eth_a_cpdma']]],
   ['eputc',['eputc',['../d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4',1,'ttyhandle_in.c']]],
   ['erase1',['erase1',['../d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500',1,'ttyhandle_in.c']]],

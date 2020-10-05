@@ -78,7 +78,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d5f/queue_8h__dep__incl.png" border="0" usemap="#include_2queue_8hdep" alt=""/></div>
 <map name="include_2queue_8hdep" id="include_2queue_8hdep">
-<area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="include/xinu.h" alt="" coords="2757,80,2859,107"/>
+<area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="2757,80,2859,107"/>
 <area shape="rect" id="node3" href="../../d1/df2/fprintf_8c.html" title="lib/fprintf.c" alt="" coords="5,155,88,181"/>
 <area shape="rect" id="node4" href="../../d7/dd4/getchar_8c.html" title="lib/getchar.c" alt="" coords="112,155,205,181"/>
 <area shape="rect" id="node5" href="../../d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="230,155,309,181"/>
@@ -144,14 +144,17 @@ Macros</h2></td></tr>
 <tr class="memdesc:a2b7cf2a3641be7b89138615764d60ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">次のキューインデックスもしくは前のキューインデックスがNULL値  <a href="#a2b7cf2a3641be7b89138615764d60ba3">More...</a><br /></td></tr>
 <tr class="separator:a2b7cf2a3641be7b89138615764d60ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de257e95b77d5c613ae12934e8f5082"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a4de257e95b77d5c613ae12934e8f5082">firstid</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a>[<a class="el" href="../../d8/d38/queue_8h.html#a229d04ee61039259cf3cfbd2fc06853b">queuehead</a>(q)].qnext)</td></tr>
+<tr class="memdesc:a4de257e95b77d5c613ae12934e8f5082"><td class="mdescLeft">&#160;</td><td class="mdescRight">リストの最初のプロセスのIDを返す。  <a href="#a4de257e95b77d5c613ae12934e8f5082">More...</a><br /></td></tr>
 <tr class="separator:a4de257e95b77d5c613ae12934e8f5082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae42089b78dad8ecbc3bbd22f2d46ba18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#ae42089b78dad8ecbc3bbd22f2d46ba18">firstkey</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a>[<a class="el" href="../../d8/d38/queue_8h.html#a4de257e95b77d5c613ae12934e8f5082">firstid</a>(q)].qkey)</td></tr>
+<tr class="memdesc:ae42089b78dad8ecbc3bbd22f2d46ba18"><td class="mdescLeft">&#160;</td><td class="mdescRight">リスト中の最初のプロセスのキーを返す。  <a href="#ae42089b78dad8ecbc3bbd22f2d46ba18">More...</a><br /></td></tr>
 <tr class="separator:ae42089b78dad8ecbc3bbd22f2d46ba18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393be58bb328454027f56efa45783322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a393be58bb328454027f56efa45783322">isbadqid</a>(x)&#160;&#160;&#160;(((<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)(x) &lt; <a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a>) || (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)(x) &gt;= <a class="el" href="../../d8/d38/queue_8h.html#a880bae818ba2dcd0acc9a418bc593f41">NQENT</a> - 1)</td></tr>
 <tr class="separator:a393be58bb328454027f56efa45783322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6e009f525382940f8916e946adf8165"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#ae6e009f525382940f8916e946adf8165">isempty</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d8/d38/queue_8h.html#a4de257e95b77d5c613ae12934e8f5082">firstid</a>(q) &gt;= <a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a>)</td></tr>
 <tr class="separator:ae6e009f525382940f8916e946adf8165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61eb1812bd153f6fd90966f69ccc4731"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a61eb1812bd153f6fd90966f69ccc4731">lastid</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a>[<a class="el" href="../../d8/d38/queue_8h.html#a03cfc97c9b6900a008384ab8ad72175a">queuetail</a>(q)].qprev)</td></tr>
+<tr class="memdesc:a61eb1812bd153f6fd90966f69ccc4731"><td class="mdescLeft">&#160;</td><td class="mdescRight">リストの最後のプロセスのIDを返す。  <a href="#a61eb1812bd153f6fd90966f69ccc4731">More...</a><br /></td></tr>
 <tr class="separator:a61eb1812bd153f6fd90966f69ccc4731"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe509a2d32e90cf1ab092787fa7a051f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#abe509a2d32e90cf1ab092787fa7a051f">lastkey</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a>[<a class="el" href="../../d8/d38/queue_8h.html#a61eb1812bd153f6fd90966f69ccc4731">lastid</a>(q)].qkey)</td></tr>
 <tr class="separator:abe509a2d32e90cf1ab092787fa7a051f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,6 +213,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>リストの最初のプロセスのIDを返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リストの最初のプロセスのID </dd></dl>
+
 </div>
 </div>
 <a id="ae42089b78dad8ecbc3bbd22f2d46ba18"></a>
@@ -227,6 +239,23 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>リスト中の最初のプロセスのキーを返す。 </p>
+<p>リスト中の最後のプロセスのキーを返す。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リスト中の最初のプロセスのキー（最初のプロセスのqueuetabインデックス）</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リスト中の最後のプロセスのキー（最後のプロセスのqueuetabインデックス） </dd></dl>
 
 </div>
 </div>
@@ -281,6 +310,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>リストの最後のプロセスのIDを返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リストの最後のプロセスのID </dd></dl>
 
 </div>
 </div>

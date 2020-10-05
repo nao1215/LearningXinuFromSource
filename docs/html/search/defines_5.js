@@ -14,7 +14,6 @@ var searchData=
   ['eloop_5fstate_5ffree',['ELOOP_STATE_FREE',['../d4/db1/ethloop_8h.html#a571378bb8958d28e4725c48c50c42be0',1,'ethloop.h']]],
   ['empty',['EMPTY',['../d8/d38/queue_8h.html#a2b7cf2a3641be7b89138615764d60ba3',1,'EMPTY():&#160;queue.h'],['../d8/db4/fscanf_8c.html#a2b7cf2a3641be7b89138615764d60ba3',1,'EMPTY():&#160;fscanf.c']]],
   ['eof',['EOF',['../d0/daa/kernel_8h.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;kernel.h'],['../d4/d6c/doscan_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;doscan.c'],['../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fgetc.c'],['../dc/d67/fputc_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fputc.c'],['../d8/db4/fscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;fscanf.c'],['../d0/d33/sscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da',1,'EOF():&#160;sscanf.c']]],
-  ['eoi',['EOI',['../dd/d25/icu_8h.html#a04c9015da7e7ea45f3b80793809e2d7b',1,'icu.h']]],
   ['eth_5faddr_5flen',['ETH_ADDR_LEN',['../dc/de1/ether_8h.html#a78fc3e3fe5c33412e9f47a214f6e0415',1,'ether.h']]],
   ['eth_5fam335x_5fale_5faddr',['ETH_AM335X_ALE_ADDR',['../da/dd3/am335x__eth_8h.html#a6f78739a5d74a1e5f1694ae3cd3f58ed',1,'am335x_eth.h']]],
   ['eth_5fam335x_5falectl_5fby',['ETH_AM335X_ALECTL_BY',['../da/dd3/am335x__eth_8h.html#a0d11396613056691a324e10c63438f31',1,'am335x_eth.h']]],

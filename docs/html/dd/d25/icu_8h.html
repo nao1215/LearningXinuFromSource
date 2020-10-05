@@ -69,36 +69,29 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Input Capture UnitのI/Oポートアドレス、レジスタ、割り込み終了を定義する。  
+<a href="#details">More...</a></p>
+
 <p><a href="../../dd/d25/icu_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a04c9015da7e7ea45f3b80793809e2d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a04c9015da7e7ea45f3b80793809e2d7b">EOI</a>&#160;&#160;&#160;0x20		/* non-specific end of interrupt	*/</td></tr>
-<tr class="separator:a04c9015da7e7ea45f3b80793809e2d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f4b798251110d50ff979bef5f92924"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>&#160;&#160;&#160;0x20		/* I/O port address, 8259A #1		*/</td></tr>
+<tr class="memitem:a38f4b798251110d50ff979bef5f92924"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>&#160;&#160;&#160;0x20</td></tr>
+<tr class="memdesc:a38f4b798251110d50ff979bef5f92924"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/Oポートアドレス（8259A #1）  <a href="#a38f4b798251110d50ff979bef5f92924">More...</a><br /></td></tr>
 <tr class="separator:a38f4b798251110d50ff979bef5f92924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9318ae68dd1c4b4a10ae1febeffcb159"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a9318ae68dd1c4b4a10ae1febeffcb159">ICU2</a>&#160;&#160;&#160;0xA0		/* I/O port address, 8258A #2		*/</td></tr>
+<tr class="memitem:a9318ae68dd1c4b4a10ae1febeffcb159"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a9318ae68dd1c4b4a10ae1febeffcb159">ICU2</a>&#160;&#160;&#160;0xA0</td></tr>
+<tr class="memdesc:a9318ae68dd1c4b4a10ae1febeffcb159"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/Oポートアドレス（8258A #2）  <a href="#a9318ae68dd1c4b4a10ae1febeffcb159">More...</a><br /></td></tr>
 <tr class="separator:a9318ae68dd1c4b4a10ae1febeffcb159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30fd4faef73fc23b1f09a0bd643455c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a30fd4faef73fc23b1f09a0bd643455c1">IMR</a>&#160;&#160;&#160;(<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>+1)	/* Interrupt Mask Register		*/</td></tr>
+<tr class="memitem:a30fd4faef73fc23b1f09a0bd643455c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#a30fd4faef73fc23b1f09a0bd643455c1">IMR</a>&#160;&#160;&#160;(<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a> + 1)</td></tr>
+<tr class="memdesc:a30fd4faef73fc23b1f09a0bd643455c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">割り込みマスクレジスタ（Interrupt Mask Register）  <a href="#a30fd4faef73fc23b1f09a0bd643455c1">More...</a><br /></td></tr>
 <tr class="separator:a30fd4faef73fc23b1f09a0bd643455c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab38552082013ece744b4bff695e3b039"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#ab38552082013ece744b4bff695e3b039">OCR</a>&#160;&#160;&#160;<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>		/* Operation Command Register		*/</td></tr>
+<tr class="memitem:ab38552082013ece744b4bff695e3b039"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d25/icu_8h.html#ab38552082013ece744b4bff695e3b039">OCR</a>&#160;&#160;&#160;<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a></td></tr>
+<tr class="memdesc:ab38552082013ece744b4bff695e3b039"><td class="mdescLeft">&#160;</td><td class="mdescRight">オペレーションコマンドレジスタ（Operation Command Register）  <a href="#ab38552082013ece744b4bff695e3b039">More...</a><br /></td></tr>
 <tr class="separator:ab38552082013ece744b4bff695e3b039"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a04c9015da7e7ea45f3b80793809e2d7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c9015da7e7ea45f3b80793809e2d7b">&#9670;&nbsp;</a></span>EOI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EOI&#160;&#160;&#160;0x20		/* non-specific end of interrupt	*/</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Input Capture UnitのI/Oポートアドレス、レジスタ、割り込み終了を定義する。 </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a38f4b798251110d50ff979bef5f92924"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38f4b798251110d50ff979bef5f92924">&#9670;&nbsp;</a></span>ICU1</h2>
 
@@ -106,10 +99,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ICU1&#160;&#160;&#160;0x20		/* I/O port address, 8259A #1		*/</td>
+          <td class="memname">#define ICU1&#160;&#160;&#160;0x20</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>I/Oポートアドレス（8259A #1） </p>
 
 </div>
 </div>
@@ -120,10 +115,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ICU2&#160;&#160;&#160;0xA0		/* I/O port address, 8258A #2		*/</td>
+          <td class="memname">#define ICU2&#160;&#160;&#160;0xA0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>I/Oポートアドレス（8258A #2） </p>
 
 </div>
 </div>
@@ -134,10 +131,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define IMR&#160;&#160;&#160;(<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>+1)	/* Interrupt Mask Register		*/</td>
+          <td class="memname">#define IMR&#160;&#160;&#160;(<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a> + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>割り込みマスクレジスタ（Interrupt Mask Register） </p>
 
 </div>
 </div>
@@ -148,10 +147,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OCR&#160;&#160;&#160;<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a>		/* Operation Command Register		*/</td>
+          <td class="memname">#define OCR&#160;&#160;&#160;<a class="el" href="../../dd/d25/icu_8h.html#a38f4b798251110d50ff979bef5f92924">ICU1</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>オペレーションコマンドレジスタ（Operation Command Register） </p>
 
 </div>
 </div>

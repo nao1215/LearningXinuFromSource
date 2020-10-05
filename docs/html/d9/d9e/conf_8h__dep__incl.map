@@ -1,5 +1,5 @@
 <map id="config/conf.h" name="config/conf.h">
-<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="include/xinu.h" alt="" coords="2757,80,2859,107"/>
+<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="2757,80,2859,107"/>
 <area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html" title="lib/fprintf.c" alt="" coords="5,155,88,181"/>
 <area shape="rect" id="node4" href="$d7/dd4/getchar_8c.html" title="lib/getchar.c" alt="" coords="112,155,205,181"/>
 <area shape="rect" id="node5" href="$d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="230,155,309,181"/>

@@ -14,7 +14,7 @@
 <area shape="rect" id="node14" href="$dd/d71/tty_8h.html" title="tty.h" alt="" coords="1145,80,1193,107"/>
 <area shape="rect" id="node15" href="$d6/d7c/gpio_8h.html" title="gpio.h" alt="" coords="1217,80,1275,107"/>
 <area shape="rect" id="node16" href="$dd/d0b/gpioselect_8h.html" title="gpioselect.h" alt="" coords="1299,80,1391,107"/>
-<area shape="rect" id="node17" href="$db/de9/device_8h.html" title="device.h" alt="" coords="1415,80,1485,107"/>
+<area shape="rect" id="node17" href="$db/de9/device_8h.html" title="「デバイス名の最大長」と「デバイスID検証マクロ」を提供する。 " alt="" coords="1415,80,1485,107"/>
 <area shape="rect" id="node18" href="$dd/d78/interrupt_8h.html" title="interrupt.h" alt="" coords="1510,80,1590,107"/>
 <area shape="rect" id="node19" href="$d2/d4d/file_8h.html" title="リモートもしくはローカルのファイルシステムに関する共通の定義。 " alt="" coords="1614,80,1665,107"/>
 <area shape="rect" id="node20" href="$df/d53/rfilesys_8h.html" title="rfilesys.h" alt="" coords="1689,80,1763,107"/>

@@ -1,5 +1,5 @@
 <map id="system/ionull.c" name="system/ionull.c">
-<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="xinu.h" alt="" coords="1903,80,1960,107"/>
+<area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1903,80,1960,107"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="$df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="$da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node15" href="$dd/d71/tty_8h.html" title="tty.h" alt="" coords="1145,155,1193,181"/>
 <area shape="rect" id="node16" href="$d6/d7c/gpio_8h.html" title="gpio.h" alt="" coords="1217,155,1275,181"/>
 <area shape="rect" id="node17" href="$dd/d0b/gpioselect_8h.html" title="gpioselect.h" alt="" coords="1299,155,1391,181"/>
-<area shape="rect" id="node18" href="$db/de9/device_8h.html" title="device.h" alt="" coords="1415,155,1485,181"/>
+<area shape="rect" id="node18" href="$db/de9/device_8h.html" title="「デバイス名の最大長」と「デバイスID検証マクロ」を提供する。 " alt="" coords="1415,155,1485,181"/>
 <area shape="rect" id="node19" href="$dd/d78/interrupt_8h.html" title="interrupt.h" alt="" coords="1510,155,1590,181"/>
 <area shape="rect" id="node20" href="$d2/d4d/file_8h.html" title="リモートもしくはローカルのファイルシステムに関する共通の定義。 " alt="" coords="1614,155,1665,181"/>
 <area shape="rect" id="node21" href="$df/d53/rfilesys_8h.html" title="rfilesys.h" alt="" coords="1689,155,1763,181"/>
