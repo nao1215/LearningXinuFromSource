@@ -8,8 +8,8 @@
 
 /**
  * @brief exitコマンドとして、シェル終了を引き起こす終了コードを返す。
- * @param[in] 引数の数（使用しない）
- * @param[in] 引数（使用しない）
+ * @param[in] nargs 引数の数（使用しない）
+ * @param[in] args 引数（使用しない）
  * @return SHELL_EXITを返す。
  */
 shellcmd xsh_exit(int nargs, char *args[])
