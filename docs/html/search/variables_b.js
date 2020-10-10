@@ -12,6 +12,7 @@ var searchData=
   ['membase',['membase',['../d4/d2a/structethcblk.html#aaa1a95d4c60c8a6909056d5f51ca1a90',1,'ethcblk']]],
   ['memlist',['memlist',['../dc/d18/memory_8h.html#a0a0f1e98b35a37865e5e30701f59ed5d',1,'memlist():&#160;initialize.c'],['../df/dda/initialize_8c.html#a0a0f1e98b35a37865e5e30701f59ed5d',1,'memlist():&#160;initialize.c']]],
   ['minheap',['minheap',['../dc/d18/memory_8h.html#af107ea495bad8475dcfc2b02241a84f5',1,'minheap():&#160;meminit.c'],['../d5/d80/meminit_8c.html#af107ea495bad8475dcfc2b02241a84f5',1,'minheap():&#160;meminit.c']]],
+  ['minor',['minor',['../d3/d3e/structdev__ent.html#a0f40c191e96b892f3ee1b33086a39492',1,'dev_ent']]],
   ['mir',['mir',['../db/d1a/structintc__bank.html#ac24aacf22c9529fb699d7474d7aefb75',1,'intc_bank']]],
   ['mir_5fclear',['mir_clear',['../db/d1a/structintc__bank.html#ad69cb15de17ff00deed4ec4620f4c778',1,'intc_bank']]],
   ['mir_5fset',['mir_set',['../db/d1a/structintc__bank.html#abedc43cef508197310d9831415fdc61f',1,'intc_bank']]],

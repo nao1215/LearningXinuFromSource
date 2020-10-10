@@ -1,22 +1,51 @@
 <map id="ttyhandler" name="ttyhandler">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="407,26,503,53"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa75e6a6e7a74887d0b8076863e078bfa" title="ttyhandle_in" alt="" coords="136,305,228,332"/>
-<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#ad62d4702afc775e4aa366d2211871438" title="ttyhandle_out" alt="" coords="132,229,232,256"/>
-<area shape="rect" id="node3" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="556,26,624,53"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="685,26,740,53"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="677,128,748,154"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="684,77,741,104"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="796,128,859,154"/>
-<area shape="rect" id="node7" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="907,128,972,154"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="280,280,359,306"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="291,229,347,256"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="551,356,629,382"/>
-<area shape="rect" id="node17" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="427,406,482,433"/>
-<area shape="rect" id="node18" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="287,432,351,458"/>
-<area shape="rect" id="node19" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="289,482,350,509"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="288,178,351,205"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="423,229,486,256"/>
-<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="423,280,486,306"/>
-<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="427,77,482,104"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="556,77,624,104"/>
+<area shape="rect" id="node2" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="163,1044,201,1071"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="134,2083,230,2109"/>
+<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aa75e6a6e7a74887d0b8076863e078bfa" title="ttyhandle_in" alt="" coords="136,2184,228,2211"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ad62d4702afc775e4aa366d2211871438" title="ttyhandle_out" alt="" coords="132,2133,232,2160"/>
+<area shape="rect" id="node3" href="$d3/d58/lex_8yy_8c.html#a2e9898ec03e594f5a82387c787776ef6" title="yyensure_buffer_stack" alt="" coords="280,5,435,32"/>
+<area shape="rect" id="node4" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="298,56,417,83"/>
+<area shape="rect" id="node5" href="$d3/d58/lex_8yy_8c.html#ac6bf96bd2d347c04367b8111abcd0dca" title="yy_load_buffer_state" alt="" coords="286,107,429,133"/>
+<area shape="rect" id="node6" href="$d3/d58/lex_8yy_8c.html#ad7a179bfb29968916da20ca16f6ab370" title="yy_get_previous_state" alt="" coords="281,157,434,184"/>
+<area shape="rect" id="node7" href="$d3/d58/lex_8yy_8c.html#a45a1e65d8dcd5cb30c5d315c91800a5f" title="yy_try_NUL_trans" alt="" coords="293,208,421,235"/>
+<area shape="rect" id="node8" href="$d3/d58/lex_8yy_8c.html#a3b3b5f60f720da3f621223997266498c" title="yy_get_next_buffer" alt="" coords="291,259,424,285"/>
+<area shape="rect" id="node9" href="$d3/d58/lex_8yy_8c.html#a9ae7dd87893ed6cebc02d0d5f84c2ede" title="yywrap" alt="" coords="325,309,389,336"/>
+<area shape="rect" id="node10" href="$d3/d58/lex_8yy_8c.html#a843d874fed23c395a8f12c2d9c666557" title="yyrealloc" alt="" coords="320,360,395,387"/>
+<area shape="rect" id="node11" href="$d3/d58/lex_8yy_8c.html#ab657ddef65d43cc3ab8dfc2cad0ac5b8" title="yyrestart" alt="" coords="321,411,394,437"/>
+<area shape="rect" id="node12" href="$d3/d58/lex_8yy_8c.html#a25685b4fb49203fb391287f312948be4" title="yyunput" alt="" coords="323,461,391,488"/>
+<area shape="rect" id="node13" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="332,512,383,539"/>
+<area shape="rect" id="node14" href="$d3/d58/lex_8yy_8c.html#af4a399540c15d953f8b01085bfdc93ea" title="yy_init_buffer" alt="" coords="307,563,407,589"/>
+<area shape="rect" id="node15" href="$d3/d58/lex_8yy_8c.html#a3098c48a74ef8fd852f7dd4b3331cbce" title="yy_switch_to_buffer" alt="" coords="288,613,427,640"/>
+<area shape="rect" id="node16" href="$d3/d58/lex_8yy_8c.html#a48e81b6f60f5f21fcaca3cc542e6c9f2" title="yyalloc" alt="" coords="326,664,389,691"/>
+<area shape="rect" id="node17" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="298,715,417,741"/>
+<area shape="rect" id="node18" href="$d3/d58/lex_8yy_8c.html#a70f82d43d4797bb2a50f7678ddbfbda5" title="yyfree" alt="" coords="328,765,387,792"/>
+<area shape="rect" id="node19" href="$d3/d58/lex_8yy_8c.html#a2f59cc88e85e5455c62e4ef7ce095ea8" title="yy_flush_buffer" alt="" coords="302,816,413,843"/>
+<area shape="rect" id="node20" href="$d3/d58/lex_8yy_8c.html#a4bf8969e5234aef8b46cce9a67a62724" title="yypush_buffer_state" alt="" coords="287,867,427,893"/>
+<area shape="rect" id="node21" href="$d3/d58/lex_8yy_8c.html#a6201ab6be4687a1ebc3120602d05e35a" title="yypop_buffer_state" alt="" coords="291,917,424,944"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="323,968,392,995"/>
+<area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#af81595b30c0da73f9034ffb511db6388" title="yy_scan_buffer" alt="" coords="302,1019,413,1045"/>
+<area shape="rect" id="node24" href="$d3/d58/lex_8yy_8c.html#aaba3a8c0a4caad352ee68b5742c4a9d1" title="yy_scan_string" alt="" coords="302,1069,413,1096"/>
+<area shape="rect" id="node25" href="$d3/d58/lex_8yy_8c.html#acbf193b612e891a3fca6a810daa18c66" title="yy_scan_bytes" alt="" coords="302,1120,413,1147"/>
+<area shape="rect" id="node26" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="strlen" alt="" coords="330,1171,385,1197"/>
+<area shape="rect" id="node27" href="$d3/d58/lex_8yy_8c.html#a25d1992696acab2c6c3b6a6b45d2f487" title="yy_fatal_error" alt="" coords="307,1221,408,1248"/>
+<area shape="rect" id="node28" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="330,1272,385,1299"/>
+<area shape="rect" id="node29" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="336,1323,379,1349"/>
+<area shape="rect" id="node30" href="$d3/d58/lex_8yy_8c.html#a3ac85cdab63967ff82c7534d35a42fe6" title="yyget_lineno" alt="" coords="310,1373,405,1400"/>
+<area shape="rect" id="node31" href="$d3/d58/lex_8yy_8c.html#aeeecf71423549a8e165cddd5a824160b" title="yyget_in" alt="" coords="322,1424,393,1451"/>
+<area shape="rect" id="node32" href="$d3/d58/lex_8yy_8c.html#ae2c4c4681bb3d385b213511d0b3b59fd" title="yyget_out" alt="" coords="318,1475,397,1501"/>
+<area shape="rect" id="node33" href="$d3/d58/lex_8yy_8c.html#a81867b0419accbe7b3c2d59ffb203da9" title="yyget_leng" alt="" coords="315,1525,400,1552"/>
+<area shape="rect" id="node34" href="$d3/d58/lex_8yy_8c.html#ac8dd6bf3779328f280aa7f7aa8106514" title="yyget_text" alt="" coords="316,1576,399,1603"/>
+<area shape="rect" id="node35" href="$d3/d58/lex_8yy_8c.html#aca0fe76da7a277561738a9a14ab8cb0a" title="yyset_lineno" alt="" coords="310,1627,405,1653"/>
+<area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#a14346b28ae39537ab27caacebfcb31a7" title="yyset_in" alt="" coords="322,1677,393,1704"/>
+<area shape="rect" id="node37" href="$d3/d58/lex_8yy_8c.html#ad8174301995e5a61ab330516ec081e35" title="yyset_out" alt="" coords="318,1728,397,1755"/>
+<area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#a4d4e3dd7e6f1d795e01b61794b31ac34" title="yyget_debug" alt="" coords="309,1779,405,1805"/>
+<area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#ac571eade4cca933e8ccdf6759c527fe7" title="yyset_debug" alt="" coords="309,1829,405,1856"/>
+<area shape="rect" id="node40" href="$d3/d58/lex_8yy_8c.html#a599b60cd059cf60e89cc49953dc708d0" title="yy_init_globals" alt="" coords="303,1880,411,1907"/>
+<area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#ab596ae57cdabfb4b298edf3dde7cdf04" title="yylex_destroy" alt="" coords="306,1931,409,1957"/>
+<area shape="rect" id="node42" href="$dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23" title="malloc" alt="" coords="327,1981,387,2008"/>
+<area shape="rect" id="node43" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="335,2032,379,2059"/>
+<area shape="rect" id="node45" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="323,2083,391,2109"/>
+<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="318,2133,397,2160"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="329,2184,385,2211"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="318,2235,397,2261"/>
 </map>

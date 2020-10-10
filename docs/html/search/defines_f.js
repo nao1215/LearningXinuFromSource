@@ -161,5 +161,6 @@ var searchData=
   ['pt_5falloc',['PT_ALLOC',['../d2/d54/ports_8h.html#a8c45624cd603165b216f20da0ef2d4ec',1,'ports.h']]],
   ['pt_5ffree',['PT_FREE',['../d2/d54/ports_8h.html#a7c140ebd2f532fffe07ec9d1236b7023',1,'ports.h']]],
   ['pt_5flimbo',['PT_LIMBO',['../d2/d54/ports_8h.html#a420ed522ebb993db95dcbbaa850c4bfc',1,'ports.h']]],
-  ['pt_5fmsgs',['PT_MSGS',['../d2/d54/ports_8h.html#a11a026938065dcb5eed35f913d31dd97',1,'ports.h']]]
+  ['pt_5fmsgs',['PT_MSGS',['../d2/d54/ports_8h.html#a11a026938065dcb5eed35f913d31dd97',1,'ports.h']]],
+  ['putc',['PUTC',['../d5/def/y_8tab_8c.html#af97d667db1c0f1550cbfd36a5c93549f',1,'y.tab.c']]]
 ];

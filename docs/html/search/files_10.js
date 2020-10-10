@@ -18,7 +18,6 @@ var searchData=
   ['rdsread_2ec',['rdsread.c',['../df/d3c/rdsread_8c.html',1,'']]],
   ['rdswrite_2ec',['rdswrite.c',['../d5/d9c/rdswrite_8c.html',1,'']]],
   ['read_2ec',['read.c',['../d2/d16/read_8c.html',1,'']]],
-  ['readme_2emd',['README.md',['../da/ddd/README_8md.html',1,'']]],
   ['ready_2ec',['ready.c',['../d7/db9/ready_8c.html',1,'']]],
   ['receive_2ec',['receive.c',['../dc/da3/receive_8c.html',1,'']]],
   ['recvclr_2ec',['recvclr.c',['../d0/dca/recvclr_8c.html',1,'']]],

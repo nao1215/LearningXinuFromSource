@@ -1,51 +1,51 @@
 <map id="rdsinit" name="rdsinit">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="create" alt="" coords="1000,107,1059,133"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="create" alt="" coords="1000,132,1059,159"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ac28ef0ae0c6dcfbd0fcf0b2e557fd618" title="rdsprocess" alt="" coords="111,1272,197,1299"/>
-<area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="519,1272,576,1299"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="381,1449,435,1476"/>
-<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="1132,664,1201,691"/>
-<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="1125,1576,1208,1603"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1260,1095,1323,1121"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="1137,461,1196,488"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1260,563,1323,589"/>
-<area shape="rect" id="node6" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="1135,5,1198,32"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="1138,56,1195,83"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1143,1525,1190,1552"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="853,1019,922,1045"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="245,765,321,792"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1139,816,1195,843"/>
-<area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="1004,1373,1055,1400"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1256,1449,1327,1476"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1375,1500,1443,1527"/>
-<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1499,1551,1553,1577"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1491,1064,1561,1091"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1497,1500,1555,1527"/>
-<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1609,1064,1672,1091"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="674,664,767,691"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="369,968,447,995"/>
-<area shape="rect" id="node20" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="691,1221,750,1248"/>
-<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="503,765,592,792"/>
-<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="850,689,925,716"/>
-<area shape="rect" id="node23" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="495,968,600,995"/>
-<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="851,1069,923,1096"/>
-<area shape="rect" id="node39" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="498,1019,597,1045"/>
-<area shape="rect" id="node40" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="659,1120,783,1147"/>
-<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="841,816,933,843"/>
-<area shape="rect" id="node21" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="855,1221,920,1248"/>
-<area shape="rect" id="node22" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1139,1019,1194,1045"/>
-<area shape="rect" id="node24" href="$dd/d53/dhcp_8c.html#a6a401945ba7d61ee1d20a90f10897615" title="dhcp_bld_bootp_msg" alt="" coords="648,1019,793,1045"/>
-<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="1000,1272,1059,1299"/>
-<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="687,563,754,589"/>
-<area shape="rect" id="node29" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="854,537,921,564"/>
-<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="998,639,1061,665"/>
-<area shape="rect" id="node33" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="859,639,916,665"/>
-<area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="843,411,932,437"/>
-<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1264,1551,1319,1577"/>
-<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="1136,917,1197,944"/>
-<area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="1131,715,1203,741"/>
-<area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="1261,715,1322,741"/>
-<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="981,943,1077,969"/>
-<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="1133,1424,1200,1451"/>
-<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1259,1399,1324,1425"/>
-<area shape="rect" id="node50" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="1256,1601,1327,1628"/>
+<area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="519,1019,576,1045"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="381,1348,435,1375"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="1132,1221,1201,1248"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="1125,1677,1208,1704"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1260,1081,1323,1108"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="1137,411,1196,437"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1260,715,1323,741"/>
+<area shape="rect" id="node6" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="1135,107,1198,133"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="1138,5,1195,32"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1143,1576,1190,1603"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="1132,1069,1201,1096"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="245,1019,321,1045"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1139,360,1195,387"/>
+<area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="1004,259,1055,285"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1256,1576,1327,1603"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1375,461,1443,488"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1499,360,1553,387"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1491,411,1561,437"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1497,461,1555,488"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1609,411,1672,437"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="674,1221,767,1248"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="369,740,447,767"/>
+<area shape="rect" id="node20" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="691,639,750,665"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="503,853,592,880"/>
+<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="850,1069,925,1096"/>
+<area shape="rect" id="node23" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="495,740,600,767"/>
+<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="851,613,923,640"/>
+<area shape="rect" id="node39" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="498,689,597,716"/>
+<area shape="rect" id="node40" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="659,588,783,615"/>
+<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="841,461,933,488"/>
+<area shape="rect" id="node21" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="855,512,920,539"/>
+<area shape="rect" id="node22" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1139,664,1194,691"/>
+<area shape="rect" id="node24" href="$dd/d53/dhcp_8c.html#a6a401945ba7d61ee1d20a90f10897615" title="dhcp_bld_bootp_msg" alt="" coords="648,740,793,767"/>
+<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="1000,1373,1059,1400"/>
+<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="687,892,754,919"/>
+<area shape="rect" id="node29" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="854,816,921,843"/>
+<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="998,816,1061,843"/>
+<area shape="rect" id="node33" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="859,917,916,944"/>
+<area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="843,968,932,995"/>
+<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1264,360,1319,387"/>
+<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="1136,1019,1197,1045"/>
+<area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="1131,1323,1203,1349"/>
+<area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="1010,1069,1049,1096"/>
+<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="981,524,1077,551"/>
+<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="1133,208,1200,235"/>
+<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1259,208,1324,235"/>
+<area shape="rect" id="node50" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="1256,1677,1327,1704"/>
 </map>

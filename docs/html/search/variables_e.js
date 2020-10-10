@@ -37,5 +37,6 @@ var searchData=
   ['ptssem',['ptssem',['../d7/d14/structptentry.html#ab0110c8f9caea501973234ed92067138',1,'ptentry']]],
   ['ptstate',['ptstate',['../d7/d14/structptentry.html#a58b5212411999fbe0530031f138e64d9',1,'ptentry']]],
   ['pttail',['pttail',['../d7/d14/structptentry.html#ad839f1cc17fee1a680d4ed9c2b100492',1,'ptentry']]],
-  ['ptype',['ptype',['../d4/d09/structeth__a__ss.html#ad6edf5e08086e354e51260dee21bd7fd',1,'eth_a_ss']]]
+  ['ptype',['ptype',['../d4/d09/structeth__a__ss.html#ad6edf5e08086e354e51260dee21bd7fd',1,'eth_a_ss']]],
+  ['putc',['putc',['../d3/d3e/structdev__ent.html#ac1fc89a12e8939c51ef8d65c084b28b6',1,'dev_ent']]]
 ];

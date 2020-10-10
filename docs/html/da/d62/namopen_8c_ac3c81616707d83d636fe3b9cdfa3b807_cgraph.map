@@ -1,6 +1,33 @@
 <map id="namopen" name="namopen">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34" title="nammap" alt="" coords="128,5,200,32"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="139,56,189,83"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="248,31,311,57"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="248,81,311,108"/>
+<area shape="rect" id="node2" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="131,178,197,205"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34" title="nammap" alt="" coords="128,229,200,256"/>
+<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="705,26,755,53"/>
+<area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="252,128,307,154"/>
+<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="258,229,301,256"/>
+<area shape="rect" id="node27" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="strlen" alt="" coords="252,280,307,306"/>
+<area shape="rect" id="node28" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="strcmp" alt="" coords="248,330,311,357"/>
+<area shape="rect" id="node29" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="bzero" alt="" coords="252,77,307,104"/>
+<area shape="rect" id="node30" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="strcpy" alt="" coords="250,178,309,205"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="370,141,417,168"/>
+<area shape="rect" id="node5" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="359,90,428,117"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="374,254,413,281"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="365,204,422,230"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="816,153,879,180"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="816,268,879,294"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="476,140,533,166"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="479,381,530,408"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="696,533,764,560"/>
+<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="581,292,648,318"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="697,229,763,256"/>
+<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="703,178,757,205"/>
+<area shape="rect" id="node11" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="585,89,644,116"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="593,140,636,166"/>
+<area shape="rect" id="node12" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="697,77,763,104"/>
+<area shape="rect" id="node13" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="703,128,757,154"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="587,533,642,560"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="820,584,875,610"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="812,533,883,560"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="819,482,876,509"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="931,533,993,560"/>
+<area shape="rect" id="node21" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1041,533,1107,560"/>
 </map>

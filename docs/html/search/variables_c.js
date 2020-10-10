@@ -1,12 +1,13 @@
 var searchData=
 [
-  ['name',['name',['../d7/d3a/structfile.html#a93164d6663f12c00df3d65b7b0990cc2',1,'file::name()'],['../d2/d3d/structtestcase.html#a2cd3ea89f366a21674528a425635594d',1,'testcase::name()']]],
+  ['name',['name',['../d7/d3a/structfile.html#a93164d6663f12c00df3d65b7b0990cc2',1,'file::name()'],['../d2/d3d/structtestcase.html#a2cd3ea89f366a21674528a425635594d',1,'testcase::name()'],['../d3/d3e/structdev__ent.html#a91b8171f9461f364d15c3d657a1412a5',1,'dev_ent::name()']]],
   ['nametab',['nametab',['../d3/dd6/name_8h.html#a30dc2d55b0dee5909f16dc7e0e1c3690',1,'nametab():&#160;naminit.c'],['../da/df5/naminit_8c.html#a680b0c1de263f83849a05eb56da07b20',1,'nametab():&#160;naminit.c']]],
   ['nblocks',['nblocks',['../db/d82/structflash__region.html#af3a2ff2379c0b4531e59f12ffc6f7e80',1,'flash_region']]],
   ['nbpools',['nbpools',['../db/d18/bufpool_8h.html#a0d0d29dc3c6e8bf78157e75c70e6efc1',1,'nbpools():&#160;bufinit.c'],['../d7/da4/bufinit_8c.html#a0d0d29dc3c6e8bf78157e75c70e6efc1',1,'nbpools():&#160;bufinit.c']]],
   ['ncmd',['ncmd',['../df/d03/shell_8h.html#a6cac4122dd1ca2b21a3f265d332f0a18',1,'ncmd():&#160;shell.c'],['../d6/d4f/shell_8c.html#a6cac4122dd1ca2b21a3f265d332f0a18',1,'ncmd():&#160;shell.c']]],
   ['ndefers',['ndefers',['../dd/de4/structdefer.html#a5a6609a0fa9360764554e6168a7fb9a8',1,'defer']]],
   ['ndevice',['ndevice',['../d6/dff/structnmentry.html#a86d83470abf55246dc1d1adb43321928',1,'nmentry']]],
+  ['ndevs',['ndevs',['../d5/def/y_8tab_8c.html#a36601bf671e2f9ed1f9cefbd1fa7aa5b',1,'y.tab.c']]],
   ['net_5fethdst',['net_ethdst',['../d1/dec/structnetpacket.html#aaed53fbba4abe0c0f5e7850d8ab0834a',1,'netpacket']]],
   ['net_5fethsrc',['net_ethsrc',['../d1/dec/structnetpacket.html#a1fe29936185996ada60854412288deea',1,'netpacket']]],
   ['net_5fethtype',['net_ethtype',['../d1/dec/structnetpacket.html#a1c570ba7e94792df293ab86033e5ee41',1,'netpacket']]],
@@ -44,5 +45,6 @@ var searchData=
   ['nreplace',['nreplace',['../d6/dff/structnmentry.html#a3a6a785f11aed1cf60d8ef4f83ca362c',1,'nmentry']]],
   ['nscount',['nscount',['../d2/ddc/structdnspkt.html#ab70368dd10f5db6f65fe372c72c2d9c8',1,'dnspkt']]],
   ['ntests',['ntests',['../d6/dec/testsuite_8h.html#a36fa37533bae72ec601773418b07cbaf',1,'testsuite.h']]],
-  ['ntpserver',['ntpserver',['../de/d45/structnetwork.html#a3d83d0587fffdd8cae91382d3e50e33a',1,'network']]]
+  ['ntpserver',['ntpserver',['../de/d45/structnetwork.html#a3d83d0587fffdd8cae91382d3e50e33a',1,'network']]],
+  ['ntypes',['ntypes',['../d5/def/y_8tab_8c.html#a63fd5f00cf27a20499f15f1796d5b7ea',1,'y.tab.c']]]
 ];

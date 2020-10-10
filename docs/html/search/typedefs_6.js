@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pid32',['pid32',['../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0',1,'kernel.h']]],
-  ['pri16',['pri16',['../d0/daa/kernel_8h.html#a9f1cb2b92f050f5a14da324e98ff6996',1,'kernel.h']]],
-  ['process',['process',['../d0/daa/kernel_8h.html#ac929822294f2c223e860d42321bc9fb9',1,'kernel.h']]]
+  ['memmark',['memmark',['../d3/de6/mark_8h.html#a9b60bd5822f2251657d7a33c5d8ab25d',1,'mark.h']]],
+  ['message',['message',['../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb',1,'stddef.h']]]
 ];

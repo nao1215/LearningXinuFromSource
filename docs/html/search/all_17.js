@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['xinuをソースコードから学習する',['XINUをソースコードから学習する',['../d0/d30/md_README.html',1,'']]],
+  ['xinu_20をソースコードから学習する',['XINU をソースコードから学習する',['../index.html',1,'']]],
   ['xdone',['xdone',['../dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53',1,'xdone(void):&#160;xdone.c'],['../d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53',1,'xdone(void):&#160;xdone.c']]],
   ['xdone_2ec',['xdone.c',['../d2/d9b/xdone_8c.html',1,'']]],
   ['xferlevel',['xferlevel',['../d5/d62/structspi__csreg.html#a9466c18b51ceea2d2ebad8b346d82f4d',1,'spi_csreg']]],

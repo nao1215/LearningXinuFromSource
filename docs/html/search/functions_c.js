@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['main',['main',['../df/dda/initialize_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667',1,'main(void):&#160;main.c'],['../d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5',1,'main(void):&#160;main.c']]],
-  ['malloc',['malloc',['../dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23',1,'stdlib.h']]],
+  ['main',['main',['../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;y.tab.c'],['../df/dda/initialize_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667',1,'main(void):&#160;main.c'],['../d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5',1,'main(void):&#160;main.c']]],
+  ['malloc',['malloc',['../dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23',1,'malloc(unsigned int nbytes):&#160;stdlib.h'],['../d5/def/y_8tab_8c.html#a5faf6a2d99f50a4655dd390199a8db7b',1,'malloc(YYSIZE_T):&#160;y.tab.c']]],
   ['mark',['mark',['../d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999',1,'mark.c']]],
   ['markinit',['markinit',['../d1/db7/mark_8c.html#a92bdcd2dc25bae62c23c60b3a62d0da3',1,'mark.c']]],
   ['memcmp',['memcmp',['../dd/dc5/prototypes_8h.html#a989079efe6f3c1943648023fd2ef7bda',1,'memcmp(void *, const void *, int32):&#160;prototypes.h'],['../d5/d21/memcmp_8c.html#a36ee51a908aebccf97651da9a8d88616',1,'memcmp(const void *s1, const void *s2, int n):&#160;memcmp.c']]],

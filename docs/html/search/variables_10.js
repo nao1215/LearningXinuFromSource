@@ -40,6 +40,7 @@ var searchData=
   ['rdata',['rdata',['../d7/dd4/structdns__rr.html#aeb28aa9ac90fa245fdcf58ce8da3145f',1,'dns_rr']]],
   ['rdlen',['rdlen',['../d7/dd4/structdns__rr.html#a014f910ed90c188c7ae86aad82e7fbd5',1,'dns_rr']]],
   ['rdstab',['rdstab',['../df/d8b/rdisksys_8h.html#a205fff0755c88d8e49634c68abaec4f6',1,'rdstab():&#160;rdsinit.c'],['../d3/df8/rdsinit_8c.html#aa3d8a29bbb9720600808c5ea2a239696',1,'rdstab():&#160;rdsinit.c']]],
+  ['read',['read',['../d3/d3e/structdev__ent.html#a1663bb74b7d22d970de00db3017da88e',1,'dev_ent']]],
   ['readylist',['readylist',['../d0/daa/kernel_8h.html#aea703c03af087bd1a6abaf0abc644c33',1,'readylist():&#160;ready.c'],['../d7/db9/ready_8c.html#aea703c03af087bd1a6abaf0abc644c33',1,'readylist():&#160;ready.c']]],
   ['region_5fsize',['region_size',['../db/d82/structflash__region.html#ae51d64240eb4f4d668637712f31bc8c9',1,'flash_region']]],
   ['region_5fstart',['region_start',['../db/d82/structflash__region.html#a2b74becafafc235bc59895a3fe1c406b',1,'flash_region']]],

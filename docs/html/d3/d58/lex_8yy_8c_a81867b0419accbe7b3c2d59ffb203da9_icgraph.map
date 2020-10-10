@@ -1,0 +1,33 @@
+<map id="yyget_leng" name="yyget_leng">
+<area shape="rect" id="node2" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="139,360,177,387"/>
+<area shape="rect" id="node3" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="236,309,315,336"/>
+<area shape="rect" id="node4" href="$dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="238,360,313,387"/>
+<area shape="rect" id="node29" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="225,512,325,539"/>
+<area shape="rect" id="node5" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="539,461,615,488"/>
+<area shape="rect" id="node10" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="386,132,459,159"/>
+<area shape="rect" id="node18" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="384,360,461,387"/>
+<area shape="rect" id="node19" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="537,259,618,285"/>
+<area shape="rect" id="node23" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="541,309,613,336"/>
+<area shape="rect" id="node28" href="$db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="373,461,472,488"/>
+<area shape="rect" id="node6" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="687,411,765,437"/>
+<area shape="rect" id="node7" href="$d8/dd4/rdsopen_8c.html#a3d1814c665569d1647069fab92489d70" title="rdsopen" alt="" coords="692,461,760,488"/>
+<area shape="rect" id="node8" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="683,512,769,539"/>
+<area shape="rect" id="node9" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="826,512,883,539"/>
+<area shape="rect" id="node11" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="548,56,607,83"/>
+<area shape="rect" id="node13" href="$dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="547,107,608,133"/>
+<area shape="rect" id="node15" href="$d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="688,183,764,209"/>
+<area shape="rect" id="node16" href="$dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="539,157,615,184"/>
+<area shape="rect" id="node17" href="$dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="545,5,610,32"/>
+<area shape="rect" id="node12" href="$d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="697,56,755,83"/>
+<area shape="rect" id="node14" href="$da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="697,107,755,133"/>
+<area shape="rect" id="node21" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="533,411,622,437"/>
+<area shape="rect" id="node22" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="520,512,635,539"/>
+<area shape="rect" id="node26" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="546,360,609,387"/>
+<area shape="rect" id="node20" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="689,259,763,285"/>
+<area shape="rect" id="node24" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="693,309,759,336"/>
+<area shape="rect" id="node25" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="817,309,892,336"/>
+<area shape="rect" id="node27" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="693,360,759,387"/>
+<area shape="rect" id="node30" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="381,563,464,589"/>
+<area shape="rect" id="node31" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="535,563,619,589"/>
+<area shape="rect" id="node32" href="$d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="697,563,755,589"/>
+</map>
