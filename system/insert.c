@@ -14,7 +14,7 @@
  * なお、キューの末尾は有効な最小キーを下回るため、ループは必ず停止する。
  * @param[in] pid 挿入するプロセスID
  * @param[in] q 使用するキューID
- * @param[in] 挿入するプロセスの優先度（キー）
+ * @param[in] key 挿入するプロセスの優先度（キー）
  * @return 成功時はOK、キューIDもしくはプロセスIDが不正の場合はSYSERRを返す。
  */
 status insert(pid32 pid, qid16 q, int32 key)
