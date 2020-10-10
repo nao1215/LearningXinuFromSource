@@ -70,6 +70,9 @@ $(function() {
 <div class="title">shell.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>XINUシェルで使用される宣言と定数。  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -132,98 +135,142 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d72/structcmdent.html">cmdent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルコマンドエントリテーブル用の構造体  <a href="../../db/d72/structcmdent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:afbb877acea6e7f02cdf1ce5e63c1a0e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#afbb877acea6e7f02cdf1ce5e63c1a0e5">SH_AMPER</a>&#160;&#160;&#160;'&amp;'	/* Ampersand character		*/</td></tr>
+<tr class="memitem:afbb877acea6e7f02cdf1ce5e63c1a0e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#afbb877acea6e7f02cdf1ce5e63c1a0e5">SH_AMPER</a>&#160;&#160;&#160;'&amp;'</td></tr>
+<tr class="memdesc:afbb877acea6e7f02cdf1ce5e63c1a0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">アンパサンド文字'&amp;'（字句解析時に用いる）  <a href="#afbb877acea6e7f02cdf1ce5e63c1a0e5">More...</a><br /></td></tr>
 <tr class="separator:afbb877acea6e7f02cdf1ce5e63c1a0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b845f3a60dc6008bf9b5d783ef90b1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a2b845f3a60dc6008bf9b5d783ef90b1d">SH_BLANK</a>&#160;&#160;&#160;' '	/* Blank character		*/</td></tr>
+<tr class="memitem:a2b845f3a60dc6008bf9b5d783ef90b1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a2b845f3a60dc6008bf9b5d783ef90b1d">SH_BLANK</a>&#160;&#160;&#160;' '</td></tr>
+<tr class="memdesc:a2b845f3a60dc6008bf9b5d783ef90b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブランク（空白）文字（字句解析時に用いる）  <a href="#a2b845f3a60dc6008bf9b5d783ef90b1d">More...</a><br /></td></tr>
 <tr class="separator:a2b845f3a60dc6008bf9b5d783ef90b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f95169c57e56bd68bdd959a63a7a711"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a3f95169c57e56bd68bdd959a63a7a711">SH_DQUOTE</a>&#160;&#160;&#160;'&quot;'	/* Double quote character	*/</td></tr>
+<tr class="memitem:a3f95169c57e56bd68bdd959a63a7a711"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a3f95169c57e56bd68bdd959a63a7a711">SH_DQUOTE</a>&#160;&#160;&#160;'&quot;'</td></tr>
+<tr class="memdesc:a3f95169c57e56bd68bdd959a63a7a711"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダブルクォート文字'"'（字句解析時に用いる）  <a href="#a3f95169c57e56bd68bdd959a63a7a711">More...</a><br /></td></tr>
 <tr class="separator:a3f95169c57e56bd68bdd959a63a7a711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ffc5d6c3e82757034919b704052595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ad3ffc5d6c3e82757034919b704052595">SH_EOF</a>&#160;&#160;&#160;'\04'	/* Control-D is <a class="el" href="../../d0/d33/sscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>		*/</td></tr>
+<tr class="memitem:ad3ffc5d6c3e82757034919b704052595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ad3ffc5d6c3e82757034919b704052595">SH_EOF</a>&#160;&#160;&#160;'\04'</td></tr>
+<tr class="memdesc:ad3ffc5d6c3e82757034919b704052595"><td class="mdescLeft">&#160;</td><td class="mdescRight">End of File = Ctrl-D（字句解析時に用いる）  <a href="#ad3ffc5d6c3e82757034919b704052595">More...</a><br /></td></tr>
 <tr class="separator:ad3ffc5d6c3e82757034919b704052595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8030cf1bdad921f4031c629a9370a994"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a8030cf1bdad921f4031c629a9370a994">SH_GREATER</a>&#160;&#160;&#160;'&gt;'	/* Greater-than character	*/</td></tr>
+<tr class="memitem:a8030cf1bdad921f4031c629a9370a994"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a8030cf1bdad921f4031c629a9370a994">SH_GREATER</a>&#160;&#160;&#160;'&gt;'</td></tr>
+<tr class="memdesc:a8030cf1bdad921f4031c629a9370a994"><td class="mdescLeft">&#160;</td><td class="mdescRight">大なり記号'&gt;'  <a href="#a8030cf1bdad921f4031c629a9370a994">More...</a><br /></td></tr>
 <tr class="separator:a8030cf1bdad921f4031c629a9370a994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f17d94009523e18a8107c6aad7cbd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a38f17d94009523e18a8107c6aad7cbd0">SH_LESS</a>&#160;&#160;&#160;'&lt;'		/* Less-than character	*/</td></tr>
+<tr class="memitem:a38f17d94009523e18a8107c6aad7cbd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a38f17d94009523e18a8107c6aad7cbd0">SH_LESS</a>&#160;&#160;&#160;'&lt;'</td></tr>
+<tr class="memdesc:a38f17d94009523e18a8107c6aad7cbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">小なり記号'&lt;'  <a href="#a38f17d94009523e18a8107c6aad7cbd0">More...</a><br /></td></tr>
 <tr class="separator:a38f17d94009523e18a8107c6aad7cbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6362eb343de199dcbd7cd0fa16974c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aa6362eb343de199dcbd7cd0fa16974c5">SH_NEWLINE</a>&#160;&#160;&#160;'\n' /* New line character		*/</td></tr>
+<tr class="memitem:aa6362eb343de199dcbd7cd0fa16974c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aa6362eb343de199dcbd7cd0fa16974c5">SH_NEWLINE</a>&#160;&#160;&#160;'\n'</td></tr>
+<tr class="memdesc:aa6362eb343de199dcbd7cd0fa16974c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">LF改行コード'<br />
+'（字句解析時に用いる）  <a href="#aa6362eb343de199dcbd7cd0fa16974c5">More...</a><br /></td></tr>
 <tr class="separator:aa6362eb343de199dcbd7cd0fa16974c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4789b7592c9a877f63332343dadf3d11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a4789b7592c9a877f63332343dadf3d11">SH_SQUOTE</a>&#160;&#160;&#160;'\''	/* Single quote character	*/</td></tr>
+<tr class="memitem:a4789b7592c9a877f63332343dadf3d11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a4789b7592c9a877f63332343dadf3d11">SH_SQUOTE</a>&#160;&#160;&#160;'\''</td></tr>
+<tr class="memdesc:a4789b7592c9a877f63332343dadf3d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">シングルクォート文字'''（字句解析時に用いる）  <a href="#a4789b7592c9a877f63332343dadf3d11">More...</a><br /></td></tr>
 <tr class="separator:a4789b7592c9a877f63332343dadf3d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59db92a5676f8d0bf9b4d44a0423e9f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a59db92a5676f8d0bf9b4d44a0423e9f4">SH_TAB</a>&#160;&#160;&#160;'\t'		/* Tab character		*/</td></tr>
+<tr class="memitem:a59db92a5676f8d0bf9b4d44a0423e9f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a59db92a5676f8d0bf9b4d44a0423e9f4">SH_TAB</a>&#160;&#160;&#160;'\t'</td></tr>
+<tr class="memdesc:a59db92a5676f8d0bf9b4d44a0423e9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">TAB文字（字句解析時に用いる）  <a href="#a59db92a5676f8d0bf9b4d44a0423e9f4">More...</a><br /></td></tr>
 <tr class="separator:a59db92a5676f8d0bf9b4d44a0423e9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e5ceea9219595133c136f01a1ae096"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a36e5ceea9219595133c136f01a1ae096">SH_TOK_AMPER</a>&#160;&#160;&#160;0	 /* Ampersand token		*/</td></tr>
+<tr class="memitem:a36e5ceea9219595133c136f01a1ae096"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a36e5ceea9219595133c136f01a1ae096">SH_TOK_AMPER</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a36e5ceea9219595133c136f01a1ae096"><td class="mdescLeft">&#160;</td><td class="mdescRight">アンパサンド'&amp;'トークン  <a href="#a36e5ceea9219595133c136f01a1ae096">More...</a><br /></td></tr>
 <tr class="separator:a36e5ceea9219595133c136f01a1ae096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab14bff0c8fb8d7bb41d2ea8679e2225b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ab14bff0c8fb8d7bb41d2ea8679e2225b">SH_TOK_GREATER</a>&#160;&#160;&#160;2 /* Greater-than token		*/</td></tr>
+<tr class="memitem:ab14bff0c8fb8d7bb41d2ea8679e2225b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ab14bff0c8fb8d7bb41d2ea8679e2225b">SH_TOK_GREATER</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:ab14bff0c8fb8d7bb41d2ea8679e2225b"><td class="mdescLeft">&#160;</td><td class="mdescRight">大なり'&gt;'トークン  <a href="#ab14bff0c8fb8d7bb41d2ea8679e2225b">More...</a><br /></td></tr>
 <tr class="separator:ab14bff0c8fb8d7bb41d2ea8679e2225b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1bce44f2c15a49620f7ca17542b1bf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ac1bce44f2c15a49620f7ca17542b1bf6">SH_TOK_LESS</a>&#160;&#160;&#160;1	 /* Less-than token		*/</td></tr>
+<tr class="memitem:ac1bce44f2c15a49620f7ca17542b1bf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ac1bce44f2c15a49620f7ca17542b1bf6">SH_TOK_LESS</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ac1bce44f2c15a49620f7ca17542b1bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">小なり'&lt;'トークン  <a href="#ac1bce44f2c15a49620f7ca17542b1bf6">More...</a><br /></td></tr>
 <tr class="separator:ac1bce44f2c15a49620f7ca17542b1bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b7fe8d806c34ad38dc7550194e90033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a2b7fe8d806c34ad38dc7550194e90033">SH_TOK_OTHER</a>&#160;&#160;&#160;3	 /* Token other than those	*/</td></tr>
+<tr class="memitem:a2b7fe8d806c34ad38dc7550194e90033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a2b7fe8d806c34ad38dc7550194e90033">SH_TOK_OTHER</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a2b7fe8d806c34ad38dc7550194e90033"><td class="mdescLeft">&#160;</td><td class="mdescRight">その他（'&amp;'、'&lt;'、'&gt;以外'）のトークン（例：英数字文字列）  <a href="#a2b7fe8d806c34ad38dc7550194e90033">More...</a><br /></td></tr>
 <tr class="separator:a2b7fe8d806c34ad38dc7550194e90033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2875364fc180f9670230409a2ef6d2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#af2875364fc180f9670230409a2ef6d2c">SHELL_ARGLEN</a>&#160;&#160;&#160;(<a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a> + <a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>) /* Argument area	*/</td></tr>
+<tr class="memitem:af2875364fc180f9670230409a2ef6d2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#af2875364fc180f9670230409a2ef6d2c">SHELL_ARGLEN</a>&#160;&#160;&#160;(<a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a> + <a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>)</td></tr>
+<tr class="memdesc:af2875364fc180f9670230409a2ef6d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数の領域（長さ）  <a href="#af2875364fc180f9670230409a2ef6d2c">More...</a><br /></td></tr>
 <tr class="separator:af2875364fc180f9670230409a2ef6d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9d3347abeb4ebf6efa607314b7b0c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aab9d3347abeb4ebf6efa607314b7b0c2">SHELL_BAN0</a>&#160;&#160;&#160;&quot;\033[31;1m&quot;</td></tr>
+<tr class="memdesc:aab9d3347abeb4ebf6efa607314b7b0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その0（文字色を赤くするANSIエスケープシーケンス）  <a href="#aab9d3347abeb4ebf6efa607314b7b0c2">More...</a><br /></td></tr>
 <tr class="separator:aab9d3347abeb4ebf6efa607314b7b0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6f62d61c713eb14cf866ea49118eb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a6f6f62d61c713eb14cf866ea49118eb8">SHELL_BAN1</a>&#160;&#160;&#160;&quot;------------------------------------------&quot;</td></tr>
+<tr class="memdesc:a6f6f62d61c713eb14cf866ea49118eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その1  <a href="#a6f6f62d61c713eb14cf866ea49118eb8">More...</a><br /></td></tr>
 <tr class="separator:a6f6f62d61c713eb14cf866ea49118eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca475128a951584693337ecf8f248052"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aca475128a951584693337ecf8f248052">SHELL_BAN2</a>&#160;&#160;&#160;&quot;   __    __   _____    _   _    _    _    &quot;</td></tr>
+<tr class="memdesc:aca475128a951584693337ecf8f248052"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その2  <a href="#aca475128a951584693337ecf8f248052">More...</a><br /></td></tr>
 <tr class="separator:aca475128a951584693337ecf8f248052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce2a532a87b855bb8c0e665d52469ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a3ce2a532a87b855bb8c0e665d52469ae">SHELL_BAN3</a>&#160;&#160;&#160;&quot;   \\ \\  / /  |__ __|  | \\ | |  | |  | |   &quot;</td></tr>
+<tr class="memdesc:a3ce2a532a87b855bb8c0e665d52469ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その3  <a href="#a3ce2a532a87b855bb8c0e665d52469ae">More...</a><br /></td></tr>
 <tr class="separator:a3ce2a532a87b855bb8c0e665d52469ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21366f0a5c7c42c482c0d3c625e36518"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a21366f0a5c7c42c482c0d3c625e36518">SHELL_BAN4</a>&#160;&#160;&#160;&quot;    \\ \\/ /     | |    |  \\| |  | |  | |   &quot;</td></tr>
+<tr class="memdesc:a21366f0a5c7c42c482c0d3c625e36518"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その4  <a href="#a21366f0a5c7c42c482c0d3c625e36518">More...</a><br /></td></tr>
 <tr class="separator:a21366f0a5c7c42c482c0d3c625e36518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f733fcb302f457940f401be5c49dcb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a1f733fcb302f457940f401be5c49dcb6">SHELL_BAN5</a>&#160;&#160;&#160;&quot;    / /\\ \\    _| |_   | \\   |  | |  | |   &quot;</td></tr>
+<tr class="memdesc:a1f733fcb302f457940f401be5c49dcb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その5  <a href="#a1f733fcb302f457940f401be5c49dcb6">More...</a><br /></td></tr>
 <tr class="separator:a1f733fcb302f457940f401be5c49dcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57c445497c03eaebbf41f45a4c07c4ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a57c445497c03eaebbf41f45a4c07c4ef">SHELL_BAN6</a>&#160;&#160;&#160;&quot;   / /  \\ \\  |     |  | | \\ |  \\  --  /   &quot;</td></tr>
+<tr class="memdesc:a57c445497c03eaebbf41f45a4c07c4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その6  <a href="#a57c445497c03eaebbf41f45a4c07c4ef">More...</a><br /></td></tr>
 <tr class="separator:a57c445497c03eaebbf41f45a4c07c4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75c440414c69d8ea686a181d9af24ca8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a75c440414c69d8ea686a181d9af24ca8">SHELL_BAN7</a>&#160;&#160;&#160;&quot;   --    --   -----    -   -     ----     &quot;</td></tr>
+<tr class="memdesc:a75c440414c69d8ea686a181d9af24ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その7  <a href="#a75c440414c69d8ea686a181d9af24ca8">More...</a><br /></td></tr>
 <tr class="separator:a75c440414c69d8ea686a181d9af24ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc10c6eb6e9e77169ecb3ff478255e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a3cc10c6eb6e9e77169ecb3ff478255e4">SHELL_BAN8</a>&#160;&#160;&#160;&quot;------------------------------------------&quot;</td></tr>
+<tr class="memdesc:a3cc10c6eb6e9e77169ecb3ff478255e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その8  <a href="#a3cc10c6eb6e9e77169ecb3ff478255e4">More...</a><br /></td></tr>
 <tr class="separator:a3cc10c6eb6e9e77169ecb3ff478255e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a779b02aefda5c52567551be844e93065"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a779b02aefda5c52567551be844e93065">SHELL_BAN9</a>&#160;&#160;&#160;&quot;\033[0m\n&quot;</td></tr>
+<tr class="memdesc:a779b02aefda5c52567551be844e93065"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェル起動時のバナー その9（文字色をデフォルトに戻すANSIエスケープシーケンス）  <a href="#a779b02aefda5c52567551be844e93065">More...</a><br /></td></tr>
 <tr class="separator:a779b02aefda5c52567551be844e93065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58bfac0d5fc97a8e3457a8abed822305"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a58bfac0d5fc97a8e3457a8abed822305">SHELL_BGERRMSG</a>&#160;&#160;&#160;&quot;Cannot redirect I/O or background a builtin\n&quot;</td></tr>
+<tr class="memdesc:a58bfac0d5fc97a8e3457a8abed822305"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/Oリダイレクトできなかった場合もしくはバックグラウンドのXINUシェルビルトインコマンドエラー用のメッセージ  <a href="#a58bfac0d5fc97a8e3457a8abed822305">More...</a><br /></td></tr>
 <tr class="separator:a58bfac0d5fc97a8e3457a8abed822305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81945e846029c0bcf722385efe85a27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a>&#160;&#160;&#160;<a class="el" href="../../dd/d71/tty_8h.html#a4e9a49388234d933460e683764d7c362">TY_IBUFLEN</a> + 1				   /* Length of <a class="el" href="../../d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433">input</a> buffer	*/</td></tr>
+<tr class="memitem:ac81945e846029c0bcf722385efe85a27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a>&#160;&#160;&#160;<a class="el" href="../../dd/d71/tty_8h.html#a4e9a49388234d933460e683764d7c362">TY_IBUFLEN</a> + 1</td></tr>
+<tr class="memdesc:ac81945e846029c0bcf722385efe85a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">インプットバッファの長さ  <a href="#ac81945e846029c0bcf722385efe85a27">More...</a><br /></td></tr>
 <tr class="separator:ac81945e846029c0bcf722385efe85a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2e690fad1c96642d768e04937559faf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#af2e690fad1c96642d768e04937559faf">SHELL_CMDPRIO</a>&#160;&#160;&#160;20						   /* Process priority for command	*/</td></tr>
+<tr class="memitem:af2e690fad1c96642d768e04937559faf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#af2e690fad1c96642d768e04937559faf">SHELL_CMDPRIO</a>&#160;&#160;&#160;20</td></tr>
+<tr class="memdesc:af2e690fad1c96642d768e04937559faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンドに対するプロセス優先度  <a href="#af2e690fad1c96642d768e04937559faf">More...</a><br /></td></tr>
 <tr class="separator:af2e690fad1c96642d768e04937559faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0763d1f77bdf57d01af485ff908a813e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a0763d1f77bdf57d01af485ff908a813e">SHELL_CMDSTK</a>&#160;&#160;&#160;8192						   /* Size of stack for <a class="el" href="../../d0/daa/kernel_8h.html#ac929822294f2c223e860d42321bc9fb9">process</a>	*/</td></tr>
+<tr class="memitem:a0763d1f77bdf57d01af485ff908a813e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a0763d1f77bdf57d01af485ff908a813e">SHELL_CMDSTK</a>&#160;&#160;&#160;8192</td></tr>
+<tr class="memdesc:a0763d1f77bdf57d01af485ff908a813e"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンドを実行するプロセスに対するスタックサイズ  <a href="#a0763d1f77bdf57d01af485ff908a813e">More...</a><br /></td></tr>
 <tr class="separator:a0763d1f77bdf57d01af485ff908a813e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0976c7467fa2309df87eda37b9bc99ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a0976c7467fa2309df87eda37b9bc99ef">SHELL_CREATMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../d8/d73/create_8c.html#a9b0c0ad0e16e9972d0efbe50165a6d12">create</a> process\n&quot;		   /* command error	*/</td></tr>
+<tr class="memitem:a0976c7467fa2309df87eda37b9bc99ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a0976c7467fa2309df87eda37b9bc99ef">SHELL_CREATMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../d8/d73/create_8c.html#a9b0c0ad0e16e9972d0efbe50165a6d12">create</a> process\n&quot;</td></tr>
+<tr class="memdesc:a0976c7467fa2309df87eda37b9bc99ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンド実行時にプロセスを生成できなかった場合のエラーメッセージ  <a href="#a0976c7467fa2309df87eda37b9bc99ef">More...</a><br /></td></tr>
 <tr class="separator:a0976c7467fa2309df87eda37b9bc99ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7664f5e184e9b41ac92e033f7b8d885d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a7664f5e184e9b41ac92e033f7b8d885d">SHELL_ERROR</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a7664f5e184e9b41ac92e033f7b8d885d"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルの処理失敗  <a href="#a7664f5e184e9b41ac92e033f7b8d885d">More...</a><br /></td></tr>
 <tr class="separator:a7664f5e184e9b41ac92e033f7b8d885d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fe59ea74e0915922cb38e45ee294a4d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a1fe59ea74e0915922cb38e45ee294a4d">SHELL_EXIT</a>&#160;&#160;&#160;-3</td></tr>
-<tr class="memdesc:a1fe59ea74e0915922cb38e45ee294a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェルを終了させる返り値  <a href="#a1fe59ea74e0915922cb38e45ee294a4d">More...</a><br /></td></tr>
+<tr class="memdesc:a1fe59ea74e0915922cb38e45ee294a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルを終了させる返り値  <a href="#a1fe59ea74e0915922cb38e45ee294a4d">More...</a><br /></td></tr>
 <tr class="separator:a1fe59ea74e0915922cb38e45ee294a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3311fdad834787e5b36168eb202686"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a7f3311fdad834787e5b36168eb202686">SHELL_EXITMSG</a>&#160;&#160;&#160;&quot;Shell closed\n&quot;					   /* Shell <a class="el" href="../../d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1">exit</a> <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td></tr>
+<tr class="memitem:a7f3311fdad834787e5b36168eb202686"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a7f3311fdad834787e5b36168eb202686">SHELL_EXITMSG</a>&#160;&#160;&#160;&quot;Shell closed\n&quot;</td></tr>
+<tr class="memdesc:a7f3311fdad834787e5b36168eb202686"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェル終了時のメッセージ  <a href="#a7f3311fdad834787e5b36168eb202686">More...</a><br /></td></tr>
 <tr class="separator:a7f3311fdad834787e5b36168eb202686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14172b0371463d4456e4e5d54ea2947"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ad14172b0371463d4456e4e5d54ea2947">SHELL_INERRMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for input\n&quot;   /* Input err	*/</td></tr>
+<tr class="memitem:ad14172b0371463d4456e4e5d54ea2947"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ad14172b0371463d4456e4e5d54ea2947">SHELL_INERRMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for input\n&quot;</td></tr>
+<tr class="memdesc:ad14172b0371463d4456e4e5d54ea2947"><td class="mdescLeft">&#160;</td><td class="mdescRight">インプットとして用いるファイルが開けなかった場合のエラーメッセージ  <a href="#ad14172b0371463d4456e4e5d54ea2947">More...</a><br /></td></tr>
 <tr class="separator:ad14172b0371463d4456e4e5d54ea2947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fbf2ec3381c85aaf7049dd2c78d37d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>&#160;&#160;&#160;32							   /* Maximum tokens per line	*/</td></tr>
+<tr class="memitem:a8fbf2ec3381c85aaf7049dd2c78d37d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>&#160;&#160;&#160;32</td></tr>
+<tr class="memdesc:a8fbf2ec3381c85aaf7049dd2c78d37d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">一行あたりの最大トークン数  <a href="#a8fbf2ec3381c85aaf7049dd2c78d37d6">More...</a><br /></td></tr>
 <tr class="separator:a8fbf2ec3381c85aaf7049dd2c78d37d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40c38858c0dec9bf50b8a46f7d68870"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#ac40c38858c0dec9bf50b8a46f7d68870">SHELL_OK</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ac40c38858c0dec9bf50b8a46f7d68870"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルの処理成功  <a href="#ac40c38858c0dec9bf50b8a46f7d68870">More...</a><br /></td></tr>
 <tr class="separator:ac40c38858c0dec9bf50b8a46f7d68870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f3ce039f0b244b0010c6628efd6103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a82f3ce039f0b244b0010c6628efd6103">SHELL_OUTERRMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for output\n&quot; /* Output err	*/</td></tr>
+<tr class="memitem:a82f3ce039f0b244b0010c6628efd6103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a82f3ce039f0b244b0010c6628efd6103">SHELL_OUTERRMSG</a>&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for output\n&quot;</td></tr>
+<tr class="memdesc:a82f3ce039f0b244b0010c6628efd6103"><td class="mdescLeft">&#160;</td><td class="mdescRight">アウトプットとして用いるファイルが開けなかった場合のエラーメッセージ  <a href="#a82f3ce039f0b244b0010c6628efd6103">More...</a><br /></td></tr>
 <tr class="separator:a82f3ce039f0b244b0010c6628efd6103"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa60ca995565b799bb958c806e933665"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aaa60ca995565b799bb958c806e933665">SHELL_PROMPT</a>&#160;&#160;&#160;&quot;xsh $ &quot;							   /* Command prompt		*/</td></tr>
+<tr class="memitem:aaa60ca995565b799bb958c806e933665"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#aaa60ca995565b799bb958c806e933665">SHELL_PROMPT</a>&#160;&#160;&#160;&quot;xsh $ &quot;</td></tr>
+<tr class="memdesc:aaa60ca995565b799bb958c806e933665"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンドプロンプト  <a href="#aaa60ca995565b799bb958c806e933665">More...</a><br /></td></tr>
 <tr class="separator:aaa60ca995565b799bb958c806e933665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79133501a76e391544860e63e30c8ece"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a79133501a76e391544860e63e30c8ece">SHELL_STRTMSG</a>&#160;&#160;&#160;&quot;Welcome to Xinu!\n&quot;				   /* Welcome <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td></tr>
+<tr class="memitem:a79133501a76e391544860e63e30c8ece"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a79133501a76e391544860e63e30c8ece">SHELL_STRTMSG</a>&#160;&#160;&#160;&quot;Welcome to Xinu!\n&quot;</td></tr>
+<tr class="memdesc:a79133501a76e391544860e63e30c8ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Welcomeメッセージ  <a href="#a79133501a76e391544860e63e30c8ece">More...</a><br /></td></tr>
 <tr class="separator:a79133501a76e391544860e63e30c8ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a831275830d357c5a06463036522eb6be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a831275830d357c5a06463036522eb6be">SHELL_SYNERRMSG</a>&#160;&#160;&#160;&quot;Syntax error\n&quot;				   /* Syntax error <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td></tr>
+<tr class="memitem:a831275830d357c5a06463036522eb6be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a831275830d357c5a06463036522eb6be">SHELL_SYNERRMSG</a>&#160;&#160;&#160;&quot;Syntax error\n&quot;</td></tr>
+<tr class="memdesc:a831275830d357c5a06463036522eb6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">シンタックスエラー時のメッセージ  <a href="#a831275830d357c5a06463036522eb6be">More...</a><br /></td></tr>
 <tr class="separator:a831275830d357c5a06463036522eb6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a2660f39a9789b5338a6897db3680832f"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="../../db/d72/structcmdent.html">cmdent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a2660f39a9789b5338a6897db3680832f">cmdtab</a> []</td></tr>
+<tr class="memdesc:a2660f39a9789b5338a6897db3680832f"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルが提供するコマンドを管理する配列  <a href="#a2660f39a9789b5338a6897db3680832f">More...</a><br /></td></tr>
 <tr class="separator:a2660f39a9789b5338a6897db3680832f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/shell_8h.html#a6cac4122dd1ca2b21a3f265d332f0a18">ncmd</a></td></tr>
+<tr class="memdesc:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルが提供するコマンドの数  <a href="#a6cac4122dd1ca2b21a3f265d332f0a18">More...</a><br /></td></tr>
 <tr class="separator:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>XINUシェルで使用される宣言と定数。 </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="afbb877acea6e7f02cdf1ce5e63c1a0e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbb877acea6e7f02cdf1ce5e63c1a0e5">&#9670;&nbsp;</a></span>SH_AMPER</h2>
 
@@ -231,10 +278,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_AMPER&#160;&#160;&#160;'&amp;'	/* Ampersand character		*/</td>
+          <td class="memname">#define SH_AMPER&#160;&#160;&#160;'&amp;'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アンパサンド文字'&amp;'（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -245,10 +294,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_BLANK&#160;&#160;&#160;' '	/* Blank character		*/</td>
+          <td class="memname">#define SH_BLANK&#160;&#160;&#160;' '</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ブランク（空白）文字（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -259,10 +310,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_DQUOTE&#160;&#160;&#160;'&quot;'	/* Double quote character	*/</td>
+          <td class="memname">#define SH_DQUOTE&#160;&#160;&#160;'&quot;'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ダブルクォート文字'"'（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -273,10 +326,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_EOF&#160;&#160;&#160;'\04'	/* Control-D is <a class="el" href="../../d0/d33/sscanf_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>		*/</td>
+          <td class="memname">#define SH_EOF&#160;&#160;&#160;'\04'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>End of File = Ctrl-D（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -287,10 +342,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_GREATER&#160;&#160;&#160;'&gt;'	/* Greater-than character	*/</td>
+          <td class="memname">#define SH_GREATER&#160;&#160;&#160;'&gt;'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>大なり記号'&gt;' </p>
 
 </div>
 </div>
@@ -301,10 +358,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_LESS&#160;&#160;&#160;'&lt;'		/* Less-than character	*/</td>
+          <td class="memname">#define SH_LESS&#160;&#160;&#160;'&lt;'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>小なり記号'&lt;' </p>
 
 </div>
 </div>
@@ -315,10 +374,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_NEWLINE&#160;&#160;&#160;'\n' /* New line character		*/</td>
+          <td class="memname">#define SH_NEWLINE&#160;&#160;&#160;'\n'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>LF改行コード'<br />
+'（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -329,10 +391,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_SQUOTE&#160;&#160;&#160;'\''	/* Single quote character	*/</td>
+          <td class="memname">#define SH_SQUOTE&#160;&#160;&#160;'\''</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シングルクォート文字'''（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -343,10 +407,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_TAB&#160;&#160;&#160;'\t'		/* Tab character		*/</td>
+          <td class="memname">#define SH_TAB&#160;&#160;&#160;'\t'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TAB文字（字句解析時に用いる） </p>
 
 </div>
 </div>
@@ -357,10 +423,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_TOK_AMPER&#160;&#160;&#160;0	 /* Ampersand token		*/</td>
+          <td class="memname">#define SH_TOK_AMPER&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アンパサンド'&amp;'トークン </p>
 
 </div>
 </div>
@@ -371,10 +439,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_TOK_GREATER&#160;&#160;&#160;2 /* Greater-than token		*/</td>
+          <td class="memname">#define SH_TOK_GREATER&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>大なり'&gt;'トークン </p>
 
 </div>
 </div>
@@ -385,10 +455,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_TOK_LESS&#160;&#160;&#160;1	 /* Less-than token		*/</td>
+          <td class="memname">#define SH_TOK_LESS&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>小なり'&lt;'トークン </p>
 
 </div>
 </div>
@@ -399,10 +471,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SH_TOK_OTHER&#160;&#160;&#160;3	 /* Token other than those	*/</td>
+          <td class="memname">#define SH_TOK_OTHER&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>その他（'&amp;'、'&lt;'、'&gt;以外'）のトークン（例：英数字文字列） </p>
 
 </div>
 </div>
@@ -413,10 +487,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_ARGLEN&#160;&#160;&#160;(<a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a> + <a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>) /* Argument area	*/</td>
+          <td class="memname">#define SHELL_ARGLEN&#160;&#160;&#160;(<a class="el" href="../../df/d03/shell_8h.html#ac81945e846029c0bcf722385efe85a27">SHELL_BUFLEN</a> + <a class="el" href="../../df/d03/shell_8h.html#a8fbf2ec3381c85aaf7049dd2c78d37d6">SHELL_MAXTOK</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>引数の領域（長さ） </p>
 
 </div>
 </div>
@@ -432,6 +508,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>シェル起動時のバナー その0（文字色を赤くするANSIエスケープシーケンス） </p>
+
 </div>
 </div>
 <a id="a6f6f62d61c713eb14cf866ea49118eb8"></a>
@@ -445,6 +523,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェル起動時のバナー その1 </p>
 
 </div>
 </div>
@@ -460,6 +540,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>シェル起動時のバナー その2 </p>
+
 </div>
 </div>
 <a id="a3ce2a532a87b855bb8c0e665d52469ae"></a>
@@ -473,6 +555,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェル起動時のバナー その3 </p>
 
 </div>
 </div>
@@ -488,6 +572,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>シェル起動時のバナー その4 </p>
+
 </div>
 </div>
 <a id="a1f733fcb302f457940f401be5c49dcb6"></a>
@@ -501,6 +587,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェル起動時のバナー その5 </p>
 
 </div>
 </div>
@@ -516,6 +604,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>シェル起動時のバナー その6 </p>
+
 </div>
 </div>
 <a id="a75c440414c69d8ea686a181d9af24ca8"></a>
@@ -529,6 +619,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェル起動時のバナー その7 </p>
 
 </div>
 </div>
@@ -544,6 +636,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>シェル起動時のバナー その8 </p>
+
 </div>
 </div>
 <a id="a779b02aefda5c52567551be844e93065"></a>
@@ -557,6 +651,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェル起動時のバナー その9（文字色をデフォルトに戻すANSIエスケープシーケンス） </p>
 
 </div>
 </div>
@@ -572,6 +668,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>I/Oリダイレクトできなかった場合もしくはバックグラウンドのXINUシェルビルトインコマンドエラー用のメッセージ </p>
+
 </div>
 </div>
 <a id="ac81945e846029c0bcf722385efe85a27"></a>
@@ -581,10 +679,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_BUFLEN&#160;&#160;&#160;<a class="el" href="../../dd/d71/tty_8h.html#a4e9a49388234d933460e683764d7c362">TY_IBUFLEN</a> + 1				   /* Length of <a class="el" href="../../d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433">input</a> buffer	*/</td>
+          <td class="memname">#define SHELL_BUFLEN&#160;&#160;&#160;<a class="el" href="../../dd/d71/tty_8h.html#a4e9a49388234d933460e683764d7c362">TY_IBUFLEN</a> + 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>インプットバッファの長さ </p>
 
 </div>
 </div>
@@ -595,10 +695,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_CMDPRIO&#160;&#160;&#160;20						   /* Process priority for command	*/</td>
+          <td class="memname">#define SHELL_CMDPRIO&#160;&#160;&#160;20</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>コマンドに対するプロセス優先度 </p>
 
 </div>
 </div>
@@ -609,10 +711,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_CMDSTK&#160;&#160;&#160;8192						   /* Size of stack for <a class="el" href="../../d0/daa/kernel_8h.html#ac929822294f2c223e860d42321bc9fb9">process</a>	*/</td>
+          <td class="memname">#define SHELL_CMDSTK&#160;&#160;&#160;8192</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>コマンドを実行するプロセスに対するスタックサイズ </p>
 
 </div>
 </div>
@@ -623,10 +727,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_CREATMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../d8/d73/create_8c.html#a9b0c0ad0e16e9972d0efbe50165a6d12">create</a> process\n&quot;		   /* command error	*/</td>
+          <td class="memname">#define SHELL_CREATMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../d8/d73/create_8c.html#a9b0c0ad0e16e9972d0efbe50165a6d12">create</a> process\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>コマンド実行時にプロセスを生成できなかった場合のエラーメッセージ </p>
 
 </div>
 </div>
@@ -642,6 +748,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>XINUシェルの処理失敗 </p>
+
 </div>
 </div>
 <a id="a1fe59ea74e0915922cb38e45ee294a4d"></a>
@@ -656,7 +764,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>シェルを終了させる返り値 </p>
+<p>XINUシェルを終了させる返り値 </p>
 
 </div>
 </div>
@@ -667,10 +775,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_EXITMSG&#160;&#160;&#160;&quot;Shell closed\n&quot;					   /* Shell <a class="el" href="../../d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1">exit</a> <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td>
+          <td class="memname">#define SHELL_EXITMSG&#160;&#160;&#160;&quot;Shell closed\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>XINUシェル終了時のメッセージ </p>
 
 </div>
 </div>
@@ -681,10 +791,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_INERRMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for input\n&quot;   /* Input err	*/</td>
+          <td class="memname">#define SHELL_INERRMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for input\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>インプットとして用いるファイルが開けなかった場合のエラーメッセージ </p>
 
 </div>
 </div>
@@ -695,10 +807,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_MAXTOK&#160;&#160;&#160;32							   /* Maximum tokens per line	*/</td>
+          <td class="memname">#define SHELL_MAXTOK&#160;&#160;&#160;32</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>一行あたりの最大トークン数 </p>
 
 </div>
 </div>
@@ -714,6 +828,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>XINUシェルの処理成功 </p>
+
 </div>
 </div>
 <a id="a82f3ce039f0b244b0010c6628efd6103"></a>
@@ -723,10 +839,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_OUTERRMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for output\n&quot; /* Output err	*/</td>
+          <td class="memname">#define SHELL_OUTERRMSG&#160;&#160;&#160;&quot;Cannot <a class="el" href="../../da/deb/open_8c.html#ad96e287c54e62d3b1d81b4859e7ae2d6">open</a> <a class="el" href="../../d7/d3a/structfile.html">file</a> %s for output\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アウトプットとして用いるファイルが開けなかった場合のエラーメッセージ </p>
 
 </div>
 </div>
@@ -737,10 +855,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_PROMPT&#160;&#160;&#160;&quot;xsh $ &quot;							   /* Command prompt		*/</td>
+          <td class="memname">#define SHELL_PROMPT&#160;&#160;&#160;&quot;xsh $ &quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>コマンドプロンプト </p>
 
 </div>
 </div>
@@ -751,10 +871,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_STRTMSG&#160;&#160;&#160;&quot;Welcome to Xinu!\n&quot;				   /* Welcome <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td>
+          <td class="memname">#define SHELL_STRTMSG&#160;&#160;&#160;&quot;Welcome to Xinu!\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Welcomeメッセージ </p>
 
 </div>
 </div>
@@ -765,10 +887,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SHELL_SYNERRMSG&#160;&#160;&#160;&quot;Syntax error\n&quot;				   /* Syntax error <a class="el" href="../../d3/dce/stddef_8h.html#a7baafff60d21b0be4457c486db028bfb">message</a>		*/</td>
+          <td class="memname">#define SHELL_SYNERRMSG&#160;&#160;&#160;&quot;Syntax error\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シンタックスエラー時のメッセージ </p>
 
 </div>
 </div>
@@ -785,6 +909,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>XINUシェルが提供するコマンドを管理する配列 </p>
+
 </div>
 </div>
 <a id="a6cac4122dd1ca2b21a3f265d332f0a18"></a>
@@ -798,6 +924,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>XINUシェルが提供するコマンドの数 </p>
 
 </div>
 </div>

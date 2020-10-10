@@ -111,7 +111,7 @@ Include dependency graph for shell.c:</div>
 <area shape="rect" id="node31" href="../../d0/d49/icmp_8h.html" title="icmp.h" alt="" coords="2537,155,2598,181"/>
 <area shape="rect" id="node32" href="../../d4/da3/tftp_8h.html" title="tftp.h" alt="" coords="2623,155,2675,181"/>
 <area shape="rect" id="node33" href="../../d3/dd6/name_8h.html" title="name.h" alt="" coords="2699,155,2764,181"/>
-<area shape="rect" id="node34" href="../../df/d03/shell_8h.html" title="shell.h" alt="" coords="2788,155,2848,181"/>
+<area shape="rect" id="node34" href="../../df/d03/shell_8h.html" title="XINUシェルで使用される宣言と定数。 " alt="" coords="2788,155,2848,181"/>
 <area shape="rect" id="node35" href="../../db/d96/date_8h.html" title="date.h" alt="" coords="2873,155,2931,181"/>
 <area shape="rect" id="node36" href="../../dd/dc5/prototypes_8h.html" title="prototypes.h" alt="" coords="2956,155,3051,181"/>
 <area shape="rect" id="node37" href="../../dd/dee/delay_8h.html" title="delay.h" alt="" coords="3075,155,3139,181"/>
@@ -131,8 +131,10 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a2660f39a9789b5338a6897db3680832f"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="../../db/d72/structcmdent.html">cmdent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4f/shell_8c.html#a2660f39a9789b5338a6897db3680832f">cmdtab</a> []</td></tr>
+<tr class="memdesc:a2660f39a9789b5338a6897db3680832f"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルが提供するコマンドを管理する配列  <a href="#a2660f39a9789b5338a6897db3680832f">More...</a><br /></td></tr>
 <tr class="separator:a2660f39a9789b5338a6897db3680832f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4f/shell_8c.html#a6cac4122dd1ca2b21a3f265d332f0a18">ncmd</a> = sizeof(<a class="el" href="../../d6/d4f/shell_8c.html#a2660f39a9789b5338a6897db3680832f">cmdtab</a>) / sizeof(struct <a class="el" href="../../db/d72/structcmdent.html">cmdent</a>)</td></tr>
+<tr class="memdesc:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">XINUシェルが提供するコマンドの数  <a href="#a6cac4122dd1ca2b21a3f265d332f0a18">More...</a><br /></td></tr>
 <tr class="separator:a6cac4122dd1ca2b21a3f265d332f0a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -224,13 +226,15 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="shprototypes_8h_html_a9d14f3b71bff6fd7ae53ed61c348d696"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a9d14f3b71bff6fd7ae53ed61c348d696">xsh_date</a></div><div class="ttdeci">shellcmd xsh_date(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_date.c:11</div></div>
 <div class="ttc" id="shprototypes_8h_html_a868b547712eead1ec557a63b0b0a13c4"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a868b547712eead1ec557a63b0b0a13c4">xsh_udpdump</a></div><div class="ttdeci">shellcmd xsh_udpdump(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_udpdump.c:11</div></div>
 <div class="ttc" id="shprototypes_8h_html_a4c54e18421a1f83d4297fe55c64f6c0a"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a4c54e18421a1f83d4297fe55c64f6c0a">xsh_devdump</a></div><div class="ttdeci">shellcmd xsh_devdump(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_devdump.c:10</div></div>
-<div class="ttc" id="shprototypes_8h_html_a7a6bd9a27af0ccf62eed563d1c79497b"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a7a6bd9a27af0ccf62eed563d1c79497b">xsh_exit</a></div><div class="ttdeci">shellcmd xsh_exit(int32, char *[])</div><div class="ttdoc">exitコマンドとして、シェル終了を引き起こす終了コードを返す。 </div><div class="ttdef"><b>Definition:</b> xsh_exit.c:13</div></div>
+<div class="ttc" id="shprototypes_8h_html_a7a6bd9a27af0ccf62eed563d1c79497b"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a7a6bd9a27af0ccf62eed563d1c79497b">xsh_exit</a></div><div class="ttdeci">shellcmd xsh_exit(int32, char *[])</div><div class="ttdoc">exitコマンドとして、シェル終了を引き起こす終了コードを返す。 </div><div class="ttdef"><b>Definition:</b> xsh_exit.c:15</div></div>
 <div class="ttc" id="shprototypes_8h_html_af21c18d78523f84df9aca75182e09d80"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#af21c18d78523f84df9aca75182e09d80">xsh_uptime</a></div><div class="ttdeci">shellcmd xsh_uptime(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_uptime.c:11</div></div>
 <div class="ttc" id="shprototypes_8h_html_a2ce5d818e9cb854534e6ffcf6e28773f"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a2ce5d818e9cb854534e6ffcf6e28773f">xsh_udpeserver</a></div><div class="ttdeci">shellcmd xsh_udpeserver(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_udpserver.c:12</div></div>
 <div class="ttc" id="shprototypes_8h_html_a37af29272978de1ea2fdf80738b3d617"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a37af29272978de1ea2fdf80738b3d617">xsh_arp</a></div><div class="ttdeci">shellcmd xsh_arp(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_arp.c:12</div></div>
 <div class="ttc" id="shprototypes_8h_html_a554f784a6279d0a0fc49ad6f13b6290f"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a554f784a6279d0a0fc49ad6f13b6290f">xsh_help</a></div><div class="ttdeci">shellcmd xsh_help(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_help.c:11</div></div>
 <div class="ttc" id="shprototypes_8h_html_a460ba677877b79ffa4b4a8f51dbbf9c9"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a460ba677877b79ffa4b4a8f51dbbf9c9">xsh_netinfo</a></div><div class="ttdeci">shellcmd xsh_netinfo(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_netinfo.c:12</div></div>
 </div><!-- fragment -->
+<p>XINUシェルが提供するコマンドを管理する配列 </p>
+
 </div>
 </div>
 <a id="a6cac4122dd1ca2b21a3f265d332f0a18"></a>
@@ -244,6 +248,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>XINUシェルが提供するコマンドの数 </p>
 
 </div>
 </div>
