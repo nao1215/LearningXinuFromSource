@@ -42,9 +42,11 @@ pid32 getlast(qid16 q)
 	return getitem(queuetab[tail].qprev);
 }
 
-/*------------------------------------------------------------------------
- *  getitem  -  Remove a process from an arbitrary point in a queue
- *------------------------------------------------------------------------
+/**
+ * @brief キューの任意の位置からプロセスを取り出す。
+ * @param[in] pid 取り出すプロセスID（）
+ * @return キューにプロセスがある場合はキューの末尾にあるプロセスID、<br>
+ * キューが空の場合はEMPTYを返す。
  */
 pid32 getitem(
 	pid32 pid /* ID of process to remove	*/
