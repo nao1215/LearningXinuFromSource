@@ -68,6 +68,9 @@ $(function() {
 <div class="title">getitem.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>キュー内のプロセスを操作するAPI（プロセス取得API）を提供する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d2/dbe/xinu_8h_source.html">xinu.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for getitem.c:</div>
@@ -75,7 +78,7 @@ Include dependency graph for getitem.c:</div>
 <div class="center"><img src="../../d9/dd9/getitem_8c__incl.png" border="0" usemap="#system_2getitem_8c" alt=""/></div>
 <map name="system_2getitem_8c" id="system_2getitem_8c">
 <area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1903,80,1960,107"/>
-<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
+<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="../../df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="../../da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
@@ -122,13 +125,18 @@ Include dependency graph for getitem.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a66e5d5f38634d039cd4bc936bb93ab8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/getitem_8c.html#a66e5d5f38634d039cd4bc936bb93ab8b">getfirst</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a> q)</td></tr>
+<tr class="memdesc:a66e5d5f38634d039cd4bc936bb93ab8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの先頭からプロセスを取り出す。  <a href="#a66e5d5f38634d039cd4bc936bb93ab8b">More...</a><br /></td></tr>
 <tr class="separator:a66e5d5f38634d039cd4bc936bb93ab8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a608c1d817d4e8f4d9e645853d493c7d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7">getitem</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a> pid)</td></tr>
+<tr class="memdesc:a608c1d817d4e8f4d9e645853d493c7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの任意の位置からプロセスを取り出す。  <a href="#a608c1d817d4e8f4d9e645853d493c7d7">More...</a><br /></td></tr>
 <tr class="separator:a608c1d817d4e8f4d9e645853d493c7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5dd00ac7b0fc4681d20ed7172561b94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94">getlast</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a> q)</td></tr>
+<tr class="memdesc:aa5dd00ac7b0fc4681d20ed7172561b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの末尾からプロセスを取り出す。  <a href="#aa5dd00ac7b0fc4681d20ed7172561b94">More...</a><br /></td></tr>
 <tr class="separator:aa5dd00ac7b0fc4681d20ed7172561b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>キュー内のプロセスを操作するAPI（プロセス取得API）を提供する。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a66e5d5f38634d039cd4bc936bb93ab8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66e5d5f38634d039cd4bc936bb93ab8b">&#9670;&nbsp;</a></span>getfirst()</h2>
 
@@ -144,12 +152,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>キューの先頭からプロセスを取り出す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>プロセスを取り出すためのキューID（チェックなしで有効） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キューにプロセスがある場合はキューの先頭にあるプロセスID、<br />
+ キューが空の場合はEMPTYを返す。 </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/deb/getitem_8c_a66e5d5f38634d039cd4bc936bb93ab8b_cgraph.png" border="0" usemap="#d1/deb/getitem_8c_a66e5d5f38634d039cd4bc936bb93ab8b_cgraph" alt=""/></div>
 <map name="d1/deb/getitem_8c_a66e5d5f38634d039cd4bc936bb93ab8b_cgraph" id="d1/deb/getitem_8c_a66e5d5f38634d039cd4bc936bb93ab8b_cgraph">
-<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="116,5,181,32"/>
+<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="116,5,181,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -226,15 +244,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>キューの任意の位置からプロセスを取り出す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>取り出すプロセスID（） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キューにプロセスがある場合はキューの末尾にあるプロセスID、<br />
+ キューが空の場合はEMPTYを返す。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/deb/getitem_8c_a608c1d817d4e8f4d9e645853d493c7d7_icgraph.png" border="0" usemap="#d1/deb/getitem_8c_a608c1d817d4e8f4d9e645853d493c7d7_icgraph" alt=""/></div>
 <map name="d1/deb/getitem_8c_a608c1d817d4e8f4d9e645853d493c7d7_icgraph" id="d1/deb/getitem_8c_a608c1d817d4e8f4d9e645853d493c7d7_icgraph">
-<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a66e5d5f38634d039cd4bc936bb93ab8b" title="getfirst" alt="" coords="119,157,181,184"/>
+<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a66e5d5f38634d039cd4bc936bb93ab8b" title="キューの先頭からプロセスを取り出す。 " alt="" coords="119,157,181,184"/>
 <area shape="rect" id="node6" href="../../d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="765,1424,804,1451"/>
 <area shape="rect" id="node46" href="../../d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="suspend" alt="" coords="477,1279,547,1305"/>
-<area shape="rect" id="node49" href="../../d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="getlast" alt="" coords="119,1373,181,1400"/>
+<area shape="rect" id="node49" href="../../d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="キューの末尾からプロセスを取り出す。 " alt="" coords="119,1373,181,1400"/>
 <area shape="rect" id="node50" href="../../d5/def/unsleep_8c.html#ade9834aa70443dc0e0c4561bdb003795" title="unsleep" alt="" coords="479,1329,545,1356"/>
 <area shape="rect" id="node3" href="../../d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="229,259,300,285"/>
 <area shape="rect" id="node11" href="../../d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="608,5,691,32"/>
@@ -300,12 +328,22 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>キューの末尾からプロセスを取り出す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>プロセスを取り出すためのキューID（チェックなしで有効） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キューにプロセスがある場合はキューの末尾にあるプロセスID、<br />
+ キューが空の場合はEMPTYを返す。 </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/deb/getitem_8c_aa5dd00ac7b0fc4681d20ed7172561b94_cgraph.png" border="0" usemap="#d1/deb/getitem_8c_aa5dd00ac7b0fc4681d20ed7172561b94_cgraph" alt=""/></div>
 <map name="d1/deb/getitem_8c_aa5dd00ac7b0fc4681d20ed7172561b94_cgraph" id="d1/deb/getitem_8c_aa5dd00ac7b0fc4681d20ed7172561b94_cgraph">
-<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="115,5,180,32"/>
+<area shape="rect" id="node2" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="115,5,180,32"/>
 </map>
 </div>
 

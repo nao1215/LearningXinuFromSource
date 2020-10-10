@@ -17,15 +17,15 @@
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="779,588,848,615"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="freemem" alt="" coords="777,689,850,716"/>
 <area shape="rect" id="node10" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="903,385,973,412"/>
-<area shape="rect" id="node16" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="516,816,575,843"/>
+<area shape="rect" id="node16" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="516,816,575,843"/>
 <area shape="rect" id="node17" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="650,765,715,792"/>
-<area shape="rect" id="node18" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="786,841,841,868"/>
+<area shape="rect" id="node18" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="786,841,841,868"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="911,1424,965,1451"/>
-<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="1137,1449,1192,1476"/>
+<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1137,1449,1192,1476"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1021,1475,1089,1501"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="784,335,843,361"/>
 <area shape="rect" id="node25" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="782,183,845,209"/>
-<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="getpid" alt="" coords="785,132,842,159"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="785,132,842,159"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="790,1500,837,1527"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="509,917,581,944"/>
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="651,1145,714,1172"/>

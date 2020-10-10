@@ -1,5 +1,5 @@
 <map id="include/xinu.h" name="include/xinu.h">
-<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,80,73,107"/>
+<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,80,73,107"/>
 <area shape="rect" id="node3" href="$df/d77/conf_8h.html" title="conf.h" alt="" coords="98,80,157,107"/>
 <area shape="rect" id="node4" href="$da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,80,260,107"/>
 <area shape="rect" id="node5" href="$d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,80,352,107"/>

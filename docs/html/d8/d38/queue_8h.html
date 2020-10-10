@@ -529,7 +529,9 @@ Variables</h2></td></tr>
  ・リスト先頭<br />
  ・リスト末尾<br />
  のポインタを保持するために使用される。<br />
- </p><div class="image">
+ あるリストの先頭／末尾ノードは、queuetab配列のインデックスNPROC以降に配置し、<br />
+ 必ず連続した配置となる（例：先頭ノード→末尾ノード→先頭ノード→末尾ノード…）<br />
+ XINU内では、リストは先頭ノードのインデックスで識別および操作する仕様である。 </p><div class="image">
 <img src="../../queue_table.png" alt="queue_table.png"/>
 </div>
  <dl class="section note"><dt>Note</dt><dd>以下はテーブルイメージ図であるが、Doxygenドキュメント上ではコメント表記が崩れるため、<br />

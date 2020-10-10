@@ -1,8 +1,8 @@
 <map id="getitem" name="getitem">
-<area shape="rect" id="node2" href="$d1/deb/getitem_8c.html#a66e5d5f38634d039cd4bc936bb93ab8b" title="getfirst" alt="" coords="119,157,181,184"/>
+<area shape="rect" id="node2" href="$d1/deb/getitem_8c.html#a66e5d5f38634d039cd4bc936bb93ab8b" title="キューの先頭からプロセスを取り出す。 " alt="" coords="119,157,181,184"/>
 <area shape="rect" id="node6" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="765,1424,804,1451"/>
 <area shape="rect" id="node46" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="suspend" alt="" coords="477,1279,547,1305"/>
-<area shape="rect" id="node49" href="$d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="getlast" alt="" coords="119,1373,181,1400"/>
+<area shape="rect" id="node49" href="$d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="キューの末尾からプロセスを取り出す。 " alt="" coords="119,1373,181,1400"/>
 <area shape="rect" id="node50" href="$d5/def/unsleep_8c.html#ade9834aa70443dc0e0c4561bdb003795" title="unsleep" alt="" coords="479,1329,545,1356"/>
 <area shape="rect" id="node3" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="229,259,300,285"/>
 <area shape="rect" id="node11" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="608,5,691,32"/>

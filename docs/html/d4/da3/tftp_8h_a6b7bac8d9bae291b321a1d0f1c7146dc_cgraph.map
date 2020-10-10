@@ -1,5 +1,5 @@
 <map id="tftpget_mb" name="tftpget_mb">
-<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="939,239,997,265"/>
+<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="939,239,997,265"/>
 <area shape="rect" id="node7" href="$da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="strnlen" alt="" coords="148,340,209,367"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a1dda2a799335d64a5e5da50defc42f35" title="getport" alt="" coords="147,391,210,417"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="1064,796,1157,823"/>
@@ -9,7 +9,7 @@
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="268,1075,357,1101"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="776,36,868,63"/>
 <area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="1078,188,1143,215"/>
-<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="1083,644,1138,671"/>
+<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1083,644,1138,671"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1222,619,1285,645"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1222,1075,1285,1101"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a96add0f7ff1e3baad4aad9d26a78cc1b" title="udp_recvaddr" alt="" coords="772,879,872,905"/>
@@ -19,11 +19,11 @@
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1087,1657,1134,1684"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1218,1657,1289,1684"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1349,455,1417,481"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="1473,379,1528,405"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1473,379,1528,405"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1465,480,1536,507"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1472,429,1529,456"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="1584,480,1647,507"/>
-<area shape="rect" id="node21" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="1695,480,1760,507"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1584,480,1647,507"/>
+<area shape="rect" id="node21" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1695,480,1760,507"/>
 <area shape="rect" id="node25" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="531,619,598,645"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="937,492,999,519"/>
 <area shape="rect" id="node35" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="793,1328,851,1355"/>

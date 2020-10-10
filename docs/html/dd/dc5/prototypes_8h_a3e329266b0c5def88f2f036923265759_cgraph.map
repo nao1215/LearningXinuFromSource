@@ -9,14 +9,14 @@
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="943,119,989,145"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1053,119,1124,145"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1172,715,1240,741"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="1296,765,1351,792"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1296,765,1351,792"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1288,821,1359,848"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1295,715,1352,741"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="1407,821,1469,848"/>
-<area shape="rect" id="node12" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="1517,821,1583,848"/>
-<area shape="rect" id="node15" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="801,372,860,399"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1407,821,1469,848"/>
+<area shape="rect" id="node12" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1517,821,1583,848"/>
+<area shape="rect" id="node15" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="801,372,860,399"/>
 <area shape="rect" id="node16" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="933,676,999,703"/>
-<area shape="rect" id="node17" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="939,524,993,551"/>
+<area shape="rect" id="node17" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="939,524,993,551"/>
 <area shape="rect" id="node20" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="265,929,331,956"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="799,1031,862,1057"/>
 <area shape="rect" id="node31" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="662,1284,719,1311"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="805,727,856,753"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1061,740,1116,767"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="933,575,999,601"/>
-<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="getitem" alt="" coords="1056,575,1121,601"/>
+<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1056,575,1121,601"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="938,828,994,855"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="647,777,735,804"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="927,777,1005,804"/>

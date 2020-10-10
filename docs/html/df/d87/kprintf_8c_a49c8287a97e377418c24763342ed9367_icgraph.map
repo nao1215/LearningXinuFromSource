@@ -1,6 +1,6 @@
 <map id="_doprnt" name="_doprnt">
-<area shape="rect" id="node2" href="$df/d87/kprintf_8c.html#a39698a8e3040489ff04efc2c39054db1" title="kgetc" alt="" coords="121,968,175,995"/>
-<area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="119,1019,177,1045"/>
+<area shape="rect" id="node2" href="$df/d87/kprintf_8c.html#a39698a8e3040489ff04efc2c39054db1" title="ポーリングI/Oを使用して、コンソールのシリアルラインから文字を読み取る。 " alt="" coords="121,968,175,995"/>
+<area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="119,1019,177,1045"/>
 <area shape="rect" id="node4" href="$d8/d3b/ethinit_8c.html#a2f841a22dffc44df159007bd9fe51065" title="ethinit" alt="" coords="246,5,303,32"/>
 <area shape="rect" id="node5" href="$d8/d2d/ethread_8c.html#aff3dcf122cac8bd39fe38f01acdcff03" title="ethread" alt="" coords="242,56,307,83"/>
 <area shape="rect" id="node6" href="$d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="239,107,310,133"/>

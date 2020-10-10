@@ -1,6 +1,6 @@
 <map id="device/gpio/gpiocontrol.c" name="device/gpio/gpiocontrol.c">
 <area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1903,80,1960,107"/>
-<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
+<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="$df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="$da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="$d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>

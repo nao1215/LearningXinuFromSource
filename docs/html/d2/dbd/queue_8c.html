@@ -79,7 +79,7 @@ Include dependency graph for queue.c:</div>
 <div class="center"><img src="../../d1/d50/queue_8c__incl.png" border="0" usemap="#system_2queue_8c" alt=""/></div>
 <map name="system_2queue_8c" id="system_2queue_8c">
 <area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1903,80,1960,107"/>
-<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
+<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="../../df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="../../da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
@@ -171,8 +171,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/dbd/queue_8c_a88f502a71fcc85b9b3218c65b9294b9b_cgraph.png" border="0" usemap="#d2/dbd/queue_8c_a88f502a71fcc85b9b3218c65b9294b9b_cgraph" alt=""/></div>
 <map name="d2/dbd/queue_8c_a88f502a71fcc85b9b3218c65b9294b9b_cgraph" id="d2/dbd/queue_8c_a88f502a71fcc85b9b3218c65b9294b9b_cgraph">
-<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="124,5,187,32"/>
-<area shape="rect" id="node3" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="235,5,300,32"/>
+<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="124,5,187,32"/>
+<area shape="rect" id="node3" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="235,5,300,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -346,7 +346,9 @@ Here is the caller graph for this function:</div>
  ・リスト先頭<br />
  ・リスト末尾<br />
  のポインタを保持するために使用される。<br />
- </p><div class="image">
+ あるリストの先頭／末尾ノードは、queuetab配列のインデックスNPROC以降に配置し、<br />
+ 必ず連続した配置となる（例：先頭ノード→末尾ノード→先頭ノード→末尾ノード…）<br />
+ XINU内では、リストは先頭ノードのインデックスで識別および操作する仕様である。 </p><div class="image">
 <img src="../../queue_table.png" alt="queue_table.png"/>
 </div>
  <dl class="section note"><dt>Note</dt><dd>以下はテーブルイメージ図であるが、Doxygenドキュメント上ではコメント表記が崩れるため、<br />

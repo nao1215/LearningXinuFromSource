@@ -76,7 +76,7 @@ Include dependency graph for ready.c:</div>
 <div class="center"><img src="../../d9/db7/ready_8c__incl.png" border="0" usemap="#system_2ready_8c" alt=""/></div>
 <map name="system_2ready_8c" id="system_2ready_8c">
 <area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1903,80,1960,107"/>
-<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
+<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="../../df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="../../da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
@@ -128,6 +128,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aea703c03af087bd1a6abaf0abc644c33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db9/ready_8c.html#aea703c03af087bd1a6abaf0abc644c33">readylist</a></td></tr>
+<tr class="memdesc:aea703c03af087bd1a6abaf0abc644c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">READY状態のプロセスリストに対するグローバルID.  <a href="#aea703c03af087bd1a6abaf0abc644c33">More...</a><br /></td></tr>
 <tr class="separator:aea703c03af087bd1a6abaf0abc644c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -151,12 +152,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/db9/ready_8c_aa81bda195058cce0a7fed3068037d912_cgraph.png" border="0" usemap="#d7/db9/ready_8c_aa81bda195058cce0a7fed3068037d912_cgraph" alt=""/></div>
 <map name="d7/db9/ready_8c_aa81bda195058cce0a7fed3068037d912_cgraph" id="d7/db9/ready_8c_aa81bda195058cce0a7fed3068037d912_cgraph">
-<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="232,5,287,32"/>
+<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="232,5,287,32"/>
 <area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="108,56,176,83"/>
 <area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="224,56,295,83"/>
 <area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="231,107,288,133"/>
-<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="343,56,405,83"/>
-<area shape="rect" id="node6" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="453,56,519,83"/>
+<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="343,56,405,83"/>
+<area shape="rect" id="node6" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="453,56,519,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -230,6 +231,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>READY状態のプロセスリストに対するグローバルID. </p>
 
 </div>
 </div>

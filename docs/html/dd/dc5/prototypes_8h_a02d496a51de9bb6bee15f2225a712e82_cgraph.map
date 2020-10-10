@@ -4,16 +4,16 @@
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1273,461,1329,488"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="221,1829,290,1856"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="219,1576,292,1603"/>
-<area shape="rect" id="node31" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="1129,1196,1188,1223"/>
+<area shape="rect" id="node31" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="1129,1196,1188,1223"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1400,917,1463,944"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1400,1247,1463,1273"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1396,1728,1467,1755"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1515,563,1583,589"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="1639,461,1693,488"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1639,461,1693,488"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1631,512,1701,539"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1637,563,1695,589"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="1749,512,1812,539"/>
-<area shape="rect" id="node11" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="1860,512,1925,539"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1749,512,1812,539"/>
+<area shape="rect" id="node11" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1860,512,1925,539"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1404,461,1459,488"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="1255,1424,1348,1451"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="340,1019,419,1045"/>
@@ -29,12 +29,12 @@
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="719,867,785,893"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="1133,613,1184,640"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="1268,613,1335,640"/>
-<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="getitem" alt="" coords="1399,613,1464,640"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1399,613,1464,640"/>
 <area shape="rect" id="node29" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="833,1019,927,1045"/>
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="975,917,1063,944"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="992,1069,1045,1096"/>
 <area shape="rect" id="node32" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="1269,1221,1334,1248"/>
-<area shape="rect" id="node33" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="1274,1171,1329,1197"/>
+<area shape="rect" id="node33" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1274,1171,1329,1197"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="1262,1019,1341,1045"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a84662366147c7ffea0f111675e1d5967" title="udp_hton" alt="" coords="1121,5,1196,32"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a631f8f868308f30f051b261ad23b3768" title="icmp_hton" alt="" coords="1117,56,1200,83"/>

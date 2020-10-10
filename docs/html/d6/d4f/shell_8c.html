@@ -80,7 +80,7 @@ Include dependency graph for shell.c:</div>
 <area shape="rect" id="node2" href="../../d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="1945,80,2003,107"/>
 <area shape="rect" id="node38" href="../../d6/dd1/stdio_8h.html" title="stdio.h" alt="" coords="3799,155,3861,181"/>
 <area shape="rect" id="node44" href="../../d9/d1a/shprototypes_8h.html" title="shprototypes.h" alt="" coords="2973,80,3081,107"/>
-<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="kernel.h" alt="" coords="5,155,73,181"/>
+<area shape="rect" id="node3" href="../../d0/daa/kernel_8h.html" title="XINU OSのkernel部分で使用する汎用的な宣言。 " alt="" coords="5,155,73,181"/>
 <area shape="rect" id="node4" href="../../df/d77/conf_8h.html" title="conf.h" alt="" coords="98,155,157,181"/>
 <area shape="rect" id="node5" href="../../da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
@@ -172,15 +172,15 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="338,411,401,437"/>
 <area shape="rect" id="node12" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="221,309,280,336"/>
 <area shape="rect" id="node13" href="../../d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="219,208,282,235"/>
-<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="getpid" alt="" coords="222,259,279,285"/>
+<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="222,259,279,285"/>
 <area shape="rect" id="node16" href="../../dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="333,107,405,133"/>
 <area shape="rect" id="node19" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="223,765,278,792"/>
-<area shape="rect" id="node20" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="461,765,516,792"/>
+<area shape="rect" id="node20" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="461,765,516,792"/>
 <area shape="rect" id="node21" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="335,715,403,741"/>
 <area shape="rect" id="node22" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="453,715,524,741"/>
 <area shape="rect" id="node25" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="460,664,517,691"/>
-<area shape="rect" id="node23" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="572,715,635,741"/>
-<area shape="rect" id="node24" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="683,715,748,741"/>
+<area shape="rect" id="node23" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="572,715,635,741"/>
+<area shape="rect" id="node24" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="683,715,748,741"/>
 </map>
 </div>
 <div class="dynheader">
@@ -216,8 +216,8 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="shprototypes_8h_html_a8464f55ecb46ba67aa47d2e5178af3f1"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a8464f55ecb46ba67aa47d2e5178af3f1">xsh_argecho</a></div><div class="ttdeci">shellcmd xsh_argecho(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_argecho.c:10</div></div>
 <div class="ttc" id="shprototypes_8h_html_a9ef082a5fff897ae0096ca760ecb6fcc"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a9ef082a5fff897ae0096ca760ecb6fcc">xsh_udpecho</a></div><div class="ttdeci">shellcmd xsh_udpecho(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_udpecho.c:14</div></div>
 <div class="ttc" id="shprototypes_8h_html_aef243e1ae3a51ccb100257768ad22b05"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#aef243e1ae3a51ccb100257768ad22b05">xsh_ps</a></div><div class="ttdeci">shellcmd xsh_ps(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_ps.c:11</div></div>
-<div class="ttc" id="kernel_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> kernel.h:41</div></div>
-<div class="ttc" id="kernel_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> kernel.h:42</div></div>
+<div class="ttc" id="kernel_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdoc">Boolean False（0） </div><div class="ttdef"><b>Definition:</b> kernel.h:63</div></div>
+<div class="ttc" id="kernel_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdoc">Boolean True（1） </div><div class="ttdef"><b>Definition:</b> kernel.h:65</div></div>
 <div class="ttc" id="shprototypes_8h_html_a5e49fb91ee50c832362ebdf3e576fa2c"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a5e49fb91ee50c832362ebdf3e576fa2c">xsh_clear</a></div><div class="ttdeci">shellcmd xsh_clear(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_clear.c:10</div></div>
 <div class="ttc" id="shprototypes_8h_html_acfb863f85d2ca9bd42afcb8eee6fdd31"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#acfb863f85d2ca9bd42afcb8eee6fdd31">xsh_memdump</a></div><div class="ttdeci">shellcmd xsh_memdump(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_memdump.c:15</div></div>
 <div class="ttc" id="shprototypes_8h_html_a4e40a6c0c8bb7fc4227c4c8b06ee430c"><div class="ttname"><a href="../../d9/d1a/shprototypes_8h.html#a4e40a6c0c8bb7fc4227c4c8b06ee430c">xsh_memstat</a></div><div class="ttdeci">shellcmd xsh_memstat(int32, char *[])</div><div class="ttdef"><b>Definition:</b> xsh_memstat.c:14</div></div>

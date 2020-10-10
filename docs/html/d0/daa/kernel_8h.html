@@ -71,6 +71,9 @@ $(function() {
 <div class="title">kernel.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>XINU OSのkernel部分で使用する汎用的な宣言。  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -132,104 +135,148 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:af195e2296079bbf21ae1c19823f0f036"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#af195e2296079bbf21ae1c19823f0f036">CONTEXT</a>&#160;&#160;&#160;64 /* bytes in a function call context on	*/</td></tr>
+<tr class="memitem:af195e2296079bbf21ae1c19823f0f036"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#af195e2296079bbf21ae1c19823f0f036">CONTEXT</a>&#160;&#160;&#160;64</td></tr>
+<tr class="memdesc:af195e2296079bbf21ae1c19823f0f036"><td class="mdescLeft">&#160;</td><td class="mdescRight">ランタイムスタックの関数呼び出しコンテキスト上のByte  <a href="#af195e2296079bbf21ae1c19823f0f036">More...</a><br /></td></tr>
 <tr class="separator:af195e2296079bbf21ae1c19823f0f036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59adc4c82490d23754cd39c2fb99b0da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>&#160;&#160;&#160;(-2)	 /* End-of-<a class="el" href="../../d7/d3a/structfile.html">file</a> (usually from <a class="el" href="../../d2/d16/read_8c.html#a24b680b37674fdc4073cea44888cb60e">read</a>)	*/</td></tr>
+<tr class="memitem:a59adc4c82490d23754cd39c2fb99b0da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>&#160;&#160;&#160;(-2)</td></tr>
+<tr class="memdesc:a59adc4c82490d23754cd39c2fb99b0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの終端（End of File）に達した場合（読み込み処理に用いる）  <a href="#a59adc4c82490d23754cd39c2fb99b0da">More...</a><br /></td></tr>
 <tr class="separator:a59adc4c82490d23754cd39c2fb99b0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa93f0eb578d23995850d61f7d61c55c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>&#160;&#160;&#160;0 /* Boolean False			*/</td></tr>
+<tr class="memitem:aa93f0eb578d23995850d61f7d61c55c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:aa93f0eb578d23995850d61f7d61c55c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean False（0）  <a href="#aa93f0eb578d23995850d61f7d61c55c1">More...</a><br /></td></tr>
 <tr class="separator:aa93f0eb578d23995850d61f7d61c55c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08023ea6765c99d60a6a3840cd07156e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a08023ea6765c99d60a6a3840cd07156e">local</a>&#160;&#160;&#160;static /* Local procedure or variable declar.	*/</td></tr>
+<tr class="memitem:a08023ea6765c99d60a6a3840cd07156e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a08023ea6765c99d60a6a3840cd07156e">local</a>&#160;&#160;&#160;static</td></tr>
+<tr class="memdesc:a08023ea6765c99d60a6a3840cd07156e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ローカル関数かローカル変数の宣言  <a href="#a08023ea6765c99d60a6a3840cd07156e">More...</a><br /></td></tr>
 <tr class="separator:a08023ea6765c99d60a6a3840cd07156e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36154809203070f1ee3e8986a4fcad85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a36154809203070f1ee3e8986a4fcad85">MINSTK</a>&#160;&#160;&#160;400 /* minimum stack size in bytes		*/</td></tr>
+<tr class="memitem:a36154809203070f1ee3e8986a4fcad85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a36154809203070f1ee3e8986a4fcad85">MINSTK</a>&#160;&#160;&#160;400</td></tr>
+<tr class="memdesc:a36154809203070f1ee3e8986a4fcad85"><td class="mdescLeft">&#160;</td><td class="mdescRight">最小のスタックサイズ（Byte）  <a href="#a36154809203070f1ee3e8986a4fcad85">More...</a><br /></td></tr>
 <tr class="separator:a36154809203070f1ee3e8986a4fcad85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;0		/* null pointer for linked lists	*/</td></tr>
+<tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">連結リスト用のNULLポインタ  <a href="#a070d2ce7b6bb7e5c05602aa8c308d0c4">More...</a><br /></td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad52a6a7f8630a205995cd79f59420456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ad52a6a7f8630a205995cd79f59420456">NULLCH</a>&#160;&#160;&#160;'\0' /* null character			*/</td></tr>
+<tr class="memitem:ad52a6a7f8630a205995cd79f59420456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ad52a6a7f8630a205995cd79f59420456">NULLCH</a>&#160;&#160;&#160;'\0'</td></tr>
+<tr class="memdesc:ad52a6a7f8630a205995cd79f59420456"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULL文字（NULL終端）  <a href="#ad52a6a7f8630a205995cd79f59420456">More...</a><br /></td></tr>
 <tr class="separator:ad52a6a7f8630a205995cd79f59420456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a221ff5c188bc015cedcfb2db618f21e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a221ff5c188bc015cedcfb2db618f21e6">NULLSTK</a>&#160;&#160;&#160;8192 /* stack size for null <a class="el" href="../../d0/daa/kernel_8h.html#ac929822294f2c223e860d42321bc9fb9">process</a>		*/</td></tr>
+<tr class="memdesc:a221ff5c188bc015cedcfb2db618f21e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULLプロセスのスタックサイズ  <a href="#a221ff5c188bc015cedcfb2db618f21e6">More...</a><br /></td></tr>
 <tr class="separator:a221ff5c188bc015cedcfb2db618f21e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a821925a758098bed6c7ee0ddc7a2bc36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a821925a758098bed6c7ee0ddc7a2bc36">NULLSTR</a>&#160;&#160;&#160;&quot;&quot;	/* null string				*/</td></tr>
+<tr class="memitem:a821925a758098bed6c7ee0ddc7a2bc36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a821925a758098bed6c7ee0ddc7a2bc36">NULLSTR</a>&#160;&#160;&#160;&quot;&quot;</td></tr>
+<tr class="memdesc:a821925a758098bed6c7ee0ddc7a2bc36"><td class="mdescLeft">&#160;</td><td class="mdescRight">空文字  <a href="#a821925a758098bed6c7ee0ddc7a2bc36">More...</a><br /></td></tr>
 <tr class="separator:a821925a758098bed6c7ee0ddc7a2bc36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba51915c87d64af47fb1cc59348961c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aba51915c87d64af47fb1cc59348961c9">OK</a>&#160;&#160;&#160;(1) /* normal system call return		*/</td></tr>
+<tr class="memitem:aba51915c87d64af47fb1cc59348961c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aba51915c87d64af47fb1cc59348961c9">OK</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:aba51915c87d64af47fb1cc59348961c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">処理が成功した場合  <a href="#aba51915c87d64af47fb1cc59348961c9">More...</a><br /></td></tr>
 <tr class="separator:aba51915c87d64af47fb1cc59348961c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc4f0f9abea1b5443308e4ea84b52b21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#abc4f0f9abea1b5443308e4ea84b52b21">QUANTUM</a>&#160;&#160;&#160;2 /* time slice in milliseconds		*/</td></tr>
+<tr class="memitem:abc4f0f9abea1b5443308e4ea84b52b21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#abc4f0f9abea1b5443308e4ea84b52b21">QUANTUM</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:abc4f0f9abea1b5443308e4ea84b52b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">ミリ秒単位のタイムスライス  <a href="#abc4f0f9abea1b5443308e4ea84b52b21">More...</a><br /></td></tr>
 <tr class="separator:abc4f0f9abea1b5443308e4ea84b52b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43bde532b969aa0fea1e97130075ac9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>&#160;&#160;&#160;(-1)</td></tr>
-<tr class="memdesc:ad43bde532b969aa0fea1e97130075ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">システムコールが失敗した  <a href="#ad43bde532b969aa0fea1e97130075ac9">More...</a><br /></td></tr>
+<tr class="memdesc:ad43bde532b969aa0fea1e97130075ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">処理が失敗した場合  <a href="#ad43bde532b969aa0fea1e97130075ac9">More...</a><br /></td></tr>
 <tr class="separator:ad43bde532b969aa0fea1e97130075ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ba202b05caf39795aeca91b0ae547e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a45ba202b05caf39795aeca91b0ae547e">TIMEOUT</a>&#160;&#160;&#160;(-3) /* system call timed out		*/</td></tr>
+<tr class="memitem:a45ba202b05caf39795aeca91b0ae547e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a45ba202b05caf39795aeca91b0ae547e">TIMEOUT</a>&#160;&#160;&#160;(-3)</td></tr>
+<tr class="memdesc:a45ba202b05caf39795aeca91b0ae547e"><td class="mdescLeft">&#160;</td><td class="mdescRight">システムコールがタイムアウトした場合  <a href="#a45ba202b05caf39795aeca91b0ae547e">More...</a><br /></td></tr>
 <tr class="separator:a45ba202b05caf39795aeca91b0ae547e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>&#160;&#160;&#160;1	/* Boolean True				*/</td></tr>
+<tr class="memitem:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean True（1）  <a href="#aa8cecfc5c5c054d2875c03e77b7be15d">More...</a><br /></td></tr>
 <tr class="separator:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a3140dad37daefe837e6fc393ec5a8ce2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a3140dad37daefe837e6fc393ec5a8ce2">bool8</a></td></tr>
+<tr class="memdesc:a3140dad37daefe837e6fc393ec5a8ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean値  <a href="#a3140dad37daefe837e6fc393ec5a8ce2">More...</a><br /></td></tr>
 <tr class="separator:a3140dad37daefe837e6fc393ec5a8ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d41a508f6d59e2089c10646d9374727"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a8d41a508f6d59e2089c10646d9374727">bpid32</a></td></tr>
+<tr class="memdesc:a8d41a508f6d59e2089c10646d9374727"><td class="mdescLeft">&#160;</td><td class="mdescRight">バッファプールID  <a href="#a8d41a508f6d59e2089c10646d9374727">More...</a><br /></td></tr>
 <tr class="separator:a8d41a508f6d59e2089c10646d9374727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c8186d9b9b7880309c27230bbb5e69d"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a></td></tr>
+<tr class="memdesc:a0c8186d9b9b7880309c27230bbb5e69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号なし8ビット値（unsigned char）  <a href="#a0c8186d9b9b7880309c27230bbb5e69d">More...</a><br /></td></tr>
 <tr class="separator:a0c8186d9b9b7880309c27230bbb5e69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d44f9fc93191a5743544b8816153c28"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a6d44f9fc93191a5743544b8816153c28">dbid32</a></td></tr>
+<tr class="memdesc:a6d44f9fc93191a5743544b8816153c28"><td class="mdescLeft">&#160;</td><td class="mdescRight">データブロックID（ファイルシステムで使用する）  <a href="#a6d44f9fc93191a5743544b8816153c28">More...</a><br /></td></tr>
 <tr class="separator:a6d44f9fc93191a5743544b8816153c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab3de4e8fe20ba22d21b92104014dc6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aeab3de4e8fe20ba22d21b92104014dc6">devcall</a></td></tr>
+<tr class="memdesc:aeab3de4e8fe20ba22d21b92104014dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイスコール関数 返り値の型  <a href="#aeab3de4e8fe20ba22d21b92104014dc6">More...</a><br /></td></tr>
 <tr class="separator:aeab3de4e8fe20ba22d21b92104014dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be6f29aa0af6c4d541ef5eea6005015"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a6be6f29aa0af6c4d541ef5eea6005015">did32</a></td></tr>
+<tr class="memdesc:a6be6f29aa0af6c4d541ef5eea6005015"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイスID  <a href="#a6be6f29aa0af6c4d541ef5eea6005015">More...</a><br /></td></tr>
 <tr class="separator:a6be6f29aa0af6c4d541ef5eea6005015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68ef2e4ebe18b95e52e9e18971b3c7c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ac68ef2e4ebe18b95e52e9e18971b3c7c">ibid32</a></td></tr>
+<tr class="memdesc:ac68ef2e4ebe18b95e52e9e18971b3c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブロックIDのインデックス（ファイルシステムで使用する）  <a href="#ac68ef2e4ebe18b95e52e9e18971b3c7c">More...</a><br /></td></tr>
 <tr class="separator:ac68ef2e4ebe18b95e52e9e18971b3c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4355d16fcf9f644c9ac84293f0b1801f"><td class="memItemLeft" align="right" valign="top">typedef short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a4355d16fcf9f644c9ac84293f0b1801f">int16</a></td></tr>
+<tr class="memdesc:a4355d16fcf9f644c9ac84293f0b1801f"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号あり16ビット整数（short）  <a href="#a4355d16fcf9f644c9ac84293f0b1801f">More...</a><br /></td></tr>
 <tr class="separator:a4355d16fcf9f644c9ac84293f0b1801f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56f1a81c92849566ae864511088eb7e8"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a></td></tr>
+<tr class="memdesc:a56f1a81c92849566ae864511088eb7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号あり32ビット整数（int）  <a href="#a56f1a81c92849566ae864511088eb7e8">More...</a><br /></td></tr>
 <tr class="separator:a56f1a81c92849566ae864511088eb7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cfaa0a4dcaed91fc9f3f072e3411b31"><td class="memItemLeft" align="right" valign="top">typedef void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a8cfaa0a4dcaed91fc9f3f072e3411b31">interrupt</a></td></tr>
+<tr class="memdesc:a8cfaa0a4dcaed91fc9f3f072e3411b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">割り込みハンドラ 返り値の型  <a href="#a8cfaa0a4dcaed91fc9f3f072e3411b31">More...</a><br /></td></tr>
 <tr class="separator:a8cfaa0a4dcaed91fc9f3f072e3411b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81b268a24b9e9351967bc7952257ca1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ae81b268a24b9e9351967bc7952257ca1">intmask</a></td></tr>
+<tr class="memdesc:ae81b268a24b9e9351967bc7952257ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存された割り込みマスク  <a href="#ae81b268a24b9e9351967bc7952257ca1">More...</a><br /></td></tr>
 <tr class="separator:ae81b268a24b9e9351967bc7952257ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f460155532aae7f56b379962e97b5f0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a></td></tr>
+<tr class="memdesc:a6f460155532aae7f56b379962e97b5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスID  <a href="#a6f460155532aae7f56b379962e97b5f0">More...</a><br /></td></tr>
 <tr class="separator:a6f460155532aae7f56b379962e97b5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1cb2b92f050f5a14da324e98ff6996"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a4355d16fcf9f644c9ac84293f0b1801f">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a9f1cb2b92f050f5a14da324e98ff6996">pri16</a></td></tr>
+<tr class="memdesc:a9f1cb2b92f050f5a14da324e98ff6996"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセス優先度  <a href="#a9f1cb2b92f050f5a14da324e98ff6996">More...</a><br /></td></tr>
 <tr class="separator:a9f1cb2b92f050f5a14da324e98ff6996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac929822294f2c223e860d42321bc9fb9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ac929822294f2c223e860d42321bc9fb9">process</a></td></tr>
+<tr class="memdesc:ac929822294f2c223e860d42321bc9fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスの最上位レベル関数 返り値の型  <a href="#ac929822294f2c223e860d42321bc9fb9">More...</a><br /></td></tr>
 <tr class="separator:ac929822294f2c223e860d42321bc9fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d392d74022d42ad724df42bd0f63da"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a4355d16fcf9f644c9ac84293f0b1801f">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a></td></tr>
+<tr class="memdesc:a56d392d74022d42ad724df42bd0f63da"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューID  <a href="#a56d392d74022d42ad724df42bd0f63da">More...</a><br /></td></tr>
 <tr class="separator:a56d392d74022d42ad724df42bd0f63da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148156d214297f60eb457e2d67db3f1c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a></td></tr>
+<tr class="memdesc:a148156d214297f60eb457e2d67db3f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェルコール関数 返り値の型  <a href="#a148156d214297f60eb457e2d67db3f1c">More...</a><br /></td></tr>
 <tr class="separator:a148156d214297f60eb457e2d67db3f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44faf24326da0fe0391d01a9c1e3f7ba"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a></td></tr>
+<tr class="memdesc:a44faf24326da0fe0391d01a9c1e3f7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">セマフォID  <a href="#a44faf24326da0fe0391d01a9c1e3f7ba">More...</a><br /></td></tr>
 <tr class="separator:a44faf24326da0fe0391d01a9c1e3f7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266af94234404323475d04c761e86a33"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a266af94234404323475d04c761e86a33">status</a></td></tr>
+<tr class="memdesc:a266af94234404323475d04c761e86a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">ステータスを意味する返り値の型（OK／SYSERR）  <a href="#a266af94234404323475d04c761e86a33">More...</a><br /></td></tr>
 <tr class="separator:a266af94234404323475d04c761e86a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed4e13c49832a5c7c94deeec9b92a84b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a></td></tr>
+<tr class="memdesc:aed4e13c49832a5c7c94deeec9b92a84b"><td class="mdescLeft">&#160;</td><td class="mdescRight">システムコール関数 返り値の型  <a href="#aed4e13c49832a5c7c94deeec9b92a84b">More...</a><br /></td></tr>
 <tr class="separator:aed4e13c49832a5c7c94deeec9b92a84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b85de86949854fc5e7614c37040f94"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a91b85de86949854fc5e7614c37040f94">uid32</a></td></tr>
+<tr class="memdesc:a91b85de86949854fc5e7614c37040f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">UDPテーブルディスクリプタのID.  <a href="#a91b85de86949854fc5e7614c37040f94">More...</a><br /></td></tr>
 <tr class="separator:a91b85de86949854fc5e7614c37040f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05f6b0ae8f6a6e135b0e290c25fe0e4e"><td class="memItemLeft" align="right" valign="top">typedef unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a></td></tr>
+<tr class="memdesc:a05f6b0ae8f6a6e135b0e290c25fe0e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号なし16ビット整数（unsigned short）  <a href="#a05f6b0ae8f6a6e135b0e290c25fe0e4e">More...</a><br /></td></tr>
 <tr class="separator:a05f6b0ae8f6a6e135b0e290c25fe0e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1134b580f8da4de94ca6b1de4d37975e"><td class="memItemLeft" align="right" valign="top">typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></td></tr>
+<tr class="memdesc:a1134b580f8da4de94ca6b1de4d37975e"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号なし32ビット整数（unsigned int）  <a href="#a1134b580f8da4de94ca6b1de4d37975e">More...</a><br /></td></tr>
 <tr class="separator:a1134b580f8da4de94ca6b1de4d37975e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29940ae63ec06c9998bba873e25407ad"><td class="memItemLeft" align="right" valign="top">typedef unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a29940ae63ec06c9998bba873e25407ad">uint64</a></td></tr>
+<tr class="memdesc:a29940ae63ec06c9998bba873e25407ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号なし64ビット整数（unsigned long long）  <a href="#a29940ae63ec06c9998bba873e25407ad">More...</a><br /></td></tr>
 <tr class="separator:a29940ae63ec06c9998bba873e25407ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adde6aaee8457bee49c2a92621fe22b79"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a></td></tr>
+<tr class="memdesc:adde6aaee8457bee49c2a92621fe22b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">符号なし8ビット値（unsigned char）  <a href="#adde6aaee8457bee49c2a92621fe22b79">More...</a><br /></td></tr>
 <tr class="separator:adde6aaee8457bee49c2a92621fe22b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98bbd9a16161bdb1c9d4b432d44a0be6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a98bbd9a16161bdb1c9d4b432d44a0be6">umsg32</a></td></tr>
+<tr class="memdesc:a98bbd9a16161bdb1c9d4b432d44a0be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセス間で渡されるメッセージ  <a href="#a98bbd9a16161bdb1c9d4b432d44a0be6">More...</a><br /></td></tr>
 <tr class="separator:a98bbd9a16161bdb1c9d4b432d44a0be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a39698a8e3040489ff04efc2c39054db1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#a39698a8e3040489ff04efc2c39054db1">kgetc</a> (void)</td></tr>
+<tr class="memdesc:a39698a8e3040489ff04efc2c39054db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポーリングI/Oを使用して、コンソールのシリアルラインから文字を読み取る。  <a href="#a39698a8e3040489ff04efc2c39054db1">More...</a><br /></td></tr>
 <tr class="separator:a39698a8e3040489ff04efc2c39054db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb17afabb1107d9a1eba2d6df55dbbb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4">kprintf</a> (char *fmt,...)</td></tr>
+<tr class="memdesc:aeb17afabb1107d9a1eba2d6df55dbbb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。  <a href="#aeb17afabb1107d9a1eba2d6df55dbbb4">More...</a><br /></td></tr>
 <tr class="separator:aeb17afabb1107d9a1eba2d6df55dbbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1300edb7ea60566689c331101d46802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#ac1300edb7ea60566689c331101d46802">kputc</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>)</td></tr>
+<tr class="memdesc:ac1300edb7ea60566689c331101d46802"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。  <a href="#ac1300edb7ea60566689c331101d46802">More...</a><br /></td></tr>
 <tr class="separator:ac1300edb7ea60566689c331101d46802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aea703c03af087bd1a6abaf0abc644c33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/kernel_8h.html#aea703c03af087bd1a6abaf0abc644c33">readylist</a></td></tr>
+<tr class="memdesc:aea703c03af087bd1a6abaf0abc644c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">READY状態のプロセスリストに対するグローバルID.  <a href="#aea703c03af087bd1a6abaf0abc644c33">More...</a><br /></td></tr>
 <tr class="separator:aea703c03af087bd1a6abaf0abc644c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>XINU OSのkernel部分で使用する汎用的な宣言。 </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af195e2296079bbf21ae1c19823f0f036"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af195e2296079bbf21ae1c19823f0f036">&#9670;&nbsp;</a></span>CONTEXT</h2>
 
@@ -237,10 +284,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CONTEXT&#160;&#160;&#160;64 /* bytes in a function call context on	*/</td>
+          <td class="memname">#define CONTEXT&#160;&#160;&#160;64</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ランタイムスタックの関数呼び出しコンテキスト上のByte </p>
 
 </div>
 </div>
@@ -251,10 +300,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EOF&#160;&#160;&#160;(-2)	 /* End-of-<a class="el" href="../../d7/d3a/structfile.html">file</a> (usually from <a class="el" href="../../d2/d16/read_8c.html#a24b680b37674fdc4073cea44888cb60e">read</a>)	*/</td>
+          <td class="memname">#define EOF&#160;&#160;&#160;(-2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ファイルの終端（End of File）に達した場合（読み込み処理に用いる） </p>
 
 </div>
 </div>
@@ -265,10 +316,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FALSE&#160;&#160;&#160;0 /* Boolean False			*/</td>
+          <td class="memname">#define FALSE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Boolean False（0） </p>
 
 </div>
 </div>
@@ -279,10 +332,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define local&#160;&#160;&#160;static /* Local procedure or variable declar.	*/</td>
+          <td class="memname">#define local&#160;&#160;&#160;static</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ローカル関数かローカル変数の宣言 </p>
 
 </div>
 </div>
@@ -293,10 +348,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MINSTK&#160;&#160;&#160;400 /* minimum stack size in bytes		*/</td>
+          <td class="memname">#define MINSTK&#160;&#160;&#160;400</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>最小のスタックサイズ（Byte） </p>
 
 </div>
 </div>
@@ -307,10 +364,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NULL&#160;&#160;&#160;0		/* null pointer for linked lists	*/</td>
+          <td class="memname">#define NULL&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>連結リスト用のNULLポインタ </p>
 
 </div>
 </div>
@@ -321,10 +380,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NULLCH&#160;&#160;&#160;'\0' /* null character			*/</td>
+          <td class="memname">#define NULLCH&#160;&#160;&#160;'\0'</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>NULL文字（NULL終端） </p>
 
 </div>
 </div>
@@ -340,6 +401,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>NULLプロセスのスタックサイズ </p>
+
 </div>
 </div>
 <a id="a821925a758098bed6c7ee0ddc7a2bc36"></a>
@@ -349,10 +412,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NULLSTR&#160;&#160;&#160;&quot;&quot;	/* null string				*/</td>
+          <td class="memname">#define NULLSTR&#160;&#160;&#160;&quot;&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>空文字 </p>
 
 </div>
 </div>
@@ -363,10 +428,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OK&#160;&#160;&#160;(1) /* normal system call return		*/</td>
+          <td class="memname">#define OK&#160;&#160;&#160;(1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>処理が成功した場合 </p>
 
 </div>
 </div>
@@ -377,10 +444,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define QUANTUM&#160;&#160;&#160;2 /* time slice in milliseconds		*/</td>
+          <td class="memname">#define QUANTUM&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ミリ秒単位のタイムスライス </p>
 
 </div>
 </div>
@@ -396,7 +465,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>システムコールが失敗した </p>
+<p>処理が失敗した場合 </p>
 
 </div>
 </div>
@@ -407,10 +476,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIMEOUT&#160;&#160;&#160;(-3) /* system call timed out		*/</td>
+          <td class="memname">#define TIMEOUT&#160;&#160;&#160;(-3)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>システムコールがタイムアウトした場合 </p>
 
 </div>
 </div>
@@ -421,10 +492,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TRUE&#160;&#160;&#160;1	/* Boolean True				*/</td>
+          <td class="memname">#define TRUE&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Boolean True（1） </p>
 
 </div>
 </div>
@@ -441,6 +514,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Boolean値 </p>
+
 </div>
 </div>
 <a id="a8d41a508f6d59e2089c10646d9374727"></a>
@@ -454,6 +529,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>バッファプールID </p>
 
 </div>
 </div>
@@ -469,6 +546,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>符号なし8ビット値（unsigned char） </p>
+
 </div>
 </div>
 <a id="a6d44f9fc93191a5743544b8816153c28"></a>
@@ -482,6 +561,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>データブロックID（ファイルシステムで使用する） </p>
 
 </div>
 </div>
@@ -497,6 +578,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>デバイスコール関数 返り値の型 </p>
+
 </div>
 </div>
 <a id="a6be6f29aa0af6c4d541ef5eea6005015"></a>
@@ -510,6 +593,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>デバイスID </p>
 
 </div>
 </div>
@@ -525,6 +610,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>ブロックIDのインデックス（ファイルシステムで使用する） </p>
+
 </div>
 </div>
 <a id="a4355d16fcf9f644c9ac84293f0b1801f"></a>
@@ -538,6 +625,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>符号あり16ビット整数（short） </p>
 
 </div>
 </div>
@@ -553,6 +642,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>符号あり32ビット整数（int） </p>
+
 </div>
 </div>
 <a id="a8cfaa0a4dcaed91fc9f3f072e3411b31"></a>
@@ -566,6 +657,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>割り込みハンドラ 返り値の型 </p>
 
 </div>
 </div>
@@ -581,6 +674,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>保存された割り込みマスク </p>
+
 </div>
 </div>
 <a id="a6f460155532aae7f56b379962e97b5f0"></a>
@@ -594,6 +689,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プロセスID </p>
 
 </div>
 </div>
@@ -609,6 +706,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>プロセス優先度 </p>
+
 </div>
 </div>
 <a id="ac929822294f2c223e860d42321bc9fb9"></a>
@@ -622,6 +721,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プロセスの最上位レベル関数 返り値の型 </p>
 
 </div>
 </div>
@@ -637,6 +738,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>キューID </p>
+
 </div>
 </div>
 <a id="a148156d214297f60eb457e2d67db3f1c"></a>
@@ -650,6 +753,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>シェルコール関数 返り値の型 </p>
 
 </div>
 </div>
@@ -665,6 +770,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>セマフォID </p>
+
 </div>
 </div>
 <a id="a266af94234404323475d04c761e86a33"></a>
@@ -678,6 +785,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ステータスを意味する返り値の型（OK／SYSERR） </p>
 
 </div>
 </div>
@@ -693,6 +802,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>システムコール関数 返り値の型 </p>
+
 </div>
 </div>
 <a id="a91b85de86949854fc5e7614c37040f94"></a>
@@ -706,6 +817,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>UDPテーブルディスクリプタのID. </p>
 
 </div>
 </div>
@@ -721,6 +834,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>符号なし16ビット整数（unsigned short） </p>
+
 </div>
 </div>
 <a id="a1134b580f8da4de94ca6b1de4d37975e"></a>
@@ -734,6 +849,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>符号なし32ビット整数（unsigned int） </p>
 
 </div>
 </div>
@@ -749,6 +866,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>符号なし64ビット整数（unsigned long long） </p>
+
 </div>
 </div>
 <a id="adde6aaee8457bee49c2a92621fe22b79"></a>
@@ -763,6 +882,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>符号なし8ビット値（unsigned char） </p>
+
 </div>
 </div>
 <a id="a98bbd9a16161bdb1c9d4b432d44a0be6"></a>
@@ -776,6 +897,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プロセス間で渡されるメッセージ </p>
 
 </div>
 </div>
@@ -795,6 +918,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ポーリングI/Oを使用して、コンソールのシリアルラインから文字を読み取る。 </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -833,13 +958,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/daa/kernel_8h_aeb17afabb1107d9a1eba2d6df55dbbb4_cgraph.png" border="0" usemap="#d0/daa/kernel_8h_aeb17afabb1107d9a1eba2d6df55dbbb4_cgraph" alt=""/></div>
 <map name="d0/daa/kernel_8h_aeb17afabb1107d9a1eba2d6df55dbbb4_cgraph" id="d0/daa/kernel_8h_aeb17afabb1107d9a1eba2d6df55dbbb4_cgraph">
 <area shape="rect" id="node2" href="../../df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="112,5,177,32"/>
-<area shape="rect" id="node3" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="117,56,172,83"/>
+<area shape="rect" id="node3" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="117,56,172,83"/>
 <area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="225,31,288,57"/>
 <area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="225,81,288,108"/>
 </map>
@@ -918,6 +1045,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -932,7 +1061,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/daa/kernel_8h_ac1300edb7ea60566689c331101d46802_icgraph.png" border="0" usemap="#d0/daa/kernel_8h_ac1300edb7ea60566689c331101d46802_icgraph" alt=""/></div>
 <map name="d0/daa/kernel_8h_ac1300edb7ea60566689c331101d46802_icgraph" id="d0/daa/kernel_8h_ac1300edb7ea60566689c331101d46802_icgraph">
-<area shape="rect" id="node2" href="../../df/d87/kprintf_8c.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="108,1019,167,1045"/>
+<area shape="rect" id="node2" href="../../df/d87/kprintf_8c.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="108,1019,167,1045"/>
 <area shape="rect" id="node3" href="../../d8/d3b/ethinit_8c.html#a2f841a22dffc44df159007bd9fe51065" title="ethinit" alt="" coords="235,5,293,32"/>
 <area shape="rect" id="node4" href="../../d8/d2d/ethread_8c.html#aff3dcf122cac8bd39fe38f01acdcff03" title="ethread" alt="" coords="231,56,297,83"/>
 <area shape="rect" id="node5" href="../../d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="229,107,299,133"/>
@@ -998,6 +1127,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>READY状態のプロセスリストに対するグローバルID. </p>
 
 </div>
 </div>

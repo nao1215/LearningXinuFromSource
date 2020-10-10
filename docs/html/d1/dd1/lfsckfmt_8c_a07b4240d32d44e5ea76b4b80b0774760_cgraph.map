@@ -1,11 +1,11 @@
 <map id="lfsckfmt" name="lfsckfmt">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="247,13,294,40"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="131,165,185,192"/>
-<area shape="rect" id="node6" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="241,115,300,141"/>
+<area shape="rect" id="node6" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="241,115,300,141"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a134fdddf6ae1f23dbc9c326a0c74263a" title="lfscheck" alt="" coords="123,216,193,243"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a1ae35a7b5bcbf5207da9ec5ddd6a1f4d" title="lfibget" alt="" coords="129,13,187,40"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="461,115,524,141"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="461,13,524,40"/>
 <area shape="rect" id="node7" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="348,64,413,91"/>
-<area shape="rect" id="node8" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="353,115,408,141"/>
+<area shape="rect" id="node8" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="353,115,408,141"/>
 </map>
