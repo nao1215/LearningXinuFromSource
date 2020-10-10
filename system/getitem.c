@@ -1,19 +1,21 @@
-/* getitem.c - getfirst, getlast, getitem */
-
+/**
+ * @file getitem.c
+ * @brief キュー内のプロセスを操作するAPI（プロセス取得API）を提供する。
+ */
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  getfirst  -  Remove a process from the front of a queue
- *------------------------------------------------------------------------
+/**
+ * @brief キューの先頭からプロセスを取り出す。
+ * @param[in] q プロセスを取り出すためのキューID（チェックなしで有効）
+ * @return キューにプロセスがある場合はキューの先頭にあるプロセスID、<br>
+ * キューが空の場合はEMPTYを返す。
  */
-pid32	getfirst(
-	  qid16		q		/* ID of queue from which to	*/
-	)				/* Remove a process (assumed	*/
-					/*   valid with no check)	*/
+pid32 getfirst(qid16 q)
 {
-	pid32	head;
+	pid32 head;
 
-	if (isempty(q)) {
+	if (isempty(q))
+	{
 		return EMPTY;
 	}
 
@@ -21,18 +23,18 @@ pid32	getfirst(
 	return getitem(queuetab[head].qnext);
 }
 
-/*------------------------------------------------------------------------
- *  getlast  -  Remove a process from end of queue
- *------------------------------------------------------------------------
+/**
+ * @brief キューの末尾からプロセスを取り出す。
+ * @param[in] q プロセスを取り出すためのキューID（チェックなしで有効）
+ * @return キューにプロセスがある場合はキューの末尾にあるプロセスID、<br>
+ * キューが空の場合はEMPTYを返す。
  */
-pid32	getlast(
-	  qid16		q		/* ID of queue from which to	*/
-	)				/* Remove a process (assumed	*/
-					/*   valid with no check)	*/
+pid32 getlast(qid16 q)
 {
 	pid32 tail;
 
-	if (isempty(q)) {
+	if (isempty(q))
+	{
 		return EMPTY;
 	}
 
@@ -44,14 +46,14 @@ pid32	getlast(
  *  getitem  -  Remove a process from an arbitrary point in a queue
  *------------------------------------------------------------------------
  */
-pid32	getitem(
-	  pid32		pid		/* ID of process to remove	*/
-	)
+pid32 getitem(
+	pid32 pid /* ID of process to remove	*/
+)
 {
-	pid32	prev, next;
+	pid32 prev, next;
 
-	next = queuetab[pid].qnext;	/* Following node in list	*/
-	prev = queuetab[pid].qprev;	/* Previous node in list	*/
+	next = queuetab[pid].qnext; /* Following node in list	*/
+	prev = queuetab[pid].qprev; /* Previous node in list	*/
 	queuetab[prev].qnext = next;
 	queuetab[next].qprev = prev;
 	return pid;
