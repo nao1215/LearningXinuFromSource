@@ -26,7 +26,7 @@
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="911,360,969,387"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="461,639,527,665"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1059,461,1106,488"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="enqueue" alt="" coords="1177,461,1248,488"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1177,461,1248,488"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1179,537,1247,564"/>
 <area shape="rect" id="node25" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="626,613,693,640"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="909,563,971,589"/>

@@ -1,5 +1,5 @@
 <map id="getfirst" name="getfirst">
-<area shape="rect" id="node2" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="dequeue" alt="" coords="116,883,187,909"/>
+<area shape="rect" id="node2" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="116,883,187,909"/>
 <area shape="rect" id="node9" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="495,1392,577,1419"/>
 <area shape="rect" id="node13" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="498,1341,574,1368"/>
 <area shape="rect" id="node3" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="235,731,303,757"/>

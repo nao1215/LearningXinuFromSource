@@ -32,7 +32,7 @@
 <area shape="rect" id="node33" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="371,1095,438,1121"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="360,892,449,919"/>
 <area shape="rect" id="node37" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="376,563,433,589"/>
-<area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="enqueue" alt="" coords="903,1525,973,1552"/>
+<area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="903,1525,973,1552"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="785,1297,841,1324"/>
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="515,1019,575,1045"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="512,1373,579,1400"/>

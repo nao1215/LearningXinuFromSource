@@ -17,10 +17,10 @@
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="932,1100,1004,1127"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="405,1075,472,1101"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1087,1657,1134,1684"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="enqueue" alt="" coords="1218,1657,1289,1684"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1218,1657,1289,1684"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1349,455,1417,481"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="1473,379,1528,405"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="dequeue" alt="" coords="1465,480,1536,507"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1465,480,1536,507"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1472,429,1529,456"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="1584,480,1647,507"/>
 <area shape="rect" id="node21" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="1695,480,1760,507"/>

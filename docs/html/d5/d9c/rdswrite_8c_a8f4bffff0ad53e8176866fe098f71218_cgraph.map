@@ -11,7 +11,7 @@
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="610,284,665,311"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="insert" alt="" coords="857,284,912,311"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="733,284,801,311"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="dequeue" alt="" coords="849,385,920,412"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="849,385,920,412"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="856,335,913,361"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="getfirst" alt="" coords="968,411,1031,437"/>
 <area shape="rect" id="node10" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="getitem" alt="" coords="1079,411,1144,437"/>
@@ -19,7 +19,7 @@
 <area shape="rect" id="node15" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="733,335,801,361"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="479,5,525,32"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="255,81,308,108"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="enqueue" alt="" coords="602,5,673,32"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="602,5,673,32"/>
 <area shape="rect" id="node21" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="kprintf" alt="" coords="356,107,415,133"/>
 <area shape="rect" id="node22" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="469,107,535,133"/>
 <area shape="rect" id="node23" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="kputc" alt="" coords="475,157,529,184"/>

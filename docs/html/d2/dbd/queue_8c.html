@@ -69,6 +69,9 @@ $(function() {
 <div class="title">queue.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>キュー操作API（キューの追加、キューの削除）を提供する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d2/dbe/xinu_8h_source.html">xinu.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for queue.c:</div>
@@ -123,8 +126,10 @@ Include dependency graph for queue.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a88f502a71fcc85b9b3218c65b9294b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b">dequeue</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a> q)</td></tr>
+<tr class="memdesc:a88f502a71fcc85b9b3218c65b9294b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。  <a href="#a88f502a71fcc85b9b3218c65b9294b9b">More...</a><br /></td></tr>
 <tr class="separator:a88f502a71fcc85b9b3218c65b9294b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab236d908d5583b06530ddac83177a2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dbd/queue_8c.html#ab236d908d5583b06530ddac83177a2dd">enqueue</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a6f460155532aae7f56b379962e97b5f0">pid32</a> pid, <a class="el" href="../../d0/daa/kernel_8h.html#a56d392d74022d42ad724df42bd0f63da">qid16</a> q)</td></tr>
+<tr class="memdesc:ab236d908d5583b06530ddac83177a2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスをプロセスキューテーブルの末尾に挿入する。  <a href="#ab236d908d5583b06530ddac83177a2dd">More...</a><br /></td></tr>
 <tr class="separator:ab236d908d5583b06530ddac83177a2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -132,7 +137,10 @@ Variables</h2></td></tr>
 <tr class="memitem:ac806ad6d26cf8e14d099a9a8c91f7bf5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d6/d74/structqentry.html">qentry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a> [<a class="el" href="../../d8/d38/queue_8h.html#a880bae818ba2dcd0acc9a418bc593f41">NQENT</a>]</td></tr>
 <tr class="separator:ac806ad6d26cf8e14d099a9a8c91f7bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>キュー操作API（キューの追加、キューの削除）を提供する。 </p>
+<dl class="section note"><dt>Note</dt><dd>プロセスキューテーブルは、リストとも呼ばれる。 </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a88f502a71fcc85b9b3218c65b9294b9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88f502a71fcc85b9b3218c65b9294b9b">&#9670;&nbsp;</a></span>dequeue()</h2>
 
@@ -148,6 +156,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>使用するキューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キューを削除した場合はリスト先頭のプロセスID、キューIDが不正の場合はSYSERR、<br />
+ キューが空の場合はEMPTYを返す。 </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -241,6 +259,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プロセスをプロセスキューテーブルの末尾に挿入する。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>挿入するプロセスID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>使用するキューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>成功時はキューに挿入したプロセスID、引数不正時はSYSERRを返す。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -312,8 +340,33 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。 NPROCより小さいインデックスの要素は、プロセスIDに対応する。<br />
- queuetab[NPROC]〜queuetab[NQENT]は、リストの先頭と末尾に対応する。 </p>
+<p>プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。<br />
+ NPROC-1より小さいインデックスは、プロセスIDに対応する。<br />
+ queuetab[NPROC]〜queuetab[NQENT]の範囲は、キューIDと呼ばれ、<br />
+ ・リスト先頭<br />
+ ・リスト末尾<br />
+ のポインタを保持するために使用される。<br />
+ ---------------------------------------------------------------&mdash;<br />
+ | KEY | PREV | NEXT |↓１行がプロセスに対応する<br />
+ ------------------------------------------&mdash;<br />
+ 0 | XXX | XXXX | XXXX |<br />
+ ------------------------------------------&mdash;<br />
+ 1 | XXX | XXXX | XXXX |<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ NPROC-1 | XXX | XXXX | XXXX |↓ ここまでがプロセス情報 -----------------------------------------------------------&mdash;<br />
+ NPROC | : |↑ここから下はリスト先頭／末尾の組み合わせ<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ : | MAXKEY | - | XXXX |リストの先頭<br />
+ ------------------------------------------&mdash;リストの末尾<br />
+ : | MINKEY | XXXX | - |<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ </p>
 
 </div>
 </div>

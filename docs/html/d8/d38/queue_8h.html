@@ -150,8 +150,10 @@ Macros</h2></td></tr>
 <tr class="memdesc:ae42089b78dad8ecbc3bbd22f2d46ba18"><td class="mdescLeft">&#160;</td><td class="mdescRight">リスト中の最初のプロセスのキーを返す。  <a href="#ae42089b78dad8ecbc3bbd22f2d46ba18">More...</a><br /></td></tr>
 <tr class="separator:ae42089b78dad8ecbc3bbd22f2d46ba18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393be58bb328454027f56efa45783322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a393be58bb328454027f56efa45783322">isbadqid</a>(x)&#160;&#160;&#160;(((<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)(x) &lt; <a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a>) || (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)(x) &gt;= <a class="el" href="../../d8/d38/queue_8h.html#a880bae818ba2dcd0acc9a418bc593f41">NQENT</a> - 1)</td></tr>
+<tr class="memdesc:a393be58bb328454027f56efa45783322"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューIDが不正値かどうかをチェックする。  <a href="#a393be58bb328454027f56efa45783322">More...</a><br /></td></tr>
 <tr class="separator:a393be58bb328454027f56efa45783322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6e009f525382940f8916e946adf8165"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#ae6e009f525382940f8916e946adf8165">isempty</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d8/d38/queue_8h.html#a4de257e95b77d5c613ae12934e8f5082">firstid</a>(q) &gt;= <a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a>)</td></tr>
+<tr class="memdesc:ae6e009f525382940f8916e946adf8165"><td class="mdescLeft">&#160;</td><td class="mdescRight">リストが空かどうかを返す。  <a href="#ae6e009f525382940f8916e946adf8165">More...</a><br /></td></tr>
 <tr class="separator:ae6e009f525382940f8916e946adf8165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61eb1812bd153f6fd90966f69ccc4731"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a61eb1812bd153f6fd90966f69ccc4731">lastid</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d2/dbd/queue_8c.html#ac806ad6d26cf8e14d099a9a8c91f7bf5">queuetab</a>[<a class="el" href="../../d8/d38/queue_8h.html#a03cfc97c9b6900a008384ab8ad72175a">queuetail</a>(q)].qprev)</td></tr>
 <tr class="memdesc:a61eb1812bd153f6fd90966f69ccc4731"><td class="mdescLeft">&#160;</td><td class="mdescRight">リストの最後のプロセスのIDを返す。  <a href="#a61eb1812bd153f6fd90966f69ccc4731">More...</a><br /></td></tr>
@@ -165,12 +167,15 @@ Macros</h2></td></tr>
 <tr class="memdesc:aadb1818bfd3ae4d566a5a5cf103a56b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの中に格納できるキーの最小値  <a href="#aadb1818bfd3ae4d566a5a5cf103a56b1">More...</a><br /></td></tr>
 <tr class="separator:aadb1818bfd3ae4d566a5a5cf103a56b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a593faf2797d0e5fff71a1adf006a8677"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a593faf2797d0e5fff71a1adf006a8677">nonempty</a>(q)&#160;&#160;&#160;(<a class="el" href="../../d8/d38/queue_8h.html#a4de257e95b77d5c613ae12934e8f5082">firstid</a>(q) &lt; <a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a>)</td></tr>
+<tr class="memdesc:a593faf2797d0e5fff71a1adf006a8677"><td class="mdescLeft">&#160;</td><td class="mdescRight">リストに中身（プロセス）があるかどうかを返す。  <a href="#a593faf2797d0e5fff71a1adf006a8677">More...</a><br /></td></tr>
 <tr class="separator:a593faf2797d0e5fff71a1adf006a8677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a880bae818ba2dcd0acc9a418bc593f41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a880bae818ba2dcd0acc9a418bc593f41">NQENT</a>&#160;&#160;&#160;(<a class="el" href="../../df/d77/conf_8h.html#a810c5b751df5bb30588613ed91095129">NPROC</a> + 4 + <a class="el" href="../../df/d77/conf_8h.html#ab8c50dc52642f1d60ceb92d8cd27a639">NSEM</a> + <a class="el" href="../../df/d77/conf_8h.html#ab8c50dc52642f1d60ceb92d8cd27a639">NSEM</a>)</td></tr>
 <tr class="separator:a880bae818ba2dcd0acc9a418bc593f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229d04ee61039259cf3cfbd2fc06853b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a229d04ee61039259cf3cfbd2fc06853b">queuehead</a>(q)&#160;&#160;&#160;(q)</td></tr>
+<tr class="memdesc:a229d04ee61039259cf3cfbd2fc06853b"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの先頭を返す。  <a href="#a229d04ee61039259cf3cfbd2fc06853b">More...</a><br /></td></tr>
 <tr class="separator:a229d04ee61039259cf3cfbd2fc06853b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03cfc97c9b6900a008384ab8ad72175a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d38/queue_8h.html#a03cfc97c9b6900a008384ab8ad72175a">queuetail</a>(q)&#160;&#160;&#160;((q) + 1)</td></tr>
+<tr class="memdesc:a03cfc97c9b6900a008384ab8ad72175a"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューの末尾を返す。  <a href="#a03cfc97c9b6900a008384ab8ad72175a">More...</a><br /></td></tr>
 <tr class="separator:a03cfc97c9b6900a008384ab8ad72175a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -180,6 +185,7 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>キュー構造体に関する宣言／定数／インライン関数を定義する。 </p>
+<dl class="section note"><dt>Note</dt><dd>プロセスキューテーブルは、リストとも呼ばれる。 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2b7cf2a3641be7b89138615764d60ba3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b7cf2a3641be7b89138615764d60ba3">&#9670;&nbsp;</a></span>EMPTY</h2>
@@ -216,11 +222,12 @@ Variables</h2></td></tr>
 <p>リストの最初のプロセスのIDを返す。 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>リストの最初のプロセスのID </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っている。先頭のqnextには、最初のプロセスIDが入っている。 </dd></dl>
 
 </div>
 </div>
@@ -244,14 +251,14 @@ Variables</h2></td></tr>
 <p>リスト中の最後のプロセスのキーを返す。</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>リスト中の最初のプロセスのキー（最初のプロセスのqueuetabインデックス）</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
   </table>
   </dd>
 </dl>
@@ -275,6 +282,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>キューIDが不正値かどうかをチェックする。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>キューID</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>割り込みが禁止された状態である事を想定している。<br />
+ キューIDの不正とは、<br />
+ ① キューIDがユーザプロセス総数(NPROC)より小さい ② キューIDがデフォルトキューエントリ総数以上 のいずれかである。 </p><dl class="section return"><dt>Returns</dt><dd>不正なキューIDの場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>上記①に関しては、XINUオペレーティングシステムデザイン改訂2版では、<br />
+ 「キューIDが負の値か」という条件であった。この考え方は、配列操作の観点から正しい。<br />
+ XINUとしての仕様では、0 &lt; x &lt;NPROCの範囲はプロセスが使用し、それ以上の範囲をキューが使用するため、<br />
+ <a class="el" href="../../d8/d38/queue_8h.html#a393be58bb328454027f56efa45783322" title="キューIDが不正値かどうかをチェックする。 ">isbadqid()</a>の仕様を変えたと思われる。 </dd></dl>
+
 </div>
 </div>
 <a id="ae6e009f525382940f8916e946adf8165"></a>
@@ -292,6 +314,18 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>リストが空かどうかを返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リストが空の場合はtrue、それ以外はfalseを返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っていて、それらのインデックスはNPROC以上である。<br />
+ リストの最初のノード（先頭のqnext）がNPROC以上の場合は、先頭と末尾しか無い（リストが空）とみなせる<br />
+ </dd></dl>
 
 </div>
 </div>
@@ -314,11 +348,12 @@ Variables</h2></td></tr>
 <p>リストの最後のプロセスのIDを返す。 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>queue ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>リストの最後のプロセスのID </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っている。末尾のqprevには、最後のプロセスIDが入っている。 </dd></dl>
 
 </div>
 </div>
@@ -388,6 +423,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>リストに中身（プロセス）があるかどうかを返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>リストが空の場合はtrue、それ以外はfalseを返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っていて、それらのインデックスはNPROC以上である。<br />
+ リストの最初のノード（先頭のqnext）がNPROCより小さい場合は、プロセスが挿入されている。<br />
+ </dd></dl>
+
 </div>
 </div>
 <a id="a880bae818ba2dcd0acc9a418bc593f41"></a>
@@ -425,6 +472,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>キューの先頭を返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キュー先頭のキューID（引数のキューIDそのまま）を返す。 </dd></dl>
+
 </div>
 </div>
 <a id="a03cfc97c9b6900a008384ab8ad72175a"></a>
@@ -443,6 +499,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>キューの末尾を返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>キューID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>キュー末尾のキューID（引数のキューIDに1を加算した値）を返す。 </dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -458,8 +523,33 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。</p>
-<p>プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。 NPROCより小さいインデックスの要素は、プロセスIDに対応する。<br />
- queuetab[NPROC]〜queuetab[NQENT]は、リストの先頭と末尾に対応する。 </p>
+<p>プロセスキューテーブル（全てのプロセスがアクセス可能な変数）。<br />
+ NPROC-1より小さいインデックスは、プロセスIDに対応する。<br />
+ queuetab[NPROC]〜queuetab[NQENT]の範囲は、キューIDと呼ばれ、<br />
+ ・リスト先頭<br />
+ ・リスト末尾<br />
+ のポインタを保持するために使用される。<br />
+ ---------------------------------------------------------------&mdash;<br />
+ | KEY | PREV | NEXT |↓１行がプロセスに対応する<br />
+ ------------------------------------------&mdash;<br />
+ 0 | XXX | XXXX | XXXX |<br />
+ ------------------------------------------&mdash;<br />
+ 1 | XXX | XXXX | XXXX |<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ NPROC-1 | XXX | XXXX | XXXX |↓ ここまでがプロセス情報 -----------------------------------------------------------&mdash;<br />
+ NPROC | : |↑ここから下はリスト先頭／末尾の組み合わせ<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ : | MAXKEY | - | XXXX |リストの先頭<br />
+ ------------------------------------------&mdash;リストの末尾<br />
+ : | MINKEY | XXXX | - |<br />
+ ------------------------------------------&mdash;<br />
+ : | : |<br />
+ ------------------------------------------&mdash;<br />
+ </p>
 
 </div>
 </div>

@@ -4,7 +4,7 @@
 <area shape="rect" id="node46" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="suspend" alt="" coords="477,1279,547,1305"/>
 <area shape="rect" id="node49" href="$d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="getlast" alt="" coords="119,1373,181,1400"/>
 <area shape="rect" id="node50" href="$d5/def/unsleep_8c.html#ade9834aa70443dc0e0c4561bdb003795" title="unsleep" alt="" coords="479,1329,545,1356"/>
-<area shape="rect" id="node3" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="dequeue" alt="" coords="229,259,300,285"/>
+<area shape="rect" id="node3" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="229,259,300,285"/>
 <area shape="rect" id="node11" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="608,5,691,32"/>
 <area shape="rect" id="node13" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="611,56,687,83"/>
 <area shape="rect" id="node4" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="348,411,416,437"/>
