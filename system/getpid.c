@@ -1,12 +1,14 @@
-/* getpid.c - getpid */
-
+/**
+ * @file getpid.c
+ * @brief 現在実行中のプロセスIDを返す。
+ */
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  getpid  -  Return the ID of the currently executing process
- *------------------------------------------------------------------------
+/**
+ * @brief 現在実行中のプロセスIDを返す。
+ * @return 現在実行中のプロセスIDを返す（グローバル変数currpidをそのまま返す）
  */
-pid32	getpid(void)
+pid32 getpid(void)
 {
 	return (currpid);
 }
