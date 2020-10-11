@@ -3,6 +3,7 @@ var searchData=
   ['f_5fctl_5fdel',['F_CTL_DEL',['../d2/d4d/file_8h.html#a788dce555cbfda9a3055a61620a15123',1,'file.h']]],
   ['f_5fctl_5fmkdir',['F_CTL_MKDIR',['../d2/d4d/file_8h.html#af4204f3f10d936eee13802242cb22c60',1,'file.h']]],
   ['f_5fctl_5frmdir',['F_CTL_RMDIR',['../d2/d4d/file_8h.html#acb6c2e583542d73405b0ad69ec6df2f1',1,'file.h']]],
+  ['f_5fctl_5fsize',['F_CTL_SIZE',['../d2/d4d/file_8h.html#a5a6b1b916e8e1a433f949e02f032b181',1,'file.h']]],
   ['f_5fctl_5ftrunc',['F_CTL_TRUNC',['../d2/d4d/file_8h.html#aec0439b976ffce39f7253e1a6714725f',1,'file.h']]],
   ['f_5fmode_5fn',['F_MODE_N',['../d2/d4d/file_8h.html#af003284e3ea8c8900287ba929264324e',1,'file.h']]],
   ['f_5fmode_5fno',['F_MODE_NO',['../d2/d4d/file_8h.html#a6a0853ec61a12c369d05e6513aefd74c',1,'file.h']]],

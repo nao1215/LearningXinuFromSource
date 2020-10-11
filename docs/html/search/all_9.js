@@ -183,6 +183,7 @@ var searchData=
   ['isalnum',['isalnum',['../d7/d0d/ctype_8h.html#a83e2b484ed4b9ab8a47bdd39ffbe9d78',1,'ctype.h']]],
   ['isalpha',['isalpha',['../d7/d0d/ctype_8h.html#a4451ade7a13a6e430e8ee323a5ee188f',1,'ctype.h']]],
   ['isascii',['isascii',['../d7/d0d/ctype_8h.html#a7210dad02f3ae6482437ca81dc7726e6',1,'ctype.h']]],
+  ['isbaddev',['isbaddev',['../db/de9/device_8h.html#a42ba0c81313c3e8370b535c011d35a97',1,'device.h']]],
   ['isbadpid',['isbadpid',['../da/d42/process_8h.html#ad8d880fe3d0f6602a211011a275eef20',1,'process.h']]],
   ['isbadport',['isbadport',['../d2/d54/ports_8h.html#aca07a97ff16cac3b895232c247eadc1b',1,'ports.h']]],
   ['isbadqid',['isbadqid',['../d8/d38/queue_8h.html#a393be58bb328454027f56efa45783322',1,'queue.h']]],

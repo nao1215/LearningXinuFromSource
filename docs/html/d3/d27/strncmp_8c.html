@@ -68,13 +68,19 @@ $(function() {
 <div class="title">strncmp.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>二つの文字列を最大N byteまで比較し、その結果を返す。  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac49d194e06bfaf92cbb60cf002c710d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/strncmp_8c.html#ac49d194e06bfaf92cbb60cf002c710d4">strncmp</a> (char *s1, char *s2, int n)</td></tr>
+<tr class="memdesc:ac49d194e06bfaf92cbb60cf002c710d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">二つの文字列を最大N byteまで比較し、その結果を返す。  <a href="#ac49d194e06bfaf92cbb60cf002c710d4">More...</a><br /></td></tr>
 <tr class="separator:ac49d194e06bfaf92cbb60cf002c710d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>二つの文字列を最大N byteまで比較し、その結果を返す。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ac49d194e06bfaf92cbb60cf002c710d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac49d194e06bfaf92cbb60cf002c710d4">&#9670;&nbsp;</a></span>strncmp()</h2>
 
@@ -106,6 +112,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>二つの文字列を最大N byteまで比較し、その結果を返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s1</td><td>比較対象の文字列その1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">s2</td><td>比較対象の文字列その2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>比較するByte数（最大Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>s1 &gt; s2の場合は0より大きい値、s1 = s2の場合は0、s1 &lt; s2の場合は0より小さい値を返す。 </dd></dl>
 
 </div>
 </div>

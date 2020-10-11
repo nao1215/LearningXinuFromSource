@@ -135,6 +135,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a3f9b279feab4850ac2ab8035953b1a4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de9/device_8h.html#a3f9b279feab4850ac2ab8035953b1a4e">DEVNAMLEN</a>&#160;&#160;&#160;16</td></tr>
 <tr class="memdesc:a3f9b279feab4850ac2ab8035953b1a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイス名の最大サイズ  <a href="#a3f9b279feab4850ac2ab8035953b1a4e">More...</a><br /></td></tr>
 <tr class="separator:a3f9b279feab4850ac2ab8035953b1a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ba0c81313c3e8370b535c011d35a97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de9/device_8h.html#a42ba0c81313c3e8370b535c011d35a97">isbaddev</a>(f)&#160;&#160;&#160;(((f) &lt; 0) | ((f) &gt;= <a class="el" href="../../d5/def/y_8tab_8c.html#a00aaa8547abe0d074f241871557b537d">NDEVS</a>))</td></tr>
+<tr class="memdesc:a42ba0c81313c3e8370b535c011d35a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイスIDを検証するマクロ。  <a href="#a42ba0c81313c3e8370b535c011d35a97">More...</a><br /></td></tr>
+<tr class="separator:a42ba0c81313c3e8370b535c011d35a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>「デバイス名の最大長」と「デバイスID検証マクロ」を提供する。 </p>
@@ -152,6 +155,33 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>デバイス名の最大サイズ </p>
+
+</div>
+</div>
+<a id="a42ba0c81313c3e8370b535c011d35a97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ba0c81313c3e8370b535c011d35a97">&#9670;&nbsp;</a></span>isbaddev</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define isbaddev</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">f</td><td>)</td>
+          <td>&#160;&#160;&#160;(((f) &lt; 0) | ((f) &gt;= <a class="el" href="../../d5/def/y_8tab_8c.html#a00aaa8547abe0d074f241871557b537d">NDEVS</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デバイスIDを検証するマクロ。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>デバイスディスクリプタ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>デバイスIDが不正の場合は真（非0）、正常の場合は偽（0）を返す。 </dd></dl>
 
 </div>
 </div>

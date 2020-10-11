@@ -132,6 +132,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a3111d6b23dcf432d0b36be72266834e3"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a3111d6b23dcf432d0b36be72266834e3">strchr</a> (const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:a3111d6b23dcf432d0b36be72266834e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9896699f331c8da8f438f606832f31db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db">strlen</a> (char *str)</td></tr>
+<tr class="memdesc:a9896699f331c8da8f438f606832f31db"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULL終端された文字列の長さを返す。NULL終端は長さに含まない。  <a href="#a9896699f331c8da8f438f606832f31db">More...</a><br /></td></tr>
 <tr class="separator:a9896699f331c8da8f438f606832f31db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30689bbdcdfd21847b8ec4bd8c15d8d9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a30689bbdcdfd21847b8ec4bd8c15d8d9">strncat</a> (char *, const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:a30689bbdcdfd21847b8ec4bd8c15d8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +141,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a9e93596f31d281156dd32010a2b0718b"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b">strncpy</a> (char *, const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:a9e93596f31d281156dd32010a2b0718b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708aff152d449c3050542dc93ba27112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112">strnlen</a> (const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)</td></tr>
+<tr class="memdesc:a708aff152d449c3050542dc93ba27112"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULL終端された文字列の長さを返す。NULL終端は長さに含まない。  <a href="#a708aff152d449c3050542dc93ba27112">More...</a><br /></td></tr>
 <tr class="separator:a708aff152d449c3050542dc93ba27112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#ad8c9e8ab9a78fb0b5ed0c3fae6e804d4">strrchr</a> (const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,6 +192,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>長さを調べる対象の文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字列の長さを返す。NULL終端は長さに含まない。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -396,13 +407,13 @@ Here is the caller graph for this function:</div>
           <td class="memname"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a> strnlen </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -411,6 +422,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>長さを調べる対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>読み取る長さの最大長（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字列の長さを返す。NULL終端は長さに含まず、ユーザが指定したN Byteを最大長とする。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

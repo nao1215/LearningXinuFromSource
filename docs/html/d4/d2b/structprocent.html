@@ -88,7 +88,7 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a9d5d0674f3e04d38cf44cd0bbb679153"><td class="mdescLeft">&#160;</td><td class="mdescRight">このプロセスを作成したプロセスID（親プロセスID）。  <a href="#a9d5d0674f3e04d38cf44cd0bbb679153">More...</a><br /></td></tr>
 <tr class="separator:a9d5d0674f3e04d38cf44cd0bbb679153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f4a33930b52281b062181519652f90e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a9f1cb2b92f050f5a14da324e98ff6996">pri16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2b/structprocent.html#a5f4a33930b52281b062181519652f90e">prprio</a></td></tr>
-<tr class="memdesc:a5f4a33930b52281b062181519652f90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスの優先度。  <a href="#a5f4a33930b52281b062181519652f90e">More...</a><br /></td></tr>
+<tr class="memdesc:a5f4a33930b52281b062181519652f90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスのスケジューリング優先度。  <a href="#a5f4a33930b52281b062181519652f90e">More...</a><br /></td></tr>
 <tr class="separator:a5f4a33930b52281b062181519652f90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af80340700c6e7e06e7de744106860608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2b/structprocent.html#af80340700c6e7e06e7de744106860608">prsem</a></td></tr>
 <tr class="memdesc:af80340700c6e7e06e7de744106860608"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセスが待機しているセマフォ。  <a href="#af80340700c6e7e06e7de744106860608">More...</a><br /></td></tr>
@@ -97,10 +97,10 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a2a805743e74b1e8b6991d43d5a6358e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロセス状態（PR_CURR, ..., etc）。  <a href="#a2a805743e74b1e8b6991d43d5a6358e9">More...</a><br /></td></tr>
 <tr class="separator:a2a805743e74b1e8b6991d43d5a6358e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa1a839ba8c24302d39830b40db00ca7"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2b/structprocent.html#afa1a839ba8c24302d39830b40db00ca7">prstkbase</a></td></tr>
-<tr class="memdesc:afa1a839ba8c24302d39830b40db00ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ランタイムスタックの基点。  <a href="#afa1a839ba8c24302d39830b40db00ca7">More...</a><br /></td></tr>
+<tr class="memdesc:afa1a839ba8c24302d39830b40db00ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ランタイムスタックの基点（メモリ領域で最上位のアドレス）。  <a href="#afa1a839ba8c24302d39830b40db00ca7">More...</a><br /></td></tr>
 <tr class="separator:afa1a839ba8c24302d39830b40db00ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a471516c7c18e1c445be8fc33d8e69189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2b/structprocent.html#a471516c7c18e1c445be8fc33d8e69189">prstklen</a></td></tr>
-<tr class="memdesc:a471516c7c18e1c445be8fc33d8e69189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bytesで表されたスタックの長さ。  <a href="#a471516c7c18e1c445be8fc33d8e69189">More...</a><br /></td></tr>
+<tr class="memdesc:a471516c7c18e1c445be8fc33d8e69189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bytesで表されたスタックの長さ（最大値。Byte）。  <a href="#a471516c7c18e1c445be8fc33d8e69189">More...</a><br /></td></tr>
 <tr class="separator:a471516c7c18e1c445be8fc33d8e69189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae300356e376b2961e0da72502e3ac252"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2b/structprocent.html#ae300356e376b2961e0da72502e3ac252">prstkptr</a></td></tr>
 <tr class="memdesc:ae300356e376b2961e0da72502e3ac252"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存されたスタックポインタ。  <a href="#ae300356e376b2961e0da72502e3ac252">More...</a><br /></td></tr>
@@ -201,7 +201,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>プロセスの優先度。 </p>
+<p>プロセスのスケジューリング優先度。 </p>
 
 </div>
 </div>
@@ -249,7 +249,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ランタイムスタックの基点。 </p>
+<p>ランタイムスタックの基点（メモリ領域で最上位のアドレス）。 </p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bytesで表されたスタックの長さ。 </p>
+<p>Bytesで表されたスタックの長さ（最大値。Byte）。 </p>
 
 </div>
 </div>

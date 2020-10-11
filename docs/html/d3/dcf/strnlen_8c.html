@@ -68,13 +68,21 @@ $(function() {
 <div class="title">strnlen.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>NULL終端された文字列の長さを返す。  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:accb1d753f8bab569790b9905f1f53c38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dcf/strnlen_8c.html#accb1d753f8bab569790b9905f1f53c38">strnlen</a> (const char *s, unsigned int len)</td></tr>
+<tr class="memdesc:accb1d753f8bab569790b9905f1f53c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULL終端された文字列の長さを返す。NULL終端は長さに含まない。  <a href="#accb1d753f8bab569790b9905f1f53c38">More...</a><br /></td></tr>
 <tr class="separator:accb1d753f8bab569790b9905f1f53c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>NULL終端された文字列の長さを返す。 </p>
+<p>文字列を読み取る長さは、ユーザが指定したN Byteを最大長とする。<br />
+ 文字列の長さにNULL終端を含まない。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="accb1d753f8bab569790b9905f1f53c38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accb1d753f8bab569790b9905f1f53c38">&#9670;&nbsp;</a></span>strnlen()</h2>
 
@@ -100,6 +108,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>長さを調べる対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>読み取る長さの最大長（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字列の長さを返す。NULL終端は長さに含まず、ユーザが指定したN Byteを最大長とする。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

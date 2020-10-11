@@ -1,7 +1,7 @@
 <map id="tftpget" name="tftpget">
 <area shape="rect" id="node2" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="112,1095,196,1121"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="390,1044,449,1071"/>
-<area shape="rect" id="node8" href="$da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="strnlen" alt="" coords="255,943,316,969"/>
+<area shape="rect" id="node8" href="$da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="255,943,316,969"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a1dda2a799335d64a5e5da50defc42f35" title="getport" alt="" coords="254,993,317,1020"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="949,1627,1043,1653"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="961,107,1031,133"/>

@@ -22,7 +22,7 @@
 <area shape="rect" id="node22" href="$d3/d58/lex_8yy_8c.html#af81595b30c0da73f9034ffb511db6388" title="yy_scan_buffer" alt="" coords="114,1019,225,1045"/>
 <area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#aaba3a8c0a4caad352ee68b5742c4a9d1" title="yy_scan_string" alt="" coords="114,1069,225,1096"/>
 <area shape="rect" id="node24" href="$d3/d58/lex_8yy_8c.html#acbf193b612e891a3fca6a810daa18c66" title="yy_scan_bytes" alt="" coords="114,1120,225,1147"/>
-<area shape="rect" id="node25" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="strlen" alt="" coords="142,1171,197,1197"/>
+<area shape="rect" id="node25" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="142,1171,197,1197"/>
 <area shape="rect" id="node26" href="$d3/d58/lex_8yy_8c.html#a25d1992696acab2c6c3b6a6b45d2f487" title="yy_fatal_error" alt="" coords="119,1221,220,1248"/>
 <area shape="rect" id="node27" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="142,1272,197,1299"/>
 <area shape="rect" id="node30" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="148,1323,191,1349"/>

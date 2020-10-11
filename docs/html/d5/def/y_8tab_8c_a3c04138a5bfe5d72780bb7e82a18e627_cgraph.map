@@ -39,7 +39,7 @@
 <area shape="rect" id="node43" href="$d5/def/y_8tab_8c.html#a7749a3f65b7009183a36dca458a6e470" title="devonid" alt="" coords="231,411,297,437"/>
 <area shape="rect" id="node44" href="$d5/def/y_8tab_8c.html#a877954319adae05b7f955da3598d9674" title="yyerror" alt="" coords="233,107,295,133"/>
 <area shape="rect" id="node45" href="$d5/def/y_8tab_8c.html#a6e9efad8ad3dc078ec7c32b7f44be01d" title="yydestruct" alt="" coords="223,157,305,184"/>
-<area shape="rect" id="node32" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="strlen" alt="" coords="360,360,415,387"/>
+<area shape="rect" id="node32" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="360,360,415,387"/>
 <area shape="rect" id="node33" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="strcmp" alt="" coords="356,461,419,488"/>
 <area shape="rect" id="node34" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="bzero" alt="" coords="360,512,415,539"/>
 <area shape="rect" id="node35" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="strcpy" alt="" coords="358,309,417,336"/>
