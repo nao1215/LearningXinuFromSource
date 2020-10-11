@@ -146,6 +146,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#ad8c9e8ab9a78fb0b5ed0c3fae6e804d4">strrchr</a> (const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c8e1e0e5f3578988a2feb0d417ad1c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a55c8e1e0e5f3578988a2feb0d417ad1c">strstr</a> (const char *, const char *)</td></tr>
+<tr class="memdesc:a55c8e1e0e5f3578988a2feb0d417ad1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索対象の文字列Aから文字列Bを探す。  <a href="#a55c8e1e0e5f3578988a2feb0d417ad1c">More...</a><br /></td></tr>
 <tr class="separator:a55c8e1e0e5f3578988a2feb0d417ad1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -484,13 +485,13 @@ Here is the caller graph for this function:</div>
           <td class="memname">char* strstr </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>cs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>ct</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -499,6 +500,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>検索対象の文字列Aから文字列Bを探す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cs</td><td>検索対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ct</td><td>検索語句（検索キーワード）となる文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>検索語句が見つかった場合はその位置をポインタで返し、見つからなかった場合はNULLを返す。 </dd></dl>
 
 </div>
 </div>
