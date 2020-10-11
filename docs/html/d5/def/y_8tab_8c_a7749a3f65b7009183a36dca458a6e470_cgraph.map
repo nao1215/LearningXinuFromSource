@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="124,153,179,180"/>
 <area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="124,204,179,230"/>
 <area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="130,254,173,281"/>
-<area shape="rect" id="node27" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="strcpy" alt="" coords="122,305,181,332"/>
+<area shape="rect" id="node27" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="122,305,181,332"/>
 <area shape="rect" id="node28" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="strcmp" alt="" coords="120,356,183,382"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="242,153,289,180"/>
 <area shape="rect" id="node5" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="231,204,300,230"/>
