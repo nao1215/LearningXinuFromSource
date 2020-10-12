@@ -68,13 +68,19 @@ $(function() {
 <div class="title">atoi.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>ASCII文字列をint型に変換する。  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a797806325388ed9fe10b14aeb553ca18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d93/atoi_8c.html#a797806325388ed9fe10b14aeb553ca18">atoi</a> (char *p)</td></tr>
+<tr class="memdesc:a797806325388ed9fe10b14aeb553ca18"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASCII文字列をint型に変換する。  <a href="#a797806325388ed9fe10b14aeb553ca18">More...</a><br /></td></tr>
 <tr class="separator:a797806325388ed9fe10b14aeb553ca18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>ASCII文字列をint型に変換する。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a797806325388ed9fe10b14aeb553ca18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a797806325388ed9fe10b14aeb553ca18">&#9670;&nbsp;</a></span>atoi()</h2>
 
@@ -90,6 +96,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ASCII文字列をint型に変換する。 </p>
+<p>処理の流れは、<br />
+ Step1. 「不要な文字（空白、TAB）の削除」もしくは「正数／負数の判定」を行う<br />
+ Step2. 0〜9の範囲の値であれば、一桁ずつ記録する。それ以外の文字は呼び飛ばす<br />
+ ASCIIコードとして、0=0x30、1=0x31、2=0x32、…、9=0x39であるため、<br />
+ 「0x30〜0x39の範囲のASCIIコード値(0〜9の値) - '0'(=0x30)」と計算すれば、<br />
+ 0〜9の整数値が得られる。<br />
+ Step3. Step.1で取得した符号情報（±）を反映した整数を返す。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>ASCII文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ASCII文字列をint型に変換した整数値 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>ASCIIコード情報は、ターミナル上で"$ man ascii"で確認できる。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

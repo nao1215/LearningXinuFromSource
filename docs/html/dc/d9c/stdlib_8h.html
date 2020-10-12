@@ -91,16 +91,20 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2503bc813e76c9ff8b3523db10bdc06e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#a2503bc813e76c9ff8b3523db10bdc06e">abs</a> (int)</td></tr>
+<tr class="memdesc:a2503bc813e76c9ff8b3523db10bdc06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">整数の絶対値（int型）を返す。  <a href="#a2503bc813e76c9ff8b3523db10bdc06e">More...</a><br /></td></tr>
 <tr class="separator:a2503bc813e76c9ff8b3523db10bdc06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca36d3264542b64edb7ca6cb43675bf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#aca36d3264542b64edb7ca6cb43675bf0">atoi</a> (char *)</td></tr>
+<tr class="memdesc:aca36d3264542b64edb7ca6cb43675bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASCII文字列をint型に変換する。  <a href="#aca36d3264542b64edb7ca6cb43675bf0">More...</a><br /></td></tr>
 <tr class="separator:aca36d3264542b64edb7ca6cb43675bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af702187472cc149f963502f181445c04"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#af702187472cc149f963502f181445c04">atol</a> (char *)</td></tr>
+<tr class="memdesc:af702187472cc149f963502f181445c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASCII文字列をlong型に変換する。  <a href="#af702187472cc149f963502f181445c04">More...</a><br /></td></tr>
 <tr class="separator:af702187472cc149f963502f181445c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab426c21b176346931201b586eca8f197"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197">bzero</a> (void *, int)</td></tr>
 <tr class="separator:ab426c21b176346931201b586eca8f197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa259cbf373c7b2a08f027df451dfa729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729">free</a> (void *pmem)</td></tr>
 <tr class="separator:aa259cbf373c7b2a08f027df451dfa729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acef82b884418ad50ae51cadb8eb35069"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#acef82b884418ad50ae51cadb8eb35069">labs</a> (long)</td></tr>
+<tr class="memdesc:acef82b884418ad50ae51cadb8eb35069"><td class="mdescLeft">&#160;</td><td class="mdescRight">実数（long型）の絶対値を返す。  <a href="#acef82b884418ad50ae51cadb8eb35069">More...</a><br /></td></tr>
 <tr class="separator:acef82b884418ad50ae51cadb8eb35069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a016e1543421d92d564547e3a5dca0e23"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23">malloc</a> (unsigned int nbytes)</td></tr>
 <tr class="separator:a016e1543421d92d564547e3a5dca0e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,11 +143,20 @@ Functions</h2></td></tr>
           <td class="memname">int abs </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>整数の絶対値（int型）を返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">arg</td><td>絶対値に変換したい整数（int型） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>引数argの絶対値 </dd></dl>
 
 </div>
 </div>
@@ -157,11 +170,27 @@ Functions</h2></td></tr>
           <td class="memname">int atoi </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ASCII文字列をint型に変換する。 </p>
+<p>処理の流れは、<br />
+ Step1. 「不要な文字（空白、TAB）の削除」もしくは「正数／負数の判定」を行う<br />
+ Step2. 0〜9の範囲の値であれば、一桁ずつ記録する。それ以外の文字は呼び飛ばす<br />
+ ASCIIコードとして、0=0x30、1=0x31、2=0x32、…、9=0x39であるため、<br />
+ 「0x30〜0x39の範囲のASCIIコード値(0〜9の値) - '0'(=0x30)」と計算すれば、<br />
+ 0〜9の整数値が得られる。<br />
+ Step3. Step.1で取得した符号情報（±）を反映した整数を返す。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>ASCII文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ASCII文字列をint型に変換した整数値 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>ASCIIコード情報は、ターミナル上で"$ man ascii"で確認できる。 </dd></dl>
 
 </div>
 </div>
@@ -175,11 +204,27 @@ Functions</h2></td></tr>
           <td class="memname">long atol </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ASCII文字列をlong型に変換する。 </p>
+<p>処理の流れは、<br />
+ Step1. 「不要な文字（空白、TAB）の削除」もしくは「正数／負数の判定」を行う<br />
+ Step2. 0〜9の範囲の値であれば、一桁ずつ記録する。それ以外の文字は呼び飛ばす<br />
+ ASCIIコードとして、0=0x30、1=0x31、2=0x32、…、9=0x39であるため、<br />
+ 「0x30〜0x39の範囲のASCIIコード値(0〜9の値) - '0'(=0x30)」と計算すれば、<br />
+ 0〜9の整数値が得られる。<br />
+ Step3. Step.1で取得した符号情報（±）を反映した整数を返す。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>ASCII文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ASCII文字列をlong型に変換した実数 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>ASCIIコード情報は、ターミナル上で"$ man ascii"で確認できる。 </dd></dl>
 
 </div>
 </div>
@@ -290,11 +335,20 @@ Here is the caller graph for this function:</div>
           <td class="memname">long labs </td>
           <td>(</td>
           <td class="paramtype">long&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>実数（long型）の絶対値を返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">arg</td><td>絶対値に変換したい実数（long型） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>引数argの絶対値（long型） </dd></dl>
 
 </div>
 </div>

@@ -124,6 +124,7 @@ Include dependency graph for xsh_udpecho.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aca36d3264542b64edb7ca6cb43675bf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/xsh__udpecho_8c.html#aca36d3264542b64edb7ca6cb43675bf0">atoi</a> (char *)</td></tr>
+<tr class="memdesc:aca36d3264542b64edb7ca6cb43675bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASCII文字列をint型に変換する。  <a href="#aca36d3264542b64edb7ca6cb43675bf0">More...</a><br /></td></tr>
 <tr class="separator:aca36d3264542b64edb7ca6cb43675bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ee61210c2e2a2b118cd749e1f881566"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566">xsh_udpecho</a> (int nargs, char *args[])</td></tr>
 <tr class="separator:a0ee61210c2e2a2b118cd749e1f881566"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,11 +140,27 @@ Functions</h2></td></tr>
           <td class="memname">int atoi </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ASCII文字列をint型に変換する。 </p>
+<p>処理の流れは、<br />
+ Step1. 「不要な文字（空白、TAB）の削除」もしくは「正数／負数の判定」を行う<br />
+ Step2. 0〜9の範囲の値であれば、一桁ずつ記録する。それ以外の文字は呼び飛ばす<br />
+ ASCIIコードとして、0=0x30、1=0x31、2=0x32、…、9=0x39であるため、<br />
+ 「0x30〜0x39の範囲のASCIIコード値(0〜9の値) - '0'(=0x30)」と計算すれば、<br />
+ 0〜9の整数値が得られる。<br />
+ Step3. Step.1で取得した符号情報（±）を反映した整数を返す。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>ASCII文字列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ASCII文字列をint型に変換した整数値 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>ASCIIコード情報は、ターミナル上で"$ man ascii"で確認できる。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -190,7 +207,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node4" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="166,537,217,564"/>
 <area shape="rect" id="node7" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="730,107,785,133"/>
 <area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="163,1652,220,1679"/>
-<area shape="rect" id="node10" href="../../db/d9f/xsh__udpecho_8c.html#aca36d3264542b64edb7ca6cb43675bf0" title="atoi" alt="" coords="170,1703,213,1729"/>
+<area shape="rect" id="node10" href="../../db/d9f/xsh__udpecho_8c.html#aca36d3264542b64edb7ca6cb43675bf0" title="ASCII文字列をint型に変換する。 " alt="" coords="170,1703,213,1729"/>
 <area shape="rect" id="node11" href="../../dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="537,1551,631,1577"/>
 <area shape="rect" id="node14" href="../../da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="161,1753,222,1780"/>
 <area shape="rect" id="node15" href="../../dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="152,1145,231,1172"/>
