@@ -1,12 +1,14 @@
-/* abs.c - abs */
-
-/*------------------------------------------------------------------------
- *  abs  -  Return the absolute value of an integer.
- *------------------------------------------------------------------------
+/**
+ * @file abs.c
+ * @brief 整数の絶対値（int型）を返す。
  */
-int	abs(
-	  int		arg
-	)
+
+/**
+ * @brief 整数の絶対値（int型）を返す。
+ * @param[in] arg 絶対値に変換したい整数
+ * @return 引数argの絶対値
+ */
+int abs(int arg)
 {
     if (arg < 0)
         arg = -arg;
