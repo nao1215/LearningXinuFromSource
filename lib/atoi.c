@@ -1,6 +1,6 @@
 /**
  * @file atoi.c
- * @brief ASCII文字列をint型に変換する。
+ * @brief ASCII文字列をint型の整数に変換する。
  */
 
 /**
