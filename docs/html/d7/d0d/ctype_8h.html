@@ -69,12 +69,15 @@ $(function() {
 <div class="title">ctype.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>「文字種類の判定」や「文字変換」を行う関数マクロを提供する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d30/ctype_8h__dep__incl.png" border="0" usemap="#include_2ctype_8hdep" alt=""/></div>
 <map name="include_2ctype_8hdep" id="include_2ctype_8hdep">
-<area shape="rect" id="node2" href="../../d7/d14/ctype___8c.html" title="lib/ctype_.c" alt="" coords="5,80,95,107"/>
+<area shape="rect" id="node2" href="../../d7/d14/ctype___8c.html" title="「文字種類の判定」や「文字変換」の際に使用するビットマスク配列を定義する。 " alt="" coords="5,80,95,107"/>
 <area shape="rect" id="node3" href="../../d4/d6c/doscan_8c.html" title="lib/doscan.c" alt="" coords="119,80,211,107"/>
 <area shape="rect" id="node4" href="../../d5/def/y_8tab_8c.html" title="config/y.tab.c" alt="" coords="235,80,337,107"/>
 </map>
@@ -85,56 +88,105 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a6979fbabd6378fb160ac676f18dff927"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a6979fbabd6378fb160ac676f18dff927">_C</a>&#160;&#160;&#160;0x20</td></tr>
+<tr class="memdesc:a6979fbabd6378fb160ac676f18dff927"><td class="mdescLeft">&#160;</td><td class="mdescRight">制御文字 (control character)を判定するためのビットマスク  <a href="#a6979fbabd6378fb160ac676f18dff927">More...</a><br /></td></tr>
 <tr class="separator:a6979fbabd6378fb160ac676f18dff927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23b3808d12342e40e7459e77fccb85b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:a23b3808d12342e40e7459e77fccb85b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">アルファベット小文字を判定するためのビットマスク  <a href="#a23b3808d12342e40e7459e77fccb85b6">More...</a><br /></td></tr>
 <tr class="separator:a23b3808d12342e40e7459e77fccb85b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3764305f6fed4d3bdc2bca373f5b49e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:aa3764305f6fed4d3bdc2bca373f5b49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">10進数の文字を判定するためのビットマスク  <a href="#aa3764305f6fed4d3bdc2bca373f5b49e">More...</a><br /></td></tr>
 <tr class="separator:aa3764305f6fed4d3bdc2bca373f5b49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf6c868670adced4756500721b9d6ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="memdesc:a1bf6c868670adced4756500721b9d6ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">区切り文字を判定するためのビットマスク  <a href="#a1bf6c868670adced4756500721b9d6ae">More...</a><br /></td></tr>
 <tr class="separator:a1bf6c868670adced4756500721b9d6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af92b94fcf362e093e6d3a11876db2a1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="memdesc:af92b94fcf362e093e6d3a11876db2a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">空白文字を判定するためのビットマスク  <a href="#af92b94fcf362e093e6d3a11876db2a1a">More...</a><br /></td></tr>
 <tr class="separator:af92b94fcf362e093e6d3a11876db2a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65426a49122b4ab491cf4df17cb2933e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:a65426a49122b4ab491cf4df17cb2933e"><td class="mdescLeft">&#160;</td><td class="mdescRight">アルファベット大文字を判定するためのビットマスク  <a href="#a65426a49122b4ab491cf4df17cb2933e">More...</a><br /></td></tr>
 <tr class="separator:a65426a49122b4ab491cf4df17cb2933e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67558313268d122af24803971b081d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>&#160;&#160;&#160;0x40</td></tr>
 <tr class="separator:af67558313268d122af24803971b081d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a83e2b484ed4b9ab8a47bdd39ffbe9d78">isalnum</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>))</td></tr>
+<tr class="memitem:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a83e2b484ed4b9ab8a47bdd39ffbe9d78">isalnum</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>))</td></tr>
+<tr class="memdesc:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がアルファベットもしくは数字かどうかをチェックするマクロ  <a href="#a83e2b484ed4b9ab8a47bdd39ffbe9d78">More...</a><br /></td></tr>
 <tr class="separator:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4451ade7a13a6e430e8ee323a5ee188f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a4451ade7a13a6e430e8ee323a5ee188f">isalpha</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>))</td></tr>
+<tr class="memitem:a4451ade7a13a6e430e8ee323a5ee188f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a4451ade7a13a6e430e8ee323a5ee188f">isalpha</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>))</td></tr>
+<tr class="memdesc:a4451ade7a13a6e430e8ee323a5ee188f"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がアルファベットかどうかをチェックするマクロ  <a href="#a4451ade7a13a6e430e8ee323a5ee188f">More...</a><br /></td></tr>
 <tr class="separator:a4451ade7a13a6e430e8ee323a5ee188f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7210dad02f3ae6482437ca81dc7726e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a7210dad02f3ae6482437ca81dc7726e6">isascii</a>(c)&#160;&#160;&#160;((unsigned)((int)(c))&lt;=0x7F)</td></tr>
+<tr class="memitem:a7210dad02f3ae6482437ca81dc7726e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a7210dad02f3ae6482437ca81dc7726e6">isascii</a>(c)&#160;&#160;&#160;((unsigned)((int)(c)) &lt;= 0x7F)</td></tr>
+<tr class="memdesc:a7210dad02f3ae6482437ca81dc7726e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がASCII文字かどうかをチェックするマクロ  <a href="#a7210dad02f3ae6482437ca81dc7726e6">More...</a><br /></td></tr>
 <tr class="separator:a7210dad02f3ae6482437ca81dc7726e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98ba3bac90df123d61d1b1ace55e9fa4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a98ba3bac90df123d61d1b1ace55e9fa4">iscntrl</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a6979fbabd6378fb160ac676f18dff927">_C</a>)</td></tr>
+<tr class="memitem:a98ba3bac90df123d61d1b1ace55e9fa4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a98ba3bac90df123d61d1b1ace55e9fa4">iscntrl</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a6979fbabd6378fb160ac676f18dff927">_C</a>)</td></tr>
+<tr class="memdesc:a98ba3bac90df123d61d1b1ace55e9fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が制御文字 (control character) かどうかをチェックするマクロ  <a href="#a98ba3bac90df123d61d1b1ace55e9fa4">More...</a><br /></td></tr>
 <tr class="separator:a98ba3bac90df123d61d1b1ace55e9fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80e33e966a7ec3facaf0b2b4afaf5be5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a80e33e966a7ec3facaf0b2b4afaf5be5">isdigit</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>)</td></tr>
+<tr class="memitem:a80e33e966a7ec3facaf0b2b4afaf5be5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a80e33e966a7ec3facaf0b2b4afaf5be5">isdigit</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>)</td></tr>
+<tr class="memdesc:a80e33e966a7ec3facaf0b2b4afaf5be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が10進数の数字かどうかをチェックするマクロ  <a href="#a80e33e966a7ec3facaf0b2b4afaf5be5">More...</a><br /></td></tr>
 <tr class="separator:a80e33e966a7ec3facaf0b2b4afaf5be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c3bad649f832483caffef96949a4bdf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a6c3bad649f832483caffef96949a4bdf">iseof</a>(c)&#160;&#160;&#160;(0x04 == (int)c)</td></tr>
+<tr class="memdesc:a6c3bad649f832483caffef96949a4bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がEnd Of File（制御文字）かどうかをチェックするマクロ  <a href="#a6c3bad649f832483caffef96949a4bdf">More...</a><br /></td></tr>
 <tr class="separator:a6c3bad649f832483caffef96949a4bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348a42f50b81be72be7b41de74c3dd5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a348a42f50b81be72be7b41de74c3dd5a">islower</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>)</td></tr>
+<tr class="memitem:a348a42f50b81be72be7b41de74c3dd5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a348a42f50b81be72be7b41de74c3dd5a">islower</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>)</td></tr>
+<tr class="memdesc:a348a42f50b81be72be7b41de74c3dd5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がアルファベットの小文字かどうかをチェックするマクロ  <a href="#a348a42f50b81be72be7b41de74c3dd5a">More...</a><br /></td></tr>
 <tr class="separator:a348a42f50b81be72be7b41de74c3dd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a889820984b313e4f379d998ce05892ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a889820984b313e4f379d998ce05892ec">isprint</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>))</td></tr>
+<tr class="memitem:a889820984b313e4f379d998ce05892ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a889820984b313e4f379d998ce05892ec">isprint</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>))</td></tr>
+<tr class="memdesc:a889820984b313e4f379d998ce05892ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が表示文字かどうかをチェックするマクロ  <a href="#a889820984b313e4f379d998ce05892ec">More...</a><br /></td></tr>
 <tr class="separator:a889820984b313e4f379d998ce05892ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9a4844ae7479dd5259573826b2cfef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#aee9a4844ae7479dd5259573826b2cfef">ispunct</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>)</td></tr>
+<tr class="memitem:aee9a4844ae7479dd5259573826b2cfef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#aee9a4844ae7479dd5259573826b2cfef">ispunct</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>)</td></tr>
+<tr class="memdesc:aee9a4844ae7479dd5259573826b2cfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が区切り文字 (punctuation character) かどうかをチェックするマクロ  <a href="#aee9a4844ae7479dd5259573826b2cfef">More...</a><br /></td></tr>
 <tr class="separator:aee9a4844ae7479dd5259573826b2cfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c009fd6c0f22a1da6995c59b701a58f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a0c009fd6c0f22a1da6995c59b701a58f">isspace</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>)</td></tr>
+<tr class="memitem:a0c009fd6c0f22a1da6995c59b701a58f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a0c009fd6c0f22a1da6995c59b701a58f">isspace</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>)</td></tr>
+<tr class="memdesc:a0c009fd6c0f22a1da6995c59b701a58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が空白かどうかをチェックするマクロ  <a href="#a0c009fd6c0f22a1da6995c59b701a58f">More...</a><br /></td></tr>
 <tr class="separator:a0c009fd6c0f22a1da6995c59b701a58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbadb54760a50f72da7a7a96d3cc3cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#abbadb54760a50f72da7a7a96d3cc3cb2">isupper</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>)</td></tr>
+<tr class="memitem:abbadb54760a50f72da7a7a96d3cc3cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#abbadb54760a50f72da7a7a96d3cc3cb2">isupper</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>)</td></tr>
+<tr class="memdesc:abbadb54760a50f72da7a7a96d3cc3cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がアルファベットの大文字かどうかをチェックするマクロ  <a href="#abbadb54760a50f72da7a7a96d3cc3cb2">More...</a><br /></td></tr>
 <tr class="separator:abbadb54760a50f72da7a7a96d3cc3cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a992d0bf21267653eb2ea35a78816c09b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a992d0bf21267653eb2ea35a78816c09b">isxdigit</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>))</td></tr>
+<tr class="memitem:a992d0bf21267653eb2ea35a78816c09b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a992d0bf21267653eb2ea35a78816c09b">isxdigit</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>))</td></tr>
+<tr class="memdesc:a992d0bf21267653eb2ea35a78816c09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字が16進数の数字かどうかをチェックするマクロ  <a href="#a992d0bf21267653eb2ea35a78816c09b">More...</a><br /></td></tr>
 <tr class="separator:a992d0bf21267653eb2ea35a78816c09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3075855a129109da1efe1052c32ae00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#af3075855a129109da1efe1052c32ae00">toascii</a>(c)&#160;&#160;&#160;(((int)(c))&amp;0x7F)</td></tr>
+<tr class="memitem:af3075855a129109da1efe1052c32ae00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#af3075855a129109da1efe1052c32ae00">toascii</a>(c)&#160;&#160;&#160;(((int)(c)) &amp; 0x7F)</td></tr>
 <tr class="separator:af3075855a129109da1efe1052c32ae00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a422175620f52b1ca4dbc39d627296d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(c)&#160;&#160;&#160;(((int)(c))-'A'+'a')</td></tr>
+<tr class="memitem:a422175620f52b1ca4dbc39d627296d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(c)&#160;&#160;&#160;(((int)(c)) - 'A' + 'a')</td></tr>
+<tr class="memdesc:a422175620f52b1ca4dbc39d627296d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">アルファベットの大文字を小文字に変換するマクロ  <a href="#a422175620f52b1ca4dbc39d627296d83">More...</a><br /></td></tr>
 <tr class="separator:a422175620f52b1ca4dbc39d627296d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda03014c30b02d7b496fce96f37951b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#adda03014c30b02d7b496fce96f37951b">toupper</a>(c)&#160;&#160;&#160;(((int)(c))-'a'+'A')</td></tr>
+<tr class="memitem:adda03014c30b02d7b496fce96f37951b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#adda03014c30b02d7b496fce96f37951b">toupper</a>(c)&#160;&#160;&#160;(((int)(c)) - 'a' + 'A')</td></tr>
+<tr class="memdesc:adda03014c30b02d7b496fce96f37951b"><td class="mdescLeft">&#160;</td><td class="mdescRight">アルファベットの小文字を大文字に変換するマクロ  <a href="#adda03014c30b02d7b496fce96f37951b">More...</a><br /></td></tr>
 <tr class="separator:adda03014c30b02d7b496fce96f37951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a54882da184c0f4f34ea0ef47611f3c70"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> []</td></tr>
+<tr class="memdesc:a54882da184c0f4f34ea0ef47611f3c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">「文字種類の判定」や「文字変換」の際に使用するビットマスク配列  <a href="#a54882da184c0f4f34ea0ef47611f3c70">More...</a><br /></td></tr>
 <tr class="separator:a54882da184c0f4f34ea0ef47611f3c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>「文字種類の判定」や「文字変換」を行う関数マクロを提供する。 </p>
+<p>ASCII文字コード表<br />
+ [16進数] [10進数] <br />
+ 2 3 4 5 6 7 30 40 50 60 70 80 90 100 110 120<br />
+ ----------&mdash; ------------------------------&mdash;<br />
+ 0: 0 @ P ` p 0: ( 2 &lt; F P Z d n x<br />
+ 1: ! 1 A Q a q 1: ) 3 = G Q [ e o y<br />
+ 2: " 2 B R b r 2: * 4 &gt; H R \ f p z<br />
+ 3: # 3 C S c s 3: ! + 5 ? I S ] g q {<br />
+ 4: $ 4 D T d t 4: " , 6 @ J T ^ h r |<br />
+ 5: % 5 E U e u 5: # - 7 A K U _ i s }<br />
+ 6: &amp; 6 F V f v 6: $ . 8 B L V ` j t ~<br />
+ 7: ' 7 G W g w 7: % / 9 C M W a k u DEL<br />
+ 8: ( 8 H X h x 8: &amp; 0 : D N X b l v<br />
+ 9: ) 9 I Y i y 9: ' 1 ; E O Y c m w<br />
+ A: * : J Z j z<br />
+ B: + ; K [ k {<br />
+ C: , &lt; L \ l |<br />
+ D: - = M ] m }<br />
+ E: . &gt; N ^ n ~<br />
+ F: / ? O _ o DEL<br />
+ ※ 16進数は列の値に、行の値を連結して読む（列=7、行=Aの場合、7A='z'）<br />
+ ※ 10進数は列の値に、行の値を加算して読み（列=50、行=6の場合、56='8'）<br />
+ </p><dl class="section note"><dt>Note</dt><dd>Doxygenドキュメント上ではASCII表がズレるため、ASCII表のスクショを併記する。 <div class="image">
+<img src="../../ascii.png" alt="ascii.png"/>
+</div>
+ </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a6979fbabd6378fb160ac676f18dff927"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6979fbabd6378fb160ac676f18dff927">&#9670;&nbsp;</a></span>_C</h2>
 
@@ -146,6 +198,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>制御文字 (control character)を判定するためのビットマスク </p>
 
 </div>
 </div>
@@ -161,6 +215,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>アルファベット小文字を判定するためのビットマスク </p>
+
 </div>
 </div>
 <a id="aa3764305f6fed4d3bdc2bca373f5b49e"></a>
@@ -174,6 +230,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>10進数の文字を判定するためのビットマスク </p>
 
 </div>
 </div>
@@ -189,6 +247,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>区切り文字を判定するためのビットマスク </p>
+
 </div>
 </div>
 <a id="af92b94fcf362e093e6d3a11876db2a1a"></a>
@@ -203,6 +263,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>空白文字を判定するためのビットマスク </p>
+
 </div>
 </div>
 <a id="a65426a49122b4ab491cf4df17cb2933e"></a>
@@ -216,6 +278,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アルファベット大文字を判定するためのビットマスク </p>
 
 </div>
 </div>
@@ -244,10 +308,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字がアルファベットもしくは数字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がアルファベットもしくは数字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -262,10 +335,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字がアルファベットかどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がアルファベットの場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -280,10 +362,20 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((unsigned)((int)(c))&lt;=0x7F)</td>
+          <td>&#160;&#160;&#160;((unsigned)((int)(c)) &lt;= 0x7F)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字がASCII文字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がASCII文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>ASCII文字は、0x7F=127が終端となる。 </dd></dl>
 
 </div>
 </div>
@@ -298,10 +390,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a6979fbabd6378fb160ac676f18dff927">_C</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a6979fbabd6378fb160ac676f18dff927">_C</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が制御文字 (control character) かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が制御文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -316,10 +417,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が10進数の数字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が10進数の数字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -339,6 +449,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>文字がEnd Of File（制御文字）かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>任意の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がEnd Of File（制御文字）の場合はtrue、それ以外はfalseを返す。 </dd></dl>
+
 </div>
 </div>
 <a id="a348a42f50b81be72be7b41de74c3dd5a"></a>
@@ -352,10 +471,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字がアルファベットの小文字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がアルファベットの小文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -370,10 +498,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が表示文字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が表示文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -388,10 +525,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a1bf6c868670adced4756500721b9d6ae">_P</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が区切り文字 (punctuation character) かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が区切り文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -406,10 +552,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#af92b94fcf362e093e6d3a11876db2a1a">_S</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が空白かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が空白の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -424,10 +579,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; <a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字がアルファベットの大文字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字がアルファベットの大文字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -442,10 +606,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a>+1)[(int)c]&amp;(<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>|<a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字が16進数の数字かどうかをチェックするマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>チェック対象の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字が16進数の数字の場合はtrue、それ以外の場合はfalseを返す。 </dd></dl>
 
 </div>
 </div>
@@ -460,7 +633,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;(((int)(c))&amp;0x7F)</td>
+          <td>&#160;&#160;&#160;(((int)(c)) &amp; 0x7F)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -478,10 +651,29 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;(((int)(c))-'A'+'a')</td>
+          <td>&#160;&#160;&#160;(((int)(c)) - 'A' + 'a')</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アルファベットの大文字を小文字に変換するマクロ </p>
+<p>文字をASCII文字に変換するマクロ</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>アルファベットの大文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>アルファベットの小文字</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>任意の文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ASCIIに変換された文字 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>最上位ビットをクリアし、ASCII文字コードに適合するように文字cを<br />
+ 7bitの unsigned char に変換する。0x7F=0b0111_1111。 </dd></dl>
 
 </div>
 </div>
@@ -496,10 +688,19 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;(((int)(c))-'a'+'A')</td>
+          <td>&#160;&#160;&#160;(((int)(c)) - 'a' + 'A')</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>アルファベットの小文字を大文字に変換するマクロ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>アルファベットの小文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>アルファベットの大文字 </dd></dl>
 
 </div>
 </div>
@@ -515,6 +716,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>「文字種類の判定」や「文字変換」の際に使用するビットマスク配列 </p>
+<p>「文字種類の判定」や「文字変換」の際に使用するビットマスク配列<br />
+ ASCII文字は7bit（0〜127の数値）で表される。そのため、_ctype_配列に<br />
+ 英字、数値、制御文字などを判定するためのビットマスクを予め仕込んでおき、<br />
+ Step1. チェック対象文字を配列の添字として、_ctype_配列からビットマスクを取得<br />
+ Step2. 前手順Step2.で取得したビットマスクが期待値通りかチェック<br />
+ という手順を実施する事によって、文字の種類を判定できる。 </p>
 
 </div>
 </div>

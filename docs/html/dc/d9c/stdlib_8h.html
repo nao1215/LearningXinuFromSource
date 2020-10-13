@@ -100,6 +100,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:af702187472cc149f963502f181445c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASCII文字列をlong型に変換する。  <a href="#af702187472cc149f963502f181445c04">More...</a><br /></td></tr>
 <tr class="separator:af702187472cc149f963502f181445c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab426c21b176346931201b586eca8f197"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197">bzero</a> (void *, int)</td></tr>
+<tr class="memdesc:ab426c21b176346931201b586eca8f197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byteブロック領域の先頭N bytesを数値ゼロで埋める。  <a href="#ab426c21b176346931201b586eca8f197">More...</a><br /></td></tr>
 <tr class="separator:ab426c21b176346931201b586eca8f197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa259cbf373c7b2a08f027df451dfa729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729">free</a> (void *pmem)</td></tr>
 <tr class="separator:aa259cbf373c7b2a08f027df451dfa729"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,13 +239,13 @@ Functions</h2></td></tr>
           <td class="memname">void bzero </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -253,6 +254,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">p</td><td>Byteブロック（bzero()終了後にゼロで埋まった状態となる） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>数値ゼロ埋めするサイズ（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>引数lenが0以下の場合は、何もせずreturnする。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

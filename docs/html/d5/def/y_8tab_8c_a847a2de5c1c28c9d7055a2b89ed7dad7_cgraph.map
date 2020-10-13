@@ -14,7 +14,7 @@
 <area shape="rect" id="node7" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="266,280,309,306"/>
 <area shape="rect" id="node28" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="260,330,315,357"/>
 <area shape="rect" id="node29" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="strcmp" alt="" coords="256,381,319,408"/>
-<area shape="rect" id="node30" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="bzero" alt="" coords="260,432,315,458"/>
+<area shape="rect" id="node30" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="260,432,315,458"/>
 <area shape="rect" id="node31" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="258,229,317,256"/>
 <area shape="rect" id="node32" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="strncpy" alt="" coords="255,482,320,509"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="379,153,426,180"/>

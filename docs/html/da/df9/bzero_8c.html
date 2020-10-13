@@ -68,13 +68,19 @@ $(function() {
 <div class="title">bzero.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad83d2153277acb467ccbf0360082285c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df9/bzero_8c.html#ad83d2153277acb467ccbf0360082285c">bzero</a> (void *p, int len)</td></tr>
+<tr class="memdesc:ad83d2153277acb467ccbf0360082285c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byteブロック領域の先頭N bytesを数値ゼロで埋める。  <a href="#ad83d2153277acb467ccbf0360082285c">More...</a><br /></td></tr>
 <tr class="separator:ad83d2153277acb467ccbf0360082285c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ad83d2153277acb467ccbf0360082285c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad83d2153277acb467ccbf0360082285c">&#9670;&nbsp;</a></span>bzero()</h2>
 
@@ -100,6 +106,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">p</td><td>Byteブロック（bzero()終了後にゼロで埋まった状態となる） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>数値ゼロ埋めするサイズ（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>引数lenが0以下の場合は、何もせずreturnする。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
