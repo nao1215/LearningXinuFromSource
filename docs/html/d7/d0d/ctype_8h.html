@@ -106,6 +106,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:a65426a49122b4ab491cf4df17cb2933e"><td class="mdescLeft">&#160;</td><td class="mdescRight">アルファベット大文字を判定するためのビットマスク  <a href="#a65426a49122b4ab491cf4df17cb2933e">More...</a><br /></td></tr>
 <tr class="separator:a65426a49122b4ab491cf4df17cb2933e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67558313268d122af24803971b081d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#af67558313268d122af24803971b081d0">_X</a>&#160;&#160;&#160;0x40</td></tr>
+<tr class="memdesc:af67558313268d122af24803971b081d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">16進数の文字を判定するためのビットマスク  <a href="#af67558313268d122af24803971b081d0">More...</a><br /></td></tr>
 <tr class="separator:af67558313268d122af24803971b081d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/ctype_8h.html#a83e2b484ed4b9ab8a47bdd39ffbe9d78">isalnum</a>(c)&#160;&#160;&#160;((<a class="el" href="../../d7/d14/ctype___8c.html#a54882da184c0f4f34ea0ef47611f3c70">_ctype_</a> + 1)[(int)c] &amp; (<a class="el" href="../../d7/d0d/ctype_8h.html#a65426a49122b4ab491cf4df17cb2933e">_U</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#a23b3808d12342e40e7459e77fccb85b6">_L</a> | <a class="el" href="../../d7/d0d/ctype_8h.html#aa3764305f6fed4d3bdc2bca373f5b49e">_N</a>))</td></tr>
 <tr class="memdesc:a83e2b484ed4b9ab8a47bdd39ffbe9d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字がアルファベットもしくは数字かどうかをチェックするマクロ  <a href="#a83e2b484ed4b9ab8a47bdd39ffbe9d78">More...</a><br /></td></tr>
@@ -181,7 +182,7 @@ Variables</h2></td></tr>
  E: . &gt; N ^ n ~<br />
  F: / ? O _ o DEL<br />
  ※ 16進数は列の値に、行の値を連結して読む（列=7、行=Aの場合、7A='z'）<br />
- ※ 10進数は列の値に、行の値を加算して読み（列=50、行=6の場合、56='8'）<br />
+ ※ 10進数は列の値に、行の値を加算して読む（列=50、行=6の場合、56='8'）<br />
  </p><dl class="section note"><dt>Note</dt><dd>Doxygenドキュメント上ではASCII表がズレるため、ASCII表のスクショを併記する。 <div class="image">
 <img src="../../ascii.png" alt="ascii.png"/>
 </div>
@@ -294,6 +295,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>16進数の文字を判定するためのビットマスク </p>
 
 </div>
 </div>
@@ -718,12 +721,12 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>「文字種類の判定」や「文字変換」の際に使用するビットマスク配列 </p>
-<p>「文字種類の判定」や「文字変換」の際に使用するビットマスク配列<br />
- ASCII文字は7bit（0〜127の数値）で表される。そのため、_ctype_配列に<br />
+<p>「文字種類の判定」や「文字変換」の際に使用するビットマスク配列</p>
+<dl class="section note"><dt>Note</dt><dd>ASCII文字は7bit（0〜127の数値）で表される。そのため、_ctype_配列に<br />
  英字、数値、制御文字などを判定するためのビットマスクを予め仕込んでおき、<br />
  Step1. チェック対象文字を配列の添字として、_ctype_配列からビットマスクを取得<br />
  Step2. 前手順Step2.で取得したビットマスクが期待値通りかチェック<br />
- という手順を実施する事によって、文字の種類を判定できる。 </p>
+ という手順を実施する事によって、文字の種類を判定できる。 </dd></dl>
 
 </div>
 </div>

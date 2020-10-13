@@ -144,6 +144,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a708aff152d449c3050542dc93ba27112"><td class="mdescLeft">&#160;</td><td class="mdescRight">NULL終端された文字列の長さを返す。NULL終端は長さに含まない。  <a href="#a708aff152d449c3050542dc93ba27112">More...</a><br /></td></tr>
 <tr class="separator:a708aff152d449c3050542dc93ba27112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#ad8c9e8ab9a78fb0b5ed0c3fae6e804d4">strrchr</a> (const char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
+<tr class="memdesc:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列の後方から指定された文字を探し、最後に見つかった位置をポインタで返す。  <a href="#ad8c9e8ab9a78fb0b5ed0c3fae6e804d4">More...</a><br /></td></tr>
 <tr class="separator:ad8c9e8ab9a78fb0b5ed0c3fae6e804d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c8e1e0e5f3578988a2feb0d417ad1c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a55c8e1e0e5f3578988a2feb0d417ad1c">strstr</a> (const char *, const char *)</td></tr>
 <tr class="memdesc:a55c8e1e0e5f3578988a2feb0d417ad1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索対象の文字列Aから文字列Bを探す。  <a href="#a55c8e1e0e5f3578988a2feb0d417ad1c">More...</a><br /></td></tr>
@@ -457,13 +458,13 @@ Here is the caller graph for this function:</div>
           <td class="memname">char* strrchr </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -472,6 +473,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字列の後方から指定された文字を探し、最後に見つかった位置をポインタで返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>探索対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>検索文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字cが見つかった場合は文字cが最後に登場した位置を示すポインタ、<br />
+ 文字cが見つからなかった場合はNULLを返す。 </dd></dl>
 
 </div>
 </div>

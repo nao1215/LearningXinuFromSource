@@ -68,13 +68,19 @@ $(function() {
 <div class="title">strrchr.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>文字列から指定された文字を探し、最後に見つかった位置をポインタで返す。  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0c05a458deff028ef4d4e64059098db4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/strrchr_8c.html#a0c05a458deff028ef4d4e64059098db4">strrchr</a> (const char *s, int c)</td></tr>
+<tr class="memdesc:a0c05a458deff028ef4d4e64059098db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列の後方から指定された文字を探し、最後に見つかった位置をポインタで返す。  <a href="#a0c05a458deff028ef4d4e64059098db4">More...</a><br /></td></tr>
 <tr class="separator:a0c05a458deff028ef4d4e64059098db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>文字列から指定された文字を探し、最後に見つかった位置をポインタで返す。 </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0c05a458deff028ef4d4e64059098db4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c05a458deff028ef4d4e64059098db4">&#9670;&nbsp;</a></span>strrchr()</h2>
 
@@ -100,6 +106,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>文字列の後方から指定された文字を探し、最後に見つかった位置をポインタで返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>探索対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>検索文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字cが見つかった場合は文字cが最後に登場した位置を示すポインタ、<br />
+ 文字cが見つからなかった場合はNULLを返す。 </dd></dl>
 
 </div>
 </div>
