@@ -1,6 +1,3 @@
-
-/* config.y - yacc input file for the Xinu config program */
-
 /************************************************************************/
 /*									*/
 /*	This file contains the yacc grammar and	semantic functions	*/

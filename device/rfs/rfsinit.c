@@ -1,16 +1,21 @@
-/* rfsinit.c - rfsinit */
+/**
+ * @dir device/rfs
+ * @brief Remote File Systemデバイスドライバ
+ * @file rfsinit.c
+ * @brief リモートファイルシステムマスターデバイスを初期化する。
+ */
 
 #include <xinu.h>
 
-struct	rfdata	Rf_data;
+struct rfdata Rf_data;
 
 /*------------------------------------------------------------------------
  *  rfsinit  -  Initialize the remote file system master device
  *------------------------------------------------------------------------
  */
-devcall	rfsinit(
-	  struct dentry	*devptr		/* Entry in device switch table	*/
-	)
+devcall rfsinit(
+	struct dentry *devptr /* Entry in device switch table	*/
+)
 {
 
 	/* Choose an initial message sequence number */
@@ -19,7 +24,8 @@ devcall	rfsinit(
 
 	/* Set the server IP address, server port, and local port */
 
-	if ( dot2ip(RF_SERVER_IP, &Rf_data.rf_ser_ip) == SYSERR ) {
+	if (dot2ip(RF_SERVER_IP, &Rf_data.rf_ser_ip) == SYSERR)
+	{
 		panic("invalid IP address for remote file server");
 	}
 	Rf_data.rf_ser_port = RF_SERVER_PORT;
@@ -27,7 +33,8 @@ devcall	rfsinit(
 
 	/* Create a mutual exclusion semaphore */
 
-	if ( (Rf_data.rf_mutex = semcreate(1)) == SYSERR ) {
+	if ((Rf_data.rf_mutex = semcreate(1)) == SYSERR)
+	{
 		panic("Cannot create remote file system semaphore");
 	}
 

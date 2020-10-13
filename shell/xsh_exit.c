@@ -1,4 +1,6 @@
 /**
+ * @dir shell
+ * @brief XINUが提供するシェル（XINUシェル）
  * @file xsh_exit.c
  * @brief XINUシェルにおけるexitコマンドを提供する。
  * @details exitコマンドは、シェル終了を引き起こす終了コードを返す。

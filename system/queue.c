@@ -1,4 +1,6 @@
 /**
+ * @dir system
+ * @brief XINU OSのKernel部
  * @file queue.c
  * @brief キュー操作API（キューの追加、キューの削除）を提供する。
  * @note プロセスキューテーブルは、リストとも呼ばれる。
