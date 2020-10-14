@@ -4,7 +4,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="666,968,729,995"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="924,765,987,792"/>
 <area shape="rect" id="node14" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="131,917,198,944"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="521,436,593,463"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="521,436,593,463"/>
 <area shape="rect" id="node31" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="529,1196,586,1223"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="805,1069,861,1096"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1155,1024,1225,1051"/>

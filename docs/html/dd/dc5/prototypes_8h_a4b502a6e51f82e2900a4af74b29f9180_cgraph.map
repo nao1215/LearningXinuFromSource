@@ -1,5 +1,5 @@
 <map id="lfdballoc" name="lfdballoc">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="124,23,193,49"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="124,23,193,49"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="132,73,185,100"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="357,124,404,151"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="355,175,406,201"/>

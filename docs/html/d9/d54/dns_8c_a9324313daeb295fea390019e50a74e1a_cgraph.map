@@ -1,4 +1,4 @@
 <map id="dns_bldq" name="dns_bldq">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="128,5,200,32"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="128,5,200,32"/>
 <area shape="rect" id="node3" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="137,56,191,83"/>
 </map>

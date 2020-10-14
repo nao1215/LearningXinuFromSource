@@ -18,7 +18,7 @@
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a2ea659767492993cbb222c3ed2704015" title="getticks" alt="" coords="235,208,303,235"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a9e4475beded62aafcf3e5e9ebf430433" title="icmp_init" alt="" coords="232,259,307,285"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="368,563,419,589"/>
-<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="235,385,304,412"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="235,385,304,412"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#aafb147940d70d8e43057fc744ca91808" title="mkbufpool" alt="" coords="483,157,566,184"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="617,259,700,285"/>
 <area shape="rect" id="node29" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="244,436,295,463"/>
@@ -28,7 +28,7 @@
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="627,563,690,589"/>
 <area shape="rect" id="node20" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="491,563,558,589"/>
 <area shape="rect" id="node21" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="496,765,553,792"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="489,715,561,741"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="489,715,561,741"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="635,461,682,488"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="freemem" alt="" coords="622,157,695,184"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="624,208,693,235"/>

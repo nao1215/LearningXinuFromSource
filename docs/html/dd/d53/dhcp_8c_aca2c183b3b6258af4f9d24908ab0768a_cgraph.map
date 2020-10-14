@@ -1,9 +1,9 @@
 <map id="dhcp_bld_req" name="dhcp_bld_req">
 <area shape="rect" id="node2" href="$dd/d53/dhcp_8c.html#a6a401945ba7d61ee1d20a90f10897615" title="dhcp_bld_bootp_msg" alt="" coords="152,56,297,83"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="345,5,417,32"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="345,5,417,32"/>
 <area shape="rect" id="node5" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="163,107,287,133"/>
 <area shape="rect" id="node6" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="195,157,254,184"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="347,56,416,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="347,56,416,83"/>
 <area shape="rect" id="node7" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="349,132,414,159"/>
 <area shape="rect" id="node8" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="354,183,409,209"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="465,157,528,184"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a638922c9cb0d657f3b1d56d3db954532" title="rflread" alt="" coords="112,1076,171,1103"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="883,1576,929,1603"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="878,1677,934,1704"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="871,5,941,32"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="871,5,941,32"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="219,1076,292,1103"/>
 <area shape="rect" id="node26" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="350,765,409,792"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1035,1171,1097,1197"/>
@@ -19,7 +19,7 @@
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="340,1284,419,1311"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="589,1019,663,1045"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="721,1369,779,1396"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="590,1525,662,1552"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="590,1525,662,1552"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="467,1348,533,1375"/>
 <area shape="rect" id="node22" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="593,1424,659,1451"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="719,1424,781,1451"/>

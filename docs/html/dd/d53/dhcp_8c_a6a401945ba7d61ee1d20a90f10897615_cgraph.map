@@ -1,4 +1,4 @@
 <map id="dhcp_bld_bootp_msg" name="dhcp_bld_bootp_msg">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="199,5,271,32"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="200,56,269,83"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="199,5,271,32"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="200,56,269,83"/>
 </map>

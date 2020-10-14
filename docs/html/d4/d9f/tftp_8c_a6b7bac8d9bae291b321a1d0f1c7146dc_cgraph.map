@@ -1,7 +1,7 @@
 <map id="tftpget_mb" name="tftpget_mb">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1dda2a799335d64a5e5da50defc42f35" title="getport" alt="" coords="147,107,210,133"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="283,796,342,823"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="854,2032,923,2059"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="854,2032,923,2059"/>
 <area shape="rect" id="node9" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="文字列s1に文字列s2をN文字（Byte）分コピーする。 " alt="" coords="146,2083,211,2109"/>
 <area shape="rect" id="node10" href="$da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="148,2133,209,2160"/>
 <area shape="rect" id="node11" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="137,683,220,709"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#a48e81b6f60f5f21fcaca3cc542e6c9f2" title="yyalloc" alt="" coords="857,1576,920,1603"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="687,461,745,488"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="405,487,472,513"/>
-<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="534,309,606,336"/>
+<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="534,309,606,336"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="865,461,912,488"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="525,563,615,589"/>
 <area shape="rect" id="node44" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="537,411,603,437"/>

@@ -69,14 +69,22 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>指定のByteブロックに対して、同じ値をNバイト分書き込む。  
+<a href="#details">More...</a></p>
+
 <p><a href="../../d3/db7/memset_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8a18abbcf30b95999078b5e46f9ef70a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db7/memset_8c.html#a8a18abbcf30b95999078b5e46f9ef70a">memset</a> (void *s, int c, int n)</td></tr>
+<tr class="memdesc:a8a18abbcf30b95999078b5e46f9ef70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定のByteブロックに対して、同じ値をNバイト分書き込む。  <a href="#a8a18abbcf30b95999078b5e46f9ef70a">More...</a><br /></td></tr>
 <tr class="separator:a8a18abbcf30b95999078b5e46f9ef70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>指定のByteブロックに対して、同じ値をNバイト分書き込む。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d3/db7/memset_8c_source.html">memset.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a8a18abbcf30b95999078b5e46f9ef70a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a18abbcf30b95999078b5e46f9ef70a">&#9670;&nbsp;</a></span>memset()</h2>
 
@@ -109,10 +117,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/db7/memset_8c_source.html#l00008">8</a> of file <a class="el" href="../../d3/db7/memset_8c_source.html">memset.c</a>.</p>
+<p>指定のByteブロックに対して、同じ値をNバイト分書き込む。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">s</td><td>Byteブロックへのポインタ（例：文字列） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>書き込む値（1Byte） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>書き込むサイズ（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>書き込み完了後のByteブロックへのポインタ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db7/memset_8c_source.html#l00013">13</a> of file <a class="el" href="../../d3/db7/memset_8c_source.html">memset.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00298">arp_alloc()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>, <a class="el" href="../../dd/d53/dhcp_8c_source.html#l00045">dhcp_bld_bootp_msg()</a>, <a class="el" href="../../d9/d54/dns_8c_source.html#l00015">dnslookup()</a>, <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>, <a class="el" href="../../d2/d7f/ethwrite_8c_source.html#l00009">ethwrite()</a>, <a class="el" href="../../db/d5d/getutime_8c_source.html#l00010">getutime()</a>, <a class="el" href="../../d3/d58/lex_8yy_8c_source.html#l00679">if()</a>, <a class="el" href="../../d0/dad/lfdballoc_8c_source.html#l00019">lfdballoc()</a>, <a class="el" href="../../db/df2/lflinit_8c_source.html#l00011">lflinit()</a>, <a class="el" href="../../db/d7b/lfscreate_8c_source.html#l00010">lfscreate()</a>, <a class="el" href="../../db/dd7/lfsinit_8c_source.html#l00011">lfsinit()</a>, <a class="el" href="../../d7/d5f/net_8c_source.html#l00015">net_init()</a>, <a class="el" href="../../d7/da2/rdscontrol_8c_source.html#l00009">rdscontrol()</a>, <a class="el" href="../../d8/dd4/rdsopen_8c_source.html#l00010">rdsopen()</a>, <a class="el" href="../../d5/db7/rdsprocess_8c_source.html#l00012">rdsprocess()</a>, <a class="el" href="../../db/da8/rflread_8c_source.html#l00009">rflread()</a>, <a class="el" href="../../dc/d7a/rflwrite_8c_source.html#l00009">rflwrite()</a>, <a class="el" href="../../d6/df4/rfscontrol_8c_source.html#l00009">rfscontrol()</a>, <a class="el" href="../../dd/d24/rfsopen_8c_source.html#l00010">rfsopen()</a>, <a class="el" href="../../d4/d9f/tftp_8c_source.html#l00118">tftpget_mb()</a>, and <a class="el" href="../../d4/da3/xsh__rdstest_8c_source.html#l00009">xsh_rdstest()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">int</span> i;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">char</span> *cp = (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; n; i++)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        *cp = (<span class="keywordtype">unsigned</span> char)c;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        cp++;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">int</span> i;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">char</span> *cp = (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; n; i++)</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        *cp = (<span class="keywordtype">unsigned</span> char)c;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        cp++;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div></div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/db7/memset_8c_a8a18abbcf30b95999078b5e46f9ef70a_icgraph.png" border="0" usemap="#d3/db7/memset_8c_a8a18abbcf30b95999078b5e46f9ef70a_icgraph" alt=""/></div>

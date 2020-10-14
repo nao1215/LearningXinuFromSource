@@ -1,5 +1,5 @@
 <map id="lfsinit" name="lfsinit">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="113,5,183,32"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="113,5,183,32"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="107,56,189,83"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="241,5,304,32"/>
 <area shape="rect" id="node5" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="237,56,308,83"/>

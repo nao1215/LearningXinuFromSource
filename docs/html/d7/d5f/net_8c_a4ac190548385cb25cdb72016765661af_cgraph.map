@@ -5,7 +5,7 @@
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a2ea659767492993cbb222c3ed2704015" title="getticks" alt="" coords="121,1804,189,1831"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a9e4475beded62aafcf3e5e9ebf430433" title="icmp_init" alt="" coords="117,1855,192,1881"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="251,1120,301,1147"/>
-<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="648,1145,717,1172"/>
+<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="648,1145,717,1172"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#aafb147940d70d8e43057fc744ca91808" title="mkbufpool" alt="" coords="641,968,724,995"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="772,1120,855,1147"/>
 <area shape="rect" id="node41" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="129,1120,180,1147"/>
@@ -22,7 +22,7 @@
 <area shape="rect" id="node18" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="371,1171,438,1197"/>
 <area shape="rect" id="node21" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="376,1120,433,1147"/>
 <area shape="rect" id="node29" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="653,563,712,589"/>
-<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="509,816,581,843"/>
+<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="509,816,581,843"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="790,157,837,184"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="785,1323,841,1349"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="911,1323,965,1349"/>

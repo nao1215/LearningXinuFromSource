@@ -1,6 +1,6 @@
 <map id="rdsread" name="rdsread">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="133,56,190,83"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="125,107,197,133"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="125,107,197,133"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a477d6eeff5fa28ac257c4b9ebf9aa964" title="rdsbufalloc" alt="" coords="119,284,204,311"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="467,360,531,387"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="469,5,530,32"/>

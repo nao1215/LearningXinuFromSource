@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="275,436,332,463"/>
 <area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="791,56,845,83"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="125,689,203,716"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="783,5,853,32"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="783,5,853,32"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="439,841,514,868"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="257,1487,350,1513"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="431,1291,523,1317"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="954,31,1001,57"/>
 <area shape="rect" id="node5" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="943,81,1012,108"/>
 <area shape="rect" id="node7" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="251,487,356,513"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="609,588,681,615"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="609,588,681,615"/>
 <area shape="rect" id="node11" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="254,588,353,615"/>
 <area shape="rect" id="node12" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="415,537,539,564"/>
 <area shape="rect" id="node13" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="447,639,506,665"/>

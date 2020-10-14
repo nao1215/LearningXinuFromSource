@@ -1,6 +1,6 @@
 <map id="rdsopen" name="rdsopen">
 <area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="567,865,626,892"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="1043,1517,1113,1544"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="1043,1517,1113,1544"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="121,656,197,683"/>
 <area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="731,955,796,981"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="878,853,933,880"/>
@@ -11,7 +11,7 @@
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="379,453,468,480"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="726,555,801,581"/>
 <area shape="rect" id="node11" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="371,1112,476,1139"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="727,1011,799,1037"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="727,1011,799,1037"/>
 <area shape="rect" id="node46" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="374,1011,473,1037"/>
 <area shape="rect" id="node47" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="535,941,659,968"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="717,752,809,779"/>

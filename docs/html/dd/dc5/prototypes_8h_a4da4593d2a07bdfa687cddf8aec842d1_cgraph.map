@@ -1,6 +1,6 @@
 <map id="rfscontrol" name="rfscontrol">
 <area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="385,195,443,221"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="786,853,855,880"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="786,853,855,880"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="253,296,327,323"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="793,752,849,779"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="797,93,844,120"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#a48e81b6f60f5f21fcaca3cc542e6c9f2" title="yyalloc" alt="" coords="789,1107,852,1133"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="953,752,1008,779"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="631,195,689,221"/>
-<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="624,245,696,272"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="624,245,696,272"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="505,296,572,323"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="945,93,1016,120"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="rdscontrol" name="rdscontrol">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="1053,17,1111,44"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="586,499,645,525"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="905,195,974,221"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="905,195,974,221"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a477d6eeff5fa28ac257c4b9ebf9aa964" title="rdsbufalloc" alt="" coords="256,1613,341,1640"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a1ad52d321f80142aebb9150f7c69d201" title="rdsclose" alt="" coords="135,752,205,779"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="132,803,208,829"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="395,803,489,829"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="397,853,487,880"/>
 <area shape="rect" id="node21" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="389,296,495,323"/>
-<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="748,296,820,323"/>
+<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="748,296,820,323"/>
 <area shape="rect" id="node24" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="393,347,491,373"/>
 <area shape="rect" id="node25" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="553,397,677,424"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="413,651,471,677"/>

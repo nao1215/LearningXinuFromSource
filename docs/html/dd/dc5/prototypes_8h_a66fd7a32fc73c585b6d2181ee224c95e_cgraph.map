@@ -19,7 +19,7 @@
 <area shape="rect" id="node16" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="697,1323,741,1349"/>
 <area shape="rect" id="node17" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="693,1373,744,1400"/>
 <area shape="rect" id="node18" href="$dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23" title="malloc" alt="" coords="689,1424,749,1451"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="684,1475,753,1501"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="684,1475,753,1501"/>
 <area shape="rect" id="node20" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="691,1525,746,1552"/>
 <area shape="rect" id="node21" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="659,1576,778,1603"/>
 <area shape="rect" id="node22" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="659,1627,778,1653"/>
@@ -46,6 +46,6 @@
 <area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#ac8dd6bf3779328f280aa7f7aa8106514" title="yyget_text" alt="" coords="677,1120,760,1147"/>
 <area shape="rect" id="node44" href="$d3/d58/lex_8yy_8c.html#ab596ae57cdabfb4b298edf3dde7cdf04" title="yylex_destroy" alt="" coords="667,1171,770,1197"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="517,157,576,184"/>
-<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="511,208,583,235"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="511,208,583,235"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="381,259,448,285"/>
 </map>

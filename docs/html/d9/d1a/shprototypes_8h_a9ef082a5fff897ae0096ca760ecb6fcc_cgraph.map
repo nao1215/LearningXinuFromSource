@@ -24,7 +24,7 @@
 <area shape="rect" id="node19" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="618,1157,662,1184"/>
 <area shape="rect" id="node20" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="615,1208,665,1235"/>
 <area shape="rect" id="node21" href="$dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23" title="malloc" alt="" coords="610,1259,670,1285"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="605,1309,675,1336"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="605,1309,675,1336"/>
 <area shape="rect" id="node23" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="613,1360,667,1387"/>
 <area shape="rect" id="node24" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="581,1411,699,1437"/>
 <area shape="rect" id="node25" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="581,245,699,272"/>
@@ -47,5 +47,5 @@
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="419,1765,515,1792"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="611,2019,669,2045"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="291,2019,358,2045"/>
-<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="431,2069,503,2096"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="431,2069,503,2096"/>
 </map>

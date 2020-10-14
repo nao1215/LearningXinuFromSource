@@ -4,12 +4,12 @@
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="135,867,212,893"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="266,1019,359,1045"/>
 <area shape="rect" id="node13" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="457,917,515,944"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="649,1323,718,1349"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="649,1323,718,1349"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="275,1209,350,1236"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="440,1069,532,1096"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="273,411,352,437"/>
 <area shape="rect" id="node3" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="656,56,711,83"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="647,411,719,437"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="647,411,719,437"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#aa4a4effed7309f232ebd90c63f1bc8a6" title="namlen" alt="" coords="454,107,518,133"/>
 <area shape="rect" id="node7" href="$d9/d54/dns_8c.html#a1f13d4905119aa5d7ec6a01c5b934a4b" title="dns_getrname" alt="" coords="434,259,538,285"/>
 <area shape="rect" id="node8" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="451,157,521,184"/>

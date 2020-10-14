@@ -1,5 +1,5 @@
 <map id="rdsprocess" name="rdsprocess">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="905,118,974,145"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="905,118,974,145"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="415,1638,469,1665"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="140,903,216,930"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="911,1283,967,1310"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="395,878,489,905"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="397,777,487,803"/>
 <area shape="rect" id="node11" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="389,473,495,499"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="748,422,820,449"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="748,422,820,449"/>
 <area shape="rect" id="node14" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="393,574,491,601"/>
 <area shape="rect" id="node15" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="553,523,677,550"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="413,625,471,651"/>
