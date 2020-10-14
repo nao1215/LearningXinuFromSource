@@ -1,15 +1,16 @@
-/* memcpy.c - memcpy */
-
-/*------------------------------------------------------------------------
- *  memcpy  -  Copy a block of memory from src to dst, and return a
- *			  pointer to the destination
- *------------------------------------------------------------------------
+/**
+ * @file memcpy.c
+ * @brief メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。
  */
-void	*memcpy(
-	  void		*s,	/* Destination address			*/
-	  const void	*ct,	/* source address			*/
-	  int		n	/* number of bytes to copy		*/
-	)
+
+/**
+ * @brief メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。
+ * @param[in,out] s コピー先のアドレス（Destination address）
+ * @param[in] ct コピー元のアドレス（Source address）
+ * @param[in] n コピーサイズ（Byte）
+ * @return コピー完了後のコピー先アドレス
+ */
+void *memcpy(void *s, const void *ct, int n)
 {
     register int i;
     char *dst = (char *)s;
