@@ -1,15 +1,18 @@
-/* strncpy.c - strncpy */
-
-/*------------------------------------------------------------------------
- *  strncpy  -  Copy string s2 to s1, truncating or null-padding so that
- *			excatly n bytes are copied; return s1
- *------------------------------------------------------------------------
+/**
+ * @file strncpy.c
+ * @brief 文字列s1に文字列s2をN文字（Byte）分コピーする。
  */
-char	*strncpy(
-	  char		*s1,		/* First string			*/
-	  const char	*s2,		/* Second string		*/
-	  int		n		/* Length  to copy		*/
-			)
+
+/**
+ * @brief 文字列s1に文字列s2をN文字（Byte）分コピーする。
+ * @details 自動でNULL終端（'\0'）は付与しない。<br>
+ * また、N Byteコピーする前にNULL終端に達した場合、残りのByte数分をNULL終端で埋める。
+ * @param[in,out] s1 コピー先の文字列
+ * @param[in] s2 コピー元の文字列
+ * @param[in] n コピーする文字数（Byte）
+ * @return  コピー後の文字列s1を返す。
+ */
+char *strncpy(char *s1, const char *s2, int n)
 {
     register int i;
     register char *os1;
