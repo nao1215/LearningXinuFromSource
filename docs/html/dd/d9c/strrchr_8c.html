@@ -71,6 +71,8 @@ $(function() {
 
 <p>文字列から指定された文字を探し、最後に見つかった位置をポインタで返す。  
 <a href="#details">More...</a></p>
+
+<p><a href="../../dd/d9c/strrchr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -80,6 +82,8 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>文字列から指定された文字を探し、最後に見つかった位置をポインタで返す。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dd/d9c/strrchr_8c_source.html">strrchr.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0c05a458deff028ef4d4e64059098db4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c05a458deff028ef4d4e64059098db4">&#9670;&nbsp;</a></span>strrchr()</h2>
@@ -118,6 +122,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>文字cが見つかった場合は文字cが最後に登場した位置を示すポインタ、<br />
  文字cが見つからなかった場合はNULLを返す。 </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/strrchr_8c_source.html#l00013">13</a> of file <a class="el" href="../../dd/d9c/strrchr_8c_source.html">strrchr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">char</span> *r = 0;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">for</span> (; *s != <span class="charliteral">&#39;\0&#39;</span>; s++)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (*s == (<span class="keyword">const</span> <span class="keywordtype">char</span>)c)</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            r = (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span> ((<span class="keyword">const</span> <span class="keywordtype">char</span>)c == *s)</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

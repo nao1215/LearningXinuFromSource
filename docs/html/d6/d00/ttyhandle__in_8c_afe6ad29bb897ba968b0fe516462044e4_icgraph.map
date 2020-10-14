@@ -1,6 +1,6 @@
 <map id="eputc" name="eputc">
-<area shape="rect" id="node2" href="$d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="220,21,312,47"/>
-<area shape="rect" id="node4" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="109,21,171,47"/>
-<area shape="rect" id="node5" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="108,71,172,98"/>
-<area shape="rect" id="node3" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="360,21,439,47"/>
+<area shape="rect" id="node2" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="108,5,172,32"/>
+<area shape="rect" id="node3" href="$d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="220,56,312,83"/>
+<area shape="rect" id="node5" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="109,107,171,133"/>
+<area shape="rect" id="node4" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="360,56,439,83"/>
 </map>

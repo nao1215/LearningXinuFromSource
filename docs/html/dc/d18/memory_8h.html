@@ -194,10 +194,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a>((<span class="keywordtype">char</span> *)((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(p)        \</div><div class="line">                - ((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len))    \</div><div class="line">                + (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<span class="keyword">sizeof</span>(<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)),  \</div><div class="line">                (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len) )</div><div class="ttc" id="prototypes_8h_html_a4784823f60649b93d9f04025bcdaea4d"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a></div><div class="ttdeci">syscall freemem(char *, uint32)</div><div class="ttdef"><b>Definition:</b> freemem.c:9</div></div>
-<div class="ttc" id="memory_8h_html_a7cea716d0e0b7d875047cb28158fe8e1"><div class="ttname"><a href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a></div><div class="ttdeci">#define roundmb(x)</div><div class="ttdef"><b>Definition:</b> memory.h:9</div></div>
-<div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> kernel.h:15</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a>((<span class="keywordtype">char</span> *)((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(p)        \</div><div class="line">                - ((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len))    \</div><div class="line">                + (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<span class="keyword">sizeof</span>(<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)),  \</div><div class="line">                (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len) )</div><div class="ttc" id="prototypes_8h_html_a4784823f60649b93d9f04025bcdaea4d"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a></div><div class="ttdeci">syscall freemem(char *, uint32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd3/freemem_8c_source.html#l00009">freemem.c:9</a></div></div>
+<div class="ttc" id="memory_8h_html_a7cea716d0e0b7d875047cb28158fe8e1"><div class="ttname"><a href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a></div><div class="ttdeci">#define roundmb(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d18/memory_8h_source.html#l00009">memory.h:9</a></div></div>
+<div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
 </div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00016">16</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d1d/kill_8c_source.html#l00009">kill()</a>.</p>
+
 </div>
 </div>
 <a id="a7d467c1d283fdfa1f2081ba1e0d01b6e"></a>
@@ -211,6 +215,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00003">3</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
 </div>
 </div>
@@ -230,6 +236,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00009">9</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00009">getmem()</a>, and <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>.</p>
+
 </div>
 </div>
 <a id="ac7de41f73b6eef70fca1b867fdbd121b"></a>
@@ -247,6 +257,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00010">10</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
 </div>
 </div>
@@ -277,6 +289,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
+
 </div>
 </div>
 <a id="a94d75d0f14dc49a1675d01236b3f8daf"></a>
@@ -290,6 +304,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
 </div>
 </div>
@@ -319,6 +335,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>.</p>
+
 </div>
 </div>
 <a id="a3dda01f2e8c76f06ab14007808d4e100"></a>
@@ -332,6 +350,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
 </div>
 </div>
@@ -347,6 +367,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../d5/d80/meminit_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/d80/meminit_8c_source.html">meminit.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>, and <a class="el" href="../../de/d8d/xsh__memdump_8c_source.html#l00015">xsh_memdump()</a>.</p>
+
 </div>
 </div>
 <a id="a0a0f1e98b35a37865e5e30701f59ed5d"></a>
@@ -360,6 +384,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/dda/initialize_8c_source.html#l00022">22</a> of file <a class="el" href="../../df/dda/initialize_8c_source.html">initialize.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00009">getmem()</a>, <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>, <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>, <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>, <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00050">printFreeList()</a>, and <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00074">printMemUse()</a>.</p>
 
 </div>
 </div>
@@ -375,6 +403,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../d5/d80/meminit_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/d80/meminit_8c_source.html">meminit.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, and <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>.</p>
+
 </div>
 </div>
 <a id="acb727b700580681a32b288d9ebc9b762"></a>
@@ -388,6 +420,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
 </div>
 </div>

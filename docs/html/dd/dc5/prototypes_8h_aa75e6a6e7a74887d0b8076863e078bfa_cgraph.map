@@ -1,20 +1,20 @@
 <map id="ttyhandle_in" name="ttyhandle_in">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="145,56,224,83"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="157,107,213,133"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="416,347,495,373"/>
-<area shape="rect" id="node14" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="293,385,347,412"/>
-<area shape="rect" id="node15" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="153,397,217,424"/>
-<area shape="rect" id="node16" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="154,448,215,475"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="153,157,216,184"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="289,5,351,32"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="289,56,351,83"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="293,107,347,133"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="543,208,613,235"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="551,107,605,133"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,107,489,133"/>
-<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="549,157,607,184"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="661,208,724,235"/>
-<area shape="rect" id="node11" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="772,208,837,235"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="272,157,368,184"/>
-<area shape="rect" id="node19" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,157,489,184"/>
+<area shape="rect" id="node2" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="153,5,217,32"/>
+<area shape="rect" id="node3" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="293,61,347,88"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="416,61,495,88"/>
+<area shape="rect" id="node5" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="154,107,215,133"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="145,347,224,373"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="157,296,213,323"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="153,220,216,247"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="289,315,351,341"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="289,365,351,392"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="543,264,613,291"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="293,213,347,240"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="661,264,724,291"/>
+<area shape="rect" id="node12" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="772,264,837,291"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="551,163,605,189"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,213,489,240"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="549,213,607,240"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="272,163,368,189"/>
+<area shape="rect" id="node19" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,163,489,189"/>
 </map>

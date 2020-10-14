@@ -118,7 +118,9 @@ Include dependency graph for exit.c:</div>
 <area shape="rect" id="node43" href="../../d8/d8e/armv7a_8h.html" title="armv7a.h" alt="" coords="3784,155,3860,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="../../d1/d85/exit_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aaf98ef7cdde3a0dfb2e49919de3298b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1">exit</a> (void)</td></tr>
@@ -140,31 +142,39 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/exit_8c_source.html#l00009">9</a> of file <a class="el" href="../../d1/d85/exit_8c_source.html">exit.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/db1/getpid_8c_source.html#l00011">getpid()</a>, and <a class="el" href="../../d2/d1d/kill_8c_source.html#l00009">kill()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/def/y_8tab_8c_source.html#l01994">addton()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02056">devisid()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02091">devonid()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02145">getattrid()</a>, <a class="el" href="../../d3/d58/lex_8yy_8c_source.html#l00679">if()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l01753">main()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02163">newdev()</a>, and <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02205">newtype()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a>(<a class="code" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3">getpid</a>());     <span class="comment">/* Kill the current process */</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div><div class="ttc" id="prototypes_8h_html_a6c45ab25b7dda41127660e3fba6fb24c"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a></div><div class="ttdeci">syscall kill(pid32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1d/kill_8c_source.html#l00009">kill.c:9</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a9c6b0129f9ed31a9259a5ae7d350d6e3"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3">getpid</a></div><div class="ttdeci">pid32 getpid(void)</div><div class="ttdoc">現在実行中のプロセスIDを返す。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/getpid_8c_source.html#l00011">getpid.c:11</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_cgraph.png" border="0" usemap="#d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_cgraph" alt=""/></div>
 <map name="d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_cgraph" id="d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_cgraph">
-<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="105,254,144,281"/>
-<area shape="rect" id="node21" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="96,305,153,332"/>
-<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="541,178,604,205"/>
-<area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="541,330,604,357"/>
-<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="201,128,259,154"/>
-<area shape="rect" id="node10" href="../../dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="205,280,255,306"/>
-<area shape="rect" id="node13" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,533,489,560"/>
-<area shape="rect" id="node18" href="../../dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="307,229,373,256"/>
-<area shape="rect" id="node19" href="../../dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="423,128,488,154"/>
-<area shape="rect" id="node20" href="../../dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="429,330,482,357"/>
-<area shape="rect" id="node6" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="311,77,369,104"/>
-<area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="319,128,361,154"/>
-<area shape="rect" id="node7" href="../../df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="423,26,488,53"/>
-<area shape="rect" id="node8" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="428,77,483,104"/>
-<area shape="rect" id="node11" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="313,482,367,509"/>
-<area shape="rect" id="node12" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="545,482,600,509"/>
-<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="537,533,608,560"/>
-<area shape="rect" id="node17" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="544,584,601,610"/>
-<area shape="rect" id="node15" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="656,533,719,560"/>
-<area shape="rect" id="node16" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="767,533,832,560"/>
+<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="96,204,153,230"/>
+<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="105,254,144,281"/>
+<area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="429,330,482,357"/>
+<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="541,178,604,205"/>
+<area shape="rect" id="node6" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="541,330,604,357"/>
+<area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="423,128,488,154"/>
+<area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="421,533,489,560"/>
+<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="205,280,255,306"/>
+<area shape="rect" id="node16" href="../../dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="307,229,373,256"/>
+<area shape="rect" id="node17" href="../../dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="201,128,259,154"/>
+<area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="544,533,601,560"/>
+<area shape="rect" id="node10" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="537,584,608,610"/>
+<area shape="rect" id="node13" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="545,482,600,509"/>
+<area shape="rect" id="node11" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="656,584,719,610"/>
+<area shape="rect" id="node12" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="767,584,832,610"/>
+<area shape="rect" id="node15" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="313,482,367,509"/>
+<area shape="rect" id="node18" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="319,128,361,154"/>
+<area shape="rect" id="node19" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="311,77,369,104"/>
+<area shape="rect" id="node20" href="../../df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="423,26,488,53"/>
+<area shape="rect" id="node21" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="428,77,483,104"/>
 </map>
 </div>
 <div class="dynheader">
@@ -172,47 +182,47 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_icgraph.png" border="0" usemap="#d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_icgraph" alt=""/></div>
 <map name="d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_icgraph" id="d1/d85/exit_8c_aaf98ef7cdde3a0dfb2e49919de3298b1_icgraph">
-<area shape="rect" id="node2" href="../../d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="112,537,151,564"/>
-<area shape="rect" id="node33" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="387,689,437,716"/>
-<area shape="rect" id="node34" href="../../d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="101,664,162,691"/>
-<area shape="rect" id="node36" href="../../d5/def/y_8tab_8c.html#a0f7fc8520ba20bc3445326177f70aac6" title="devisid" alt="" coords="100,715,163,741"/>
-<area shape="rect" id="node37" href="../../d5/def/y_8tab_8c.html#a7749a3f65b7009183a36dca458a6e470" title="devonid" alt="" coords="98,765,165,792"/>
-<area shape="rect" id="node38" href="../../d5/def/y_8tab_8c.html#ad06139f66f750443eeba5fe420fc1dfa" title="getattrid" alt="" coords="97,816,166,843"/>
-<area shape="rect" id="node39" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="98,917,165,944"/>
-<area shape="rect" id="node42" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="96,867,167,893"/>
-<area shape="rect" id="node3" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="225,563,304,589"/>
-<area shape="rect" id="node4" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="227,309,302,336"/>
-<area shape="rect" id="node29" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="215,512,315,539"/>
-<area shape="rect" id="node5" href="../../d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="529,360,605,387"/>
-<area shape="rect" id="node10" href="../../d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="375,132,449,159"/>
-<area shape="rect" id="node18" href="../../dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="373,411,451,437"/>
-<area shape="rect" id="node19" href="../../d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="526,259,607,285"/>
-<area shape="rect" id="node23" href="../../db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="531,309,603,336"/>
-<area shape="rect" id="node28" href="../../db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="363,259,461,285"/>
-<area shape="rect" id="node6" href="../../d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="676,461,755,488"/>
-<area shape="rect" id="node7" href="../../d8/dd4/rdsopen_8c.html#a3d1814c665569d1647069fab92489d70" title="rdsopen" alt="" coords="681,360,749,387"/>
-<area shape="rect" id="node8" href="../../d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="672,411,759,437"/>
-<area shape="rect" id="node9" href="../../d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="815,411,873,437"/>
-<area shape="rect" id="node11" href="../../db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="537,208,596,235"/>
-<area shape="rect" id="node13" href="../../dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="536,5,597,32"/>
-<area shape="rect" id="node15" href="../../d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="677,81,753,108"/>
-<area shape="rect" id="node16" href="../../dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="529,56,605,83"/>
-<area shape="rect" id="node17" href="../../dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="534,157,599,184"/>
-<area shape="rect" id="node12" href="../../d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="686,208,745,235"/>
-<area shape="rect" id="node14" href="../../da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="686,5,745,32"/>
-<area shape="rect" id="node21" href="../../d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="522,461,611,488"/>
-<area shape="rect" id="node22" href="../../d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="509,512,624,539"/>
-<area shape="rect" id="node26" href="../../df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="535,411,598,437"/>
-<area shape="rect" id="node20" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="678,259,753,285"/>
-<area shape="rect" id="node24" href="../../dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="683,309,748,336"/>
-<area shape="rect" id="node25" href="../../dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="807,309,881,336"/>
-<area shape="rect" id="node27" href="../../df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="682,512,749,539"/>
-<area shape="rect" id="node30" href="../../d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="371,563,453,589"/>
-<area shape="rect" id="node31" href="../../d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="525,563,609,589"/>
-<area shape="rect" id="node32" href="../../d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="686,563,745,589"/>
-<area shape="rect" id="node35" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="231,765,299,792"/>
-<area shape="rect" id="node40" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="229,892,301,919"/>
-<area shape="rect" id="node41" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,943,302,969"/>
+<area shape="rect" id="node2" href="../../d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="101,157,162,184"/>
+<area shape="rect" id="node4" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="387,208,437,235"/>
+<area shape="rect" id="node5" href="../../d5/def/y_8tab_8c.html#a0f7fc8520ba20bc3445326177f70aac6" title="devisid" alt="" coords="100,208,163,235"/>
+<area shape="rect" id="node6" href="../../d5/def/y_8tab_8c.html#a7749a3f65b7009183a36dca458a6e470" title="devonid" alt="" coords="98,5,165,32"/>
+<area shape="rect" id="node7" href="../../d5/def/y_8tab_8c.html#ad06139f66f750443eeba5fe420fc1dfa" title="getattrid" alt="" coords="97,56,166,83"/>
+<area shape="rect" id="node8" href="../../d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="112,436,151,463"/>
+<area shape="rect" id="node39" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="98,309,165,336"/>
+<area shape="rect" id="node42" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="96,107,167,133"/>
+<area shape="rect" id="node3" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="231,157,299,184"/>
+<area shape="rect" id="node9" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="225,461,304,488"/>
+<area shape="rect" id="node10" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="227,563,302,589"/>
+<area shape="rect" id="node35" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="215,411,315,437"/>
+<area shape="rect" id="node11" href="../../d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="526,512,607,539"/>
+<area shape="rect" id="node13" href="../../dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="373,613,451,640"/>
+<area shape="rect" id="node14" href="../../db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="531,563,603,589"/>
+<area shape="rect" id="node17" href="../../d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="529,715,605,741"/>
+<area shape="rect" id="node26" href="../../d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="375,867,449,893"/>
+<area shape="rect" id="node34" href="../../db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="363,461,461,488"/>
+<area shape="rect" id="node12" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="678,512,753,539"/>
+<area shape="rect" id="node22" href="../../df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="535,613,598,640"/>
+<area shape="rect" id="node24" href="../../d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="522,664,611,691"/>
+<area shape="rect" id="node25" href="../../d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="509,436,624,463"/>
+<area shape="rect" id="node15" href="../../dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="683,563,748,589"/>
+<area shape="rect" id="node16" href="../../dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="807,563,881,589"/>
+<area shape="rect" id="node18" href="../../d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="676,664,755,691"/>
+<area shape="rect" id="node19" href="../../d8/dd4/rdsopen_8c.html#a3d1814c665569d1647069fab92489d70" title="rdsopen" alt="" coords="681,715,749,741"/>
+<area shape="rect" id="node20" href="../../d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="672,765,759,792"/>
+<area shape="rect" id="node21" href="../../d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="815,765,873,792"/>
+<area shape="rect" id="node23" href="../../df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="682,613,749,640"/>
+<area shape="rect" id="node27" href="../../db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="537,791,596,817"/>
+<area shape="rect" id="node29" href="../../dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="536,993,597,1020"/>
+<area shape="rect" id="node31" href="../../d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="677,917,753,944"/>
+<area shape="rect" id="node32" href="../../dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="529,943,605,969"/>
+<area shape="rect" id="node33" href="../../dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="534,841,599,868"/>
+<area shape="rect" id="node28" href="../../d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="686,816,745,843"/>
+<area shape="rect" id="node30" href="../../da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="686,993,745,1020"/>
+<area shape="rect" id="node36" href="../../d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="371,360,453,387"/>
+<area shape="rect" id="node37" href="../../d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="525,360,609,387"/>
+<area shape="rect" id="node38" href="../../d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="686,360,745,387"/>
+<area shape="rect" id="node40" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="229,360,301,387"/>
+<area shape="rect" id="node41" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,309,302,336"/>
 </map>
 </div>
 

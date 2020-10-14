@@ -1,15 +1,15 @@
 <map id="xsh_memdump" name="xsh_memdump">
-<area shape="rect" id="node2" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="stop" alt="" coords="176,31,223,57"/>
-<area shape="rect" id="node8" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="165,81,234,108"/>
-<area shape="rect" id="node9" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="174,132,225,159"/>
-<area shape="rect" id="node12" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="172,183,227,209"/>
-<area shape="rect" id="node14" href="$de/d8d/xsh__memdump_8c.html#ad14c95647a33b1ab27f5af6b89d15e55" title="parseval" alt="" coords="164,233,235,260"/>
-<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="288,31,347,57"/>
-<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="400,5,465,32"/>
-<area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="405,56,460,83"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="513,31,576,57"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="513,81,576,108"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="294,157,341,184"/>
-<area shape="rect" id="node11" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="283,107,352,133"/>
-<area shape="rect" id="node13" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="283,208,352,235"/>
+<area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="172,5,227,32"/>
+<area shape="rect" id="node5" href="$de/d8d/xsh__memdump_8c.html#ad14c95647a33b1ab27f5af6b89d15e55" title="parseval" alt="" coords="164,56,235,83"/>
+<area shape="rect" id="node6" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="174,107,225,133"/>
+<area shape="rect" id="node8" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="stop" alt="" coords="176,157,223,184"/>
+<area shape="rect" id="node14" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="165,208,234,235"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="294,56,341,83"/>
+<area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="283,5,352,32"/>
+<area shape="rect" id="node7" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="283,107,352,133"/>
+<area shape="rect" id="node9" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="288,157,347,184"/>
+<area shape="rect" id="node10" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="400,132,465,159"/>
+<area shape="rect" id="node11" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="405,183,460,209"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="513,157,576,184"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="513,208,576,235"/>
 </map>

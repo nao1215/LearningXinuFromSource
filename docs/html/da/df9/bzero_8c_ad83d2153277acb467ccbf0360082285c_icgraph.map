@@ -1,8 +1,8 @@
 <map id="bzero" name="bzero">
 <area shape="rect" id="node2" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="110,56,177,83"/>
-<area shape="rect" id="node7" href="$d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="108,5,179,32"/>
-<area shape="rect" id="node3" href="$d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="230,5,298,32"/>
-<area shape="rect" id="node5" href="$d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="228,56,300,83"/>
-<area shape="rect" id="node6" href="$da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,107,301,133"/>
-<area shape="rect" id="node4" href="$d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="349,5,400,32"/>
+<area shape="rect" id="node7" href="$d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="108,107,179,133"/>
+<area shape="rect" id="node3" href="$d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="228,5,300,32"/>
+<area shape="rect" id="node4" href="$da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,56,301,83"/>
+<area shape="rect" id="node5" href="$d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="230,107,298,133"/>
+<area shape="rect" id="node6" href="$d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="349,107,400,133"/>
 </map>

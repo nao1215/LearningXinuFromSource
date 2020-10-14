@@ -1,51 +1,51 @@
 <map id="rfsopen" name="rfsopen">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="797,1576,843,1603"/>
-<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="792,1677,848,1704"/>
-<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a8aabc67c5ebdce063060984bee046792" title="rfsgetmode" alt="" coords="119,1728,205,1755"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="785,5,855,32"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="125,1120,199,1147"/>
-<area shape="rect" id="node26" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="263,765,322,792"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="949,1171,1012,1197"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="949,1373,1012,1400"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="945,1576,1016,1603"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1064,1576,1132,1603"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1188,1627,1243,1653"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1180,1677,1251,1704"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1187,1576,1244,1603"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1299,1677,1361,1704"/>
-<area shape="rect" id="node10" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1409,1677,1475,1704"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="953,1627,1008,1653"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="773,1323,867,1349"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="253,1284,332,1311"/>
-<area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="502,1019,577,1045"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="634,1369,693,1396"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="503,1525,575,1552"/>
-<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="380,1348,447,1375"/>
-<area shape="rect" id="node22" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="506,1424,573,1451"/>
-<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="632,1424,695,1451"/>
-<area shape="rect" id="node24" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="511,1272,568,1299"/>
-<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="495,1323,584,1349"/>
-<area shape="rect" id="node27" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="381,487,446,513"/>
-<area shape="rect" id="node28" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="793,107,847,133"/>
-<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="789,1221,851,1248"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="784,56,856,83"/>
-<area shape="rect" id="node33" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="644,588,683,615"/>
-<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="950,56,1011,83"/>
-<area shape="rect" id="node34" href="$d3/d58/lex_8yy_8c.html#a2e9898ec03e594f5a82387c787776ef6" title="yyensure_buffer_stack" alt="" coords="743,208,897,235"/>
-<area shape="rect" id="node35" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="761,259,879,285"/>
-<area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#ac6bf96bd2d347c04367b8111abcd0dca" title="yy_load_buffer_state" alt="" coords="749,309,891,336"/>
-<area shape="rect" id="node37" href="$d3/d58/lex_8yy_8c.html#ad7a179bfb29968916da20ca16f6ab370" title="yy_get_previous_state" alt="" coords="743,360,897,387"/>
-<area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#a45a1e65d8dcd5cb30c5d315c91800a5f" title="yy_try_NUL_trans" alt="" coords="756,411,884,437"/>
-<area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#a3b3b5f60f720da3f621223997266498c" title="yy_get_next_buffer" alt="" coords="753,461,887,488"/>
-<area shape="rect" id="node40" href="$d3/d58/lex_8yy_8c.html#a9ae7dd87893ed6cebc02d0d5f84c2ede" title="yywrap" alt="" coords="788,512,852,539"/>
-<area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#a843d874fed23c395a8f12c2d9c666557" title="yyrealloc" alt="" coords="783,563,857,589"/>
-<area shape="rect" id="node42" href="$d3/d58/lex_8yy_8c.html#ab657ddef65d43cc3ab8dfc2cad0ac5b8" title="yyrestart" alt="" coords="783,613,857,640"/>
-<area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#a25685b4fb49203fb391287f312948be4" title="yyunput" alt="" coords="786,664,854,691"/>
-<area shape="rect" id="node44" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="795,715,845,741"/>
-<area shape="rect" id="node45" href="$d3/d58/lex_8yy_8c.html#af4a399540c15d953f8b01085bfdc93ea" title="yy_init_buffer" alt="" coords="770,765,870,792"/>
-<area shape="rect" id="node46" href="$d3/d58/lex_8yy_8c.html#a3098c48a74ef8fd852f7dd4b3331cbce" title="yy_switch_to_buffer" alt="" coords="751,816,889,843"/>
-<area shape="rect" id="node47" href="$d3/d58/lex_8yy_8c.html#a48e81b6f60f5f21fcaca3cc542e6c9f2" title="yyalloc" alt="" coords="789,867,851,893"/>
-<area shape="rect" id="node48" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="761,917,879,944"/>
-<area shape="rect" id="node49" href="$d3/d58/lex_8yy_8c.html#a70f82d43d4797bb2a50f7678ddbfbda5" title="yyfree" alt="" coords="791,968,849,995"/>
-<area shape="rect" id="node50" href="$d3/d58/lex_8yy_8c.html#a2f59cc88e85e5455c62e4ef7ce095ea8" title="yy_flush_buffer" alt="" coords="765,157,875,184"/>
+<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="263,1259,322,1285"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="665,144,734,171"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="125,1360,199,1387"/>
+<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="671,1917,727,1944"/>
+<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="676,1867,723,1893"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a8aabc67c5ebdce063060984bee046792" title="rfsgetmode" alt="" coords="119,1968,205,1995"/>
+<area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="385,1208,450,1235"/>
+<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="672,1259,727,1285"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="828,1664,891,1691"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="828,1411,891,1437"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="380,1309,455,1336"/>
+<area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="653,1360,746,1387"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="253,1689,332,1716"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="669,1309,730,1336"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="663,43,735,69"/>
+<area shape="rect" id="node18" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="519,701,558,728"/>
+<area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="507,1613,570,1640"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="829,43,890,69"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="943,1867,1011,1893"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="1065,1867,1123,1893"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1059,1968,1129,1995"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="1067,1917,1121,1944"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1177,1968,1240,1995"/>
+<area shape="rect" id="node19" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="678,549,721,576"/>
+<area shape="rect" id="node20" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="672,600,727,627"/>
+<area shape="rect" id="node21" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="677,651,721,677"/>
+<area shape="rect" id="node22" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="674,701,725,728"/>
+<area shape="rect" id="node23" href="$dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23" title="malloc" alt="" coords="669,752,729,779"/>
+<area shape="rect" id="node24" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="672,803,727,829"/>
+<area shape="rect" id="node25" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="640,853,759,880"/>
+<area shape="rect" id="node26" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="640,904,759,931"/>
+<area shape="rect" id="node27" href="$d3/d58/lex_8yy_8c.html#a25d1992696acab2c6c3b6a6b45d2f487" title="yy_fatal_error" alt="" coords="649,955,750,981"/>
+<area shape="rect" id="node28" href="$d3/d58/lex_8yy_8c.html#a2f59cc88e85e5455c62e4ef7ce095ea8" title="yy_flush_buffer" alt="" coords="644,1005,755,1032"/>
+<area shape="rect" id="node29" href="$d3/d58/lex_8yy_8c.html#a3b3b5f60f720da3f621223997266498c" title="yy_get_next_buffer" alt="" coords="633,1056,766,1083"/>
+<area shape="rect" id="node30" href="$d3/d58/lex_8yy_8c.html#ad7a179bfb29968916da20ca16f6ab370" title="yy_get_previous_state" alt="" coords="623,1107,776,1133"/>
+<area shape="rect" id="node31" href="$d3/d58/lex_8yy_8c.html#af4a399540c15d953f8b01085bfdc93ea" title="yy_init_buffer" alt="" coords="649,1157,749,1184"/>
+<area shape="rect" id="node32" href="$d3/d58/lex_8yy_8c.html#a599b60cd059cf60e89cc49953dc708d0" title="yy_init_globals" alt="" coords="645,1208,753,1235"/>
+<area shape="rect" id="node33" href="$d3/d58/lex_8yy_8c.html#ac6bf96bd2d347c04367b8111abcd0dca" title="yy_load_buffer_state" alt="" coords="628,195,771,221"/>
+<area shape="rect" id="node34" href="$d3/d58/lex_8yy_8c.html#af81595b30c0da73f9034ffb511db6388" title="yy_scan_buffer" alt="" coords="644,245,755,272"/>
+<area shape="rect" id="node35" href="$d3/d58/lex_8yy_8c.html#acbf193b612e891a3fca6a810daa18c66" title="yy_scan_bytes" alt="" coords="644,296,755,323"/>
+<area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#aaba3a8c0a4caad352ee68b5742c4a9d1" title="yy_scan_string" alt="" coords="644,347,755,373"/>
+<area shape="rect" id="node37" href="$d3/d58/lex_8yy_8c.html#a3098c48a74ef8fd852f7dd4b3331cbce" title="yy_switch_to_buffer" alt="" coords="630,397,769,424"/>
+<area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#a45a1e65d8dcd5cb30c5d315c91800a5f" title="yy_try_NUL_trans" alt="" coords="635,448,763,475"/>
+<area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#a48e81b6f60f5f21fcaca3cc542e6c9f2" title="yyalloc" alt="" coords="668,499,731,525"/>
+<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="832,1917,887,1944"/>
+<area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="509,1765,568,1792"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="503,1715,575,1741"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="384,1664,451,1691"/>
+<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="824,1867,895,1893"/>
 </map>

@@ -118,7 +118,9 @@ Include dependency graph for namopen.c:</div>
 <area shape="rect" id="node43" href="../../d8/d8e/armv7a_8h.html" title="armv7a.h" alt="" coords="3784,155,3860,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="../../da/d62/namopen_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac3c81616707d83d636fe3b9cdfa3b807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aeab3de4e8fe20ba22d21b92104014dc6">devcall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807">namopen</a> (struct <a class="el" href="../../de/d98/structdentry.html">dentry</a> *devptr, char *name, char *mode)</td></tr>
@@ -156,42 +158,53 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d62/namopen_8c_source.html#l00009">9</a> of file <a class="el" href="../../da/d62/namopen_8c_source.html">namopen.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d25/include_2conf_8h_source.html#l00007">dentry::dvnum</a>, <a class="el" href="../../dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34">nammap()</a>, <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02163">newdev()</a>, <a class="el" href="../../d3/dd6/name_8h_source.html#l00007">NM_MAXLEN</a>, <a class="el" href="../../da/deb/open_8c_source.html#l00009">open()</a>, and <a class="el" href="../../d0/daa/kernel_8h_source.html#l00079">SYSERR</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">char</span>    newname[<a class="code" href="../../d3/dd6/name_8h.html#aa27ae158e5c82df863ada998fb42e59a">NM_MAXLEN</a>]; <span class="comment">/* Name with prefix replaced    */</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a6be6f29aa0af6c4d541ef5eea6005015">did32</a>   <a class="code" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a">newdev</a>;         <span class="comment">/* Device ID after mapping  */</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">/* Use namespace to map name to a new name and new descriptor */</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    newdev = <a class="code" href="../../dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34">nammap</a>(name, newname, devptr-&gt;<a class="code" href="../../de/d98/structdentry.html#ae065557268640798506b93334f92b137">dvnum</a>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (newdev == <a class="code" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">/* Open underlying device and return status */</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span>  <a class="code" href="../../dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af">open</a>(newdev, newname, mode);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div><div class="ttc" id="kernel_8h_html_ad43bde532b969aa0fea1e97130075ac9"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a></div><div class="ttdeci">#define SYSERR</div><div class="ttdoc">処理が失敗した場合 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00079">kernel.h:79</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a6d8ed47d30a12c464330b50fcb415b34"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34">nammap</a></div><div class="ttdeci">devcall nammap(char *, char[], did32)</div></div>
+<div class="ttc" id="y_8tab_8c_html_aceec3cbcd3524743af5a655baed01a2a"><div class="ttname"><a href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a">newdev</a></div><div class="ttdeci">void newdev(char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/def/y_8tab_8c_source.html#l02163">y.tab.c:2163</a></div></div>
+<div class="ttc" id="name_8h_html_aa27ae158e5c82df863ada998fb42e59a"><div class="ttname"><a href="../../d3/dd6/name_8h.html#aa27ae158e5c82df863ada998fb42e59a">NM_MAXLEN</a></div><div class="ttdeci">#define NM_MAXLEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd6/name_8h_source.html#l00007">name.h:7</a></div></div>
+<div class="ttc" id="structdentry_html_ae065557268640798506b93334f92b137"><div class="ttname"><a href="../../de/d98/structdentry.html#ae065557268640798506b93334f92b137">dentry::dvnum</a></div><div class="ttdeci">int32 dvnum</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d25/include_2conf_8h_source.html#l00007">conf.h:7</a></div></div>
+<div class="ttc" id="kernel_8h_html_a6be6f29aa0af6c4d541ef5eea6005015"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a6be6f29aa0af6c4d541ef5eea6005015">did32</a></div><div class="ttdeci">int32 did32</div><div class="ttdoc">デバイスID </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00028">kernel.h:28</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a4a0694c37c93b0ed64ad7906fb9e25af"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af">open</a></div><div class="ttdeci">syscall open(did32, char *, char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/deb/open_8c_source.html#l00009">open.c:9</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d62/namopen_8c_ac3c81616707d83d636fe3b9cdfa3b807_cgraph.png" border="0" usemap="#da/d62/namopen_8c_ac3c81616707d83d636fe3b9cdfa3b807_cgraph" alt=""/></div>
 <map name="da/d62/namopen_8c_ac3c81616707d83d636fe3b9cdfa3b807_cgraph" id="da/d62/namopen_8c_ac3c81616707d83d636fe3b9cdfa3b807_cgraph">
-<area shape="rect" id="node2" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="131,178,197,205"/>
-<area shape="rect" id="node31" href="../../dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34" title="nammap" alt="" coords="128,229,200,256"/>
-<area shape="rect" id="node32" href="../../dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="705,26,755,53"/>
-<area shape="rect" id="node3" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="252,128,307,154"/>
-<area shape="rect" id="node6" href="../../d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="258,229,301,256"/>
-<area shape="rect" id="node27" href="../../da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="252,280,307,306"/>
-<area shape="rect" id="node28" href="../../d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="248,330,311,357"/>
-<area shape="rect" id="node29" href="../../dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="252,77,307,104"/>
-<area shape="rect" id="node30" href="../../d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="250,178,309,205"/>
-<area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="370,141,417,168"/>
-<area shape="rect" id="node5" href="../../d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="359,90,428,117"/>
-<area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="374,254,413,281"/>
-<area shape="rect" id="node26" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="365,204,422,230"/>
-<area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="816,153,879,180"/>
-<area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="816,268,879,294"/>
-<area shape="rect" id="node10" href="../../dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="476,140,533,166"/>
-<area shape="rect" id="node15" href="../../dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="479,381,530,408"/>
-<area shape="rect" id="node18" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="696,533,764,560"/>
-<area shape="rect" id="node23" href="../../dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="581,292,648,318"/>
-<area shape="rect" id="node24" href="../../dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="697,229,763,256"/>
-<area shape="rect" id="node25" href="../../dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="703,178,757,205"/>
-<area shape="rect" id="node11" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="585,89,644,116"/>
-<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="593,140,636,166"/>
-<area shape="rect" id="node12" href="../../df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="697,77,763,104"/>
-<area shape="rect" id="node13" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="703,128,757,154"/>
-<area shape="rect" id="node16" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="587,533,642,560"/>
-<area shape="rect" id="node17" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="820,584,875,610"/>
-<area shape="rect" id="node19" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="812,533,883,560"/>
-<area shape="rect" id="node22" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="819,482,876,509"/>
-<area shape="rect" id="node20" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="931,533,993,560"/>
-<area shape="rect" id="node21" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1041,533,1107,560"/>
+<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a6d8ed47d30a12c464330b50fcb415b34" title="nammap" alt="" coords="128,5,200,32"/>
+<area shape="rect" id="node3" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="131,208,197,235"/>
+<area shape="rect" id="node32" href="../../dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="705,56,755,83"/>
+<area shape="rect" id="node4" href="../../dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="252,208,307,235"/>
+<area shape="rect" id="node5" href="../../d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="258,259,301,285"/>
+<area shape="rect" id="node26" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="252,309,307,336"/>
+<area shape="rect" id="node29" href="../../d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="248,360,311,387"/>
+<area shape="rect" id="node30" href="../../d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="250,107,309,133"/>
+<area shape="rect" id="node31" href="../../da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="252,157,307,184"/>
+<area shape="rect" id="node6" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="374,259,413,285"/>
+<area shape="rect" id="node25" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="365,208,422,235"/>
+<area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="816,183,879,209"/>
+<area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="816,297,879,324"/>
+<area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="476,157,533,184"/>
+<area shape="rect" id="node14" href="../../dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="479,411,530,437"/>
+<area shape="rect" id="node17" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="696,563,764,589"/>
+<area shape="rect" id="node22" href="../../dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="581,309,648,336"/>
+<area shape="rect" id="node23" href="../../dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="697,259,763,285"/>
+<area shape="rect" id="node24" href="../../dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="703,208,757,235"/>
+<area shape="rect" id="node10" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="585,107,644,133"/>
+<area shape="rect" id="node13" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="593,157,636,184"/>
+<area shape="rect" id="node11" href="../../df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="697,107,763,133"/>
+<area shape="rect" id="node12" href="../../df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="703,157,757,184"/>
+<area shape="rect" id="node15" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="587,563,642,589"/>
+<area shape="rect" id="node16" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="820,613,875,640"/>
+<area shape="rect" id="node18" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="812,563,883,589"/>
+<area shape="rect" id="node21" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="819,512,876,539"/>
+<area shape="rect" id="node19" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="931,563,993,589"/>
+<area shape="rect" id="node20" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1041,563,1107,589"/>
+<area shape="rect" id="node27" href="../../dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="370,309,417,336"/>
+<area shape="rect" id="node28" href="../../d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="359,360,428,387"/>
 </map>
 </div>
 

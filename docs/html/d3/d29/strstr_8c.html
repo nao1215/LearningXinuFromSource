@@ -71,6 +71,8 @@ $(function() {
 
 <p>検索対象の文字列Aから文字列Bを探す。  
 <a href="#details">More...</a></p>
+
+<p><a href="../../d3/d29/strstr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -80,6 +82,8 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>検索対象の文字列Aから文字列Bを探す。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d3/d29/strstr_8c_source.html">strstr.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="aca63cbbde2ae2cadd501226532c02ece"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca63cbbde2ae2cadd501226532c02ece">&#9670;&nbsp;</a></span>strstr()</h2>
@@ -117,6 +121,8 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>検索語句が見つかった場合はその位置をポインタで返し、見つからなかった場合はNULLを返す。 </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d3/d29/strstr_8c_source.html#l00012">12</a> of file <a class="el" href="../../d3/d29/strstr_8c_source.html">strstr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">char</span> *cq;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">char</span> *cr;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">for</span> (; *cs != <span class="charliteral">&#39;\0&#39;</span>; cs++)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (*cs == *ct)</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            cq = (<span class="keywordtype">char</span> *)cs;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            cr = (<span class="keywordtype">char</span> *)ct;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">while</span> ((*cq != <span class="charliteral">&#39;\0&#39;</span>) &amp;&amp; (*cr != <span class="charliteral">&#39;\0&#39;</span>))</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">if</span> (*cq != *cr)</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                cq++;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                cr++;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">if</span> (<span class="charliteral">&#39;\0&#39;</span> == *cr)</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)cs;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

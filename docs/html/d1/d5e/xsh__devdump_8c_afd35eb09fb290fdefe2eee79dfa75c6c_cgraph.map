@@ -1,7 +1,7 @@
 <map id="xsh_devdump" name="xsh_devdump">
 <area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="156,31,211,57"/>
 <area shape="rect" id="node5" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="158,81,209,108"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="270,56,317,83"/>
-<area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="259,5,328,32"/>
+<area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="259,5,328,32"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="270,56,317,83"/>
 <area shape="rect" id="node6" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="259,107,328,133"/>
 </map>

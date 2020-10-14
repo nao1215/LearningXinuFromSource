@@ -10,9 +10,9 @@
 <area shape="rect" id="node46" href="$dd/d10/wait_8c.html#ac3a582eac1d7675ce175f0d3a72d2637" title="wait" alt="" coords="292,529,339,555"/>
 <area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="145,130,194,157"/>
 <area shape="rect" id="node3" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="559,1150,615,1177"/>
-<area shape="rect" id="node5" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="554,1277,621,1303"/>
-<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="566,1327,609,1354"/>
-<area shape="rect" id="node7" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="556,1226,619,1253"/>
+<area shape="rect" id="node5" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="566,1277,609,1303"/>
+<area shape="rect" id="node6" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="556,1327,619,1354"/>
+<area shape="rect" id="node7" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="554,1226,621,1253"/>
 <area shape="rect" id="node9" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="resume" alt="" coords="424,123,489,150"/>
 <area shape="rect" id="node14" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="274,934,357,961"/>
 <area shape="rect" id="node15" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="277,833,353,859"/>

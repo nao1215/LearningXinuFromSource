@@ -118,7 +118,9 @@ Include dependency graph for putc.c:</div>
 <area shape="rect" id="node43" href="../../d8/d8e/armv7a_8h.html" title="armv7a.h" alt="" coords="3784,155,3860,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="../../d1/d0f/putc_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a28a217edd2326ab35ce06bf83dfbc171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0f/putc_8c.html#a28a217edd2326ab35ce06bf83dfbc171">putc</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a6be6f29aa0af6c4d541ef5eea6005015">did32</a> descrp, char ch)</td></tr>
@@ -150,7 +152,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d0f/putc_8c_source.html#l00009">9</a> of file <a class="el" href="../../d1/d0f/putc_8c_source.html">putc.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d94/config_2conf_8c_source.html#l00011">devtab</a>, <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable()</a>, <a class="el" href="../../de/d25/include_2conf_8h_source.html#l00017">dentry::dvputc</a>, <a class="el" href="../../db/de9/device_8h_source.html#l00015">isbaddev</a>, <a class="el" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore()</a>, and <a class="el" href="../../d0/daa/kernel_8h_source.html#l00079">SYSERR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../dc/d67/fputc_8c_source.html#l00017">fputc()</a>, <a class="el" href="../../d1/db5/fputs_8c_source.html#l00010">fputs()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d0/d1c/xsh__cat_8c_source.html#l00011">xsh_cat()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#ae81b268a24b9e9351967bc7952257ca1">intmask</a>     mask;       <span class="comment">/* Saved interrupt mask     */</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../de/d98/structdentry.html">dentry</a>   *devptr;    <span class="comment">/* Entry in device switch table */</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>       retval;     <span class="comment">/* Value to return to caller    */</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    mask = <a class="code" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable</a>();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/de9/device_8h.html#a42ba0c81313c3e8370b535c011d35a97">isbaddev</a>(descrp)) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a>(mask);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    devptr = (<span class="keyword">struct </span><a class="code" href="../../de/d98/structdentry.html">dentry</a> *) &amp;<a class="code" href="../../de/d25/include_2conf_8h.html#a1ec56ba27f8d39ece27629464b765bc5">devtab</a>[descrp];</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    retval = (*devptr-&gt;<a class="code" href="../../de/d98/structdentry.html#aab04cb46a38f4783dea3ba87873f52c7">dvputc</a>) (devptr, ch);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a>(mask);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> retval;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div><div class="ttc" id="prototypes_8h_html_ad61c732fda15799c90d50e35f5d43dd8"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a></div><div class="ttdeci">void restore(intmask)</div></div>
+<div class="ttc" id="kernel_8h_html_ad43bde532b969aa0fea1e97130075ac9"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a></div><div class="ttdeci">#define SYSERR</div><div class="ttdoc">処理が失敗した場合 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00079">kernel.h:79</a></div></div>
+<div class="ttc" id="structdentry_html_aab04cb46a38f4783dea3ba87873f52c7"><div class="ttname"><a href="../../de/d98/structdentry.html#aab04cb46a38f4783dea3ba87873f52c7">dentry::dvputc</a></div><div class="ttdeci">devcall(* dvputc)(struct dentry *, char)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d25/include_2conf_8h_source.html#l00017">conf.h:17</a></div></div>
+<div class="ttc" id="structdentry_html"><div class="ttname"><a href="../../de/d98/structdentry.html">dentry</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d25/include_2conf_8h_source.html#l00006">conf.h:6</a></div></div>
+<div class="ttc" id="include_2conf_8h_html_a1ec56ba27f8d39ece27629464b765bc5"><div class="ttname"><a href="../../de/d25/include_2conf_8h.html#a1ec56ba27f8d39ece27629464b765bc5">devtab</a></div><div class="ttdeci">struct dentry devtab[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d94/config_2conf_8c_source.html#l00011">conf.c:11</a></div></div>
+<div class="ttc" id="kernel_8h_html_ae81b268a24b9e9351967bc7952257ca1"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#ae81b268a24b9e9351967bc7952257ca1">intmask</a></div><div class="ttdeci">uint32 intmask</div><div class="ttdoc">保存された割り込みマスク </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00038">kernel.h:38</a></div></div>
+<div class="ttc" id="kernel_8h_html_a56f1a81c92849566ae864511088eb7e8"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a></div><div class="ttdeci">int int32</div><div class="ttdoc">符号あり32ビット整数（int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00011">kernel.h:11</a></div></div>
+<div class="ttc" id="device_8h_html_a42ba0c81313c3e8370b535c011d35a97"><div class="ttname"><a href="../../db/de9/device_8h.html#a42ba0c81313c3e8370b535c011d35a97">isbaddev</a></div><div class="ttdeci">#define isbaddev(f)</div><div class="ttdoc">デバイスIDを検証するマクロ。 </div><div class="ttdef"><b>Definition:</b> <a href="../../db/de9/device_8h_source.html#l00015">device.h:15</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a18f362b436c863d9edfb0c5912c33e00"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable</a></div><div class="ttdeci">intmask disable(void)</div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_cgraph.png" border="0" usemap="#d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_cgraph" alt=""/></div>
@@ -164,55 +181,55 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_icgraph.png" border="0" usemap="#d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_icgraph" alt=""/></div>
 <map name="d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_icgraph" id="d1/d0f/putc_8c_a28a217edd2326ab35ce06bf83dfbc171_icgraph">
-<area shape="rect" id="node2" href="../../d1/df2/fprintf_8c.html#ade81307f7a5c26d1cc181e94b5fe0dd6" title="fprintf" alt="" coords="100,791,155,817"/>
-<area shape="rect" id="node23" href="../../d0/d1c/xsh__cat_8c.html#a393f9d45428aa0d3d938ee504c077884" title="xsh_cat" alt="" coords="224,563,292,589"/>
-<area shape="rect" id="node40" href="../../dc/d67/fputc_8c.html#a32f19bdc96eb7c1eda177e01344f8c74" title="fputc" alt="" coords="102,1500,153,1527"/>
-<area shape="rect" id="node42" href="../../d1/db5/fputs_8c.html#ad8eefba99142a95fc61fb24df8a41436" title="fputs" alt="" coords="102,1551,153,1577"/>
-<area shape="rect" id="node43" href="../../d1/d3d/printf_8c.html#a55f3d956bb2ba20b5059e9e25484a47f" title="printf" alt="" coords="102,1449,153,1476"/>
-<area shape="rect" id="node3" href="../../d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="239,715,277,741"/>
-<area shape="rect" id="node6" href="../../db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="519,867,617,893"/>
-<area shape="rect" id="node7" href="../../db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="532,740,604,767"/>
-<area shape="rect" id="node9" href="../../d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="511,1019,625,1045"/>
-<area shape="rect" id="node10" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="543,411,593,437"/>
-<area shape="rect" id="node11" href="../../d5/def/y_8tab_8c.html#a00f175303629a5b6f105786a741f06be" title="addattr" alt="" coords="227,107,289,133"/>
-<area shape="rect" id="node13" href="../../d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="227,157,289,184"/>
-<area shape="rect" id="node14" href="../../d5/def/y_8tab_8c.html#a0f7fc8520ba20bc3445326177f70aac6" title="devisid" alt="" coords="227,208,289,235"/>
-<area shape="rect" id="node15" href="../../d5/def/y_8tab_8c.html#a7749a3f65b7009183a36dca458a6e470" title="devonid" alt="" coords="225,259,291,285"/>
-<area shape="rect" id="node16" href="../../d5/def/y_8tab_8c.html#ad06139f66f750443eeba5fe420fc1dfa" title="getattrid" alt="" coords="223,309,293,336"/>
-<area shape="rect" id="node17" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="225,360,291,387"/>
-<area shape="rect" id="node20" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="223,5,293,32"/>
-<area shape="rect" id="node21" href="../../d5/def/y_8tab_8c.html#a877954319adae05b7f955da3598d9674" title="yyerror" alt="" coords="227,56,289,83"/>
-<area shape="rect" id="node22" href="../../d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="233,461,283,488"/>
-<area shape="rect" id="node24" href="../../dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="xsh_clear" alt="" coords="219,1323,297,1349"/>
-<area shape="rect" id="node25" href="../../dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="221,1373,295,1400"/>
-<area shape="rect" id="node26" href="../../d1/d5e/xsh__devdump_8c.html#afd35eb09fb290fdefe2eee79dfa75c6c" title="xsh_devdump" alt="" coords="207,1424,309,1451"/>
-<area shape="rect" id="node27" href="../../d4/dfe/xsh__help_8c.html#a867900f401d5a5f408989ee5f5a7a863" title="xsh_help" alt="" coords="221,1475,295,1501"/>
-<area shape="rect" id="node28" href="../../da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="225,1525,291,1552"/>
-<area shape="rect" id="node29" href="../../dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="228,917,288,944"/>
-<area shape="rect" id="node30" href="../../de/d8d/xsh__memdump_8c.html#ae283dadc7d92668406781e7a3c3efe12" title="xsh_memdump" alt="" coords="203,968,313,995"/>
-<area shape="rect" id="node31" href="../../d8/d0c/xsh__memstat_8c.html#a3f604593f5fa0d50e3de88718f8b69e6" title="xsh_memstat" alt="" coords="361,1855,463,1881"/>
-<area shape="rect" id="node32" href="../../d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="213,1019,303,1045"/>
-<area shape="rect" id="node33" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="221,1069,295,1096"/>
-<area shape="rect" id="node34" href="../../df/d99/xsh__ps_8c.html#af8aec7d5e41a320714655b73280d4b8f" title="xsh_ps" alt="" coords="226,1120,290,1147"/>
-<area shape="rect" id="node35" href="../../d5/d78/xsh__sleep_8c.html#ad2766c4af261e4cbf2e0b24811ddb94d" title="xsh_sleep" alt="" coords="217,1171,299,1197"/>
-<area shape="rect" id="node36" href="../../df/d55/xsh__udpdump_8c.html#aecd143307dfd5b51ebd8ad11f5141f50" title="xsh_udpdump" alt="" coords="207,1221,309,1248"/>
-<area shape="rect" id="node37" href="../../d9/dd8/xsh__uptime_8c.html#a71f023dd04d34987d834245d2ff29f5b" title="xsh_uptime" alt="" coords="213,1272,303,1299"/>
-<area shape="rect" id="node38" href="../../d1/d72/debug_8c.html#ab9c3e93510176e2f107e55f6016b4226" title="hexdump_print" alt="" coords="205,512,311,539"/>
-<area shape="rect" id="node39" href="../../d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="hexdump" alt="" coords="375,563,449,589"/>
-<area shape="rect" id="node4" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="373,715,451,741"/>
-<area shape="rect" id="node5" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="375,816,449,843"/>
-<area shape="rect" id="node8" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="362,917,462,944"/>
-<area shape="rect" id="node12" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="378,208,446,235"/>
-<area shape="rect" id="node18" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="376,309,448,336"/>
-<area shape="rect" id="node19" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="375,360,449,387"/>
-<area shape="rect" id="node41" href="../../db/de0/putchar_8c.html#af4de2514b7778805db3815e8dd6cf09a" title="putchar" alt="" coords="225,2133,291,2160"/>
-<area shape="rect" id="node44" href="../../d8/d5c/arp__dump_8c.html#af25d3601949384689349f53a4a7d0b93" title="arp_dump" alt="" coords="219,1981,297,2008"/>
-<area shape="rect" id="node45" href="../../dd/db7/xsh__argecho_8c.html#a9265169f63dd177e651e97b88c54adf3" title="xsh_argecho" alt="" coords="210,2032,306,2059"/>
-<area shape="rect" id="node46" href="../../dc/dac/xsh__arp_8c.html#a077d2b41a041ed7b46e39e90252c82c2" title="xsh_arp" alt="" coords="378,1703,446,1729"/>
-<area shape="rect" id="node47" href="../../dc/dac/xsh__arp_8c.html#a722f712b6f5562547f861660cd2a4b63" title="arp_dmp" alt="" coords="222,1728,294,1755"/>
-<area shape="rect" id="node48" href="../../d6/d6d/xsh__echo_8c.html#a682f93c6259a5a482677907847144ea1" title="xsh_echo" alt="" coords="219,1779,297,1805"/>
-<area shape="rect" id="node49" href="../../d8/d0c/xsh__memstat_8c.html#a6640813332dfe87d9a82f21485e24e35" title="printFreeList" alt="" coords="211,1931,305,1957"/>
-<area shape="rect" id="node50" href="../../d8/d0c/xsh__memstat_8c.html#a9f0b59c1d9d3acb4a045bd65ad77a9d3" title="printMemUse" alt="" coords="208,1829,308,1856"/>
+<area shape="rect" id="node2" href="../../d1/df2/fprintf_8c.html#ade81307f7a5c26d1cc181e94b5fe0dd6" title="fprintf" alt="" coords="100,790,155,817"/>
+<area shape="rect" id="node25" href="../../d0/d1c/xsh__cat_8c.html#a393f9d45428aa0d3d938ee504c077884" title="xsh_cat" alt="" coords="224,1018,292,1045"/>
+<area shape="rect" id="node40" href="../../dc/d67/fputc_8c.html#a32f19bdc96eb7c1eda177e01344f8c74" title="fputc" alt="" coords="102,1550,153,1577"/>
+<area shape="rect" id="node42" href="../../d1/db5/fputs_8c.html#ad8eefba99142a95fc61fb24df8a41436" title="fputs" alt="" coords="102,1601,153,1628"/>
+<area shape="rect" id="node43" href="../../d1/d3d/printf_8c.html#a55f3d956bb2ba20b5059e9e25484a47f" title="printf" alt="" coords="102,1500,153,1526"/>
+<area shape="rect" id="node3" href="../../d5/def/y_8tab_8c.html#a00f175303629a5b6f105786a741f06be" title="addattr" alt="" coords="227,309,289,336"/>
+<area shape="rect" id="node5" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="543,461,593,488"/>
+<area shape="rect" id="node6" href="../../d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="227,360,289,386"/>
+<area shape="rect" id="node7" href="../../d5/def/y_8tab_8c.html#a0f7fc8520ba20bc3445326177f70aac6" title="devisid" alt="" coords="227,56,289,82"/>
+<area shape="rect" id="node8" href="../../d5/def/y_8tab_8c.html#a7749a3f65b7009183a36dca458a6e470" title="devonid" alt="" coords="225,106,291,133"/>
+<area shape="rect" id="node9" href="../../d5/def/y_8tab_8c.html#ad06139f66f750443eeba5fe420fc1dfa" title="getattrid" alt="" coords="223,157,293,184"/>
+<area shape="rect" id="node10" href="../../db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="532,562,604,589"/>
+<area shape="rect" id="node12" href="../../dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="787,562,861,589"/>
+<area shape="rect" id="node13" href="../../d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="hexdump" alt="" coords="375,765,449,792"/>
+<area shape="rect" id="node14" href="../../d1/d72/debug_8c.html#ab9c3e93510176e2f107e55f6016b4226" title="hexdump_print" alt="" coords="205,714,311,741"/>
+<area shape="rect" id="node15" href="../../d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="239,664,277,690"/>
+<area shape="rect" id="node18" href="../../db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="519,816,617,842"/>
+<area shape="rect" id="node20" href="../../d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="511,664,625,690"/>
+<area shape="rect" id="node21" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="225,410,291,437"/>
+<area shape="rect" id="node23" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="223,208,293,234"/>
+<area shape="rect" id="node24" href="../../d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="233,613,283,640"/>
+<area shape="rect" id="node26" href="../../dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="xsh_clear" alt="" coords="219,1170,297,1197"/>
+<area shape="rect" id="node27" href="../../d1/d5e/xsh__devdump_8c.html#afd35eb09fb290fdefe2eee79dfa75c6c" title="xsh_devdump" alt="" coords="207,1221,309,1248"/>
+<area shape="rect" id="node28" href="../../d4/dfe/xsh__help_8c.html#a867900f401d5a5f408989ee5f5a7a863" title="xsh_help" alt="" coords="221,1272,295,1298"/>
+<area shape="rect" id="node29" href="../../da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="225,1322,291,1349"/>
+<area shape="rect" id="node30" href="../../dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="228,1373,288,1400"/>
+<area shape="rect" id="node31" href="../../de/d8d/xsh__memdump_8c.html#ae283dadc7d92668406781e7a3c3efe12" title="xsh_memdump" alt="" coords="203,1424,313,1450"/>
+<area shape="rect" id="node32" href="../../d8/d0c/xsh__memstat_8c.html#a3f604593f5fa0d50e3de88718f8b69e6" title="xsh_memstat" alt="" coords="361,1677,463,1704"/>
+<area shape="rect" id="node33" href="../../d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="213,1474,303,1501"/>
+<area shape="rect" id="node34" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="221,1525,295,1552"/>
+<area shape="rect" id="node35" href="../../df/d99/xsh__ps_8c.html#af8aec7d5e41a320714655b73280d4b8f" title="xsh_ps" alt="" coords="226,917,290,944"/>
+<area shape="rect" id="node36" href="../../d5/d78/xsh__sleep_8c.html#ad2766c4af261e4cbf2e0b24811ddb94d" title="xsh_sleep" alt="" coords="217,968,299,994"/>
+<area shape="rect" id="node37" href="../../df/d55/xsh__udpdump_8c.html#aecd143307dfd5b51ebd8ad11f5141f50" title="xsh_udpdump" alt="" coords="207,1069,309,1096"/>
+<area shape="rect" id="node38" href="../../d9/dd8/xsh__uptime_8c.html#a71f023dd04d34987d834245d2ff29f5b" title="xsh_uptime" alt="" coords="213,1120,303,1146"/>
+<area shape="rect" id="node39" href="../../d5/def/y_8tab_8c.html#a877954319adae05b7f955da3598d9674" title="yyerror" alt="" coords="227,258,289,285"/>
+<area shape="rect" id="node4" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="378,258,446,285"/>
+<area shape="rect" id="node11" href="../../dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="673,562,739,589"/>
+<area shape="rect" id="node16" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="373,613,451,640"/>
+<area shape="rect" id="node17" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="375,714,449,741"/>
+<area shape="rect" id="node19" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="362,664,462,690"/>
+<area shape="rect" id="node22" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="376,410,448,437"/>
+<area shape="rect" id="node41" href="../../db/de0/putchar_8c.html#af4de2514b7778805db3815e8dd6cf09a" title="putchar" alt="" coords="225,2184,291,2210"/>
+<area shape="rect" id="node44" href="../../dc/dac/xsh__arp_8c.html#a722f712b6f5562547f861660cd2a4b63" title="arp_dmp" alt="" coords="222,1930,294,1957"/>
+<area shape="rect" id="node45" href="../../dc/dac/xsh__arp_8c.html#a077d2b41a041ed7b46e39e90252c82c2" title="xsh_arp" alt="" coords="378,1905,446,1932"/>
+<area shape="rect" id="node46" href="../../d8/d5c/arp__dump_8c.html#af25d3601949384689349f53a4a7d0b93" title="arp_dump" alt="" coords="219,1981,297,2008"/>
+<area shape="rect" id="node47" href="../../d8/d0c/xsh__memstat_8c.html#a6640813332dfe87d9a82f21485e24e35" title="printFreeList" alt="" coords="211,1626,305,1653"/>
+<area shape="rect" id="node48" href="../../d8/d0c/xsh__memstat_8c.html#a9f0b59c1d9d3acb4a045bd65ad77a9d3" title="printMemUse" alt="" coords="208,1728,308,1754"/>
+<area shape="rect" id="node49" href="../../dd/db7/xsh__argecho_8c.html#a9265169f63dd177e651e97b88c54adf3" title="xsh_argecho" alt="" coords="210,2133,306,2160"/>
+<area shape="rect" id="node50" href="../../d6/d6d/xsh__echo_8c.html#a682f93c6259a5a482677907847144ea1" title="xsh_echo" alt="" coords="219,1677,297,1704"/>
 </map>
 </div>
 

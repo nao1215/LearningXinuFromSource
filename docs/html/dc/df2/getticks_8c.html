@@ -118,7 +118,9 @@ Include dependency graph for getticks.c:</div>
 <area shape="rect" id="node43" href="../../d8/d8e/armv7a_8h.html" title="armv7a.h" alt="" coords="3784,155,3860,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="../../dc/df2/getticks_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a37a5957fb3d3b2c1722ff49351c506c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/getticks_8c.html#a37a5957fb3d3b2c1722ff49351c506c8">getticks</a> ()</td></tr>
@@ -140,7 +142,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df2/getticks_8c_source.html#l00009">9</a> of file <a class="el" href="../../dc/df2/getticks_8c_source.html">getticks.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d5f/net_8c_source.html#l00015">net_init()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> ret;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">asm</span> <span class="keyword">volatile</span> ( <span class="stringliteral">&quot;MRC p15, 0, %0, c9, c13, 0\t\n&quot;</span>: <span class="stringliteral">&quot;=r&quot;</span>(ret) );</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> ret;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div><div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/df2/getticks_8c_a37a5957fb3d3b2c1722ff49351c506c8_icgraph.png" border="0" usemap="#dc/df2/getticks_8c_a37a5957fb3d3b2c1722ff49351c506c8_icgraph" alt=""/></div>

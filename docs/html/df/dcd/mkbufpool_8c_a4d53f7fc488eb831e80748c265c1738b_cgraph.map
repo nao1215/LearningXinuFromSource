@@ -1,8 +1,8 @@
 <map id="mkbufpool" name="mkbufpool">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="271,51,333,78"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="271,127,333,154"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="143,77,212,103"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="136,178,219,205"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="freemem" alt="" coords="141,26,214,53"/>
-<area shape="rect" id="node6" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="267,178,337,205"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="271,39,333,65"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="freemem" alt="" coords="141,76,214,103"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="271,101,333,128"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="143,25,212,52"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="136,177,219,204"/>
+<area shape="rect" id="node7" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="267,177,337,204"/>
 </map>

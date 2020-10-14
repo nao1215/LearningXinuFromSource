@@ -1,15 +1,13 @@
 <map id="nammap" name="nammap">
-<area shape="rect" id="node2" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="126,330,193,357"/>
-<area shape="rect" id="node31" href="$d0/dd5/nammap_8c.html#ab2f62ac8b0ee8128f07c9f10077b9408" title="namcpy" alt="" coords="125,381,193,408"/>
-<area shape="rect" id="node32" href="$d0/dd5/nammap_8c.html#aec7edd1504e201cf22e9beb3607fee47" title="namrepl" alt="" coords="125,432,193,458"/>
-<area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="245,204,300,230"/>
-<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="251,254,294,281"/>
-<area shape="rect" id="node27" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="245,305,300,332"/>
-<area shape="rect" id="node28" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="241,356,304,382"/>
-<area shape="rect" id="node29" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="245,406,300,433"/>
-<area shape="rect" id="node30" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="243,457,302,484"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="363,153,410,180"/>
-<area shape="rect" id="node5" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="352,204,421,230"/>
+<area shape="rect" id="node2" href="$d0/dd5/nammap_8c.html#ab2f62ac8b0ee8128f07c9f10077b9408" title="namcpy" alt="" coords="125,280,193,306"/>
+<area shape="rect" id="node3" href="$d0/dd5/nammap_8c.html#aec7edd1504e201cf22e9beb3607fee47" title="namrepl" alt="" coords="125,330,193,357"/>
+<area shape="rect" id="node4" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="126,381,193,408"/>
+<area shape="rect" id="node5" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="245,254,300,281"/>
+<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="251,305,294,332"/>
+<area shape="rect" id="node27" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="245,356,300,382"/>
+<area shape="rect" id="node30" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="241,406,304,433"/>
+<area shape="rect" id="node31" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="243,457,302,484"/>
+<area shape="rect" id="node32" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="245,508,300,534"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="367,254,406,281"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="358,305,415,332"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="809,178,872,205"/>
@@ -30,4 +28,6 @@
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="812,584,869,610"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="924,533,987,560"/>
 <area shape="rect" id="node21" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1035,533,1100,560"/>
+<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="363,356,410,382"/>
+<area shape="rect" id="node29" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="352,406,421,433"/>
 </map>

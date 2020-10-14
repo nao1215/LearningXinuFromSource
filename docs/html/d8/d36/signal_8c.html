@@ -118,7 +118,9 @@ Include dependency graph for signal.c:</div>
 <area shape="rect" id="node43" href="../../d8/d8e/armv7a_8h.html" title="armv7a.h" alt="" coords="3784,155,3860,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="../../d8/d36/signal_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5b637734888aea3761084040315ceea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#aed4e13c49832a5c7c94deeec9b92a84b">syscall</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8">signal</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a> sem)</td></tr>
@@ -140,20 +142,40 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d36/signal_8c_source.html#l00009">9</a> of file <a class="el" href="../../d8/d36/signal_8c_source.html">signal.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/dbd/queue_8c_source.html#l00078">dequeue()</a>, <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable()</a>, <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00022">isbadsem</a>, <a class="el" href="../../d0/daa/kernel_8h_source.html#l00077">OK</a>, <a class="el" href="../../d7/db9/ready_8c_source.html#l00011">ready()</a>, <a class="el" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore()</a>, <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00009">S_FREE</a>, <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00015">sentry::scount</a>, <a class="el" href="../../df/dda/initialize_8c_source.html#l00021">semtab</a>, <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00016">sentry::squeue</a>, <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00014">sentry::sstate</a>, and <a class="el" href="../../d0/daa/kernel_8h_source.html#l00079">SYSERR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d83/ethhandler_8c_source.html#l00009">ethhandler()</a>, <a class="el" href="../../d9/d29/freebuf_8c_source.html#l00009">freebuf()</a>, <a class="el" href="../../d0/dc8/ip_8c_source.html#l00439">ip_enqueue()</a>, <a class="el" href="../../d9/db3/lflclose_8c_source.html#l00009">lflclose()</a>, <a class="el" href="../../d9/de8/lflcontrol_8c_source.html#l00009">lflcontrol()</a>, <a class="el" href="../../d9/d09/lflgetc_8c_source.html#l00009">lflgetc()</a>, <a class="el" href="../../d7/d0b/lflputc_8c_source.html#l00009">lflputc()</a>, <a class="el" href="../../d3/d3d/lflseek_8c_source.html#l00009">lflseek()</a>, <a class="el" href="../../d8/dc8/lfsetup_8c_source.html#l00010">lfsetup()</a>, <a class="el" href="../../d2/d91/lfsopen_8c_source.html#l00009">lfsopen()</a>, <a class="el" href="../../d1/db7/mark_8c_source.html#l00024">mark()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>, <a class="el" href="../../d7/da2/rdscontrol_8c_source.html#l00009">rdscontrol()</a>, <a class="el" href="../../d5/db7/rdsprocess_8c_source.html#l00012">rdsprocess()</a>, <a class="el" href="../../df/d3c/rdsread_8c_source.html#l00009">rdsread()</a>, <a class="el" href="../../d5/d9c/rdswrite_8c_source.html#l00009">rdswrite()</a>, <a class="el" href="../../d1/dd4/rflclose_8c_source.html#l00009">rflclose()</a>, <a class="el" href="../../db/da8/rflread_8c_source.html#l00009">rflread()</a>, <a class="el" href="../../db/d25/rflseek_8c_source.html#l00009">rflseek()</a>, <a class="el" href="../../dc/d7a/rflwrite_8c_source.html#l00009">rflwrite()</a>, <a class="el" href="../../d6/df4/rfscontrol_8c_source.html#l00009">rfscontrol()</a>, <a class="el" href="../../dd/d24/rfsopen_8c_source.html#l00010">rfsopen()</a>, <a class="el" href="../../df/d2b/ttycontrol_8c_source.html#l00009">ttycontrol()</a>, <a class="el" href="../../d6/d00/ttyhandle__in_8c_source.html#l00013">ttyhandle_in()</a>, and <a class="el" href="../../dd/dab/xsh__ls_8c_source.html#l00010">xsh_ls()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#ae81b268a24b9e9351967bc7952257ca1">intmask</a> mask;           <span class="comment">/* Saved interrupt mask     */</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">struct  </span><a class="code" href="../../d1/d47/structsentry.html">sentry</a> *semptr;     <span class="comment">/* Ptr to sempahore table entry */</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    mask = <a class="code" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dc6/semaphore_8h.html#afd15daded261546d70e9b6247394a60d">isbadsem</a>(sem)) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a>(mask);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    semptr= &amp;<a class="code" href="../../d6/dc6/semaphore_8h.html#aa68777a78154f158ec3e8663e10ed6de">semtab</a>[sem];</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (semptr-&gt;<a class="code" href="../../d1/d47/structsentry.html#a39168b3fd1079ab2eba068e443029ae6">sstate</a> == <a class="code" href="../../d6/dc6/semaphore_8h.html#a5856a4c3f3d64ca3fecc98655d9a3338">S_FREE</a>) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a>(mask);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span> ((semptr-&gt;<a class="code" href="../../d1/d47/structsentry.html#a3d690022e52b1560c65e191681d60b72">scount</a>++) &lt; 0) {   <span class="comment">/* Release a waiting process */</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b">ready</a>(<a class="code" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052">dequeue</a>(semptr-&gt;<a class="code" href="../../d1/d47/structsentry.html#afcea074be5215a648e2e20535b77b638">squeue</a>));</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a>(mask);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/daa/kernel_8h.html#aba51915c87d64af47fb1cc59348961c9">OK</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div><div class="ttc" id="prototypes_8h_html_ad61c732fda15799c90d50e35f5d43dd8"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore</a></div><div class="ttdeci">void restore(intmask)</div></div>
+<div class="ttc" id="structsentry_html_a39168b3fd1079ab2eba068e443029ae6"><div class="ttname"><a href="../../d1/d47/structsentry.html#a39168b3fd1079ab2eba068e443029ae6">sentry::sstate</a></div><div class="ttdeci">byte sstate</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00014">semaphore.h:14</a></div></div>
+<div class="ttc" id="kernel_8h_html_ad43bde532b969aa0fea1e97130075ac9"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#ad43bde532b969aa0fea1e97130075ac9">SYSERR</a></div><div class="ttdeci">#define SYSERR</div><div class="ttdoc">処理が失敗した場合 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00079">kernel.h:79</a></div></div>
+<div class="ttc" id="structsentry_html"><div class="ttname"><a href="../../d1/d47/structsentry.html">sentry</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00013">semaphore.h:13</a></div></div>
+<div class="ttc" id="semaphore_8h_html_afd15daded261546d70e9b6247394a60d"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#afd15daded261546d70e9b6247394a60d">isbadsem</a></div><div class="ttdeci">#define isbadsem(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00022">semaphore.h:22</a></div></div>
+<div class="ttc" id="kernel_8h_html_aba51915c87d64af47fb1cc59348961c9"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aba51915c87d64af47fb1cc59348961c9">OK</a></div><div class="ttdeci">#define OK</div><div class="ttdoc">処理が成功した場合 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00077">kernel.h:77</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a8cb0ac1d712fcf1132b5cc5ad96dca3b"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b">ready</a></div><div class="ttdeci">status ready(pid32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db9/ready_8c_source.html#l00011">ready.c:11</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a75f6191de81b4646671cc9a3dbf4b052"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052">dequeue</a></div><div class="ttdeci">pid32 dequeue(qid16)</div><div class="ttdoc">プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dbd/queue_8c_source.html#l00078">queue.c:78</a></div></div>
+<div class="ttc" id="kernel_8h_html_ae81b268a24b9e9351967bc7952257ca1"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#ae81b268a24b9e9351967bc7952257ca1">intmask</a></div><div class="ttdeci">uint32 intmask</div><div class="ttdoc">保存された割り込みマスク </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00038">kernel.h:38</a></div></div>
+<div class="ttc" id="structsentry_html_afcea074be5215a648e2e20535b77b638"><div class="ttname"><a href="../../d1/d47/structsentry.html#afcea074be5215a648e2e20535b77b638">sentry::squeue</a></div><div class="ttdeci">qid16 squeue</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00016">semaphore.h:16</a></div></div>
+<div class="ttc" id="structsentry_html_a3d690022e52b1560c65e191681d60b72"><div class="ttname"><a href="../../d1/d47/structsentry.html#a3d690022e52b1560c65e191681d60b72">sentry::scount</a></div><div class="ttdeci">int32 scount</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00015">semaphore.h:15</a></div></div>
+<div class="ttc" id="semaphore_8h_html_a5856a4c3f3d64ca3fecc98655d9a3338"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#a5856a4c3f3d64ca3fecc98655d9a3338">S_FREE</a></div><div class="ttdeci">#define S_FREE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00009">semaphore.h:9</a></div></div>
+<div class="ttc" id="semaphore_8h_html_aa68777a78154f158ec3e8663e10ed6de"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#aa68777a78154f158ec3e8663e10ed6de">semtab</a></div><div class="ttdeci">struct sentry semtab[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dda/initialize_8c_source.html#l00021">initialize.c:21</a></div></div>
+<div class="ttc" id="prototypes_8h_html_a18f362b436c863d9edfb0c5912c33e00"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable</a></div><div class="ttdeci">intmask disable(void)</div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_cgraph.png" border="0" usemap="#d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_cgraph" alt=""/></div>
 <map name="d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_cgraph" id="d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_cgraph">
-<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="109,5,172,32"/>
-<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="109,56,172,83"/>
-<area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="113,107,168,133"/>
-<area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="336,157,407,184"/>
-<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="344,56,399,83"/>
-<area shape="rect" id="node6" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="220,107,288,133"/>
-<area shape="rect" id="node10" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="343,107,400,133"/>
-<area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="455,157,517,184"/>
-<area shape="rect" id="node9" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="565,157,631,184"/>
+<area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="336,5,407,32"/>
+<area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="109,56,172,83"/>
+<area shape="rect" id="node6" href="../../dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="113,107,168,133"/>
+<area shape="rect" id="node10" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="109,157,172,184"/>
+<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="455,5,517,32"/>
+<area shape="rect" id="node4" href="../../d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="565,5,631,32"/>
+<area shape="rect" id="node7" href="../../dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="344,107,399,133"/>
+<area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="220,56,288,83"/>
+<area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="343,56,400,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -161,55 +183,55 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_icgraph.png" border="0" usemap="#d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_icgraph" alt=""/></div>
 <map name="d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_icgraph" id="d8/d36/signal_8c_a5b637734888aea3761084040315ceea8_icgraph">
-<area shape="rect" id="node2" href="../../d0/d83/ethhandler_8c.html#a0772d37e041094e9f06bfe447765444b" title="ethhandler" alt="" coords="114,5,197,32"/>
-<area shape="rect" id="node3" href="../../d9/db3/lflclose_8c.html#ae4e1d432a0eb4564252ad5c5c63e020f" title="lflclose" alt="" coords="124,56,187,83"/>
-<area shape="rect" id="node4" href="../../d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="120,107,191,133"/>
-<area shape="rect" id="node5" href="../../d9/d09/lflgetc_8c.html#a6522f70cdc3678892f62e19e213db4ba" title="lflgetc" alt="" coords="271,171,328,197"/>
-<area shape="rect" id="node7" href="../../d7/d0b/lflputc_8c.html#ac66da37dcb0f69c711dbb5f6972a85e2" title="lflputc" alt="" coords="271,247,328,273"/>
-<area shape="rect" id="node9" href="../../d3/d3d/lflseek_8c.html#ac1ca3afe231740a74f2f423579f93ceb" title="lflseek" alt="" coords="125,309,185,336"/>
-<area shape="rect" id="node10" href="../../d8/dc8/lfsetup_8c.html#a3db01eed715ed5ef0da3c013cd6faa41" title="lfsetup" alt="" coords="125,208,186,235"/>
-<area shape="rect" id="node11" href="../../d2/d91/lfsopen_8c.html#aed42ff64ddeed085c468a1e347045948" title="lfsopen" alt="" coords="123,360,187,387"/>
-<area shape="rect" id="node12" href="../../d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="116,411,195,437"/>
-<area shape="rect" id="node13" href="../../d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="112,461,199,488"/>
-<area shape="rect" id="node15" href="../../df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="123,512,188,539"/>
-<area shape="rect" id="node16" href="../../d5/d9c/rdswrite_8c.html#a8f4bffff0ad53e8176866fe098f71218" title="rdswrite" alt="" coords="121,563,189,589"/>
-<area shape="rect" id="node17" href="../../d1/dd4/rflclose_8c.html#aa01777004681c533257eb2ddfd3c800f" title="rflclose" alt="" coords="123,613,187,640"/>
-<area shape="rect" id="node18" href="../../db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="126,664,185,691"/>
-<area shape="rect" id="node20" href="../../db/d25/rflseek_8c.html#aed90b4e7a0932d3565eb7336723fbbac" title="rflseek" alt="" coords="125,715,186,741"/>
-<area shape="rect" id="node21" href="../../dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="125,765,186,792"/>
-<area shape="rect" id="node23" href="../../d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="117,816,193,843"/>
-<area shape="rect" id="node24" href="../../dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="123,867,188,893"/>
-<area shape="rect" id="node25" href="../../df/d2b/ttycontrol_8c.html#a7bbd10bffb1121e6ab5bd9bec2f24ff1" title="ttycontrol" alt="" coords="117,917,193,944"/>
-<area shape="rect" id="node26" href="../../d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="109,968,201,995"/>
-<area shape="rect" id="node28" href="../../d0/dc8/ip_8c.html#adb623e862fbb0143c7ce166fdcb18d08" title="ip_enqueue" alt="" coords="255,1323,343,1349"/>
-<area shape="rect" id="node38" href="../../dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="125,1120,185,1147"/>
-<area shape="rect" id="node39" href="../../d9/d29/freebuf_8c.html#a440d3456ec381ea81d8961d19e18fecb" title="freebuf" alt="" coords="124,1019,187,1045"/>
-<area shape="rect" id="node48" href="../../d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999" title="mark" alt="" coords="130,1171,181,1197"/>
-<area shape="rect" id="node49" href="../../d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ptrecv" alt="" coords="126,1221,185,1248"/>
-<area shape="rect" id="node50" href="../../d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="ptsend" alt="" coords="125,1272,186,1299"/>
-<area shape="rect" id="node6" href="../../d0/d2c/lflread_8c.html#ada61d46f19dd2b8316f2afd5fda0dcb7" title="lflread" alt="" coords="418,171,475,197"/>
-<area shape="rect" id="node8" href="../../d5/d55/lflwrite_8c.html#acb341c8fb845fdfccb01e1cb329e711a" title="lflwrite" alt="" coords="417,247,477,273"/>
-<area shape="rect" id="node14" href="../../d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="271,461,328,488"/>
-<area shape="rect" id="node19" href="../../d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="270,563,329,589"/>
-<area shape="rect" id="node22" href="../../da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="270,613,329,640"/>
-<area shape="rect" id="node27" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="260,664,339,691"/>
-<area shape="rect" id="node29" href="../../df/d61/icmp_8c.html#ae095bf86810235af65b923c67a8c8948" title="icmp_in" alt="" coords="413,1120,480,1147"/>
-<area shape="rect" id="node30" href="../../d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="552,1069,619,1096"/>
-<area shape="rect" id="node31" href="../../d0/dc8/ip_8c.html#a9b2038aa18171f352bd2b8b4f92db286" title="ip_in" alt="" coords="683,917,733,944"/>
-<area shape="rect" id="node33" href="../../d0/dc8/ip_8c.html#a3961ee626e875d99fabeffd5a90f3166" title="ip_send" alt="" coords="675,1069,741,1096"/>
-<area shape="rect" id="node37" href="../../d0/dc8/ip_8c.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="683,1196,733,1223"/>
-<area shape="rect" id="node32" href="../../d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="807,867,857,893"/>
-<area shape="rect" id="node34" href="../../df/d61/icmp_8c.html#a6bcd53409160a53b8cd6b0aa1a6325ed" title="icmp_send" alt="" coords="789,1044,875,1071"/>
-<area shape="rect" id="node36" href="../../dd/dc4/udp_8c.html#a3eaf2d921ae869bcc337f3289e073428" title="udp_send" alt="" coords="793,1095,871,1121"/>
-<area shape="rect" id="node35" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="923,1044,997,1071"/>
-<area shape="rect" id="node40" href="../../d6/d94/arp_8c.html#a6a94ff09b67a636361d0e2df1e695ba3" title="arp_in" alt="" coords="557,816,614,843"/>
-<area shape="rect" id="node41" href="../../df/d61/icmp_8c.html#ab45ea28f1dbe0276855653b86b6cc9fc" title="icmp_recv" alt="" coords="544,765,627,792"/>
-<area shape="rect" id="node42" href="../../df/d61/icmp_8c.html#a25c0e4c6a0547266b55df34204c55e8a" title="icmp_release" alt="" coords="397,1424,496,1451"/>
-<area shape="rect" id="node43" href="../../d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="557,1196,614,1223"/>
-<area shape="rect" id="node44" href="../../dd/dc4/udp_8c.html#af13d3d944c007f6aa7ead0f85a884f28" title="udp_in" alt="" coords="417,1019,477,1045"/>
-<area shape="rect" id="node45" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="262,1171,337,1197"/>
-<area shape="rect" id="node46" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="249,1221,349,1248"/>
-<area shape="rect" id="node47" href="../../dd/dc4/udp_8c.html#aecf024bbcd2ce1ff8cae4a518f9bfa76" title="udp_release" alt="" coords="253,715,345,741"/>
+<area shape="rect" id="node2" href="../../d0/d83/ethhandler_8c.html#a0772d37e041094e9f06bfe447765444b" title="ethhandler" alt="" coords="114,309,197,336"/>
+<area shape="rect" id="node3" href="../../d9/d29/freebuf_8c.html#a440d3456ec381ea81d8961d19e18fecb" title="freebuf" alt="" coords="124,411,187,437"/>
+<area shape="rect" id="node16" href="../../d0/dc8/ip_8c.html#adb623e862fbb0143c7ce166fdcb18d08" title="ip_enqueue" alt="" coords="255,5,343,32"/>
+<area shape="rect" id="node22" href="../../d9/db3/lflclose_8c.html#ae4e1d432a0eb4564252ad5c5c63e020f" title="lflclose" alt="" coords="124,613,187,640"/>
+<area shape="rect" id="node23" href="../../d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="120,664,191,691"/>
+<area shape="rect" id="node24" href="../../d9/d09/lflgetc_8c.html#a6522f70cdc3678892f62e19e213db4ba" title="lflgetc" alt="" coords="271,765,328,792"/>
+<area shape="rect" id="node26" href="../../d7/d0b/lflputc_8c.html#ac66da37dcb0f69c711dbb5f6972a85e2" title="lflputc" alt="" coords="271,816,328,843"/>
+<area shape="rect" id="node28" href="../../d3/d3d/lflseek_8c.html#ac1ca3afe231740a74f2f423579f93ceb" title="lflseek" alt="" coords="125,867,185,893"/>
+<area shape="rect" id="node29" href="../../d8/dc8/lfsetup_8c.html#a3db01eed715ed5ef0da3c013cd6faa41" title="lfsetup" alt="" coords="125,765,186,792"/>
+<area shape="rect" id="node30" href="../../d2/d91/lfsopen_8c.html#aed42ff64ddeed085c468a1e347045948" title="lfsopen" alt="" coords="123,917,187,944"/>
+<area shape="rect" id="node31" href="../../d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999" title="mark" alt="" coords="130,968,181,995"/>
+<area shape="rect" id="node32" href="../../d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ptrecv" alt="" coords="126,1019,185,1045"/>
+<area shape="rect" id="node33" href="../../d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="ptsend" alt="" coords="125,1069,186,1096"/>
+<area shape="rect" id="node34" href="../../d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="116,1120,195,1147"/>
+<area shape="rect" id="node35" href="../../d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="112,1171,199,1197"/>
+<area shape="rect" id="node37" href="../../df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="123,1221,188,1248"/>
+<area shape="rect" id="node38" href="../../d5/d9c/rdswrite_8c.html#a8f4bffff0ad53e8176866fe098f71218" title="rdswrite" alt="" coords="121,1272,189,1299"/>
+<area shape="rect" id="node39" href="../../d1/dd4/rflclose_8c.html#aa01777004681c533257eb2ddfd3c800f" title="rflclose" alt="" coords="123,1323,187,1349"/>
+<area shape="rect" id="node40" href="../../db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="126,1373,185,1400"/>
+<area shape="rect" id="node42" href="../../db/d25/rflseek_8c.html#aed90b4e7a0932d3565eb7336723fbbac" title="rflseek" alt="" coords="125,1424,186,1451"/>
+<area shape="rect" id="node43" href="../../dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="125,1475,186,1501"/>
+<area shape="rect" id="node45" href="../../d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="117,1525,193,1552"/>
+<area shape="rect" id="node46" href="../../dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="123,1576,188,1603"/>
+<area shape="rect" id="node47" href="../../df/d2b/ttycontrol_8c.html#a7bbd10bffb1121e6ab5bd9bec2f24ff1" title="ttycontrol" alt="" coords="117,1627,193,1653"/>
+<area shape="rect" id="node48" href="../../d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="109,1677,201,1704"/>
+<area shape="rect" id="node50" href="../../dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="125,1728,185,1755"/>
+<area shape="rect" id="node4" href="../../d6/d94/arp_8c.html#a6a94ff09b67a636361d0e2df1e695ba3" title="arp_in" alt="" coords="549,157,606,184"/>
+<area shape="rect" id="node5" href="../../d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="807,157,857,184"/>
+<area shape="rect" id="node6" href="../../df/d61/icmp_8c.html#ae095bf86810235af65b923c67a8c8948" title="icmp_in" alt="" coords="405,259,472,285"/>
+<area shape="rect" id="node7" href="../../d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="544,385,611,412"/>
+<area shape="rect" id="node8" href="../../d0/dc8/ip_8c.html#a9b2038aa18171f352bd2b8b4f92db286" title="ip_in" alt="" coords="683,208,733,235"/>
+<area shape="rect" id="node9" href="../../d0/dc8/ip_8c.html#a3961ee626e875d99fabeffd5a90f3166" title="ip_send" alt="" coords="675,461,741,488"/>
+<area shape="rect" id="node13" href="../../d0/dc8/ip_8c.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="683,512,733,539"/>
+<area shape="rect" id="node14" href="../../df/d61/icmp_8c.html#ab45ea28f1dbe0276855653b86b6cc9fc" title="icmp_recv" alt="" coords="397,56,480,83"/>
+<area shape="rect" id="node15" href="../../df/d61/icmp_8c.html#a25c0e4c6a0547266b55df34204c55e8a" title="icmp_release" alt="" coords="528,613,627,640"/>
+<area shape="rect" id="node17" href="../../d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="549,512,606,539"/>
+<area shape="rect" id="node18" href="../../dd/dc4/udp_8c.html#af13d3d944c007f6aa7ead0f85a884f28" title="udp_in" alt="" coords="409,360,469,387"/>
+<area shape="rect" id="node19" href="../../dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="262,664,337,691"/>
+<area shape="rect" id="node20" href="../../dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="249,715,349,741"/>
+<area shape="rect" id="node21" href="../../dd/dc4/udp_8c.html#aecf024bbcd2ce1ff8cae4a518f9bfa76" title="udp_release" alt="" coords="253,309,345,336"/>
+<area shape="rect" id="node10" href="../../df/d61/icmp_8c.html#a6bcd53409160a53b8cd6b0aa1a6325ed" title="icmp_send" alt="" coords="789,436,875,463"/>
+<area shape="rect" id="node12" href="../../dd/dc4/udp_8c.html#a3eaf2d921ae869bcc337f3289e073428" title="udp_send" alt="" coords="793,487,871,513"/>
+<area shape="rect" id="node11" href="../../da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="923,436,997,463"/>
+<area shape="rect" id="node25" href="../../d0/d2c/lflread_8c.html#ada61d46f19dd2b8316f2afd5fda0dcb7" title="lflread" alt="" coords="410,765,467,792"/>
+<area shape="rect" id="node27" href="../../d5/d55/lflwrite_8c.html#acb341c8fb845fdfccb01e1cb329e711a" title="lflwrite" alt="" coords="409,816,469,843"/>
+<area shape="rect" id="node36" href="../../d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="271,1171,328,1197"/>
+<area shape="rect" id="node41" href="../../d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="270,1373,329,1400"/>
+<area shape="rect" id="node44" href="../../da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="270,1475,329,1501"/>
+<area shape="rect" id="node49" href="../../d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="260,1677,339,1704"/>
 </map>
 </div>
 

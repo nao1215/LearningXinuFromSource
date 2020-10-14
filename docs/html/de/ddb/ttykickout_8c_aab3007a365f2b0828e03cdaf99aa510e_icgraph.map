@@ -1,10 +1,10 @@
 <map id="ttykickout" name="ttykickout">
-<area shape="rect" id="node2" href="$d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="356,17,448,43"/>
-<area shape="rect" id="node4" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="136,42,191,69"/>
-<area shape="rect" id="node7" href="$db/daf/ttyinit_8c.html#ac5c08414e4fc0586bfa3bcfebc1eb0ba" title="ttyinit" alt="" coords="136,93,191,119"/>
-<area shape="rect" id="node8" href="$df/d63/ttyputc_8c.html#ae0d43c733d06cd2b74889716e0b54e60" title="ttyputc" alt="" coords="132,143,195,170"/>
-<area shape="rect" id="node3" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="496,17,575,43"/>
-<area shape="rect" id="node5" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="245,42,306,69"/>
-<area shape="rect" id="node6" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="243,93,307,119"/>
-<area shape="rect" id="node9" href="$da/dcc/ttywrite_8c.html#acda9cf1aa9f3a94eb48205bc9e8124cf" title="ttywrite" alt="" coords="243,143,308,170"/>
+<area shape="rect" id="node2" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="136,81,191,108"/>
+<area shape="rect" id="node4" href="$d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="356,81,448,108"/>
+<area shape="rect" id="node7" href="$db/daf/ttyinit_8c.html#ac5c08414e4fc0586bfa3bcfebc1eb0ba" title="ttyinit" alt="" coords="136,208,191,235"/>
+<area shape="rect" id="node8" href="$df/d63/ttyputc_8c.html#ae0d43c733d06cd2b74889716e0b54e60" title="ttyputc" alt="" coords="132,259,195,285"/>
+<area shape="rect" id="node3" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="243,5,307,32"/>
+<area shape="rect" id="node6" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="245,107,306,133"/>
+<area shape="rect" id="node5" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="496,81,575,108"/>
+<area shape="rect" id="node9" href="$da/dcc/ttywrite_8c.html#acda9cf1aa9f3a94eb48205bc9e8124cf" title="ttywrite" alt="" coords="243,259,308,285"/>
 </map>

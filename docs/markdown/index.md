@@ -30,3 +30,13 @@ $ git clone https://github.com/nao1215/LearningXinuFromSource.git
  $ cd <PROJECT_ROOT>/compile
  $ make
 ```
+
+## ライセンス
+
+XINU ソースコードは、[XINU のライセンス](./COPYRIGHT)に従います。<br>
+「docs ディレクトリ以下」および「Doxygen スタイルのコメント部分」は、[MIT License](./LICENSE)に従います。
+
+## Contact information
+
+Twitter：[ARC_AED](https://twitter.com/ARC_AED)<br>
+メール ：n.chika156\@gmail.com

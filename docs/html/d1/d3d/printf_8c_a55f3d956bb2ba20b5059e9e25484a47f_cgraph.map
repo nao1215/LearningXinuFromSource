@@ -1,4 +1,4 @@
 <map id="printf" name="printf">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="115,5,162,32"/>
-<area shape="rect" id="node3" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="104,56,173,83"/>
+<area shape="rect" id="node2" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="104,5,173,32"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="115,56,162,83"/>
 </map>

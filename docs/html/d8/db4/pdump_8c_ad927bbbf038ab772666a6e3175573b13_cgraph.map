@@ -1,8 +1,8 @@
 <map id="pdump" name="pdump">
-<area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="121,31,179,57"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a7e384bf01526766c75eda6ecfa3452fa" title="ipcksum" alt="" coords="115,81,185,108"/>
-<area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="233,5,299,32"/>
-<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="239,56,293,83"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="347,31,409,57"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="347,81,409,108"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a7e384bf01526766c75eda6ecfa3452fa" title="ipcksum" alt="" coords="115,5,185,32"/>
+<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="121,56,179,83"/>
+<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="233,31,299,57"/>
+<area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="239,81,293,108"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="347,56,409,83"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="347,107,409,133"/>
 </map>

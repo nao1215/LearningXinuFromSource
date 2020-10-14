@@ -27,14 +27,14 @@
 <area shape="rect" id="node23" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="921,309,995,336"/>
 <area shape="rect" id="node25" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="642,360,718,387"/>
 <area shape="rect" id="node30" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="495,411,572,437"/>
-<area shape="rect" id="node32" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="623,512,737,539"/>
+<area shape="rect" id="node33" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="623,512,737,539"/>
 <area shape="rect" id="node34" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="492,563,575,589"/>
 <area shape="rect" id="node35" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="638,563,722,589"/>
 <area shape="rect" id="node26" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="789,411,868,437"/>
 <area shape="rect" id="node27" href="$d8/dd4/rdsopen_8c.html#a3d1814c665569d1647069fab92489d70" title="rdsopen" alt="" coords="795,461,863,488"/>
 <area shape="rect" id="node28" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="785,360,872,387"/>
 <area shape="rect" id="node29" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="929,360,987,387"/>
-<area shape="rect" id="node31" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="635,411,725,437"/>
-<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="649,461,711,488"/>
+<area shape="rect" id="node31" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="649,461,711,488"/>
+<area shape="rect" id="node32" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="635,411,725,437"/>
 <area shape="rect" id="node36" href="$d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="799,563,858,589"/>
 </map>

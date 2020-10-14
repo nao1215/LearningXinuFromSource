@@ -1,22 +1,22 @@
 <map id="arp_resolve" name="arp_resolve">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="144,5,216,32"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="505,157,568,184"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="505,259,568,285"/>
-<area shape="rect" id="node5" href="$d6/d94/arp_8c.html#a73d31e5f01444754bbbef2c64d2cf8ac" title="arp_alloc" alt="" coords="143,208,217,235"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="265,259,335,285"/>
-<area shape="rect" id="node10" href="$d6/d94/arp_8c.html#af82819024dcdd09c102f578249ef92fe" title="arp_hton" alt="" coords="144,411,216,437"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a3451570af533e87d13c36bb47fa659c1" title="eth_hton" alt="" coords="144,461,216,488"/>
-<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="388,157,449,184"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="393,107,444,133"/>
-<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="383,360,455,387"/>
-<area shape="rect" id="node7" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="271,208,329,235"/>
-<area shape="rect" id="node8" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="386,208,451,235"/>
-<area shape="rect" id="node9" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="391,259,446,285"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="506,335,567,361"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="503,385,571,412"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="627,335,681,361"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="619,385,689,412"/>
-<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="625,436,683,463"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="737,385,800,412"/>
-<area shape="rect" id="node20" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="848,385,913,412"/>
+<area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a73d31e5f01444754bbbef2c64d2cf8ac" title="arp_alloc" alt="" coords="143,110,217,137"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="505,110,568,137"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="505,211,568,238"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="265,161,335,187"/>
+<area shape="rect" id="node9" href="$d6/d94/arp_8c.html#af82819024dcdd09c102f578249ef92fe" title="arp_hton" alt="" coords="144,363,216,390"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a3451570af533e87d13c36bb47fa659c1" title="eth_hton" alt="" coords="144,414,216,441"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="memcpy" alt="" coords="144,465,216,491"/>
+<area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="388,59,449,86"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="383,313,455,339"/>
+<area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="393,211,444,238"/>
+<area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="271,110,329,137"/>
+<area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="386,161,451,187"/>
+<area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="391,110,446,137"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="506,338,567,365"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="503,287,571,314"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="625,237,683,263"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="619,287,689,314"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="627,338,681,365"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="737,287,800,314"/>
+<area shape="rect" id="node19" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="848,287,913,314"/>
 </map>

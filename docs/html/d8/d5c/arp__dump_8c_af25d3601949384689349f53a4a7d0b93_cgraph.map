@@ -5,6 +5,6 @@
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="246,56,301,83"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="356,31,419,57"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="356,81,419,108"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="250,107,297,133"/>
-<area shape="rect" id="node9" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="239,157,308,184"/>
+<area shape="rect" id="node8" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="239,107,308,133"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="250,157,297,184"/>
 </map>

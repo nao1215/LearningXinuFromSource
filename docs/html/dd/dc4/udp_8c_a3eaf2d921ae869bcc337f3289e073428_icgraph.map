@@ -1,16 +1,16 @@
 <map id="udp_send" name="udp_send">
-<area shape="rect" id="node2" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="145,144,218,171"/>
-<area shape="rect" id="node10" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="141,220,222,247"/>
-<area shape="rect" id="node12" href="$db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="132,271,231,297"/>
-<area shape="rect" id="node13" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="145,321,217,348"/>
-<area shape="rect" id="node3" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="287,5,346,32"/>
-<area shape="rect" id="node5" href="$dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="286,56,347,83"/>
-<area shape="rect" id="node7" href="$d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="403,132,479,159"/>
-<area shape="rect" id="node8" href="$dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="279,157,355,184"/>
-<area shape="rect" id="node9" href="$dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="284,208,349,235"/>
-<area shape="rect" id="node4" href="$d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="411,5,470,32"/>
-<area shape="rect" id="node6" href="$da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="411,56,470,83"/>
-<area shape="rect" id="node11" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="279,259,354,285"/>
-<area shape="rect" id="node14" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="284,321,349,348"/>
-<area shape="rect" id="node15" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="403,321,478,348"/>
+<area shape="rect" id="node2" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="141,19,222,45"/>
+<area shape="rect" id="node4" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="145,81,217,108"/>
+<area shape="rect" id="node7" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="145,157,218,184"/>
+<area shape="rect" id="node15" href="$db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="132,208,231,235"/>
+<area shape="rect" id="node3" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="279,5,354,32"/>
+<area shape="rect" id="node5" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="284,56,349,83"/>
+<area shape="rect" id="node6" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="403,56,478,83"/>
+<area shape="rect" id="node8" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="287,107,346,133"/>
+<area shape="rect" id="node10" href="$dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="286,157,347,184"/>
+<area shape="rect" id="node12" href="$d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="403,233,479,260"/>
+<area shape="rect" id="node13" href="$dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="279,259,355,285"/>
+<area shape="rect" id="node14" href="$dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="284,309,349,336"/>
+<area shape="rect" id="node9" href="$d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="411,107,470,133"/>
+<area shape="rect" id="node11" href="$da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="411,157,470,184"/>
 </map>

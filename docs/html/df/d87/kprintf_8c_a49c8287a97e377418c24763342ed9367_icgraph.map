@@ -22,8 +22,8 @@
 <area shape="rect" id="node27" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="225,208,324,235"/>
 <area shape="rect" id="node28" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="379,259,457,285"/>
 <area shape="rect" id="node29" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="529,360,610,387"/>
-<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="538,715,601,741"/>
-<area shape="rect" id="node34" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="685,715,751,741"/>
+<area shape="rect" id="node31" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="538,715,601,741"/>
+<area shape="rect" id="node32" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="685,715,751,741"/>
 <area shape="rect" id="node35" href="$db/da9/hexdump_8c.html#a45b75d699302a8a608d9af828809dde1" title="hexdump" alt="" coords="237,1475,312,1501"/>
 <area shape="rect" id="node36" href="$db/da9/hexdump_8c.html#a6f211b2ac68b92d0d12c875bc8774d25" title="hexadump" alt="" coords="233,1525,316,1552"/>
 <area shape="rect" id="node37" href="$d0/dc8/ip_8c.html#a9b2038aa18171f352bd2b8b4f92db286" title="ip_in" alt="" coords="393,968,443,995"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node17" href="$da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="540,1171,599,1197"/>
 <area shape="rect" id="node23" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="544,867,595,893"/>
 <area shape="rect" id="node25" href="$d6/d94/arp_8c.html#a5f499b0abfe400f5e19d384500858a91" title="arp_resolve" alt="" coords="373,917,463,944"/>
-<area shape="rect" id="node30" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="525,208,614,235"/>
-<area shape="rect" id="node31" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="512,259,627,285"/>
-<area shape="rect" id="node32" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="533,309,605,336"/>
+<area shape="rect" id="node30" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="533,208,605,235"/>
+<area shape="rect" id="node33" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="525,259,614,285"/>
+<area shape="rect" id="node34" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="512,309,627,336"/>
 </map>

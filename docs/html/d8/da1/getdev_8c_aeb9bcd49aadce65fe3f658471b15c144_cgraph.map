@@ -1,5 +1,5 @@
 <map id="getdev" name="getdev">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="118,5,181,32"/>
-<area shape="rect" id="node3" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="115,56,184,83"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="118,107,181,133"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="118,56,181,83"/>
+<area shape="rect" id="node4" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="115,107,184,133"/>
 </map>

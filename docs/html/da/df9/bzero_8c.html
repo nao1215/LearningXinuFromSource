@@ -71,6 +71,8 @@ $(function() {
 
 <p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。  
 <a href="#details">More...</a></p>
+
+<p><a href="../../da/df9/bzero_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -80,6 +82,8 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Byteブロック領域の先頭N bytesを数値ゼロで埋める。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../da/df9/bzero_8c_source.html">bzero.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="ad83d2153277acb467ccbf0360082285c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad83d2153277acb467ccbf0360082285c">&#9670;&nbsp;</a></span>bzero()</h2>
@@ -116,17 +120,21 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>引数lenが0以下の場合は、何もせずreturnする。 </dd></dl>
-<div class="dynheader">
+
+<p class="definition">Definition at line <a class="el" href="../../da/df9/bzero_8c_source.html#l00012">12</a> of file <a class="el" href="../../da/df9/bzero_8c_source.html">bzero.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02163">newdev()</a>, and <a class="el" href="../../d5/def/y_8tab_8c_source.html#l02205">newtype()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> n;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">char</span> *pch = (<span class="keywordtype">char</span> *)p;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> ((n = len) &lt;= 0)</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">do</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        *pch++ = 0;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    } <span class="keywordflow">while</span> (--n);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div></div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/df9/bzero_8c_ad83d2153277acb467ccbf0360082285c_icgraph.png" border="0" usemap="#da/df9/bzero_8c_ad83d2153277acb467ccbf0360082285c_icgraph" alt=""/></div>
 <map name="da/df9/bzero_8c_ad83d2153277acb467ccbf0360082285c_icgraph" id="da/df9/bzero_8c_ad83d2153277acb467ccbf0360082285c_icgraph">
 <area shape="rect" id="node2" href="../../d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="110,56,177,83"/>
-<area shape="rect" id="node7" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="108,5,179,32"/>
-<area shape="rect" id="node3" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="230,5,298,32"/>
-<area shape="rect" id="node5" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="228,56,300,83"/>
-<area shape="rect" id="node6" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,107,301,133"/>
-<area shape="rect" id="node4" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="349,5,400,32"/>
+<area shape="rect" id="node7" href="../../d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="108,107,179,133"/>
+<area shape="rect" id="node3" href="../../d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="228,5,300,32"/>
+<area shape="rect" id="node4" href="../../da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="227,56,301,83"/>
+<area shape="rect" id="node5" href="../../d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="230,107,298,133"/>
+<area shape="rect" id="node6" href="../../d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="349,107,400,133"/>
 </map>
 </div>
 

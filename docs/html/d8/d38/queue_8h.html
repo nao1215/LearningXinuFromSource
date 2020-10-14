@@ -186,6 +186,8 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>キュー構造体に関する宣言／定数／インライン関数を定義する。 </p>
 <dl class="section note"><dt>Note</dt><dd>プロセスキューテーブルは、リストとも呼ばれる。 </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2b7cf2a3641be7b89138615764d60ba3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b7cf2a3641be7b89138615764d60ba3">&#9670;&nbsp;</a></span>EMPTY</h2>
@@ -200,6 +202,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>次のキューインデックスもしくは前のキューインデックスがNULL値 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00023">23</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/dbd/queue_8c_source.html#l00078">dequeue()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00013">getfirst()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00032">getlast()</a>, <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>, and <a class="el" href="../../d8/dba/semreset_8c_source.html#l00009">semreset()</a>.</p>
 
 </div>
 </div>
@@ -228,6 +234,10 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>リストの最初のプロセスのID </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っている。先頭のqnextには、最初のプロセスIDが入っている。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00070">70</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/de3/clkhandler_8c_source.html#l00009">clkhandler()</a>, and <a class="el" href="../../dc/d32/insert_8c_source.html#l00020">insert()</a>.</p>
 
 </div>
 </div>
@@ -264,6 +274,8 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>リスト中の最後のプロセスのキー（最後のプロセスのqueuetabインデックス） </dd></dl>
 
+<p class="reference">Referenced by <a class="el" href="../../da/d89/resched_8c_source.html#l00011">resched()</a>, and <a class="el" href="../../db/db4/wakeup_8c_source.html#l00009">wakeup()</a>.</p>
+
 </div>
 </div>
 <a id="a393be58bb328454027f56efa45783322"></a>
@@ -297,6 +309,10 @@ Variables</h2></td></tr>
  XINUとしての仕様では、0 &lt; x &lt;NPROCの範囲はプロセスが使用し、それ以上の範囲をキューが使用するため、<br />
  <a class="el" href="../../d8/d38/queue_8h.html#a393be58bb328454027f56efa45783322" title="キューIDが不正値かどうかをチェックする。 ">isbadqid()</a>の仕様を変えたと思われる。 </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00132">132</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/dbd/queue_8c_source.html#l00078">dequeue()</a>, <a class="el" href="../../d2/dbd/queue_8c_source.html#l00053">enqueue()</a>, <a class="el" href="../../dc/d32/insert_8c_source.html#l00020">insert()</a>, and <a class="el" href="../../dc/d97/insertd_8c_source.html#l00009">insertd()</a>.</p>
+
 </div>
 </div>
 <a id="ae6e009f525382940f8916e946adf8165"></a>
@@ -327,6 +343,10 @@ Variables</h2></td></tr>
  リストの最初のノード（先頭のqnext）がNPROC以上の場合は、先頭と末尾しか無い（リストが空）とみなせる<br />
  </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00089">89</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/de3/clkhandler_8c_source.html#l00009">clkhandler()</a>, <a class="el" href="../../d2/dbd/queue_8c_source.html#l00078">dequeue()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00013">getfirst()</a>, and <a class="el" href="../../d1/deb/getitem_8c_source.html#l00032">getlast()</a>.</p>
+
 </div>
 </div>
 <a id="a61eb1812bd153f6fd90966f69ccc4731"></a>
@@ -355,6 +375,8 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>リストの最後のプロセスのID </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>リストは必ず先頭と末尾を持っている。末尾のqprevには、最後のプロセスIDが入っている。 </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00079">79</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
 </div>
 </div>
 <a id="abe509a2d32e90cf1ab092787fa7a051f"></a>
@@ -373,6 +395,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00115">115</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
 </div>
 </div>
 <a id="a0b0863fc8dcf46f8f33375ebc02c9b2d"></a>
@@ -389,6 +413,10 @@ Variables</h2></td></tr>
 
 <p>キューの中に格納できるキーの最大値 </p>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00025">25</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>.</p>
+
 </div>
 </div>
 <a id="aadb1818bfd3ae4d566a5a5cf103a56b1"></a>
@@ -404,6 +432,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>キューの中に格納できるキーの最小値 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00027">27</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>.</p>
 
 </div>
 </div>
@@ -435,6 +467,10 @@ Variables</h2></td></tr>
  リストの最初のノード（先頭のqnext）がNPROCより小さい場合は、プロセスが挿入されている。<br />
  </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00099">99</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/db4/wakeup_8c_source.html#l00009">wakeup()</a>.</p>
+
 </div>
 </div>
 <a id="a880bae818ba2dcd0acc9a418bc593f41"></a>
@@ -453,6 +489,10 @@ Variables</h2></td></tr>
  末尾のポインタを保持するためのエントリ数を定義している。<br />
  キューエントリは、プロセスごとに1個、レディリストに2個、休眠リストに2個、<br />
  セマフォに2個を割り当てている。 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00019">19</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>.</p>
 
 </div>
 </div>
@@ -481,6 +521,10 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>キュー先頭のキューID（引数のキューIDそのまま）を返す。 </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00053">53</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/deb/getitem_8c_source.html#l00013">getfirst()</a>, <a class="el" href="../../dc/d97/insertd_8c_source.html#l00009">insertd()</a>, and <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>.</p>
+
 </div>
 </div>
 <a id="a03cfc97c9b6900a008384ab8ad72175a"></a>
@@ -507,6 +551,10 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>キュー末尾のキューID（引数のキューIDに1を加算した値）を返す。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/queue_8h_source.html#l00061">61</a> of file <a class="el" href="../../d8/d38/queue_8h_source.html">queue.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/dbd/queue_8c_source.html#l00053">enqueue()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00032">getlast()</a>, <a class="el" href="../../dc/d97/insertd_8c_source.html#l00009">insertd()</a>, and <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>.</p>
 
 </div>
 </div>
@@ -556,6 +604,10 @@ Variables</h2></td></tr>
  : | : |<br />
  ------------------------------------------&mdash;<br />
  </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dbd/queue_8c_source.html#l00045">45</a> of file <a class="el" href="../../d2/dbd/queue_8c_source.html">queue.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/de3/clkhandler_8c_source.html#l00009">clkhandler()</a>, <a class="el" href="../../d2/dbd/queue_8c_source.html#l00078">dequeue()</a>, <a class="el" href="../../d2/dbd/queue_8c_source.html#l00053">enqueue()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00013">getfirst()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00051">getitem()</a>, <a class="el" href="../../d1/deb/getitem_8c_source.html#l00032">getlast()</a>, <a class="el" href="../../dc/d32/insert_8c_source.html#l00020">insert()</a>, <a class="el" href="../../dc/d97/insertd_8c_source.html#l00009">insertd()</a>, <a class="el" href="../../dc/d7e/newqueue_8c_source.html#l00015">newqueue()</a>, and <a class="el" href="../../d5/def/unsleep_8c_source.html#l00011">unsleep()</a>.</p>
 
 </div>
 </div>

@@ -68,13 +68,23 @@ $(function() {
 <div class="title">strncat.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>文字列s1の末尾に文字列s2をN文字分、結合する。  
+<a href="#details">More...</a></p>
+
+<p><a href="../../d8/d42/strncat_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af70714f788819be9dbf368a969be23f7"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/strncat_8c.html#af70714f788819be9dbf368a969be23f7">strncat</a> (char *s1, const char *s2, int n)</td></tr>
+<tr class="memdesc:af70714f788819be9dbf368a969be23f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列s1の末尾に文字列s2をN文字分、結合する。  <a href="#af70714f788819be9dbf368a969be23f7">More...</a><br /></td></tr>
 <tr class="separator:af70714f788819be9dbf368a969be23f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>文字列s1の末尾に文字列s2をN文字分、結合する。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d8/d42/strncat_8c_source.html">strncat.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="af70714f788819be9dbf368a969be23f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af70714f788819be9dbf368a969be23f7">&#9670;&nbsp;</a></span>strncat()</h2>
 
@@ -107,6 +117,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>文字列s1の末尾に文字列s2をN文字分、結合する。 </p>
+<p>処理の流れは、以下の通り。<br />
+ Step1. 文字列s1のNULL終端'\0'までポインタを進める。<br />
+ Step2. 文字列s1のNULL終端の位置から文字列s2を一文字ずつ連結する。<br />
+ Step3. N+1回目にNULL終端を付与する。<br />
+ </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">s1</td><td>結合先の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">s2</td><td>結合する文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>結合する文字数（Byte） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>結合後の文字列s1を返す（NULL終端済み）。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d42/strncat_8c_source.html#l00017">17</a> of file <a class="el" href="../../d8/d42/strncat_8c_source.html">strncat.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">char</span> *os1;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    os1 = s1;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">while</span> (*s1++)</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        ;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    --s1;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">while</span> ((*s1++ = *s2++))</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (--n &lt; 0)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            *--s1 = <span class="charliteral">&#39;\0&#39;</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">break</span>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> (os1);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
