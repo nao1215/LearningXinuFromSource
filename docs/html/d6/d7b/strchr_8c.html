@@ -69,14 +69,22 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>指定された文字を文字列から探し、最初にに見つかった位置をポインタで返す。  
+<a href="#details">More...</a></p>
+
 <p><a href="../../d6/d7b/strchr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a12871ed234858ef0e363d2b8aa572fc1"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7b/strchr_8c.html#a12871ed234858ef0e363d2b8aa572fc1">strchr</a> (const char *s, int c)</td></tr>
+<tr class="memdesc:a12871ed234858ef0e363d2b8aa572fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された文字を文字列から探し、最初にに見つかった位置をポインタで返す。  <a href="#a12871ed234858ef0e363d2b8aa572fc1">More...</a><br /></td></tr>
 <tr class="separator:a12871ed234858ef0e363d2b8aa572fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>指定された文字を文字列から探し、最初にに見つかった位置をポインタで返す。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d6/d7b/strchr_8c_source.html">strchr.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a12871ed234858ef0e363d2b8aa572fc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12871ed234858ef0e363d2b8aa572fc1">&#9670;&nbsp;</a></span>strchr()</h2>
 
@@ -103,8 +111,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d7b/strchr_8c_source.html#l00008">8</a> of file <a class="el" href="../../d6/d7b/strchr_8c_source.html">strchr.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">for</span> (; *s != <span class="charliteral">&#39;\0&#39;</span>; s++)</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">if</span> (*s == (<span class="keyword">const</span> <span class="keywordtype">char</span>)c)</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> ((<span class="keyword">const</span> <span class="keywordtype">char</span>)c == *s)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div></div><!-- fragment -->
+<p>指定された文字を文字列から探し、最初にに見つかった位置をポインタで返す。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>探索対象の文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>検索文字 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>文字cが見つかった場合は文字cが最初に登場した位置を示すポインタ、<br />
+ 文字cが見つからなかった場合はNULLを返す。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d7b/strchr_8c_source.html#l00013">13</a> of file <a class="el" href="../../d6/d7b/strchr_8c_source.html">strchr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">for</span> (; *s != <span class="charliteral">&#39;\0&#39;</span>; s++)</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">if</span> (*s == (<span class="keyword">const</span> <span class="keywordtype">char</span>)c)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> ((<span class="keyword">const</span> <span class="keywordtype">char</span>)c == *s)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *)s;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

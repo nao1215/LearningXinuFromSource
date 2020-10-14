@@ -43,5 +43,5 @@
 <area shape="rect" id="node34" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="356,344,419,370"/>
 <area shape="rect" id="node35" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="360,546,415,573"/>
 <area shape="rect" id="node36" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="358,445,417,472"/>
-<area shape="rect" id="node37" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="strncpy" alt="" coords="355,597,420,624"/>
+<area shape="rect" id="node37" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="文字列s1に文字列s2をN文字（Byte）分コピーする。 " alt="" coords="355,597,420,624"/>
 </map>

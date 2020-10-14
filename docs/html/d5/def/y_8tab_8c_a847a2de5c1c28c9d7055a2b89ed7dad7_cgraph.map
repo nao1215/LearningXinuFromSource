@@ -38,5 +38,5 @@
 <area shape="rect" id="node23" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1051,533,1116,560"/>
 <area shape="rect" id="node32" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="256,381,319,408"/>
 <area shape="rect" id="node36" href="$dc/d9c/stdlib_8h.html#ab426c21b176346931201b586eca8f197" title="Byteブロック領域の先頭N bytesを数値ゼロで埋める。 " alt="" coords="260,432,315,458"/>
-<area shape="rect" id="node38" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="strncpy" alt="" coords="255,482,320,509"/>
+<area shape="rect" id="node38" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="文字列s1に文字列s2をN文字（Byte）分コピーする。 " alt="" coords="255,482,320,509"/>
 </map>

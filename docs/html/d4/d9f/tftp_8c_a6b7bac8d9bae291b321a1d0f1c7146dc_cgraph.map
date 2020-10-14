@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1dda2a799335d64a5e5da50defc42f35" title="getport" alt="" coords="147,107,210,133"/>
 <area shape="rect" id="node3" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="283,796,342,823"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="memset" alt="" coords="854,2032,923,2059"/>
-<area shape="rect" id="node9" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="strncpy" alt="" coords="146,2083,211,2109"/>
+<area shape="rect" id="node9" href="$da/d66/string_8h.html#a9e93596f31d281156dd32010a2b0718b" title="文字列s1に文字列s2をN文字（Byte）分コピーする。 " alt="" coords="146,2083,211,2109"/>
 <area shape="rect" id="node10" href="$da/d66/string_8h.html#a708aff152d449c3050542dc93ba27112" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="148,2133,209,2160"/>
 <area shape="rect" id="node11" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="137,683,220,709"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="268,613,357,640"/>
