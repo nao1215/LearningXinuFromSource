@@ -44,7 +44,7 @@ pid32 getlast(qid16 q)
 
 /**
  * @brief キューの任意の位置からプロセスを取り出す。
- * @param[in] pid 取り出すプロセスID（）
+ * @param[in] pid 取り出すプロセスID
  * @return キューにプロセスがある場合はキューの末尾にあるプロセスID、<br>
  * キューが空の場合はEMPTYを返す。
  */

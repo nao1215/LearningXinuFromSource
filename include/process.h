@@ -50,7 +50,7 @@
 
 //! プロセス名の長さ
 #define PNMLEN 16
-//! NULLプロセスのID
+//! NULLプロセスのID。NULLプロセスは、他に動かすプロセスがない時に動く空プロセス
 #define NULLPROC 0
 
 //! 初期プロセススタックサイズ
