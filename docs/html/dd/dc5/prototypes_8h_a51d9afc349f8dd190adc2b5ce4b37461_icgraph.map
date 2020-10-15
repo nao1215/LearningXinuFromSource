@@ -7,7 +7,7 @@
 <area shape="rect" id="node33" href="$d1/d4f/recvtime_8c.html#af2c526c524a5db524ca16e9701ce6efd" title="recvtime" alt="" coords="239,1339,311,1366"/>
 <area shape="rect" id="node38" href="$da/d89/resched_8c.html#aa45cc47e450e55e8b012b3f8846da84e" title="resched_cntl" alt="" coords="227,934,323,960"/>
 <area shape="rect" id="node43" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="385,31,456,58"/>
-<area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="suspend" alt="" coords="239,1390,310,1416"/>
+<area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="プロセスを一時停止し、休止状態（サスペンド）に遷移する。 " alt="" coords="239,1390,310,1416"/>
 <area shape="rect" id="node46" href="$dd/d10/wait_8c.html#ac3a582eac1d7675ce175f0d3a72d2637" title="wait" alt="" coords="397,503,444,530"/>
 <area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="250,126,299,152"/>
 <area shape="rect" id="node4" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="665,1124,721,1151"/>
