@@ -33,8 +33,8 @@ $ git clone https://github.com/nao1215/LearningXinuFromSource.git
 
 ## アセンブラのコードに関して
 
-本ドキュメントは Doxygen で生成しています。<br>
-Doxygen はアセンブラ非対応のため、アセンブラコードは別途説明を用意しました。
+本ドキュメントは 、ソースコード中のコメントを基にして Doxygen で生成しています。<br>
+Doxygen はアセンブラ非対応のため、[アセンブラコードは別途説明を用意しました。](https://nao1215.github.io/LearningXinuFromSource/html/pages.html)
 
 ## ライセンス
 

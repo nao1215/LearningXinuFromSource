@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['panic_2ec',['panic.c',['../d2/daf/panic_8c.html',1,'']]],
-  ['pdump_2ec',['pdump.c',['../d8/db4/pdump_8c.html',1,'']]],
-  ['platinit_2ec',['platinit.c',['../d6/dcd/platinit_8c.html',1,'']]],
-  ['ports_2eh',['ports.h',['../d2/d54/ports_8h.html',1,'']]],
-  ['printf_2ec',['printf.c',['../d1/d3d/printf_8c.html',1,'']]],
-  ['process_2eh',['process.h',['../da/d42/process_8h.html',1,'']]],
-  ['prototypes_2eh',['prototypes.h',['../dd/dc5/prototypes_8h.html',1,'']]],
-  ['ptclear_2ec',['ptclear.c',['../df/d61/ptclear_8c.html',1,'']]],
-  ['ptcount_2ec',['ptcount.c',['../df/d3a/ptcount_8c.html',1,'']]],
-  ['ptcreate_2ec',['ptcreate.c',['../dc/dca/ptcreate_8c.html',1,'']]],
-  ['ptdelete_2ec',['ptdelete.c',['../d1/da2/ptdelete_8c.html',1,'']]],
-  ['ptinit_2ec',['ptinit.c',['../dc/d41/ptinit_8c.html',1,'']]],
-  ['ptrecv_2ec',['ptrecv.c',['../d7/dd7/ptrecv_8c.html',1,'']]],
-  ['ptreset_2ec',['ptreset.c',['../d8/d8b/ptreset_8c.html',1,'']]],
-  ['ptsend_2ec',['ptsend.c',['../d9/dca/ptsend_8c.html',1,'']]],
-  ['putc_2ec',['putc.c',['../d1/d0f/putc_8c.html',1,'']]],
-  ['putchar_2ec',['putchar.c',['../db/de0/putchar_8c.html',1,'']]]
+  ['open_2ec',['open.c',['../da/deb/open_8c.html',1,'']]]
 ];
