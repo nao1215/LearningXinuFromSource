@@ -30,7 +30,7 @@
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="halt" alt="" coords="603,128,645,154"/>
 <area shape="rect" id="node14" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="707,26,772,53"/>
 <area shape="rect" id="node15" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="712,77,767,104"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="597,482,651,509"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="597,482,651,509"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="829,482,884,509"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="821,533,892,560"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="828,584,885,610"/>

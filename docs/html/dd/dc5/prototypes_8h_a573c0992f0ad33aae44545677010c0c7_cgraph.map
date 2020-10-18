@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="135,25,193,51"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="128,75,200,102"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a477d6eeff5fa28ac257c4b9ebf9aa964" title="rdsbufalloc" alt="" coords="121,126,207,153"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="resume" alt="" coords="469,241,535,267"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="469,241,535,267"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="463,190,541,217"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="semreset" alt="" coords="464,342,540,369"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="474,291,530,318"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="856,342,913,369"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="968,418,1031,445"/>
 <area shape="rect" id="node17" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1079,418,1144,445"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="610,291,665,318"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="610,291,665,318"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="589,342,685,369"/>
 <area shape="rect" id="node24" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="733,342,801,369"/>
 </map>

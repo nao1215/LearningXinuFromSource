@@ -8,7 +8,7 @@
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1028,1521,1084,1548"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="893,1319,955,1345"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="1024,1623,1088,1649"/>
-<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="resume" alt="" coords="1023,1572,1089,1599"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="1023,1572,1089,1599"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="749,259,815,285"/>
 <area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1029,255,1083,281"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1144,584,1207,611"/>
@@ -38,7 +38,7 @@
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="893,1268,955,1295"/>
 <area shape="rect" id="node32" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="753,1167,811,1193"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="737,1116,827,1143"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1148,1535,1203,1561"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1148,1535,1203,1561"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="1020,1167,1092,1193"/>
 <area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="905,863,943,889"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="1145,1167,1206,1193"/>

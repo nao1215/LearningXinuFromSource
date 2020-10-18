@@ -2,19 +2,19 @@
 <area shape="rect" id="node2" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="111,832,179,859"/>
 <area shape="rect" id="node3" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="521,1124,603,1151"/>
 <area shape="rect" id="node5" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="543,1251,581,1278"/>
-<area shape="rect" id="node9" href="$d7/db9/ready_8c.html#aa81bda195058cce0a7fed3068037d912" title="ready" alt="" coords="247,782,302,808"/>
+<area shape="rect" id="node9" href="$d7/db9/ready_8c.html#aa81bda195058cce0a7fed3068037d912" title="プロセスをCPUサービスの対象にする。 " alt="" coords="247,782,302,808"/>
 <area shape="rect" id="node32" href="$dc/da3/receive_8c.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="530,72,594,99"/>
 <area shape="rect" id="node33" href="$d1/d4f/recvtime_8c.html#af2c526c524a5db524ca16e9701ce6efd" title="recvtime" alt="" coords="239,1339,311,1366"/>
 <area shape="rect" id="node38" href="$da/d89/resched_8c.html#aa45cc47e450e55e8b012b3f8846da84e" title="resched_cntl" alt="" coords="227,934,323,960"/>
 <area shape="rect" id="node43" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="385,31,456,58"/>
-<area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="プロセスを一時停止し、休止状態（サスペンド）に遷移する。 " alt="" coords="239,1390,310,1416"/>
+<area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="プロセスを一時停止し、休止状態（サスペンド）に遷移させる。 " alt="" coords="239,1390,310,1416"/>
 <area shape="rect" id="node46" href="$dd/d10/wait_8c.html#ac3a582eac1d7675ce175f0d3a72d2637" title="wait" alt="" coords="397,503,444,530"/>
 <area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="250,126,299,152"/>
 <area shape="rect" id="node4" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="665,1124,721,1151"/>
 <area shape="rect" id="node6" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="659,1251,726,1278"/>
 <area shape="rect" id="node7" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="671,1302,714,1328"/>
 <area shape="rect" id="node8" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="661,1200,724,1227"/>
-<area shape="rect" id="node10" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="resume" alt="" coords="529,123,595,150"/>
+<area shape="rect" id="node10" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="529,123,595,150"/>
 <area shape="rect" id="node15" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="379,756,462,783"/>
 <area shape="rect" id="node16" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="383,858,459,884"/>
 <area shape="rect" id="node17" href="$dd/ded/send_8c.html#ab89e607c5e35f5a1b767e71da28b40f3" title="send" alt="" coords="395,706,446,732"/>

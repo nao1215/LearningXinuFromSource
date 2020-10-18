@@ -3,7 +3,7 @@
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="116,410,193,436"/>
 <area shape="rect" id="node14" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="438,574,497,600"/>
 <area shape="rect" id="node33" href="$df/dda/initialize_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="main" alt="" coords="129,1499,180,1526"/>
-<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="resume" alt="" coords="435,1676,500,1703"/>
+<area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="435,1676,500,1703"/>
 <area shape="rect" id="node45" href="$d6/dd1/stdio_8h.html#ad758bab83cc36d11a287a3c6614af261" title="sprintf" alt="" coords="125,1854,184,1880"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="735,1170,797,1196"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="607,1575,665,1602"/>
@@ -36,7 +36,7 @@
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="604,1676,668,1703"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#aefa1f94ba42f2adced2e0dae25552fe9" title="shell" alt="" coords="269,1372,319,1399"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a9e46affb5a43246969d23975434c1a5b" title="sleepms" alt="" coords="432,1778,503,1804"/>
-<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="609,1980,663,2007"/>
+<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="609,1980,663,2007"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="addargs" alt="" coords="433,714,501,740"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="605,1068,667,1095"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a1594eb9424821fa80166de0f255fa328" title="lexan" alt="" coords="441,1423,494,1450"/>

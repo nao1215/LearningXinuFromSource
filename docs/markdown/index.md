@@ -31,6 +31,11 @@ $ git clone https://github.com/nao1215/LearningXinuFromSource.git
  $ make
 ```
 
+## アセンブラのコードに関して
+
+本ドキュメントは Doxygen で生成しています。<br>
+Doxygen はアセンブラ非対応のため、アセンブラコードは別途説明を用意しました。
+
 ## ライセンス
 
 XINU ソースコードは、[XINU のライセンス](./COPYRIGHT)に従います。<br>

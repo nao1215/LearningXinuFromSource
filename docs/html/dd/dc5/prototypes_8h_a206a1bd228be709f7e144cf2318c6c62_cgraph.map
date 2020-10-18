@@ -17,7 +17,7 @@
 <area shape="rect" id="node18" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="269,816,335,843"/>
 <area shape="rect" id="node32" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="666,1095,723,1121"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="942,765,998,792"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1065,917,1120,944"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1065,917,1120,944"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="665,892,725,919"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="395,689,461,716"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="809,892,860,919"/>

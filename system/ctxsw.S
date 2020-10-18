@@ -1,4 +1,8 @@
-/* ctxsw.S - ctxsw (for ARM) */
+/**
+ * @file ctxsw.S
+ * @brief ARM (32bit)用のコンテキストスイッチを行う。
+ */
+
 
 	.text
 	.globl	ctxsw

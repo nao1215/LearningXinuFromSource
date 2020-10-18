@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="135,43,193,69"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="128,93,200,120"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a477d6eeff5fa28ac257c4b9ebf9aa964" title="rdsbufalloc" alt="" coords="121,144,207,171"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="resume" alt="" coords="469,259,535,285"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="469,259,535,285"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="463,208,541,235"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="semreset" alt="" coords="464,360,540,387"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="474,309,530,336"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node16" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="356,132,415,159"/>
 <area shape="rect" id="node17" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="469,107,535,133"/>
 <area shape="rect" id="node18" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="475,157,529,184"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="610,284,665,311"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="610,284,665,311"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="589,335,685,361"/>
 <area shape="rect" id="node24" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="733,335,801,361"/>
 </map>

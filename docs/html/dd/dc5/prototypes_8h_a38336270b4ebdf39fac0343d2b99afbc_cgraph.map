@@ -13,7 +13,7 @@
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#aadff1009adc8e26384f8d0a31471e1f3" title="lfdbfree" alt="" coords="248,157,313,184"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="475,107,526,133"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="477,56,524,83"/>
-<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="473,411,528,437"/>
+<area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="473,411,528,437"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="700,461,771,488"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="708,411,763,437"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="583,360,651,387"/>

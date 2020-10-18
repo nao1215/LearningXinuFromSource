@@ -8,7 +8,7 @@
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="753,1259,815,1285"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="911,1208,967,1235"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="907,93,971,120"/>
-<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="resume" alt="" coords="907,1664,972,1691"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="907,1664,972,1691"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="751,347,817,373"/>
 <area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="912,803,967,829"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1051,1307,1113,1333"/>
@@ -44,7 +44,7 @@
 <area shape="rect" id="node37" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="912,600,967,627"/>
 <area shape="rect" id="node38" href="$d3/d58/lex_8yy_8c.html#a5bc6f1a5f7812508f425b08283f13ae8" title="yy_create_buffer" alt="" coords="880,651,999,677"/>
 <area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#ae6ac796aa6c45d433a4b89bf45e6e9dc" title="yy_delete_buffer" alt="" coords="880,701,999,728"/>
-<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="ready" alt="" coords="1055,1357,1109,1384"/>
+<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1055,1357,1109,1384"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="736,499,832,525"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="755,1512,813,1539"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="582,803,649,829"/>
