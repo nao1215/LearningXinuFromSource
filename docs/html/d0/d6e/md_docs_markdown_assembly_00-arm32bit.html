@@ -62,7 +62,7 @@ $(function() {
 <div class="title">00-arm32bit </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>ARM (32bit)の基本情報に関して</p>
+<div class="textblock"><p>ARM (32bit)の基本情報</p>
 <h2>ARM 32bit レジスタ</h2>
 <table class="doxtable">
 <tr>
@@ -102,6 +102,48 @@ $(function() {
 <tr>
 <td>cpsr </td><td>- </td><td>カレントプログラムステータスレジスタ（コプロセッサ） </td></tr>
 </table>
+<h2>cpsr（カレントプログラムステータスレジスタ）</h2>
+<p>cpsr は、プロセッサの演算結果や動作モード・割り込み設定状態を保持するレジスタである。<br />
+</p>
+<table class="doxtable">
+<tr>
+<th>Bit </th><th>名称 </th><th>役割  </th></tr>
+<tr>
+<td>31 </td><td>N </td><td>演算結果が負の場合に設定される </td></tr>
+<tr>
+<td>30 </td><td>Z </td><td>演算結果が 0 の場合に設定される </td></tr>
+<tr>
+<td>29 </td><td>C </td><td>演算結果がキャリーアウトの場合に設定される </td></tr>
+<tr>
+<td>28 </td><td>V </td><td>演算結果がオーバフローの場合に設定される </td></tr>
+<tr>
+<td>27 </td><td>Q </td><td>飽和が発生した事を示す（自動クリアされない） </td></tr>
+<tr>
+<td>26〜25 </td><td>IT </td><td>Thumb IT (If-Then)命令用のステータスを示す </td></tr>
+<tr>
+<td>24 </td><td>J </td><td>プロセッサが Jazelle(※1) 状態かどうかを示す </td></tr>
+<tr>
+<td>23〜20 </td><td>予約 </td><td>予約された Bit。 </td></tr>
+<tr>
+<td>19〜16 </td><td>GE[3:0] </td><td>演算結果が〇〇以上の場合に設定される（SIMD 命令で使用される） </td></tr>
+<tr>
+<td>15〜10 </td><td>IT[7:2] </td><td>Thumb IT (If-Then)命令の状態を示す </td></tr>
+<tr>
+<td>9 </td><td>E </td><td>ロード/ストア命令のエンディアン形式を設定する<br />
+（0：リトルエンディアン、1：ビックエンディアン） </td></tr>
+<tr>
+<td>8 </td><td>A </td><td>非同期アボートマスクする場合に設定される </td></tr>
+<tr>
+<td>7 </td><td>I </td><td>IRQ をマスクする場合に設定される </td></tr>
+<tr>
+<td>6 </td><td>F </td><td>FIQ をマスクする場合に設定される </td></tr>
+<tr>
+<td>5 </td><td>T </td><td>Thumb 命令の状態を示す </td></tr>
+<tr>
+<td>4〜0 </td><td>M </td><td><a href="https://www.keil.com/pack/doc/cmsis/Core_A/html/group__CMSIS__CPSR__M.html">モード領域</a> </td></tr>
+</table>
+<p>※1 Java 仮想マシンによるバイトコード実行時にハードウェアアクセラレーションの<br />
+ 　　アーキテクチャサポートを提供する。Jazelle-DBX と Jazelle-RCT がある。</p>
 <h2>ARM 32bit 命令</h2>
 <table class="doxtable">
 <tr>
@@ -119,13 +161,13 @@ $(function() {
 <tr>
 <td>ldr </td><td>レジスタからレジスタに値を読み込む </td></tr>
 <tr>
-<td>bl </td><td>ラベル先へ分岐し、次の命令アドレスを r14(lr)にコピーする(※1)。 </td></tr>
+<td>bl </td><td>ラベル先へ分岐し、次の命令アドレスを r14(lr)にコピーする(※2)。 </td></tr>
 <tr>
 <td>cpsie </td><td>I：IRQ 割り込みを許可、F：FIQ 割り込みを許可。 </td></tr>
 <tr>
 <td>cpsid </td><td>I：IRQ 割り込みを禁止、F：FIQ 割り込みを禁止。 </td></tr>
 </table>
-<p>※1 指定の番地へ分岐する前に戻りアドレスを R14=LR に保存するため、<br />
+<p>※2 指定の番地へ分岐する前に戻りアドレスを R14=LR に保存するため、<br />
  　　 lr の内容を pc に書き込むと（MOV PC,LR）、元に戻る。</p>
 <h2>IRQ／FIQ 割り込み</h2>
 <p>FIQ は高い優先度の高速割り込みであり、IRQ は通常優先度の割り込みである。<br />

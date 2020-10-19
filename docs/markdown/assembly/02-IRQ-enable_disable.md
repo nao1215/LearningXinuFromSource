@@ -11,7 +11,7 @@ enable:
 ## 割り込み禁止 disable：ソースコード（intr.S）
 
 C 言語上は、割り込みマスクビット(cpsr)が disable()の返り値(r0)として渡される。<br>
-この返り値は、resume()や suspend()の復帰時に cpsr の状態を元に戻すために使用する。
+この返り値は、 resume()や suspend()の復帰時に cpsr の状態を元に戻すために使用する。
 
 ```
 disable:

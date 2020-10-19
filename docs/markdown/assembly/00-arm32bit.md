@@ -1,4 +1,4 @@
-@brief ARM (32bit)の基本情報に関して
+@brief ARM (32bit)の基本情報
 
 ## ARM 32bit レジスタ
 
