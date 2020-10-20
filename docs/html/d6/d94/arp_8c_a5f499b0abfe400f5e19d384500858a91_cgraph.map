@@ -1,6 +1,6 @@
 <map id="arp_resolve" name="arp_resolve">
 <area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a73d31e5f01444754bbbef2c64d2cf8ac" title="arp_alloc" alt="" coords="143,110,217,137"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="505,110,568,137"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="505,110,568,137"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="505,211,568,238"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="265,161,335,187"/>
 <area shape="rect" id="node9" href="$d6/d94/arp_8c.html#af82819024dcdd09c102f578249ef92fe" title="arp_hton" alt="" coords="144,363,216,390"/>
@@ -14,7 +14,7 @@
 <area shape="rect" id="node5" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="391,110,446,137"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="506,338,567,365"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="503,287,571,314"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="625,237,683,263"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="625,237,683,263"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="619,287,689,314"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="627,338,681,365"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="737,287,800,314"/>

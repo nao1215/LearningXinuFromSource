@@ -12,7 +12,7 @@
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="249,1576,303,1603"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="781,1779,846,1805"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ae7f7431ce99333577d7b82b26619309e" title="udp_init" alt="" coords="121,1905,188,1932"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="907,1019,969,1045"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="907,1019,969,1045"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="907,689,969,716"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="785,5,842,32"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="784,208,843,235"/>

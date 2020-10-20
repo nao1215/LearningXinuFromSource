@@ -27,7 +27,7 @@
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a206a1bd228be709f7e144cf2318c6c62" title="udp_sendto" alt="" coords="391,869,480,895"/>
 <area shape="rect" id="node15" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="1021,705,1087,731"/>
 <area shape="rect" id="node16" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1027,907,1081,934"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="1152,1870,1215,1897"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="1152,1870,1215,1897"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1152,1135,1215,1162"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="877,1313,939,1339"/>
 <area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="569,2022,607,2049"/>

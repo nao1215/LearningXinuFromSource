@@ -1,7 +1,7 @@
 <map id="arp_in" name="arp_in">
 <area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a73d31e5f01444754bbbef2c64d2cf8ac" title="arp_alloc" alt="" coords="111,127,185,154"/>
 <area shape="rect" id="node4" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="239,127,297,154"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="467,209,529,235"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="467,209,529,235"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="467,361,529,387"/>
 <area shape="rect" id="node9" href="$d6/d94/arp_8c.html#af82819024dcdd09c102f578249ef92fe" title="arp_hton" alt="" coords="112,513,184,539"/>
 <area shape="rect" id="node10" href="$d6/d94/arp_8c.html#a407aa07961b33bae38adcb7e43638098" title="arp_ntoh" alt="" coords="112,563,184,590"/>
@@ -18,7 +18,7 @@
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="695,361,765,387"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="703,513,757,539"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="579,462,647,489"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="701,462,759,489"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="701,462,759,489"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="813,361,876,387"/>
 <area shape="rect" id="node19" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="924,361,989,387"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="351,513,417,539"/>

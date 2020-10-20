@@ -1,7 +1,7 @@
 <map id="clkhandler" name="clkhandler">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="393,84,461,111"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a99d36e6369b4349026dd99b0cee66033" title="wakeup" alt="" coords="135,59,201,85"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="516,59,573,85"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="516,59,573,85"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="509,8,580,35"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a5e5d9cff0bd754a85c874fe9315a5f6c" title="優先度に基づいて、キューにプロセスを挿入する。 " alt="" coords="517,109,572,136"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="628,8,691,35"/>

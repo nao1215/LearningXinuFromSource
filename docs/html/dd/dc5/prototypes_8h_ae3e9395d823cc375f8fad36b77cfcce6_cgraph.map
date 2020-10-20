@@ -4,7 +4,7 @@
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a191819464d7fddd2309f0c7e62222fbe" title="lfibput" alt="" coords="239,107,296,133"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a1ae35a7b5bcbf5207da9ec5ddd6a1f4d" title="lfibget" alt="" coords="129,157,187,184"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="348,56,399,83"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="447,56,509,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="447,56,509,83"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="447,107,509,133"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="350,107,397,133"/>
 </map>

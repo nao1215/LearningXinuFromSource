@@ -64,7 +64,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>引数で指定された割り込みマスク値に cpsr レジスタを復元する。</p>
 <h2>リストア restore：ソースコード（intr.S）</h2>
-<p><a class="el" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore()</a>は、引数（r0）に割り込みマスク値（割り込み禁止 <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable()</a>などで取得していた割り込みマスク値）を取る。<br />
+<p><a class="el" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore()</a>は、引数（r0）に割り込みマスク値（割り込み禁止 <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） ">disable()</a>などで取得していた割り込みマスク値）を取る。<br />
  <a class="el" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8">restore()</a>のソースコード中に登場する直値 0x01F00220 は、2 進数で表すと<br />
  0x01F00220 = 0b00000001111100000000001000100000<br />
  となる。この値は、ビット値の抽出（AND 演算）で用いる。</p>

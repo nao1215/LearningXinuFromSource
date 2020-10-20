@@ -65,7 +65,7 @@ $(function() {
 <div class="textblock"><p>割り込み（IRQ）を許可／禁止する。</p>
 <h2>割り込み許可 enable：ソースコード（intr.S）</h2>
 <div class="fragment"><div class="line">enable:</div><div class="line">    cpsie   i       /* 割り込みを許可する */</div><div class="line">    mov pc, lr      /* enableを呼び出す前のアドレスに戻る */</div></div><!-- fragment --><h2>割り込み禁止 disable：ソースコード（intr.S）</h2>
-<p>C 言語上は、割り込みマスクビット(cpsr)が <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00">disable()</a>の返り値(r0)として渡される。<br />
+<p>C 言語上は、割り込みマスクビット(cpsr)が <a class="el" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） ">disable()</a>の返り値(r0)として渡される。<br />
  この返り値は、 <a class="el" href="../../dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 ">resume()</a>や <a class="el" href="../../dd/dc5/prototypes_8h.html#a62ce064c34a05fb453edcece116abea4" title="プロセスを一時停止し、休止状態（サスペンド）に遷移させる。 ">suspend()</a>の復帰時に cpsr の状態を元に戻すために使用する。</p>
 <div class="fragment"><div class="line">disable:</div><div class="line">    mrs r0, cpsr    /* CPSRレジスタの内容をr0にコピー */</div><div class="line">    cpsid   i       /* 割り込み禁止状態に遷移         */</div><div class="line">    mov pc, lr      /* diableを呼び出す前のアドレスに戻る */</div></div><!-- fragment --> </div></div><!-- contents -->
 <!-- start footer part -->

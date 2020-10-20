@@ -14,7 +14,7 @@ var searchData=
   ['level0',['level0',['../d8/d84/structgpio__csreg.html#aacd6aa06a8729ec9d534e74134bd32d0',1,'gpio_csreg']]],
   ['level1',['level1',['../d8/d84/structgpio__csreg.html#ad4fbcec02e850787cec7aa7724068e35',1,'gpio_csreg']]],
   ['lex_2eyy_2ec',['lex.yy.c',['../d3/d58/lex_8yy_8c.html',1,'']]],
-  ['lexan',['lexan',['../dd/dc5/prototypes_8h.html#a1594eb9424821fa80166de0f255fa328',1,'lexan(char *, int32, char *, int32 *, int32 [], int32 []):&#160;lexan.c'],['../d2/d95/lexan_8c.html#ac838dddd9d85041b146adf2884298c42',1,'lexan(char *line, int32 len, char *tokbuf, int32 *tlen, int32 tok[], int32 toktyp[]):&#160;lexan.c']]],
+  ['lexan',['lexan',['../dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1',1,'lexan(char *, int32, char *, int32 *, int32[], int32[]):&#160;lexan.c'],['../d2/d95/lexan_8c.html#ac838dddd9d85041b146adf2884298c42',1,'lexan(char *line, int32 len, char *tokbuf, int32 *tlen, int32 tok[], int32 toktyp[]):&#160;lexan.c']]],
   ['lexan_2ec',['lexan.c',['../d2/d95/lexan_8c.html',1,'']]],
   ['lf_5farea_5fdir',['LF_AREA_DIR',['../de/d7d/lfilesys_8h.html#a7d5c56792a618163a59ce92f0f5cd6be',1,'lfilesys.h']]],
   ['lf_5farea_5fib',['LF_AREA_IB',['../de/d7d/lfilesys_8h.html#a2be43ee5e81a20ad2d3e8b35d09f384f',1,'lfilesys.h']]],

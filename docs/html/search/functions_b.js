@@ -1,7 +1,7 @@
 var searchData=
 [
   ['labs',['labs',['../dc/d9c/stdlib_8h.html#acef82b884418ad50ae51cadb8eb35069',1,'labs(long):&#160;labs.c'],['../de/d7c/labs_8c.html#a1c7647533096042bce3bfa8ce25a8c7e',1,'labs(long arg):&#160;labs.c']]],
-  ['lexan',['lexan',['../dd/dc5/prototypes_8h.html#a1594eb9424821fa80166de0f255fa328',1,'lexan(char *, int32, char *, int32 *, int32 [], int32 []):&#160;lexan.c'],['../d2/d95/lexan_8c.html#ac838dddd9d85041b146adf2884298c42',1,'lexan(char *line, int32 len, char *tokbuf, int32 *tlen, int32 tok[], int32 toktyp[]):&#160;lexan.c']]],
+  ['lexan',['lexan',['../dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1',1,'lexan(char *, int32, char *, int32 *, int32[], int32[]):&#160;lexan.c'],['../d2/d95/lexan_8c.html#ac838dddd9d85041b146adf2884298c42',1,'lexan(char *line, int32 len, char *tokbuf, int32 *tlen, int32 tok[], int32 toktyp[]):&#160;lexan.c']]],
   ['lfdballoc',['lfdballoc',['../dd/dc5/prototypes_8h.html#a4b502a6e51f82e2900a4af74b29f9180',1,'lfdballoc(struct lfdbfree *):&#160;lfdballoc.c'],['../d0/dad/lfdballoc_8c.html#a3ccd1b0a7bd5c7a849a1c8fc3506f6e0',1,'lfdballoc(struct lfdbfree *dbuff):&#160;lfdballoc.c']]],
   ['lfdbfree',['lfdbfree',['../dd/dc5/prototypes_8h.html#aadff1009adc8e26384f8d0a31471e1f3',1,'lfdbfree(did32, dbid32):&#160;lfdbfree.c'],['../d3/d59/lfdbfree_8c.html#acbfa3753b3e8434c23ace582cec4127d',1,'lfdbfree(did32 diskdev, dbid32 dnum):&#160;lfdbfree.c']]],
   ['lfflush',['lfflush',['../dd/dc5/prototypes_8h.html#a8c9dcdb25f8fff540995df90c8639745',1,'lfflush(struct lflcblk *):&#160;lfflush.c'],['../dc/dd3/lfflush_8c.html#a32a4516a327a2d0cb7aa96850a0c299b',1,'lfflush(struct lflcblk *lfptr):&#160;lfflush.c']]],

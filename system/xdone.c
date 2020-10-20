@@ -1,13 +1,14 @@
-/* xdone.c - xdone */
-
+/**
+ * @file xdone.c
+ * @brief 最終プロセスの終了時、システム終了メッセージを表示する。
+ */
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  xdone  -  Print system completion message as last process exits
- *------------------------------------------------------------------------
+/**
+ * @brief 最終プロセスの終了時、システム終了メッセージを表示する。
  */
-void	xdone(void)
+void xdone(void)
 {
 	kprintf("\n\nAll user processes have completed.\n\n");
-	halt();				/* Halt the processor		*/
+	halt(); /* Halt the processor		*/
 }

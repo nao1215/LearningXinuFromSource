@@ -5,6 +5,6 @@
 <area shape="rect" id="node9" href="$d8/db4/fscanf_8c.html#a136732ec366caedb761f2213aeee3929" title="ungetch" alt="" coords="236,107,304,133"/>
 <area shape="rect" id="node4" href="$d4/d6c/doscan_8c.html#a9632fa8745381c57516421d406e4d847" title="_instr" alt="" coords="243,5,297,32"/>
 <area shape="rect" id="node6" href="$d8/db4/fscanf_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="getc" alt="" coords="455,56,501,83"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="549,31,612,57"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="549,31,612,57"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="549,81,612,108"/>
 </map>

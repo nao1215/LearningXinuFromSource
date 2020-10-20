@@ -167,11 +167,13 @@ $(function() {
 <tr>
 <td>ldr </td><td>レジスタからレジスタに値を読み込む </td></tr>
 <tr>
-<td>bl </td><td>ラベル先へ分岐し、次の命令アドレスを r14(lr)にコピーする(※2)。 </td></tr>
+<td>b </td><td>PC 値にオフセットを加えたメモリアドレス（ラベル先）に分岐する。 </td></tr>
 <tr>
-<td>cpsie </td><td>I：IRQ 割り込みを許可、F：FIQ 割り込みを許可。 </td></tr>
+<td>bl </td><td>ラベル先へ分岐し、次の命令アドレスを r14(lr)にコピーする(※2) </td></tr>
 <tr>
-<td>cpsid </td><td>I：IRQ 割り込みを禁止、F：FIQ 割り込みを禁止。 </td></tr>
+<td>cpsie </td><td>I：IRQ 割り込みを許可、F：FIQ 割り込みを許可 </td></tr>
+<tr>
+<td>cpsid </td><td>I：IRQ 割り込みを禁止、F：FIQ 割り込みを禁止 </td></tr>
 </table>
 <p>※2 指定の番地へ分岐する前に戻りアドレスを R14=LR に保存するため、<br />
  　　 lr の内容を pc に書き込むと（MOV PC,LR）、元に戻る。</p>
