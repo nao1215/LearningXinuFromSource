@@ -1,4 +1,7 @@
-/* kprintf.c -  kputc, kgetc, kprintf */
+/**
+ * @file kprintf.c
+ * @brief Kernel用のputc()、getc()、printf()を提供し、コンソールに対して文字のRead/Writeを行う。
+ */
 
 #include <xinu.h>
 #include <stdarg.h>
@@ -8,24 +11,25 @@
  *------------------------------------------------------------------------
  */
 syscall kputc(
-	  byte	c			/* character to write		*/
-	)
+	byte c /* character to write		*/
+)
 {
-	struct	dentry	*devptr;
-	volatile struct	uart_csreg	*csrptr;
-	intmask	mask;
+	struct dentry *devptr;
+	volatile struct uart_csreg *csrptr;
+	intmask mask;
 
 	/* Disable interrupts */
 	mask = disable();
 
 	/* Get CSR address of the console */
 
-	devptr = (struct dentry *) &devtab[CONSOLE];
-	csrptr = (struct uart_csreg *) devptr->dvcsr;
+	devptr = (struct dentry *)&devtab[CONSOLE];
+	csrptr = (struct uart_csreg *)devptr->dvcsr;
 
 	/* wait for UART transmit queue to empty */
 
-	while ( (csrptr->lsr & UART_LSR_THRE) == 0 ) {
+	while ((csrptr->lsr & UART_LSR_THRE) == 0)
+	{
 		;
 	}
 
@@ -35,8 +39,10 @@ syscall kputc(
 
 	/* Honor CRLF - when writing NEWLINE also send CARRIAGE RETURN	*/
 
-	if (c == '\n') {
-		while ( (csrptr->lsr & UART_LSR_THRE) == 0 ) {
+	if (c == '\n')
+	{
+		while ((csrptr->lsr & UART_LSR_THRE) == 0)
+		{
 			;
 		}
 		csrptr->buffer = '\r';
@@ -55,43 +61,46 @@ syscall kgetc(void)
 	int irmask;
 	volatile struct uart_csreg *regptr;
 	byte c;
-	struct	dentry	*devptr;
-	intmask	mask;
+	struct dentry *devptr;
+	intmask mask;
 
 	/* Disable interrupts */
 	mask = disable();
 
-	devptr = (struct dentry *) &devtab[CONSOLE];
+	devptr = (struct dentry *)&devtab[CONSOLE];
 	regptr = (struct uart_csreg *)devptr->dvcsr;
 
-	irmask = regptr->ier;		/* Save UART interrupt state.   */
-	regptr->ier = 0;		/* Disable UART interrupts.     */
+	irmask = regptr->ier; /* Save UART interrupt state.   */
+	regptr->ier = 0;	  /* Disable UART interrupts.     */
 
-	while (0 == (regptr->lsr & UART_LSR_DR)) {
+	while (0 == (regptr->lsr & UART_LSR_DR))
+	{
 		; /* Do Nothing */
 	}
 
 	/* Read character from Receive Holding Register */
 
 	c = regptr->rbr;
-	regptr->ier = irmask;		/* Restore UART interrupts.     */
+	regptr->ier = irmask; /* Restore UART interrupts.     */
 
 	restore(mask);
 	return c;
 }
 
-extern	void	_doprnt(char *, va_list, int (*)(int), int);
+extern void _doprnt(char *, va_list, int (*)(int), int);
 
-/*------------------------------------------------------------------------
- * kprintf  -  use polled I/O to print formatted output on the console
- *------------------------------------------------------------------------
+/**
+ * @brief Kernel用のprintf()であり、コンソールにフォーマットされた文字列を表示する。
+ * @details Polled I/Oを使用したシステムコール。
+ * @param[in] fmt 文字列を表示する際のフォーマット情報
+ * @param[in] ... 可変長引数
  */
 syscall kprintf(char *fmt, ...)
 {
-    va_list ap;
+	va_list ap;
 
-    va_start(ap, fmt);
-    _doprnt(fmt, ap, (int (*)(int))kputc, (int)&devtab[CONSOLE]);
-    va_end(ap);
-    return OK;
+	va_start(ap, fmt);
+	_doprnt(fmt, ap, (int (*)(int))kputc, (int)&devtab[CONSOLE]);
+	va_end(ap);
+	return OK;
 }
