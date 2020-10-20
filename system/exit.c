@@ -1,12 +1,14 @@
-/* exit.c - exit */
+/**
+ * @file exit.c
+ * @brief 現在実行中のプロセスを終了させる。
+ */
 
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  exit  -  Cause the calling process to exit
- *------------------------------------------------------------------------
+/**
+ * @brief 現在実行中のプロセスを終了させる。
  */
-void	exit(void)
+void exit(void)
 {
-	kill(getpid());		/* Kill the current process */
+	kill(getpid()); /* Kill the current process */
 }
