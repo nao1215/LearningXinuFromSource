@@ -10,6 +10,6 @@
  * @def isbaddev()
  * @brief デバイスIDを検証するマクロ。
  * @param[in] f デバイスディスクリプタ
- * @return デバイスIDが不正の場合は真（非0）、正常の場合は偽（0）を返す。
+ * @return デバイスIDが不正の場合はtrue、正常の場合はfalseを返す。
  */
 #define isbaddev(f) (((f) < 0) | ((f) >= NDEVS))
