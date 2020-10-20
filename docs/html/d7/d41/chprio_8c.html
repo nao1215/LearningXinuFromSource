@@ -163,7 +163,9 @@ Functions</h2></td></tr>
 
 <p>プロセスのスケジューリング優先度を変更する。 </p>
 <p>Step1. 割り込みを禁止する。<br />
- Step2. 不正なPIDの場合は割り込み許可状態に戻し、処理を終了する。 Step3. 引数で指定されたPIDからプロセス情報を取得し、新しい優先度に変更する。 Step4. 割り込み許可状態に戻し、処理を終了する。 </p><dl class="params"><dt>Parameters</dt><dd>
+ Step2. 不正なPIDの場合は割り込み許可状態に戻し、処理を終了する。<br />
+ Step3. 引数で指定されたPIDからプロセス情報を取得し、新しい優先度に変更する。<br />
+ Step4. 割り込み許可状態に戻し、処理を終了する。 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pid</td><td>優先度を変更したいプロセスのID </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">newprio</td><td>新しい優先度 </td></tr>
