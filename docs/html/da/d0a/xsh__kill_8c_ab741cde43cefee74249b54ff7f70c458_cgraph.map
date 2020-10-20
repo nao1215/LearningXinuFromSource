@@ -1,6 +1,6 @@
 <map id="xsh_kill" name="xsh_kill">
 <area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="127,56,182,83"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="135,335,174,361"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="135,335,174,361"/>
 <area shape="rect" id="node24" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="129,107,180,133"/>
 <area shape="rect" id="node26" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="120,385,189,412"/>
 <area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="237,5,307,32"/>

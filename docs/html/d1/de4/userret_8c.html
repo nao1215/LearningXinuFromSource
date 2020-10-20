@@ -81,7 +81,7 @@ Include dependency graph for userret.c:</div>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
 <area shape="rect" id="node7" href="../../df/d2a/resched_8h.html" title="遅延スケジューリングに使用する宣言と定数。 " alt="" coords="376,155,455,181"/>
 <area shape="rect" id="node8" href="../../d6/dc6/semaphore_8h.html" title="セマフォ（セマフォ数、状態、セマフォテーブル）に関する宣言およびマクロ定義 " alt="" coords="479,155,576,181"/>
-<area shape="rect" id="node9" href="../../dc/d18/memory_8h.html" title="memory.h" alt="" coords="601,155,681,181"/>
+<area shape="rect" id="node9" href="../../dc/d18/memory_8h.html" title="メモリマネージャが使用する定数と構造体の宣言 " alt="" coords="601,155,681,181"/>
 <area shape="rect" id="node10" href="../../db/d18/bufpool_8h.html" title="bufpool.h" alt="" coords="705,155,779,181"/>
 <area shape="rect" id="node11" href="../../d7/d6e/clock_8h.html" title="clock.h" alt="" coords="803,155,867,181"/>
 <area shape="rect" id="node12" href="../../d3/de6/mark_8h.html" title="mark.h" alt="" coords="892,155,955,181"/>
@@ -145,8 +145,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/de4/userret_8c_source.html#l00009">9</a> of file <a class="el" href="../../d1/de4/userret_8c_source.html">userret.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/db1/getpid_8c_source.html#l00011">getpid()</a>, and <a class="el" href="../../d2/d1d/kill_8c_source.html#l00009">kill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a>(<a class="code" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3">getpid</a>());         <span class="comment">/* Force process to exit */</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div><div class="ttc" id="prototypes_8h_html_a6c45ab25b7dda41127660e3fba6fb24c"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a></div><div class="ttdeci">syscall kill(pid32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1d/kill_8c_source.html#l00009">kill.c:9</a></div></div>
+<p class="reference">References <a class="el" href="../../d4/db1/getpid_8c_source.html#l00011">getpid()</a>, and <a class="el" href="../../d2/d1d/kill_8c_source.html#l00035">kill()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a>(<a class="code" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3">getpid</a>());         <span class="comment">/* Force process to exit */</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div><div class="ttc" id="prototypes_8h_html_a6c45ab25b7dda41127660e3fba6fb24c"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c">kill</a></div><div class="ttdeci">syscall kill(pid32)</div><div class="ttdoc">指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1d/kill_8c_source.html#l00035">kill.c:35</a></div></div>
 <div class="ttc" id="prototypes_8h_html_a9c6b0129f9ed31a9259a5ae7d350d6e3"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3">getpid</a></div><div class="ttdeci">pid32 getpid(void)</div><div class="ttdoc">現在実行中のプロセスIDを返す。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/getpid_8c_source.html#l00011">getpid.c:11</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -154,7 +154,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d1/de4/userret_8c_afd2dbc8bba51fd7dce39d0dc189a93f0_cgraph.png" border="0" usemap="#d1/de4/userret_8c_afd2dbc8bba51fd7dce39d0dc189a93f0_cgraph" alt=""/></div>
 <map name="d1/de4/userret_8c_afd2dbc8bba51fd7dce39d0dc189a93f0_cgraph" id="d1/de4/userret_8c_afd2dbc8bba51fd7dce39d0dc189a93f0_cgraph">
 <area shape="rect" id="node2" href="../../dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="116,204,173,230"/>
-<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="125,254,164,281"/>
+<area shape="rect" id="node3" href="../../dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="125,254,164,281"/>
 <area shape="rect" id="node4" href="../../dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="449,330,502,357"/>
 <area shape="rect" id="node5" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="561,178,624,205"/>
 <area shape="rect" id="node6" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="561,330,624,357"/>

@@ -1,10 +1,10 @@
 <map id="devisid" name="devisid">
-<area shape="rect" id="node2" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="126,305,169,332"/>
+<area shape="rect" id="node2" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="126,305,169,332"/>
 <area shape="rect" id="node23" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="120,356,175,382"/>
 <area shape="rect" id="node26" href="$d7/d4b/strcmp_8c.html#a57b18ef9eecf3a059b3138b3806868bb" title="二つの文字列を比較し、その結果を返す。 " alt="" coords="116,406,179,433"/>
 <area shape="rect" id="node27" href="$d1/d1d/strcpy_8c.html#abad02580b5da071eb18c76bf97563e72" title="文字列Aに文字列B（NULL終端を含めて）をコピーする。 " alt="" coords="118,457,177,484"/>
 <area shape="rect" id="node28" href="$da/d66/string_8h.html#a9896699f331c8da8f438f606832f31db" title="NULL終端された文字列の長さを返す。NULL終端は長さに含まない。 " alt="" coords="120,508,175,534"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="242,254,281,281"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="242,254,281,281"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="233,305,290,332"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="684,178,747,205"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="684,330,747,357"/>

@@ -1,6 +1,6 @@
 <map id="resched" name="resched">
 <area shape="rect" id="node2" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="416,1150,497,1177"/>
-<area shape="rect" id="node4" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="437,1277,476,1303"/>
+<area shape="rect" id="node4" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="437,1277,476,1303"/>
 <area shape="rect" id="node8" href="$d7/db9/ready_8c.html#aa81bda195058cce0a7fed3068037d912" title="プロセスをCPUサービスの対象にする。 " alt="" coords="142,807,197,834"/>
 <area shape="rect" id="node32" href="$dc/da3/receive_8c.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="425,73,489,99"/>
 <area shape="rect" id="node33" href="$d1/d4f/recvtime_8c.html#af2c526c524a5db524ca16e9701ce6efd" title="recvtime" alt="" coords="133,1365,205,1391"/>
@@ -11,7 +11,7 @@
 <area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="145,130,194,157"/>
 <area shape="rect" id="node3" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="559,1150,615,1177"/>
 <area shape="rect" id="node5" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="554,1277,621,1303"/>
-<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="566,1327,609,1354"/>
+<area shape="rect" id="node6" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="566,1327,609,1354"/>
 <area shape="rect" id="node7" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="556,1226,619,1253"/>
 <area shape="rect" id="node9" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="424,123,489,150"/>
 <area shape="rect" id="node14" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="274,934,357,961"/>

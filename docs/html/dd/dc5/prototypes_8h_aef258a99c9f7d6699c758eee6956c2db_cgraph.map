@@ -3,7 +3,7 @@
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="134,2083,230,2109"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aa75e6a6e7a74887d0b8076863e078bfa" title="ttyhandle_in" alt="" coords="136,2133,228,2160"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ad62d4702afc775e4aa366d2211871438" title="ttyhandle_out" alt="" coords="132,2184,232,2211"/>
-<area shape="rect" id="node3" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="336,5,379,32"/>
+<area shape="rect" id="node3" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="336,5,379,32"/>
 <area shape="rect" id="node4" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="330,56,385,83"/>
 <area shape="rect" id="node5" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="335,107,379,133"/>
 <area shape="rect" id="node6" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="332,157,383,184"/>

@@ -31,7 +31,7 @@
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="1281,1514,1352,1541"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="1288,1790,1345,1817"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1400,1514,1463,1541"/>
-<area shape="rect" id="node27" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="918,675,961,702"/>
+<area shape="rect" id="node27" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="918,675,961,702"/>
 <area shape="rect" id="node28" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="912,726,967,753"/>
 <area shape="rect" id="node29" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="917,270,961,297"/>
 <area shape="rect" id="node30" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="914,321,965,347"/>

@@ -1,7 +1,7 @@
 <map id="unsleep" name="unsleep">
-<area shape="rect" id="node2" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="233,300,271,327"/>
+<area shape="rect" id="node2" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="233,300,271,327"/>
 <area shape="rect" id="node38" href="$dd/ded/send_8c.html#ab89e607c5e35f5a1b767e71da28b40f3" title="send" alt="" coords="120,427,171,454"/>
-<area shape="rect" id="node3" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="345,199,388,226"/>
+<area shape="rect" id="node3" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="345,199,388,226"/>
 <area shape="rect" id="node36" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="335,250,398,276"/>
 <area shape="rect" id="node37" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="333,300,400,327"/>
 <area shape="rect" id="node4" href="$d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="453,300,514,327"/>

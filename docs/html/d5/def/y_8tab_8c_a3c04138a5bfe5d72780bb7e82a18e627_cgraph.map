@@ -1,11 +1,11 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="366,293,409,320"/>
+<area shape="rect" id="node2" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="366,293,409,320"/>
 <area shape="rect" id="node23" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="360,496,415,522"/>
 <area shape="rect" id="node26" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="113,420,164,446"/>
 <area shape="rect" id="node27" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="113,141,164,168"/>
 <area shape="rect" id="node29" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="104,521,173,548"/>
 <area shape="rect" id="node30" href="$d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="105,470,173,497"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="kill" alt="" coords="483,268,522,294"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a6c45ab25b7dda41127660e3fba6fb24c" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="483,268,522,294"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="474,318,531,345"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="925,242,988,269"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="925,141,988,168"/>

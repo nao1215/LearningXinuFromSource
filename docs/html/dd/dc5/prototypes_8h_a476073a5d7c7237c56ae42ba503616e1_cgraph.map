@@ -31,7 +31,7 @@
 <area shape="rect" id="node28" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="467,1677,505,1704"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="811,2159,873,2185"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="808,2209,876,2236"/>
-<area shape="rect" id="node29" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="662,1627,705,1653"/>
+<area shape="rect" id="node29" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="662,1627,705,1653"/>
 <area shape="rect" id="node30" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="656,1677,711,1704"/>
 <area shape="rect" id="node31" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="661,1728,705,1755"/>
 <area shape="rect" id="node32" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="658,1779,709,1805"/>

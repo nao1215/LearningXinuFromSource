@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a6a94ff09b67a636361d0e2df1e695ba3" title="arp_in" alt="" coords="109,120,166,147"/>
 <area shape="rect" id="node6" href="$df/d61/icmp_8c.html#ae095bf86810235af65b923c67a8c8948" title="icmp_in" alt="" coords="104,208,171,235"/>
 <area shape="rect" id="node25" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="909,487,996,513"/>
-<area shape="rect" id="node32" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="118,879,157,905"/>
+<area shape="rect" id="node32" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="118,879,157,905"/>
 <area shape="rect" id="node50" href="$dd/dc4/udp_8c.html#af13d3d944c007f6aa7ead0f85a884f28" title="udp_in" alt="" coords="107,259,167,285"/>
 <area shape="rect" id="node3" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="477,81,527,108"/>
 <area shape="rect" id="node4" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="617,5,681,32"/>
@@ -32,7 +32,7 @@
 <area shape="rect" id="node30" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="762,740,846,767"/>
 <area shape="rect" id="node26" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="1044,487,1101,513"/>
 <area shape="rect" id="node33" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="219,904,285,931"/>
-<area shape="rect" id="node34" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="231,853,273,880"/>
+<area shape="rect" id="node34" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="231,853,273,880"/>
 <area shape="rect" id="node49" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="221,955,283,981"/>
 <area shape="rect" id="node35" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="349,676,388,703"/>
 <area shape="rect" id="node39" href="$d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="624,867,675,893"/>

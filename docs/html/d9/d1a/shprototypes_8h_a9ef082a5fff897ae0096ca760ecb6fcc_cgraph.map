@@ -20,7 +20,7 @@
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="609,1563,671,1589"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="604,1664,676,1691"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="612,1867,668,1893"/>
-<area shape="rect" id="node18" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="619,1107,661,1133"/>
+<area shape="rect" id="node18" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="619,1107,661,1133"/>
 <area shape="rect" id="node19" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="618,1157,662,1184"/>
 <area shape="rect" id="node20" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="615,1208,665,1235"/>
 <area shape="rect" id="node21" href="$dc/d9c/stdlib_8h.html#a016e1543421d92d564547e3a5dca0e23" title="malloc" alt="" coords="610,1259,670,1285"/>

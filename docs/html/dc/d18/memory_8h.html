@@ -70,6 +70,9 @@ $(function() {
 <div class="title">memory.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>メモリマネージャが使用する定数と構造体の宣言  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -132,43 +135,62 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d18/structmemblk.html">memblk</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">メモリブロックを管理するための構造体。  <a href="../../da/d18/structmemblk.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:afbaa953760d51e147a40c0858b86c921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#afbaa953760d51e147a40c0858b86c921">freestk</a>(p,  len)</td></tr>
+<tr class="memdesc:afbaa953760d51e147a40c0858b86c921"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0">getstk()</a>で割り当てたスタックメモリを解放する。  <a href="#afbaa953760d51e147a40c0858b86c921">More...</a><br /></td></tr>
 <tr class="separator:afbaa953760d51e147a40c0858b86c921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>&#160;&#160;&#160;4096</td></tr>
+<tr class="memdesc:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ページサイズ(メモリ領域を管理する一定のサイズ。Byte単位)  <a href="#a7d467c1d283fdfa1f2081ba1e0d01b6e">More...</a><br /></td></tr>
 <tr class="separator:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cea716d0e0b7d875047cb28158fe8e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(x)&#160;&#160;&#160;(char *)( (7 + (<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7) )</td></tr>
+<tr class="memitem:a7cea716d0e0b7d875047cb28158fe8e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(x)&#160;&#160;&#160;(char *)((7 + (<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7))</td></tr>
+<tr class="memdesc:a7cea716d0e0b7d875047cb28158fe8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">メモリブロックサイズ（8の倍数）にアドレスを変換するために、8の倍数で丸める。  <a href="#a7cea716d0e0b7d875047cb28158fe8e1">More...</a><br /></td></tr>
 <tr class="separator:a7cea716d0e0b7d875047cb28158fe8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7de41f73b6eef70fca1b867fdbd121b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#ac7de41f73b6eef70fca1b867fdbd121b">truncmb</a>(x)&#160;&#160;&#160;(char *)( ((<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7) )</td></tr>
+<tr class="memitem:ac7de41f73b6eef70fca1b867fdbd121b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#ac7de41f73b6eef70fca1b867fdbd121b">truncmb</a>(x)&#160;&#160;&#160;(char *)(((<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7))</td></tr>
+<tr class="memdesc:ac7de41f73b6eef70fca1b867fdbd121b"><td class="mdescLeft">&#160;</td><td class="mdescRight">メモリブロックサイズ（8の倍数）にアドレスを変換するために、下位3bitを切り捨てる。  <a href="#ac7de41f73b6eef70fca1b867fdbd121b">More...</a><br /></td></tr>
 <tr class="separator:ac7de41f73b6eef70fca1b867fdbd121b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a1a7fd4447857ffb7fbce46a5c6ccc05a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a1a7fd4447857ffb7fbce46a5c6ccc05a">bss</a></td></tr>
+<tr class="memdesc:a1a7fd4447857ffb7fbce46a5c6ccc05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">BSSセグメントの開始アドレス（リンカが追加する）  <a href="#a1a7fd4447857ffb7fbce46a5c6ccc05a">More...</a><br /></td></tr>
 <tr class="separator:a1a7fd4447857ffb7fbce46a5c6ccc05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eab91667db4d35c7231dcddf7b89a76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a9eab91667db4d35c7231dcddf7b89a76">data</a></td></tr>
+<tr class="memdesc:a9eab91667db4d35c7231dcddf7b89a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">データセグメントの開始アドレス（リンカが追加する）  <a href="#a9eab91667db4d35c7231dcddf7b89a76">More...</a><br /></td></tr>
 <tr class="separator:a9eab91667db4d35c7231dcddf7b89a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d75d0f14dc49a1675d01236b3f8daf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a94d75d0f14dc49a1675d01236b3f8daf">ebss</a></td></tr>
+<tr class="memdesc:a94d75d0f14dc49a1675d01236b3f8daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">BSSセグメントの終了アドレス（リンカが追加する）  <a href="#a94d75d0f14dc49a1675d01236b3f8daf">More...</a><br /></td></tr>
 <tr class="separator:a94d75d0f14dc49a1675d01236b3f8daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cdeba84ff85eac555121cbe3707be7a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a5cdeba84ff85eac555121cbe3707be7a">edata</a></td></tr>
+<tr class="memdesc:a5cdeba84ff85eac555121cbe3707be7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">データセグメントの終了アドレス（リンカが追加する）  <a href="#a5cdeba84ff85eac555121cbe3707be7a">More...</a><br /></td></tr>
 <tr class="separator:a5cdeba84ff85eac555121cbe3707be7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce9f5dc9c83f2639b72024fdee5d388"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#abce9f5dc9c83f2639b72024fdee5d388">end</a></td></tr>
+<tr class="memdesc:abce9f5dc9c83f2639b72024fdee5d388"><td class="mdescLeft">&#160;</td><td class="mdescRight">プログラムの終了アドレス（リンカが追加する）  <a href="#abce9f5dc9c83f2639b72024fdee5d388">More...</a><br /></td></tr>
 <tr class="separator:abce9f5dc9c83f2639b72024fdee5d388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dda01f2e8c76f06ab14007808d4e100"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a3dda01f2e8c76f06ab14007808d4e100">etext</a></td></tr>
+<tr class="memdesc:a3dda01f2e8c76f06ab14007808d4e100"><td class="mdescLeft">&#160;</td><td class="mdescRight">テキストセグメントの終了アドレス（リンカが追加する）  <a href="#a3dda01f2e8c76f06ab14007808d4e100">More...</a><br /></td></tr>
 <tr class="separator:a3dda01f2e8c76f06ab14007808d4e100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab09ca805259f623ddadfe00e26777373"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#ab09ca805259f623ddadfe00e26777373">maxheap</a></td></tr>
+<tr class="memdesc:ab09ca805259f623ddadfe00e26777373"><td class="mdescLeft">&#160;</td><td class="mdescRight">最上位かつ正常なヒープアドレス  <a href="#ab09ca805259f623ddadfe00e26777373">More...</a><br /></td></tr>
 <tr class="separator:ab09ca805259f623ddadfe00e26777373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a0f1e98b35a37865e5e30701f59ed5d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../da/d18/structmemblk.html">memblk</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a0a0f1e98b35a37865e5e30701f59ed5d">memlist</a></td></tr>
+<tr class="memdesc:a0a0f1e98b35a37865e5e30701f59ed5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリーメモリリストの先頭  <a href="#a0a0f1e98b35a37865e5e30701f59ed5d">More...</a><br /></td></tr>
 <tr class="separator:a0a0f1e98b35a37865e5e30701f59ed5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af107ea495bad8475dcfc2b02241a84f5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#af107ea495bad8475dcfc2b02241a84f5">minheap</a></td></tr>
+<tr class="memdesc:af107ea495bad8475dcfc2b02241a84f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヒープの開始地点  <a href="#af107ea495bad8475dcfc2b02241a84f5">More...</a><br /></td></tr>
 <tr class="separator:af107ea495bad8475dcfc2b02241a84f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb727b700580681a32b288d9ebc9b762"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#acb727b700580681a32b288d9ebc9b762">text</a></td></tr>
+<tr class="memdesc:acb727b700580681a32b288d9ebc9b762"><td class="mdescLeft">&#160;</td><td class="mdescRight">テキストセグメントの開始アドレス（リンカが追加する）  <a href="#acb727b700580681a32b288d9ebc9b762">More...</a><br /></td></tr>
 <tr class="separator:acb727b700580681a32b288d9ebc9b762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>メモリマネージャが使用する定数と構造体の宣言 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="afbaa953760d51e147a40c0858b86c921"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbaa953760d51e147a40c0858b86c921">&#9670;&nbsp;</a></span>freestk</h2>
 
@@ -194,13 +216,25 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a>((<span class="keywordtype">char</span> *)((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(p)        \</div><div class="line">                - ((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len))    \</div><div class="line">                + (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<span class="keyword">sizeof</span>(<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)),  \</div><div class="line">                (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len) )</div><div class="ttc" id="prototypes_8h_html_a4784823f60649b93d9f04025bcdaea4d"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a></div><div class="ttdeci">syscall freemem(char *, uint32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd3/freemem_8c_source.html#l00009">freemem.c:9</a></div></div>
-<div class="ttc" id="memory_8h_html_a7cea716d0e0b7d875047cb28158fe8e1"><div class="ttname"><a href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a></div><div class="ttdeci">#define roundmb(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d18/memory_8h_source.html#l00009">memory.h:9</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a>((<span class="keywordtype">char</span> *)((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(p) - ((<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len)) + (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<span class="keyword">sizeof</span>(<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)), \</div><div class="line">                                (<a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)<a class="code" href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a>(len))</div><div class="ttc" id="prototypes_8h_html_a4784823f60649b93d9f04025bcdaea4d"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem</a></div><div class="ttdeci">syscall freemem(char *, uint32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd3/freemem_8c_source.html#l00009">freemem.c:9</a></div></div>
+<div class="ttc" id="memory_8h_html_a7cea716d0e0b7d875047cb28158fe8e1"><div class="ttname"><a href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a></div><div class="ttdeci">#define roundmb(x)</div><div class="ttdoc">メモリブロックサイズ（8の倍数）にアドレスを変換するために、8の倍数で丸める。 </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d18/memory_8h_source.html#l00024">memory.h:24</a></div></div>
 <div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00016">16</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+<p><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0">getstk()</a>で割り当てたスタックメモリを解放する。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>解放するメモリブロックの基点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>解放するメモリブロックのサイズ(Byte) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>メモリ解放に成功した場合はOK、それ以外の場合はSYSERRを返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>返り値の詳細は、 <a class="el" href="../../dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d">freemem()</a>を参照する事。<br />
+ スタックは下方向に成長するため、freemem()に渡すポインタアドレスの基点を上位側から下位側に変換して渡している。 </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d1d/kill_8c_source.html#l00009">kill()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00043">43</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d1d/kill_8c_source.html#l00035">kill()</a>.</p>
 
 </div>
 </div>
@@ -216,7 +250,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00003">3</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+<p>ページサイズ(メモリ領域を管理する一定のサイズ。Byte単位) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00007">7</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
 </div>
 </div>
@@ -231,12 +267,23 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(char *)( (7 + (<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7) )</td>
+          <td>&#160;&#160;&#160;(char *)((7 + (<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00009">9</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+<p>メモリブロックサイズ（8の倍数）にアドレスを変換するために、8の倍数で丸める。 </p>
+<p>~7 = 0xF8 = 0b11111000である。<br />
+ 0 -&gt; 7 -&gt; 0 1 -&gt; 8 -&gt; 8 2 -&gt; 9 -&gt; 8 : (省略) 7 -&gt; 14 -&gt; 8 8 -&gt; 15 -&gt; 8 9 -&gt; 16 -&gt; 16 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>アドレス </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>アドレス末尾が0の場合は下位3Bitを切り捨てたアドレス値（8の倍数）、<br />
+ それ以外の場合は次の8の倍数に切り上げたアドレス値を返す。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00024">24</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00009">getmem()</a>, and <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>.</p>
 
@@ -253,12 +300,21 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(char *)( ((<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7) )</td>
+          <td>&#160;&#160;&#160;(char *)(((<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>)(x)) &amp; (~7))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00010">10</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
+<p>メモリブロックサイズ（8の倍数）にアドレスを変換するために、下位3bitを切り捨てる。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>アドレス </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>下位3Bitを切り捨てたアドレス値（8の倍数）を返す。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00032">32</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
 </div>
 </div>
@@ -275,6 +331,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>BSSセグメントの開始アドレス（リンカが追加する） </p>
+
 </div>
 </div>
 <a id="a9eab91667db4d35c7231dcddf7b89a76"></a>
@@ -288,6 +346,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>データセグメントの開始アドレス（リンカが追加する） </p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
@@ -305,6 +365,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>BSSセグメントの終了アドレス（リンカが追加する） </p>
+
 <p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
 </div>
@@ -321,6 +383,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>データセグメントの終了アドレス（リンカが追加する） </p>
+
 </div>
 </div>
 <a id="abce9f5dc9c83f2639b72024fdee5d388"></a>
@@ -334,6 +398,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>プログラムの終了アドレス（リンカが追加する） </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>.</p>
 
@@ -351,6 +417,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>テキストセグメントの終了アドレス（リンカが追加する） </p>
+
 <p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
 </div>
@@ -366,6 +434,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>最上位かつ正常なヒープアドレス </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d80/meminit_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/d80/meminit_8c_source.html">meminit.c</a>.</p>
 
@@ -385,6 +455,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>フリーメモリリストの先頭 </p>
+
 <p class="definition">Definition at line <a class="el" href="../../df/dda/initialize_8c_source.html#l00022">22</a> of file <a class="el" href="../../df/dda/initialize_8c_source.html">initialize.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00009">getmem()</a>, <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>, <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>, <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>, <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00050">printFreeList()</a>, and <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00074">printMemUse()</a>.</p>
@@ -403,6 +475,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>ヒープの開始地点 </p>
+
 <p class="definition">Definition at line <a class="el" href="../../d5/d80/meminit_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/d80/meminit_8c_source.html">meminit.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00009">freemem()</a>, and <a class="el" href="../../d5/d80/meminit_8c_source.html#l00012">meminit()</a>.</p>
@@ -420,6 +494,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>テキストセグメントの開始アドレス（リンカが追加する） </p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00047">nulluser()</a>.</p>
 
