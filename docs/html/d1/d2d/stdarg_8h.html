@@ -69,6 +69,9 @@ $(function() {
 <div class="title">stdarg.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>可変長引数を実現するための宣言およびマクロ  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -79,7 +82,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node4" href="../../d1/df2/fprintf_8c.html" title="lib/fprintf.c" alt="" coords="231,80,314,107"/>
 <area shape="rect" id="node5" href="../../d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="339,80,417,107"/>
 <area shape="rect" id="node6" href="../../d9/d2d/sprintf_8c.html" title="lib/sprintf.c" alt="" coords="441,80,528,107"/>
-<area shape="rect" id="node7" href="../../df/d87/kprintf_8c.html" title="system/kprintf.c" alt="" coords="552,80,668,107"/>
+<area shape="rect" id="node7" href="../../df/d87/kprintf_8c.html" title="Kernel用のputc()、getc()、printf()を提供し、コンソールに対して文字のRead/Writeを行う。 ..." alt="" coords="552,80,668,107"/>
 </map>
 </div>
 </div>
@@ -88,22 +91,27 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a4c3e579e6d861383d1a57d75e7a7d80c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2d/stdarg_8h.html#a4c3e579e6d861383d1a57d75e7a7d80c">va_arg</a>(va,  type)&#160;&#160;&#160;__builtin_va_arg(va, type)</td></tr>
+<tr class="memdesc:a4c3e579e6d861383d1a57d75e7a7d80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">可変長引数の値を返し、次の引数へ進む。<br />
+ 「va_start()とva_end()の間」もしくは「va_copy()とva_end()の間」で使用する。  <a href="#a4c3e579e6d861383d1a57d75e7a7d80c">More...</a><br /></td></tr>
 <tr class="separator:a4c3e579e6d861383d1a57d75e7a7d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad36243a66d6b30f74fd72dd0f78d7264"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2d/stdarg_8h.html#ad36243a66d6b30f74fd72dd0f78d7264">va_copy</a>(dst,  src)&#160;&#160;&#160;__builtin_va_copy(dst, src)</td></tr>
+<tr class="memdesc:ad36243a66d6b30f74fd72dd0f78d7264"><td class="mdescLeft">&#160;</td><td class="mdescRight">va_list型のコピーを作成する。  <a href="#ad36243a66d6b30f74fd72dd0f78d7264">More...</a><br /></td></tr>
 <tr class="separator:ad36243a66d6b30f74fd72dd0f78d7264"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767df860399167a47691716543d93f52"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2d/stdarg_8h.html#a767df860399167a47691716543d93f52">va_end</a>(va)&#160;&#160;&#160;__builtin_va_end(va)</td></tr>
+<tr class="memdesc:a767df860399167a47691716543d93f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">可変長引数の処理を終了する。  <a href="#a767df860399167a47691716543d93f52">More...</a><br /></td></tr>
 <tr class="separator:a767df860399167a47691716543d93f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40339e98643b18cbc99e2adc64a27ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2d/stdarg_8h.html#aa40339e98643b18cbc99e2adc64a27ca">va_start</a>(last,  va)&#160;&#160;&#160;__builtin_va_start(last, va)</td></tr>
+<tr class="memdesc:aa40339e98643b18cbc99e2adc64a27ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">va_list型を初期化し、可変長引数の使用を開始する。  <a href="#aa40339e98643b18cbc99e2adc64a27ca">More...</a><br /></td></tr>
 <tr class="separator:aa40339e98643b18cbc99e2adc64a27ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:af53f622e3b6c080daeb167c1955d7ec1"><td class="memItemLeft" align="right" valign="top">typedef __builtin_va_list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2d/stdarg_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a></td></tr>
+<tr class="memdesc:af53f622e3b6c080daeb167c1955d7ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">可変個の実引数を扱うための情報を保持するための型（__builtin_va_listはGCCに定義された型）  <a href="#af53f622e3b6c080daeb167c1955d7ec1">More...</a><br /></td></tr>
 <tr class="separator:af53f622e3b6c080daeb167c1955d7ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>va_copy, va_start, va_arg, va_end.</p>
-<dl class="section rcs"><dt>Id</dt><dd><a class="el" href="../../d1/d2d/stdarg_8h.html">stdarg.h</a> 2020 2009-08-13 17:50:08Z mschul </dd></dl>
+<div class="textblock"><p>可変長引数を実現するための宣言およびマクロ </p>
 
 <p class="definition">Definition in file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
@@ -133,7 +141,17 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00014">14</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+<p>可変長引数の値を返し、次の引数へ進む。<br />
+ 「va_start()とva_end()の間」もしくは「va_copy()とva_end()の間」で使用する。 </p>
+<p>GCCに定義された__builtin_va_arg()のラッパーマクロ。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">va</td><td>va_list型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>可変長引数から取り出したい引数の型 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00034">34</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d39/doprnt_8c_source.html#l00022">_doprnt()</a>, and <a class="el" href="../../d5/d1c/fdoprnt_8c_source.html#l00020">_fdoprnt()</a>.</p>
 
@@ -165,7 +183,16 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00012">12</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+<p>va_list型のコピーを作成する。 </p>
+<p>GCCに定義された__builtin_va_copy()のラッパーマクロ。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dst</td><td>コピー先（va_list型） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>コピー元（va_list型） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00016">16</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
 
 </div>
 </div>
@@ -185,9 +212,18 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00015">15</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+<p>可変長引数の処理を終了する。 </p>
+<p>GCCに定義された__builtin_va_end(()のラッパーマクロ。<br />
+ <a class="el" href="../../d1/d2d/stdarg_8h.html#aa40339e98643b18cbc99e2adc64a27ca" title="va_list型を初期化し、可変長引数の使用を開始する。 ">va_start()</a>とva_end&lt;&gt;は対応関係があり、どちらかが欠けていると未定義動作となる。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">va</td><td>va_list型 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../df/d87/kprintf_8c_source.html#l00089">kprintf()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d9/d2d/sprintf_8c_source.html#l00012">sprintf()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00042">42</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../df/d87/kprintf_8c_source.html#l00098">kprintf()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d9/d2d/sprintf_8c_source.html#l00012">sprintf()</a>.</p>
 
 </div>
 </div>
@@ -217,9 +253,19 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00013">13</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+<p>va_list型を初期化し、可変長引数の使用を開始する。 </p>
+<p>GCCに定義された__builtin_va_start()のラッパーマクロ。<br />
+ <a class="el" href="../../d1/d2d/stdarg_8h.html#aa40339e98643b18cbc99e2adc64a27ca" title="va_list型を初期化し、可変長引数の使用を開始する。 ">va_start()</a>とva_end&lt;&gt;は対応関係があり、どちらかが欠けていると未定義動作となる。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">last</td><td>va_list型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">va</td><td>可変長引数でない最後の引数（例：フォーマット） </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../df/d87/kprintf_8c_source.html#l00089">kprintf()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d9/d2d/sprintf_8c_source.html#l00012">sprintf()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00025">25</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../df/d87/kprintf_8c_source.html#l00098">kprintf()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d9/d2d/sprintf_8c_source.html#l00012">sprintf()</a>.</p>
 
 </div>
 </div>
@@ -236,7 +282,9 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00010">10</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
+<p>可変個の実引数を扱うための情報を保持するための型（__builtin_va_listはGCCに定義された型） </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/stdarg_8h_source.html#l00007">7</a> of file <a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>.</p>
 
 </div>
 </div>

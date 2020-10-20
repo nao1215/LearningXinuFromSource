@@ -10,7 +10,7 @@
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="243,305,301,332"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="695,178,757,205"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="695,330,757,357"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="355,128,412,154"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="355,128,412,154"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="358,280,409,306"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="575,533,643,560"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="460,229,527,256"/>

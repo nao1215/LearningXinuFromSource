@@ -68,6 +68,9 @@ $(function() {
 <div class="title">xdone.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>最終プロセスの終了時、システム終了メッセージを表示する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d2/dbe/xinu_8h_source.html">xinu.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for xdone.c:</div>
@@ -80,7 +83,7 @@ Include dependency graph for xdone.c:</div>
 <area shape="rect" id="node5" href="../../da/d42/process_8h.html" title="プロセスに関する情報（プロセスの数、プロセス状態、プロセステーブル等）を定義する。 ..." alt="" coords="181,155,260,181"/>
 <area shape="rect" id="node6" href="../../d8/d38/queue_8h.html" title="キュー構造体に関する宣言／定数／インライン関数を定義する。 " alt="" coords="284,155,352,181"/>
 <area shape="rect" id="node7" href="../../df/d2a/resched_8h.html" title="遅延スケジューリングに使用する宣言と定数。 " alt="" coords="376,155,455,181"/>
-<area shape="rect" id="node8" href="../../d6/dc6/semaphore_8h.html" title="semaphore.h" alt="" coords="479,155,576,181"/>
+<area shape="rect" id="node8" href="../../d6/dc6/semaphore_8h.html" title="セマフォ（セマフォ数、状態、セマフォテーブル）に関する宣言およびマクロ定義 " alt="" coords="479,155,576,181"/>
 <area shape="rect" id="node9" href="../../dc/d18/memory_8h.html" title="memory.h" alt="" coords="601,155,681,181"/>
 <area shape="rect" id="node10" href="../../db/d18/bufpool_8h.html" title="bufpool.h" alt="" coords="705,155,779,181"/>
 <area shape="rect" id="node11" href="../../d7/d6e/clock_8h.html" title="clock.h" alt="" coords="803,155,867,181"/>
@@ -124,9 +127,14 @@ Include dependency graph for xdone.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1660c9984ab15425f280b8649d318a53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53">xdone</a> (void)</td></tr>
+<tr class="memdesc:a1660c9984ab15425f280b8649d318a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">最終プロセスの終了時、システム終了メッセージを表示する。  <a href="#a1660c9984ab15425f280b8649d318a53">More...</a><br /></td></tr>
 <tr class="separator:a1660c9984ab15425f280b8649d318a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>最終プロセスの終了時、システム終了メッセージを表示する。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d2/d9b/xdone_8c_source.html">xdone.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a1660c9984ab15425f280b8649d318a53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1660c9984ab15425f280b8649d318a53">&#9670;&nbsp;</a></span>xdone()</h2>
 
@@ -143,12 +151,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d9b/xdone_8c_source.html#l00009">9</a> of file <a class="el" href="../../d2/d9b/xdone_8c_source.html">xdone.c</a>.</p>
+<p>最終プロセスの終了時、システム終了メッセージを表示する。 </p>
 
-<p class="reference">References <a class="el" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd">halt()</a>, and <a class="el" href="../../df/d87/kprintf_8c_source.html#l00089">kprintf()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d9b/xdone_8c_source.html#l00010">10</a> of file <a class="el" href="../../d2/d9b/xdone_8c_source.html">xdone.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd">halt()</a>, and <a class="el" href="../../df/d87/kprintf_8c_source.html#l00098">kprintf()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d1d/kill_8c_source.html#l00009">kill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4">kprintf</a>(<span class="stringliteral">&quot;\n\nAll user processes have completed.\n\n&quot;</span>);</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd">halt</a>();             <span class="comment">/* Halt the processor       */</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div><div class="ttc" id="kernel_8h_html_aeb17afabb1107d9a1eba2d6df55dbbb4"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4">kprintf</a></div><div class="ttdeci">syscall kprintf(char *fmt,...)</div><div class="ttdoc">ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d87/kprintf_8c_source.html#l00089">kprintf.c:89</a></div></div>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4">kprintf</a>(<span class="stringliteral">&quot;\n\nAll user processes have completed.\n\n&quot;</span>);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd">halt</a>(); <span class="comment">/* Halt the processor       */</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div><div class="ttc" id="kernel_8h_html_aeb17afabb1107d9a1eba2d6df55dbbb4"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4">kprintf</a></div><div class="ttdeci">syscall kprintf(char *fmt,...)</div><div class="ttdoc">ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d87/kprintf_8c_source.html#l00098">kprintf.c:98</a></div></div>
 <div class="ttc" id="prototypes_8h_html_aee01d3a42fbcda425a19cbc4bd0194cd"><div class="ttname"><a href="../../dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd">halt</a></div><div class="ttdeci">void halt(void)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>

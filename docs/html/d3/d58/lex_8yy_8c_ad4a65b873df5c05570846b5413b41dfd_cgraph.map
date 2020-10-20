@@ -44,7 +44,7 @@
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="301,107,358,133"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="517,5,580,32"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="517,81,580,108"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="412,81,469,108"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="412,81,469,108"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="415,31,466,57"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="306,157,353,184"/>
 <area shape="rect" id="node11" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="295,208,364,235"/>

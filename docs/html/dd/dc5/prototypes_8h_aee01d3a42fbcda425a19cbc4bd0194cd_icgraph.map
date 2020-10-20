@@ -1,5 +1,5 @@
 <map id="halt" name="halt">
-<area shape="rect" id="node2" href="$d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="96,740,153,767"/>
+<area shape="rect" id="node2" href="$d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="96,740,153,767"/>
 <area shape="rect" id="node3" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="kill" alt="" coords="201,740,240,767"/>
 <area shape="rect" id="node4" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="288,689,355,716"/>
 <area shape="rect" id="node5" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="300,740,343,767"/>

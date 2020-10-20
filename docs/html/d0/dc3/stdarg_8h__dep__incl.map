@@ -4,5 +4,5 @@
 <area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html" title="lib/fprintf.c" alt="" coords="231,80,314,107"/>
 <area shape="rect" id="node5" href="$d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="339,80,417,107"/>
 <area shape="rect" id="node6" href="$d9/d2d/sprintf_8c.html" title="lib/sprintf.c" alt="" coords="441,80,528,107"/>
-<area shape="rect" id="node7" href="$df/d87/kprintf_8c.html" title="system/kprintf.c" alt="" coords="552,80,668,107"/>
+<area shape="rect" id="node7" href="$df/d87/kprintf_8c.html" title="Kernel用のputc()、getc()、printf()を提供し、コンソールに対して文字のRead/Writeを行う。 ..." alt="" coords="552,80,668,107"/>
 </map>
