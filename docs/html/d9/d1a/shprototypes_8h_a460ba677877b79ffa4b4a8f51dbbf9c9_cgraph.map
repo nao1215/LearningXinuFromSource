@@ -37,7 +37,7 @@
 <area shape="rect" id="node29" href="$d3/d58/lex_8yy_8c.html#a25d1992696acab2c6c3b6a6b45d2f487" title="yy_fatal_error" alt="" coords="775,360,876,387"/>
 <area shape="rect" id="node30" href="$d3/d58/lex_8yy_8c.html#a2f59cc88e85e5455c62e4ef7ce095ea8" title="yy_flush_buffer" alt="" coords="770,411,881,437"/>
 <area shape="rect" id="node31" href="$d3/d58/lex_8yy_8c.html#a3b3b5f60f720da3f621223997266498c" title="yy_get_next_buffer" alt="" coords="759,461,892,488"/>
-<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="615,968,711,995"/>
+<area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="615,968,711,995"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="796,1272,855,1299"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="461,1272,527,1299"/>
 <area shape="rect" id="node41" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="286,563,355,589"/>

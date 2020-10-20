@@ -14,7 +14,7 @@
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="816,297,879,324"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="xdone" alt="" coords="476,157,533,184"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="479,411,530,437"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="696,563,764,589"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="696,563,764,589"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="581,309,648,336"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="697,259,763,285"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="703,208,757,235"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="107,93,177,120"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="231,93,281,120"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="disable" alt="" coords="337,5,400,32"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="335,68,403,95"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="335,68,403,95"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="337,119,400,145"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="225,195,287,221"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="ctxsw" alt="" coords="457,17,515,44"/>

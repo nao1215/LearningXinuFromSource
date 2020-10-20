@@ -26,7 +26,7 @@
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="790,157,837,184"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="785,1323,841,1349"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="911,1323,965,1349"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1021,740,1089,767"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1021,740,1089,767"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="515,1069,575,1096"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="512,1019,579,1045"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a84662366147c7ffea0f111675e1d5967" title="udp_hton" alt="" coords="508,1171,583,1197"/>

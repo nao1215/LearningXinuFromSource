@@ -44,7 +44,7 @@
 <area shape="rect" id="node39" href="$d3/d58/lex_8yy_8c.html#a2e9898ec03e594f5a82387c787776ef6" title="yyensure_buffer_stack" alt="" coords="563,816,717,843"/>
 <area shape="rect" id="node40" href="$d3/d58/lex_8yy_8c.html#a70f82d43d4797bb2a50f7678ddbfbda5" title="yyfree" alt="" coords="611,867,669,893"/>
 <area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#a4d4e3dd7e6f1d795e01b61794b31ac34" title="yyget_debug" alt="" coords="592,917,688,944"/>
-<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="419,1627,515,1653"/>
+<area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="419,1627,515,1653"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="611,1880,669,1907"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="291,1880,358,1907"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="431,1931,503,1957"/>

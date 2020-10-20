@@ -46,6 +46,6 @@
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="525,563,615,589"/>
 <area shape="rect" id="node44" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="537,411,603,437"/>
 <area shape="rect" id="node45" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="541,461,599,488"/>
-<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="668,5,764,32"/>
-<area shape="rect" id="node50" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="855,5,923,32"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="668,5,764,32"/>
+<area shape="rect" id="node50" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="855,5,923,32"/>
 </map>

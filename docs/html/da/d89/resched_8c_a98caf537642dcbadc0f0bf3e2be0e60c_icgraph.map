@@ -4,7 +4,7 @@
 <area shape="rect" id="node8" href="$d7/db9/ready_8c.html#aa81bda195058cce0a7fed3068037d912" title="プロセスをCPUサービスの対象にする。 " alt="" coords="142,807,197,834"/>
 <area shape="rect" id="node32" href="$dc/da3/receive_8c.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="425,73,489,99"/>
 <area shape="rect" id="node33" href="$d1/d4f/recvtime_8c.html#af2c526c524a5db524ca16e9701ce6efd" title="recvtime" alt="" coords="133,1365,205,1391"/>
-<area shape="rect" id="node38" href="$da/d89/resched_8c.html#aa45cc47e450e55e8b012b3f8846da84e" title="resched_cntl" alt="" coords="121,959,217,986"/>
+<area shape="rect" id="node38" href="$da/d89/resched_8c.html#aa45cc47e450e55e8b012b3f8846da84e" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="121,959,217,986"/>
 <area shape="rect" id="node43" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="280,33,351,59"/>
 <area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="プロセスを一時停止し、休止状態（サスペンド）に遷移させる。 " alt="" coords="134,1415,205,1442"/>
 <area shape="rect" id="node46" href="$dd/d10/wait_8c.html#ac3a582eac1d7675ce175f0d3a72d2637" title="wait" alt="" coords="292,529,339,555"/>

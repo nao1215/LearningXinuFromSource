@@ -1,6 +1,6 @@
 <map id="ttyhandler" name="ttyhandler">
 <area shape="rect" id="node2" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="163,1044,201,1071"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="134,2083,230,2109"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="134,2083,230,2109"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aa75e6a6e7a74887d0b8076863e078bfa" title="ttyhandle_in" alt="" coords="136,2133,228,2160"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ad62d4702afc775e4aa366d2211871438" title="ttyhandle_out" alt="" coords="132,2184,232,2211"/>
 <area shape="rect" id="node3" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="336,5,379,32"/>
@@ -44,7 +44,7 @@
 <area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#ad8174301995e5a61ab330516ec081e35" title="yyset_out" alt="" coords="318,1931,397,1957"/>
 <area shape="rect" id="node42" href="$d3/d58/lex_8yy_8c.html#a25685b4fb49203fb391287f312948be4" title="yyunput" alt="" coords="323,1981,391,2008"/>
 <area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#a9ae7dd87893ed6cebc02d0d5f84c2ede" title="yywrap" alt="" coords="325,2032,389,2059"/>
-<area shape="rect" id="node45" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="323,2083,391,2109"/>
+<area shape="rect" id="node45" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="323,2083,391,2109"/>
 <area shape="rect" id="node47" href="$d6/d00/ttyhandle__in_8c.html#a9d55304f0234cc24944841ff3bbaab34" title="echoch" alt="" coords="325,2133,389,2160"/>
 <area shape="rect" id="node48" href="$d6/d00/ttyhandle__in_8c.html#afe6ad29bb897ba968b0fe516462044e4" title="eputc" alt="" coords="483,2184,537,2211"/>
 <area shape="rect" id="node49" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="327,2235,388,2261"/>

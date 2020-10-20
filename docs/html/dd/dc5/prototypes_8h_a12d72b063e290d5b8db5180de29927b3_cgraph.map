@@ -20,7 +20,7 @@
 <area shape="rect" id="node19" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="506,791,545,817"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="494,1348,557,1375"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="668,1272,729,1299"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="665,1323,733,1349"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="665,1323,733,1349"/>
 <area shape="rect" id="node20" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="677,309,720,336"/>
 <area shape="rect" id="node21" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="671,360,726,387"/>
 <area shape="rect" id="node22" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="677,411,721,437"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#a2e9898ec03e594f5a82387c787776ef6" title="yyensure_buffer_stack" alt="" coords="621,157,776,184"/>
 <area shape="rect" id="node42" href="$d3/d58/lex_8yy_8c.html#a70f82d43d4797bb2a50f7678ddbfbda5" title="yyfree" alt="" coords="669,208,728,235"/>
 <area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#a4d4e3dd7e6f1d795e01b61794b31ac34" title="yyget_debug" alt="" coords="651,259,747,285"/>
-<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="477,1703,573,1729"/>
+<area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="477,1703,573,1729"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="496,1399,555,1425"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="323,1247,390,1273"/>
 </map>

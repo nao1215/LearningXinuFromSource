@@ -12,7 +12,7 @@
 <area shape="rect" id="node12" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="403,841,442,868"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="391,1880,454,1907"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="564,1627,625,1653"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="561,1677,629,1704"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="561,1677,629,1704"/>
 <area shape="rect" id="node13" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="573,208,616,235"/>
 <area shape="rect" id="node14" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="567,259,622,285"/>
 <area shape="rect" id="node15" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="573,309,617,336"/>

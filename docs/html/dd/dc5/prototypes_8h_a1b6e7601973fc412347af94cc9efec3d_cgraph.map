@@ -24,7 +24,7 @@
 <area shape="rect" id="node21" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="879,1371,918,1398"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="867,345,930,371"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="1200,561,1261,587"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1197,459,1265,486"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1197,459,1265,486"/>
 <area shape="rect" id="node22" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="exit" alt="" coords="1050,1118,1093,1145"/>
 <area shape="rect" id="node26" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="1049,1169,1093,1195"/>
 <area shape="rect" id="node27" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="1046,1219,1097,1246"/>
@@ -40,8 +40,8 @@
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="1207,1751,1254,1778"/>
 <area shape="rect" id="node25" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="1196,1802,1265,1829"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1043,459,1099,486"/>
-<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="resched_cntl" alt="" coords="851,807,947,834"/>
-<area shape="rect" id="node42" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="resched" alt="" coords="1037,865,1105,891"/>
+<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="851,807,947,834"/>
+<area shape="rect" id="node42" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1037,865,1105,891"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="869,257,928,283"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="557,459,623,486"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1048,409,1095,435"/>
