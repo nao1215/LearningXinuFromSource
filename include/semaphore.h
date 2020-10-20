@@ -14,7 +14,7 @@
 
 /**
  * @struct sentry
- * @brief セマフォテーブルエントリ
+ * @brief セマフォテーブルエントリであり、本構造体の配列（長さNSEM）が静的に確保される。
  */
 struct sentry
 {
@@ -26,7 +26,7 @@ struct sentry
 	qid16 squeue;
 };
 
-//! セマフォエントリテーブルのextern宣言
+//! セマフォテーブルエントリのextern宣言
 extern struct sentry semtab[];
 
 /**
