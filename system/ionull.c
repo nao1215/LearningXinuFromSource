@@ -1,12 +1,14 @@
-/* ionull.c - ionull */
-
+/**
+ * @file ionull.c
+ * @brief 何もしない（デバイステーブルの"don't care"エントリに使用する）
+ */
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  ionull  -  Do nothing (used for "don't care" entries in devtab)
- *------------------------------------------------------------------------
+/**
+ * @brief 何もしない（デバイステーブルの"don't care"エントリに使用する）
+ * @return 必ずOKを返す。
  */
-devcall	ionull(void)
+devcall ionull(void)
 {
 	return OK;
 }
