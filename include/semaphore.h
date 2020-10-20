@@ -1,22 +1,40 @@
-/* semaphore.h - isbadsem */
-
-#ifndef	NSEM
-#define	NSEM		120	/* Number of semaphores, if not defined	*/
+/**
+ * @file semaphore.h
+ * @brief セマフォ（セマフォ数、状態、セマフォテーブル）に関する宣言およびマクロ定義
+ */
+#ifndef NSEM
+//! セマフォ数が未定義の場合は、セマフォ数を120個とする。
+#define NSEM 120
 #endif
 
-/* Semaphore state definitions */
+//! セマフォテーブルエントリが利用可能
+#define S_FREE 0
+//! セマフォテーブルエントリが利用中
+#define S_USED 1
 
-#define	S_FREE	0		/* Semaphore table entry is available	*/
-#define	S_USED	1		/* Semaphore table entry is in use	*/
-
-/* Semaphore table entry */
-struct	sentry	{
-	byte	sstate;		/* Whether entry is S_FREE or S_USED	*/
-	int32	scount;		/* Count for the semaphore		*/
-	qid16	squeue;		/* Queue of processes that are waiting	*/
-				/*     on the semaphore			*/
+/**
+ * @struct sentry
+ * @brief セマフォテーブルエントリ
+ */
+struct sentry
+{
+	//! エントリ状態が利用可能（S_FREE）か、利用中（S_USED）かを表す。
+	byte sstate;
+	//! セマフォカウント（負の値(-N)の場合は、キューにN個の待機プロセスがある。それ以外はキューが空である）
+	int32 scount;
+	//! セマフォ待機中プロセスのキュー
+	qid16 squeue;
 };
 
-extern	struct	sentry semtab[];
+//! セマフォエントリテーブルのextern宣言
+extern struct sentry semtab[];
 
-#define	isbadsem(s)	((int32)(s) < 0 || (s) >= NSEM)
+/**
+ * @def isbadsem()
+ * @brief セマフォIDが不適切かどうかを確認する。
+ * @param[in] s チェック対象のセマフォID（セマフォテーブルエントリのインデックス）
+ * @return セマフォIDが負の値もしくは作成可能なセマフォ総数（NSEM）を超えている場合はtrueを返し、<br>
+ * それ以外の場合はfalseを返す。
+ * @note セマフォテーブルエントリは静的に割り当てられた配列のため、その操作には配列のインデックスを用いる。
+ */
+#define isbadsem(s) ((int32)(s) < 0 || (s) >= NSEM)
