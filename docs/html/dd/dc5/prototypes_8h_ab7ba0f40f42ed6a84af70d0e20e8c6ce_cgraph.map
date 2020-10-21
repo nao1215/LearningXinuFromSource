@@ -1,5 +1,5 @@
 <map id="rdsinit" name="rdsinit">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="create" alt="" coords="860,107,919,133"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="860,107,919,133"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="519,1316,576,1343"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="992,1323,1061,1349"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="381,1551,435,1577"/>
@@ -9,7 +9,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="1123,715,1180,741"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="997,309,1056,336"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1120,1019,1183,1045"/>
-<area shape="rect" id="node7" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="995,5,1058,32"/>
+<area shape="rect" id="node7" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="新しいプロセスIDを取得するnewpid()の宣言 " alt="" coords="995,5,1058,32"/>
 <area shape="rect" id="node11" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="691,993,750,1020"/>
 <area shape="rect" id="node12" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="857,968,922,995"/>
 <area shape="rect" id="node13" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="999,1120,1054,1147"/>

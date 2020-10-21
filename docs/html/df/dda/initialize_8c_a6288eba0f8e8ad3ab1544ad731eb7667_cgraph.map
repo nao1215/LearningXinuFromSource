@@ -1,5 +1,5 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="create" alt="" coords="207,360,266,387"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="207,360,266,387"/>
 <area shape="rect" id="node8" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="207,107,266,133"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="323,917,387,944"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="206,259,267,285"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="326,309,383,336"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="325,360,384,387"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="442,563,505,589"/>
-<area shape="rect" id="node7" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="323,259,386,285"/>
+<area shape="rect" id="node7" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="新しいプロセスIDを取得するnewpid()の宣言 " alt="" coords="323,259,386,285"/>
 <area shape="rect" id="node9" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="322,5,387,32"/>
 <area shape="rect" id="node10" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="327,107,382,133"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="439,1069,507,1096"/>

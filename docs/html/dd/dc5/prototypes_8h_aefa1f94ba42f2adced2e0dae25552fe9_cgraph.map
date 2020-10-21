@@ -1,7 +1,7 @@
 <map id="shell" name="shell">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="addargs" alt="" coords="217,5,285,32"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="220,56,281,83"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="create" alt="" coords="106,335,165,361"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="106,335,165,361"/>
 <area shape="rect" id="node11" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="108,676,163,703"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1" title="lexan" alt="" coords="109,727,162,753"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="225,107,276,133"/>
@@ -14,7 +14,7 @@
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="338,233,401,260"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="222,309,279,336"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="221,411,280,437"/>
-<area shape="rect" id="node10" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="newpid" alt="" coords="219,360,282,387"/>
+<area shape="rect" id="node10" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="新しいプロセスIDを取得するnewpid()の宣言 " alt="" coords="219,360,282,387"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="227,715,274,741"/>
 <area shape="rect" id="node13" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="216,765,285,792"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="335,613,403,640"/>
