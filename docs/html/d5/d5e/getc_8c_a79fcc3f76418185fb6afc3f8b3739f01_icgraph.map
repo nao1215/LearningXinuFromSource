@@ -1,5 +1,5 @@
 <map id="getc" name="getc">
-<area shape="rect" id="node2" href="$d8/d59/fgetc_8c.html#a331dd7c56def5258f0385d1e5f9220c1" title="fgetc" alt="" coords="109,5,159,32"/>
+<area shape="rect" id="node2" href="$d8/d59/fgetc_8c.html#a331dd7c56def5258f0385d1e5f9220c1" title="デバイス（ファイル）から文字を読み込む。 " alt="" coords="109,5,159,32"/>
 <area shape="rect" id="node4" href="$d5/d36/fgets_8c.html#a573c8ad59f73c997adb58ea83a5a879a" title="fgets" alt="" coords="109,56,159,83"/>
 <area shape="rect" id="node5" href="$d8/db4/fscanf_8c.html#aa48d02ebd3c8cdbd7bf5d9d2b09cc6aa" title="getch" alt="" coords="107,107,161,133"/>
 <area shape="rect" id="node10" href="$d0/d1c/xsh__cat_8c.html#a393f9d45428aa0d3d938ee504c077884" title="xsh_cat" alt="" coords="100,157,168,184"/>

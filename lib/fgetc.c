@@ -1,19 +1,21 @@
-/* fgetc.c - fgetc */
-
+/**
+ * @file fgetc.c
+ * @brief デバイス（ファイル）から文字を読み込む。
+ */
 extern int getc(int);
 
-#ifndef	EOF
-#define EOF      (-2)
+#ifndef EOF
+//! End Of Fileを示す値
+#define EOF (-2)
 #endif
 
-/*------------------------------------------------------------------------
- *  fgetc  -  Read a character from a device (file).
- *			  Return character read, EOF if error.
- *------------------------------------------------------------------------
+/**
+ * @brief デバイス（ファイル）から文字を読み込む。
+ * @param[in] dev デバイスディスクリプタ
+ * @return  成功時は読み込んだ文字、異常時はEOFを返す。
  */
-int	fgetc(
-	  int		dev
-	)
+int fgetc(
+    int dev)
 {
     int result = (int)getc(dev);
 
