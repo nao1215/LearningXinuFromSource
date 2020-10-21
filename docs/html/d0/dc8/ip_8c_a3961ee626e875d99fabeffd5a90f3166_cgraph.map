@@ -26,7 +26,7 @@
 <area shape="rect" id="node22" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="668,309,727,336"/>
 <area shape="rect" id="node23" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="800,309,865,336"/>
 <area shape="rect" id="node24" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="805,411,860,437"/>
-<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="793,563,872,589"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="793,563,872,589"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="799,664,866,691"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="923,664,988,691"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a3451570af533e87d13c36bb47fa659c1" title="eth_hton" alt="" coords="661,1145,733,1172"/>

@@ -29,7 +29,7 @@
 <area shape="rect" id="node26" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="805,360,864,387"/>
 <area shape="rect" id="node27" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="937,360,1003,387"/>
 <area shape="rect" id="node28" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="943,512,997,539"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="931,613,1009,640"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="931,613,1009,640"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#a84662366147c7ffea0f111675e1d5967" title="udp_hton" alt="" coords="797,1145,872,1172"/>
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#a631f8f868308f30f051b261ad23b3768" title="icmp_hton" alt="" coords="793,1196,876,1223"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a9172ba1c16b94c29ecfa34f951f6658f" title="icmp_cksum" alt="" coords="787,1247,883,1273"/>

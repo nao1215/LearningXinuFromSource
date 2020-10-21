@@ -1,5 +1,5 @@
 <map id="ptcount" name="ptcount">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="245,5,308,32"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="245,68,308,95"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="119,31,197,57"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="119,31,197,57"/>
 </map>

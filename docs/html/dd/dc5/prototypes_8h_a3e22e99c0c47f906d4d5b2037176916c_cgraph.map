@@ -1,5 +1,5 @@
 <map id="ttyread" name="ttyread">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="227,31,305,57"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="227,31,305,57"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a71f086beec8725d008f6608c0007d6e2" title="ttygetc" alt="" coords="116,81,179,108"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="357,5,420,32"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="357,56,420,83"/>

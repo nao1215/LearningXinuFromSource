@@ -29,7 +29,7 @@
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="933,613,999,640"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1056,613,1121,640"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="647,715,735,741"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="semcount" alt="" coords="927,715,1005,741"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="927,715,1005,741"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#a84662366147c7ffea0f111675e1d5967" title="udp_hton" alt="" coords="793,1171,868,1197"/>
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#a631f8f868308f30f051b261ad23b3768" title="icmp_hton" alt="" coords="789,1221,872,1248"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a9172ba1c16b94c29ecfa34f951f6658f" title="icmp_cksum" alt="" coords="783,1272,879,1299"/>
