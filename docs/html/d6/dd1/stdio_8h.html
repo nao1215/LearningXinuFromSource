@@ -155,6 +155,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ab76d93651df506e45b90a9f29068d801"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字をデバイス（ファイル）に書き込む。  <a href="#ab76d93651df506e45b90a9f29068d801">More...</a><br /></td></tr>
 <tr class="separator:ab76d93651df506e45b90a9f29068d801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a085e67705764ab64ab063d58b0a35c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/stdio_8h.html#a085e67705764ab64ab063d58b0a35c3c">fputs</a> (char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
+<tr class="memdesc:a085e67705764ab64ab063d58b0a35c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列をデバイス（ファイル）に書き込む。  <a href="#a085e67705764ab64ab063d58b0a35c3c">More...</a><br /></td></tr>
 <tr class="separator:a085e67705764ab64ab063d58b0a35c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc32e16ccf8a706946128c479e13b95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/stdio_8h.html#a9cc32e16ccf8a706946128c479e13b95">fscanf</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>, char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
 <tr class="separator:a9cc32e16ccf8a706946128c479e13b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -605,13 +606,13 @@ Here is the caller graph for this function:</div>
           <td class="memname"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a> fputs </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dev</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -621,10 +622,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/db5/fputs_8c_source.html#l00010">10</a> of file <a class="el" href="../../d1/db5/fputs_8c_source.html">fputs.c</a>.</p>
+<p>文字列をデバイス（ファイル）に書き込む。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>書き込む文字列（NULL終端されている事） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>デバイスディスクリプタ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>最後にputc()で書き込んだ結果を返す（詳細は、 <a class="el" href="../../d1/db5/fputs_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6" title="文字を書き込むputc()のextern宣言 ">putc()</a>を参照する事） </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/db5/fputs_8c_source.html#l00015">15</a> of file <a class="el" href="../../d1/db5/fputs_8c_source.html">fputs.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d0f/putc_8c_source.html#l00009">putc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">int</span> r = 0, c;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">while</span> ((c = (*s++)))</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        r = <a class="code" href="../../d1/db5/fputs_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6">putc</a>(dev, c);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div><div class="ttc" id="fputs_8c_html_aa1075cf39d3ab5840b3a06262b4e26a6"><div class="ttname"><a href="../../d1/db5/fputs_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6">putc</a></div><div class="ttdeci">int putc(int, char)</div><div class="ttdoc">文字を書き込むputc()のextern宣言 </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0f/putc_8c_source.html#l00009">putc.c:9</a></div></div>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">int</span> r = 0, c;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">while</span> ((c = (*s++)))</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        r = <a class="code" href="../../d1/db5/fputs_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6">putc</a>(dev, c);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div><div class="ttc" id="fputs_8c_html_aa1075cf39d3ab5840b3a06262b4e26a6"><div class="ttname"><a href="../../d1/db5/fputs_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6">putc</a></div><div class="ttdeci">int putc(int, char)</div><div class="ttdoc">文字を書き込むputc()のextern宣言 </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0f/putc_8c_source.html#l00009">putc.c:9</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
