@@ -245,7 +245,7 @@ Functions</h2></td></tr>
  Step6. 可変長引数と関数ポインタをスタックに積む。前提として、ARMはr0〜r3レジスタが引数渡しに使用される。<br />
  可変長引数の5個目〜N個目をスタックに積んだ後、関数ポインタをスタックに積む。<br />
  引数をレジスタ渡しするためにスタックにr4〜r11用の情報（=0）を積み、r3〜r0用の情報（引数次第で変化）を積む。<br />
- Step7. 関数のリターンアドレス（INITRET = <a class="el" href="../../dd/dc5/prototypes_8h.html#afd2dbc8bba51fd7dce39d0dc189a93f0">userret()</a>であり、kill()を呼び出す）をスタックに積む。<br />
+ Step7. 関数のリターンアドレス（INITRET = <a class="el" href="../../dd/dc5/prototypes_8h.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="プロセスが最上位の関数に戻る時に呼ばれる。現在のプロセスを終了させる。 ">userret()</a>であり、kill()を呼び出す）をスタックに積む。<br />
  Step8. CPSR F bitを有効化し、スーパバイザモードに移行するためのビットマスクをスタックに積む。<br />
  スーパーバイザモードに移行する理由は、userret()内でシステムをDeadループさせるhalt()を実行するため（誤っている可能性高い）。<br />
  Step9. 新しいスタックアドレスをプロセステーブルにセットする。<br />

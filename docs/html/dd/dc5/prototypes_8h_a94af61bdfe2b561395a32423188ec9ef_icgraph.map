@@ -5,7 +5,7 @@
 <area shape="rect" id="node49" href="$d4/da3/xsh__rdstest_8c.html#a47bfa13b05c1e409dcc7e4f9eef4b319" title="xsh_rdstest" alt="" coords="107,892,197,919"/>
 <area shape="rect" id="node3" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="245,689,312,716"/>
 <area shape="rect" id="node4" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="257,740,300,767"/>
-<area shape="rect" id="node46" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="247,791,310,817"/>
+<area shape="rect" id="node46" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="プロセスが最上位の関数に戻る時に呼ばれる。現在のプロセスを終了させる。 " alt="" coords="247,791,310,817"/>
 <area shape="rect" id="node5" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="376,537,415,564"/>
 <area shape="rect" id="node36" href="$d5/def/y_8tab_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="651,689,701,716"/>
 <area shape="rect" id="node37" href="$d5/def/y_8tab_8c.html#a3c600cc1e9324188738909ad4f9851d1" title="addton" alt="" coords="365,664,426,691"/>

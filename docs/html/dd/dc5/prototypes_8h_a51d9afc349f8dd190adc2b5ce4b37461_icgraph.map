@@ -13,7 +13,7 @@
 <area shape="rect" id="node4" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="665,1124,721,1151"/>
 <area shape="rect" id="node6" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="659,1251,726,1278"/>
 <area shape="rect" id="node7" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="671,1302,714,1328"/>
-<area shape="rect" id="node8" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="userret" alt="" coords="661,1200,724,1227"/>
+<area shape="rect" id="node8" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="プロセスが最上位の関数に戻る時に呼ばれる。現在のプロセスを終了させる。 " alt="" coords="661,1200,724,1227"/>
 <area shape="rect" id="node10" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="529,123,595,150"/>
 <area shape="rect" id="node15" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="379,756,462,783"/>
 <area shape="rect" id="node16" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="383,858,459,884"/>
