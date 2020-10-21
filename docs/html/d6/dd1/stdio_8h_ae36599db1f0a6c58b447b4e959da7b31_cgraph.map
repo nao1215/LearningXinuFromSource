@@ -1,4 +1,4 @@
 <map id="putchar" name="putchar">
-<area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#ab76d93651df506e45b90a9f29068d801" title="fputc" alt="" coords="119,5,169,32"/>
-<area shape="rect" id="node3" href="$dc/d67/fputc_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6" title="putc" alt="" coords="217,5,264,32"/>
+<area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#ab76d93651df506e45b90a9f29068d801" title="文字をデバイス（ファイル）に書き込む。 " alt="" coords="119,5,169,32"/>
+<area shape="rect" id="node3" href="$dc/d67/fputc_8c.html#aa1075cf39d3ab5840b3a06262b4e26a6" title="文字を書き込むputc()のextern宣言 " alt="" coords="217,5,264,32"/>
 </map>
