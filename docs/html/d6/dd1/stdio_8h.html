@@ -147,6 +147,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a05b9b6f3f960d0371781a8475423450c"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイス（ファイル）から文字を読み込む。  <a href="#a05b9b6f3f960d0371781a8475423450c">More...</a><br /></td></tr>
 <tr class="separator:a05b9b6f3f960d0371781a8475423450c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d48a56f4f27ed733e47c4ff55680391"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/stdio_8h.html#a1d48a56f4f27ed733e47c4ff55680391">fgets</a> (char *, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>, <a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>)</td></tr>
+<tr class="memdesc:a1d48a56f4f27ed733e47c4ff55680391"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバイス（ファイル）から文字列を読み込む。  <a href="#a1d48a56f4f27ed733e47c4ff55680391">More...</a><br /></td></tr>
 <tr class="separator:a1d48a56f4f27ed733e47c4ff55680391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eaa1f4e269e735a399bbefde4ccba39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39">fprintf</a> (int, char *,...)</td></tr>
 <tr class="separator:a0eaa1f4e269e735a399bbefde4ccba39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,19 +331,19 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>成功時は読み込んだ文字、異常時はEOFを返す。 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00017">17</a> of file <a class="el" href="../../d8/d59/fgetc_8c_source.html">fgetc.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00019">19</a> of file <a class="el" href="../../d8/d59/fgetc_8c_source.html">fgetc.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00009">EOF</a>, and <a class="el" href="../../d5/d5e/getc_8c_source.html#l00009">getc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00011">EOF</a>, and <a class="el" href="../../d5/d5e/getc_8c_source.html#l00009">getc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/dd4/getchar_8c_source.html#l00010">getchar()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> result = (int)<a class="code" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a>(dev);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (0 &gt; result)</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> result;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div><div class="ttc" id="fgetc_8c_html_a59adc4c82490d23754cd39c2fb99b0da"><div class="ttname"><a href="../../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a></div><div class="ttdeci">#define EOF</div><div class="ttdoc">End Of Fileを示す値 </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d59/fgetc_8c_source.html#l00009">fgetc.c:9</a></div></div>
-<div class="ttc" id="fgetc_8c_html_ac58fca2a9891cf03cd2cf6d534b10923"><div class="ttname"><a href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a></div><div class="ttdeci">int getc(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5e/getc_8c_source.html#l00009">getc.c:9</a></div></div>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> result = (int)<a class="code" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a>(dev);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span> (0 &gt; result)</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> result;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div><div class="ttc" id="fgetc_8c_html_a59adc4c82490d23754cd39c2fb99b0da"><div class="ttname"><a href="../../d8/d59/fgetc_8c.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a></div><div class="ttdeci">#define EOF</div><div class="ttdoc">End Of Fileを示す値 </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d59/fgetc_8c_source.html#l00011">fgetc.c:11</a></div></div>
+<div class="ttc" id="fgetc_8c_html_ac58fca2a9891cf03cd2cf6d534b10923"><div class="ttname"><a href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a></div><div class="ttdeci">int getc(int)</div><div class="ttdoc">デバイスから1Byte読み込むgetc()のextern宣言 </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5e/getc_8c_source.html#l00009">getc.c:9</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/dd1/stdio_8h_a05b9b6f3f960d0371781a8475423450c_cgraph.png" border="0" usemap="#d6/dd1/stdio_8h_a05b9b6f3f960d0371781a8475423450c_cgraph" alt=""/></div>
 <map name="d6/dd1/stdio_8h_a05b9b6f3f960d0371781a8475423450c_cgraph" id="d6/dd1/stdio_8h_a05b9b6f3f960d0371781a8475423450c_cgraph">
-<area shape="rect" id="node2" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="getc" alt="" coords="104,5,151,32"/>
+<area shape="rect" id="node2" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="デバイスから1Byte読み込むgetc()のextern宣言 " alt="" coords="104,5,151,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -366,19 +367,19 @@ Here is the caller graph for this function:</div>
           <td class="memname">char* fgets </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dev</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -388,17 +389,32 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d36/fgets_8c_source.html#l00012">12</a> of file <a class="el" href="../../d5/d36/fgets_8c_source.html">fgets.c</a>.</p>
+<p>デバイス（ファイル）から文字列を読み込む。 </p>
+<p>以下のいずれかの場合に、文字列の読み込みを停止する<br />
+ 　・最大読み込みByteに達した<br />
+ 　・行の最後（改行コード）まで達した（Linux形式=LFか、Mac形式=CRのどちらか）<br />
+ 　・EOFまで達した<br />
+ 文字列（改行コード含む）の最後にはNULL終端を付与する。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">s</td><td>読み込んだ文字列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>最大読み込みByte </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>デバイスディスクリプタ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>成功時は読み込んだ文字列（改行コードとNULL終端含む）、EOFや空文字の場合はNULLを返す。 </dd></dl>
 
-<p class="reference">References <a class="el" href="../../d5/d5e/getc_8c_source.html#l00009">getc()</a>, and <a class="el" href="../../d5/d36/fgets_8c_source.html#l00004">NULL</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">int</span> c = 0;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">char</span> *cs;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    cs = s;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">/* Read characters until maximum read length, */</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">/*  end of line, or end of file               */</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">while</span> ((--n &gt; 0) &amp;&amp; ((c = <a class="code" href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a>(dev)) &gt;= 0))</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        *cs++ = c;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;\n&#39;</span> == c) || (<span class="charliteral">&#39;\r&#39;</span> == c))</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">break</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">/* Check for EOF or empty string */</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span> ((c &lt; 0) &amp;&amp; (cs == s))</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d36/fgets_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/* Terminate string and return */</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    *cs++ = <span class="charliteral">&#39;\0&#39;</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div><div class="ttc" id="fgets_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d5/d36/fgets_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d36/fgets_8c_source.html#l00004">fgets.c:4</a></div></div>
-<div class="ttc" id="fgets_8c_html_ac58fca2a9891cf03cd2cf6d534b10923"><div class="ttname"><a href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a></div><div class="ttdeci">int getc(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5e/getc_8c_source.html#l00009">getc.c:9</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d36/fgets_8c_source.html#l00025">25</a> of file <a class="el" href="../../d5/d36/fgets_8c_source.html">fgets.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d5e/getc_8c_source.html#l00009">getc()</a>, and <a class="el" href="../../d5/d36/fgets_8c_source.html#l00007">NULL</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> c = 0;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">char</span> *cs;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    cs = s;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">/* Read characters until maximum read length, */</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">/*  end of line, or end of file               */</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">while</span> ((--n &gt; 0) &amp;&amp; ((c = <a class="code" href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a>(dev)) &gt;= 0))</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        *cs++ = c;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;\n&#39;</span> == c) || (<span class="charliteral">&#39;\r&#39;</span> == c))</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">break</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">/* Check for EOF or empty string */</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> ((c &lt; 0) &amp;&amp; (cs == s))</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d36/fgets_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/* Terminate string and return */</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    *cs++ = <span class="charliteral">&#39;\0&#39;</span>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div><div class="ttc" id="fgets_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d5/d36/fgets_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdoc">NULLを示す値 </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d36/fgets_8c_source.html#l00007">fgets.c:7</a></div></div>
+<div class="ttc" id="fgets_8c_html_ac58fca2a9891cf03cd2cf6d534b10923"><div class="ttname"><a href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923">getc</a></div><div class="ttdeci">int getc(int)</div><div class="ttdoc">デバイスから1Byte読み込むgetc()のextern宣言 </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5e/getc_8c_source.html#l00009">getc.c:9</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/dd1/stdio_8h_a1d48a56f4f27ed733e47c4ff55680391_cgraph.png" border="0" usemap="#d6/dd1/stdio_8h_a1d48a56f4f27ed733e47c4ff55680391_cgraph" alt=""/></div>
 <map name="d6/dd1/stdio_8h_a1d48a56f4f27ed733e47c4ff55680391_cgraph" id="d6/dd1/stdio_8h_a1d48a56f4f27ed733e47c4ff55680391_cgraph">
-<area shape="rect" id="node2" href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="getc" alt="" coords="104,5,151,32"/>
+<area shape="rect" id="node2" href="../../d5/d36/fgets_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="デバイスから1Byte読み込むgetc()のextern宣言 " alt="" coords="104,5,151,32"/>
 </map>
 </div>
 
@@ -661,7 +677,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node3" href="../../d4/d6c/doscan_8c.html#a9e44084619a92018c8282721a58939e9" title="_getccl" alt="" coords="231,22,295,48"/>
 <area shape="rect" id="node4" href="../../d4/d6c/doscan_8c.html#a8acf3ba0fe00f6ded800fa78af873e08" title="_innum" alt="" coords="231,123,295,150"/>
 <area shape="rect" id="node5" href="../../d4/d6c/doscan_8c.html#a9632fa8745381c57516421d406e4d847" title="_instr" alt="" coords="349,174,404,200"/>
-<area shape="rect" id="node7" href="../../d8/db4/fscanf_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="getc" alt="" coords="561,98,608,124"/>
+<area shape="rect" id="node7" href="../../d8/db4/fscanf_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="デバイスから1Byte読み込むgetc()のextern宣言 " alt="" coords="561,98,608,124"/>
 <area shape="rect" id="node8" href="../../dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="656,72,719,99"/>
 <area shape="rect" id="node9" href="../../dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="656,123,719,150"/>
 </map>
@@ -687,8 +703,8 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dd4/getchar_8c_source.html#l00010">10</a> of file <a class="el" href="../../d7/dd4/getchar_8c_source.html">getchar.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00017">fgetc()</a>, and <a class="el" href="../../d6/dd1/stdio_8h_source.html#l00015">stdin</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/dd1/stdio_8h.html#a05b9b6f3f960d0371781a8475423450c">fgetc</a>(<a class="code" href="../../d6/dd1/stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a>);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a05b9b6f3f960d0371781a8475423450c"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a05b9b6f3f960d0371781a8475423450c">fgetc</a></div><div class="ttdeci">int32 fgetc(int)</div><div class="ttdoc">デバイス（ファイル）から文字を読み込む。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d59/fgetc_8c_source.html#l00017">fgetc.c:17</a></div></div>
+<p class="reference">References <a class="el" href="../../d8/d59/fgetc_8c_source.html#l00019">fgetc()</a>, and <a class="el" href="../../d6/dd1/stdio_8h_source.html#l00015">stdin</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/dd1/stdio_8h.html#a05b9b6f3f960d0371781a8475423450c">fgetc</a>(<a class="code" href="../../d6/dd1/stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a>);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a05b9b6f3f960d0371781a8475423450c"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a05b9b6f3f960d0371781a8475423450c">fgetc</a></div><div class="ttdeci">int32 fgetc(int)</div><div class="ttdoc">デバイス（ファイル）から文字を読み込む。 </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d59/fgetc_8c_source.html#l00019">fgetc.c:19</a></div></div>
 <div class="ttc" id="stdio_8h_html_aaca70138f0cb63ddb026921afc635179"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a></div><div class="ttdeci">#define stdin</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd1/stdio_8h_source.html#l00015">stdio.h:15</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -696,7 +712,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d6/dd1/stdio_8h_a6b4a3fec685671e0c57515e86bdb8ffb_cgraph.png" border="0" usemap="#d6/dd1/stdio_8h_a6b4a3fec685671e0c57515e86bdb8ffb_cgraph" alt=""/></div>
 <map name="d6/dd1/stdio_8h_a6b4a3fec685671e0c57515e86bdb8ffb_cgraph" id="d6/dd1/stdio_8h_a6b4a3fec685671e0c57515e86bdb8ffb_cgraph">
 <area shape="rect" id="node2" href="../../d6/dd1/stdio_8h.html#a05b9b6f3f960d0371781a8475423450c" title="デバイス（ファイル）から文字を読み込む。 " alt="" coords="119,5,169,32"/>
-<area shape="rect" id="node3" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="getc" alt="" coords="217,5,264,32"/>
+<area shape="rect" id="node3" href="../../d8/d59/fgetc_8c.html#ac58fca2a9891cf03cd2cf6d534b10923" title="デバイスから1Byte読み込むgetc()のextern宣言 " alt="" coords="217,5,264,32"/>
 </map>
 </div>
 

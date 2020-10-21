@@ -2,6 +2,8 @@
  * @file fgetc.c
  * @brief デバイス（ファイル）から文字を読み込む。
  */
+
+//! デバイスから1Byte読み込むgetc()のextern宣言
 extern int getc(int);
 
 #ifndef EOF
