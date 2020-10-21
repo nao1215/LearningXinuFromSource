@@ -3,8 +3,8 @@
 ## コンテキストスイッチ ctxsw.S
 
 @details C 言語からは、ctxsw(&old_sp, &new_sp)という形式で使用する。<br>
-@param[in] old_sp：プロセステーブル中のカレントプロセススタックポインタ<br>
-@param[in] new_sp：新しいプロセスのスタックポインタ<br>
+@param[in] old_sp：プロセステーブル中のカレントプロセススタックポインタ
+@param[in] new_sp：新しいプロセスのスタックポインタ
 <br>
 
 ## ソースコード
