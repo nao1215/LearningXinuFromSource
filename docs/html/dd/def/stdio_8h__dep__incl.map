@@ -1,6 +1,6 @@
 <map id="include/stdio.h" name="include/stdio.h">
 <area shape="rect" id="node2" href="$d2/dbe/xinu_8h.html" title="全てのシステムヘッダファイルをインクルードする。 " alt="" coords="2702,80,2805,107"/>
-<area shape="rect" id="node4" href="$d7/dd4/getchar_8c.html" title="lib/getchar.c" alt="" coords="5,155,99,181"/>
+<area shape="rect" id="node4" href="$d7/dd4/getchar_8c.html" title="STDIN（標準入力）から文字を読み込む。 " alt="" coords="5,155,99,181"/>
 <area shape="rect" id="node5" href="$d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="123,155,202,181"/>
 <area shape="rect" id="node6" href="$db/de0/putchar_8c.html" title="lib/putchar.c" alt="" coords="227,155,320,181"/>
 <area shape="rect" id="node16" href="$d7/d5f/net_8c.html" title="net/net.c" alt="" coords="345,155,418,181"/>

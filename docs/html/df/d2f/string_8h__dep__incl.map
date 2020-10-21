@@ -22,7 +22,7 @@
 <area shape="rect" id="node49" href="$d3/d58/lex_8yy_8c.html" title="flexにより生成された字句解析 " alt="" coords="6119,80,6226,107"/>
 <area shape="rect" id="node50" href="$d5/def/y_8tab_8c.html" title="config/y.tab.c" alt="" coords="6135,155,6237,181"/>
 <area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html" title="lib/fprintf.c" alt="" coords="3179,155,3262,181"/>
-<area shape="rect" id="node4" href="$d7/dd4/getchar_8c.html" title="lib/getchar.c" alt="" coords="3286,155,3379,181"/>
+<area shape="rect" id="node4" href="$d7/dd4/getchar_8c.html" title="STDIN（標準入力）から文字を読み込む。 " alt="" coords="3286,155,3379,181"/>
 <area shape="rect" id="node5" href="$d1/d3d/printf_8c.html" title="lib/printf.c" alt="" coords="3404,155,3483,181"/>
 <area shape="rect" id="node6" href="$db/de0/putchar_8c.html" title="lib/putchar.c" alt="" coords="3507,155,3601,181"/>
 <area shape="rect" id="node7" href="$d1/d94/config_2conf_8c.html" title="config/conf.c" alt="" coords="3625,155,3723,181"/>

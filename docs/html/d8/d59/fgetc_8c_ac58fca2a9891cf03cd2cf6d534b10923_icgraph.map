@@ -1,4 +1,4 @@
 <map id="getc" name="getc">
 <area shape="rect" id="node2" href="$d8/d59/fgetc_8c.html#a331dd7c56def5258f0385d1e5f9220c1" title="デバイス（ファイル）から文字を読み込む。 " alt="" coords="100,5,151,32"/>
-<area shape="rect" id="node3" href="$d7/dd4/getchar_8c.html#a3e29caa20f7cffe18f410f01278905a8" title="getchar" alt="" coords="199,5,264,32"/>
+<area shape="rect" id="node3" href="$d7/dd4/getchar_8c.html#a3e29caa20f7cffe18f410f01278905a8" title="STDIN（標準入力）から文字を読み込む。 " alt="" coords="199,5,264,32"/>
 </map>
