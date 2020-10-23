@@ -5,7 +5,7 @@
 <area shape="rect" id="node49" href="$d1/deb/getitem_8c.html#aa5dd00ac7b0fc4681d20ed7172561b94" title="キューの末尾からプロセスを取り出す。 " alt="" coords="119,968,181,995"/>
 <area shape="rect" id="node50" href="$d5/def/unsleep_8c.html#ade9834aa70443dc0e0c4561bdb003795" title="unsleep" alt="" coords="479,929,545,956"/>
 <area shape="rect" id="node3" href="$d2/dbd/queue_8c.html#a88f502a71fcc85b9b3218c65b9294b9b" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="229,208,300,235"/>
-<area shape="rect" id="node19" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="608,5,691,32"/>
+<area shape="rect" id="node19" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="セマフォテーブルエントリを解放し、セマフォを削除する。 " alt="" coords="608,5,691,32"/>
 <area shape="rect" id="node21" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="611,56,687,83"/>
 <area shape="rect" id="node4" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="348,461,416,488"/>
 <area shape="rect" id="node28" href="$d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8" title="signal" alt="" coords="621,411,677,437"/>

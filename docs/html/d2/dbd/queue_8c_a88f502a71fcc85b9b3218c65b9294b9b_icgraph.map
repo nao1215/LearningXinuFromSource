@@ -18,7 +18,7 @@
 <area shape="rect" id="node7" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="プロセスが最上位の関数に戻る時に呼ばれる。現在のプロセスを終了させる。 " alt="" coords="675,157,738,184"/>
 <area shape="rect" id="node8" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="673,56,740,83"/>
 <area shape="rect" id="node10" href="$d0/d0e/resume_8c.html#a7f8b8cad74c285eed1cf0796f8884551" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="393,1005,458,1032"/>
-<area shape="rect" id="node14" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="384,1056,467,1083"/>
+<area shape="rect" id="node14" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="セマフォテーブルエントリを解放し、セマフォを削除する。 " alt="" coords="384,1056,467,1083"/>
 <area shape="rect" id="node15" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="387,955,463,981"/>
 <area shape="rect" id="node16" href="$dd/ded/send_8c.html#ab89e607c5e35f5a1b767e71da28b40f3" title="send" alt="" coords="400,613,451,640"/>
 <area shape="rect" id="node11" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="525,1500,604,1527"/>

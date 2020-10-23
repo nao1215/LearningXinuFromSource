@@ -1,5 +1,5 @@
 <map id="_ptclear" name="_ptclear">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a23f41e11395741366e5381bda9b9496b" title="semdelete" alt="" coords="121,127,204,153"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a23f41e11395741366e5381bda9b9496b" title="セマフォテーブルエントリを解放し、セマフォを削除する。 " alt="" coords="121,127,204,153"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="125,76,201,103"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="269,127,331,153"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="269,25,331,52"/>
