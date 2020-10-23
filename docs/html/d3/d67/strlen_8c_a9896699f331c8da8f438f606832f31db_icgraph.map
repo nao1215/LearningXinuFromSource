@@ -34,7 +34,7 @@
 <area shape="rect" id="node29" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="534,512,623,539"/>
 <area shape="rect" id="node30" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="521,664,636,691"/>
 <area shape="rect" id="node34" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="547,563,610,589"/>
-<area shape="rect" id="node32" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="695,613,760,640"/>
+<area shape="rect" id="node32" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="695,613,760,640"/>
 <area shape="rect" id="node33" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="819,613,893,640"/>
 <area shape="rect" id="node35" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="694,563,761,589"/>
 <area shape="rect" id="node38" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="383,917,465,944"/>

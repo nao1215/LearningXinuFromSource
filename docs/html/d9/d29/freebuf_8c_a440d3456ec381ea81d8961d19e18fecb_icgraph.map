@@ -24,7 +24,7 @@
 <area shape="rect" id="node14" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="939,341,1011,368"/>
 <area shape="rect" id="node17" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="783,107,857,133"/>
 <area shape="rect" id="node25" href="$db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="771,360,869,387"/>
-<area shape="rect" id="node15" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="1091,341,1156,368"/>
+<area shape="rect" id="node15" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="1091,341,1156,368"/>
 <area shape="rect" id="node16" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="1215,341,1289,368"/>
 <area shape="rect" id="node18" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="945,157,1004,184"/>
 <area shape="rect" id="node20" href="$dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="944,5,1005,32"/>

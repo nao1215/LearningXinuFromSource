@@ -14,7 +14,7 @@
 <area shape="rect" id="node12" href="$dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="561,157,627,184"/>
 <area shape="rect" id="node7" href="$d1/d17/rflgetc_8c.html#ae848404c151cb148177de0144fc8200d" title="rflgetc" alt="" coords="694,259,753,285"/>
 <area shape="rect" id="node9" href="$da/d8d/rflputc_8c.html#a97fe629082120f84af46efdc47b66e2b" title="rflputc" alt="" coords="694,56,753,83"/>
-<area shape="rect" id="node16" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="561,309,627,336"/>
+<area shape="rect" id="node16" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="561,309,627,336"/>
 <area shape="rect" id="node17" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="686,309,761,336"/>
 <area shape="rect" id="node19" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="407,461,483,488"/>
 <area shape="rect" id="node24" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="260,360,337,387"/>

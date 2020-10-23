@@ -35,7 +35,7 @@
 <area shape="rect" id="node38" href="$d9/dd8/xsh__uptime_8c.html#a71f023dd04d34987d834245d2ff29f5b" title="xsh_uptime" alt="" coords="213,1120,303,1146"/>
 <area shape="rect" id="node39" href="$d5/def/y_8tab_8c.html#a877954319adae05b7f955da3598d9674" title="yyerror" alt="" coords="227,258,289,285"/>
 <area shape="rect" id="node4" href="$d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="378,258,446,285"/>
-<area shape="rect" id="node11" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="673,562,739,589"/>
+<area shape="rect" id="node11" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="673,562,739,589"/>
 <area shape="rect" id="node16" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="373,613,451,640"/>
 <area shape="rect" id="node17" href="$dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="375,714,449,741"/>
 <area shape="rect" id="node19" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="362,664,462,690"/>

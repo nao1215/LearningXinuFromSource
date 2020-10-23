@@ -36,7 +36,7 @@
 <area shape="rect" id="node5" href="$dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="375,41,449,67"/>
 <area shape="rect" id="node11" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="362,243,462,270"/>
 <area shape="rect" id="node6" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="530,66,606,93"/>
-<area shape="rect" id="node9" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="gettime" alt="" coords="673,91,739,118"/>
+<area shape="rect" id="node9" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="673,91,739,118"/>
 <area shape="rect" id="node15" href="$d5/def/y_8tab_8c.html#a847a2de5c1c28c9d7055a2b89ed7dad7" title="yyparse" alt="" coords="378,725,446,751"/>
 <area shape="rect" id="node21" href="$d0/dd5/nammap_8c.html#a5685872b223ce9f5c52b286f46a715ea" title="nammap" alt="" coords="376,345,448,371"/>
 <area shape="rect" id="node22" href="$da/d62/namopen_8c.html#ac3c81616707d83d636fe3b9cdfa3b807" title="namopen" alt="" coords="375,294,449,321"/>
