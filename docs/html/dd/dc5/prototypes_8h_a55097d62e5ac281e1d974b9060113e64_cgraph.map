@@ -1,8 +1,8 @@
 <map id="ttyinit" name="ttyinit">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="108,56,191,83"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="108,56,191,83"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a62746212ababec44c7bd0d7f94ef8612" title="set_evec" alt="" coords="112,107,187,133"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="110,157,189,184"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="243,5,305,32"/>
-<area shape="rect" id="node4" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="239,56,309,83"/>
+<area shape="rect" id="node4" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="未使用のセマフォIDを返す。 " alt="" coords="239,56,309,83"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="243,107,305,133"/>
 </map>

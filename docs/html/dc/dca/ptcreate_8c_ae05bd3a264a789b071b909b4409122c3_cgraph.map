@@ -1,6 +1,6 @@
 <map id="ptcreate" name="ptcreate">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="257,5,320,32"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="257,107,320,133"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="123,56,205,83"/>
-<area shape="rect" id="node5" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="253,56,324,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="123,56,205,83"/>
+<area shape="rect" id="node5" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="未使用のセマフォIDを返す。 " alt="" coords="253,56,324,83"/>
 </map>

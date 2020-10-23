@@ -7,7 +7,7 @@
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="251,1120,301,1147"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="648,1145,717,1172"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#aafb147940d70d8e43057fc744ca91808" title="mkbufpool" alt="" coords="641,968,724,995"/>
-<area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="semcreate" alt="" coords="772,1120,855,1147"/>
+<area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="772,1120,855,1147"/>
 <area shape="rect" id="node41" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="129,1120,180,1147"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="249,1576,303,1603"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="781,1779,846,1805"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="903,208,973,235"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="freemem" alt="" coords="777,917,850,944"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="779,1019,848,1045"/>
-<area shape="rect" id="node40" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="newsem" alt="" coords="903,1120,973,1147"/>
+<area shape="rect" id="node40" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="未使用のセマフォIDを返す。 " alt="" coords="903,1120,973,1147"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="653,208,712,235"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="790,461,837,488"/>
 <area shape="rect" id="node45" href="$d7/d5f/net_8c.html#a205b2c1bb62a3321c43334d072ff2ce8" title="eth_ntoh" alt="" coords="240,1019,312,1045"/>

@@ -1,5 +1,5 @@
 <map id="newsem" name="newsem">
-<area shape="rect" id="node2" href="$d3/df0/semcreate_8c.html#a479a5f0630ddde966ba928ab1a9444f7" title="semcreate" alt="" coords="124,233,207,260"/>
+<area shape="rect" id="node2" href="$d3/df0/semcreate_8c.html#a479a5f0630ddde966ba928ab1a9444f7" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="124,233,207,260"/>
 <area shape="rect" id="node3" href="$d8/d3b/ethinit_8c.html#a2f841a22dffc44df159007bd9fe51065" title="ethinit" alt="" coords="267,5,325,32"/>
 <area shape="rect" id="node4" href="$db/df2/lflinit_8c.html#a183a3a7f4a4efcb5e76a0be307f4ea1d" title="lflinit" alt="" coords="271,56,321,83"/>
 <area shape="rect" id="node5" href="$db/dd7/lfsinit_8c.html#aa29a58330343a9fd442c2c2fb20b615f" title="lfsinit" alt="" coords="269,107,323,133"/>
