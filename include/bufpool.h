@@ -1,24 +1,40 @@
-/* bufpool.h */
+/**
+ * @file bufpool.h
+ * @brief バッファプールに関する構造体や定数の宣言。
+ */
 
-#ifndef	NBPOOLS
-#define	NBPOOLS	20		/* Maximum number of buffer pools	*/
+#ifndef NBPOOLS
+//!  バッファプール数の最大数
+#define NBPOOLS 20
 #endif
 
-#ifndef	BP_MAXB
-#define	BP_MAXB	8192		/* Maximum buffer size in bytes		*/
+#ifndef BP_MAXB
+//! 最大バッファサイズ（Byte）
+#define BP_MAXB 8192
 #endif
 
-#define	BP_MINB	8		/* Minimum buffer size in bytes		*/
-#ifndef	BP_MAXN
-#define	BP_MAXN	2048		/* Maximum number of buffers in a pool	*/
+//! 最小バッファサイズ（Byte）
+#define BP_MINB 8
+#ifndef BP_MAXN
+//! バッファプールに存在するバッファの最大数
+#define BP_MAXN 2048
 #endif
 
-struct	bpentry	{		/* Description of a single buffer pool	*/
-	struct	bpentry *bpnext;/* pointer to next free buffer		*/
-	sid32	bpsem;		/* semaphore that counts buffers	*/
-				/*    currently available in the pool	*/
-	uint32	bpsize;		/* size of buffers in this pool		*/
-	};
+/**
+ * @struct bpentry
+ * @brief バッファプールエントリテーブル
+ */
+struct bpentry
+{
+	//! 次のフリーバッファへのポインタ
+	struct bpentry *bpnext;
+	//! バッファプールで現在使用可能なバッファをカウントするセマフォ
+	sid32 bpsem;
+	//! 本バッファプール内のバッファサイズ
+	uint32 bpsize;
+};
 
-extern	struct	bpentry buftab[];/* Buffer pool table			*/
-extern	bpid32	nbpools;	/* current number of allocated pools	*/
+//! バッファプールテーブルのextern宣言
+extern struct bpentry buftab[];
+//! 割り当てられたバッファプールの現在の数
+extern bpid32 nbpools;
