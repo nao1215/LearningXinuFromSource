@@ -10,7 +10,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="925,242,988,269"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="925,141,988,168"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="585,90,643,117"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="589,293,639,320"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="589,293,639,320"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="805,546,873,573"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="691,344,757,370"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="807,445,872,472"/>

@@ -22,7 +22,7 @@
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="654,505,714,532"/>
 <area shape="rect" id="node20" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="499,784,592,811"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="640,556,728,583"/>
-<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="799,600,849,627"/>
+<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="799,600,849,627"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="657,911,711,937"/>
 <area shape="rect" id="node23" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="795,911,853,937"/>
 <area shape="rect" id="node24" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="927,911,992,937"/>

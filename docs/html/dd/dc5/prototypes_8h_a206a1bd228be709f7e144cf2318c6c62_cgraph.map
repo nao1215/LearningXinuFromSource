@@ -20,7 +20,7 @@
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1065,917,1120,944"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="665,892,725,919"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="395,689,461,716"/>
-<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="809,892,860,919"/>
+<area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="809,892,860,919"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="937,968,1003,995"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1060,867,1125,893"/>
 <area shape="rect" id="node24" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="509,360,603,387"/>

@@ -8,7 +8,7 @@
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a3451570af533e87d13c36bb47fa659c1" title="eth_hton" alt="" coords="112,614,184,641"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="237,361,299,387"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="112,665,184,691"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="243,462,293,489"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="243,462,293,489"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="359,259,409,286"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="233,77,303,103"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="351,57,417,83"/>

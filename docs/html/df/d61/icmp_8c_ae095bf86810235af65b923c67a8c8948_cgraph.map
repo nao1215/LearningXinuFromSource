@@ -4,7 +4,7 @@
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="639,613,701,640"/>
 <area shape="rect" id="node13" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="120,277,213,304"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="261,512,349,539"/>
-<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="403,765,454,792"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="403,765,454,792"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="519,563,575,589"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="869,565,940,592"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="643,715,697,741"/>

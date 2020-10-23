@@ -14,7 +14,7 @@
 <area shape="rect" id="node11" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1213,107,1279,133"/>
 <area shape="rect" id="node14" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="235,715,328,741"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="376,461,464,488"/>
-<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="send" alt="" coords="518,157,569,184"/>
+<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a20fee41a0bf02e2fca1697e3caf7162b" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="518,157,569,184"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="514,689,573,716"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="393,740,447,767"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="384,791,456,817"/>
