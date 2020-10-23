@@ -26,7 +26,7 @@
 <area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="ディスプレイウィンドウをクリアする（xtermやVT100を想定している） " alt="" coords="2677,155,2797,181"/>
 <area shape="rect" id="node27" href="$dd/d6b/xsh__date_8c.html" title="shell/xsh_date.c" alt="" coords="2821,155,2939,181"/>
 <area shape="rect" id="node28" href="$d1/d5e/xsh__devdump_8c.html" title="shell/xsh_devdump.c" alt="" coords="2963,155,3109,181"/>
-<area shape="rect" id="node29" href="$d6/d6d/xsh__echo_8c.html" title="shell/xsh_echo.c" alt="" coords="3133,155,3253,181"/>
+<area shape="rect" id="node29" href="$d6/d6d/xsh__echo_8c.html" title="STDOUT（標準出力）に引数に指定した文字列を出力する。 " alt="" coords="3133,155,3253,181"/>
 <area shape="rect" id="node30" href="$d0/df4/xsh__exit_8c.html" title="XINUシェルにおけるexitコマンドを提供する。 " alt="" coords="3278,155,3391,181"/>
 <area shape="rect" id="node31" href="$d4/dfe/xsh__help_8c.html" title="shell/xsh_help.c" alt="" coords="3415,155,3531,181"/>
 <area shape="rect" id="node32" href="$da/d0a/xsh__kill_8c.html" title="shell/xsh_kill.c" alt="" coords="3555,155,3663,181"/>
