@@ -68,6 +68,9 @@ $(function() {
 <div class="title">xsh_argecho.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>引数を順に表示する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d2/dbe/xinu_8h_source.html">xinu.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/dd1/stdio_8h_source.html">stdio.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -125,9 +128,14 @@ Include dependency graph for xsh_argecho.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9265169f63dd177e651e97b88c54adf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db7/xsh__argecho_8c.html#a9265169f63dd177e651e97b88c54adf3">xsh_argecho</a> (int nargs, char *args[])</td></tr>
+<tr class="memdesc:a9265169f63dd177e651e97b88c54adf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数を順に表示する。  <a href="#a9265169f63dd177e651e97b88c54adf3">More...</a><br /></td></tr>
 <tr class="separator:a9265169f63dd177e651e97b88c54adf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>引数を順に表示する。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dd/db7/xsh__argecho_8c_source.html">xsh_argecho.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a9265169f63dd177e651e97b88c54adf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9265169f63dd177e651e97b88c54adf3">&#9670;&nbsp;</a></span>xsh_argecho()</h2>
 
@@ -154,10 +162,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/db7/xsh__argecho_8c_source.html#l00010">10</a> of file <a class="el" href="../../dd/db7/xsh__argecho_8c_source.html">xsh_argecho.c</a>.</p>
+<p>引数を順に表示する。 </p>
+<p>「引数番号」と「引数番号に対応する引数（文字列として扱う）」が1行単位で出力される。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nargs</td><td>引数の数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>引数（引数を持つ配列） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0を返す。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/db7/xsh__argecho_8c_source.html#l00015">15</a> of file <a class="el" href="../../dd/db7/xsh__argecho_8c_source.html">xsh_argecho.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>   i;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\n\nThe %d arguments are:\n&quot;</span>, nargs);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; nargs; i++) {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;    %2d: %s\n&quot;</span>, i, args[i]);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a1f0ce183d035cdcba2488a3bd2eff765"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a></div><div class="ttdeci">int32 printf(const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3d/printf_8c_source.html#l00013">printf.c:13</a></div></div>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a> i;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\n\nThe %d arguments are:\n&quot;</span>, nargs);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; nargs; i++)</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;    %2d: %s\n&quot;</span>, i, args[i]);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a1f0ce183d035cdcba2488a3bd2eff765"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a></div><div class="ttdeci">int32 printf(const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3d/printf_8c_source.html#l00013">printf.c:13</a></div></div>
 <div class="ttc" id="kernel_8h_html_a56f1a81c92849566ae864511088eb7e8"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a></div><div class="ttdeci">int int32</div><div class="ttdoc">符号あり32ビット整数（int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00011">kernel.h:11</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>

@@ -5,7 +5,7 @@
 <area shape="rect" id="node6" href="$db/de0/putchar_8c.html" title="lib/putchar.c" alt="" coords="227,155,320,181"/>
 <area shape="rect" id="node16" href="$d7/d5f/net_8c.html" title="net/net.c" alt="" coords="345,155,418,181"/>
 <area shape="rect" id="node22" href="$d6/d4f/shell_8c.html" title="shell/shell.c" alt="" coords="443,155,533,181"/>
-<area shape="rect" id="node23" href="$dd/db7/xsh__argecho_8c.html" title="shell/xsh_argecho.c" alt="" coords="557,155,696,181"/>
+<area shape="rect" id="node23" href="$dd/db7/xsh__argecho_8c.html" title="引数を順に表示する。 " alt="" coords="557,155,696,181"/>
 <area shape="rect" id="node24" href="$dc/dac/xsh__arp_8c.html" title="shell/xsh_arp.c" alt="" coords="721,155,831,181"/>
 <area shape="rect" id="node25" href="$d0/d1c/xsh__cat_8c.html" title="shell/xsh_cat.c" alt="" coords="855,155,966,181"/>
 <area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="shell/xsh_clear.c" alt="" coords="2816,155,2936,181"/>
