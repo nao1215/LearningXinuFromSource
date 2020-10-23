@@ -20,7 +20,7 @@
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="676,1069,739,1096"/>
 <area shape="rect" id="node16" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="787,1069,852,1096"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="327,1069,382,1096"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="addargs" alt="" coords="321,816,389,843"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。 ..." alt="" coords="321,816,389,843"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="324,563,385,589"/>
 <area shape="rect" id="node25" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="209,613,264,640"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1" title="lexan" alt="" coords="210,664,263,691"/>

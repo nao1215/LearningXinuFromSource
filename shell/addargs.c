@@ -1,37 +1,45 @@
-/* addargs.c - addargs */
-
+/**
+ * @file addargs.c
+ * @brief XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。
+ */
 #include <xinu.h>
 #include "shprototypes.h"
 
-/*------------------------------------------------------------------------
- *  addargs  -  Add local copy of argv-style arguments to the stack of
- *		  a command process that has been created by the shell
- *------------------------------------------------------------------------
+/**
+ * @brief XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。
+ * @details
+ * Step1. 割り込みを禁止する。<br>
+ * Step2. 「引数の数が0以下」もしくは「トークンバッファの中にあるデータの長さが0以下」であれば、<br>
+ * 割り込み状態を復元し、処理を修正する。<br>
+ * Step3. args配列と引数文字列（トークンバッファ）を続けて格納するために、プロセススタックの最下位の場所を計算する。<br>
+ * 4Byte単位での丸め計算も行うため、args配列はユーザスタック最下位かその次の4byteの倍数アドレスから始まる。<br>
+ * 最下位アドレス：[トークン1へのポインタ][トークン2へのポインタ][NULL][トークン1][NULL][トークン2]...：最上位アドレス<br>
+ * Step4. 文字列は可変長のため、args配列を超えた最初の位置を計算する。<br>
+ * Step5. args配列に格納されたポインタ（各引数へのポインタ）に対して、文字列領域開始アドレスをオフセットとして加え、<br>
+ * スタック最下位から順に格納する。
+ * Step6. args配列に格納されたポインタの後に、区切りとしてNULLを付与する。<br>
+ * Step7. 引数文字列をargs配列（+ NULL）を超えた位置にコピーする。<br>
+ * Step8. プロセススタック中の第2引数（XINUシェルがプロセスをcreate()した際にスタックに追加した引数であり、<br>
+ * 引数dummyと同じアドレスを持つ）を探し、第2引数の内容をプロセススタック中のargs配列アドレスに置換する。<br>
+ * Step9. 割り込みを許可状態に復元する。
+ * @param[in] pid 使用するプロセスID
+ * @param[in] ntok 引数の数
+ * @param[in] tok トークンバッファの中にあるトークンのインデックス
+ * @param[in] tlen トークンバッファの中にあるデータの長さ
+ * @param[in] tokbuf NULLで終わるトークン配列
+ * @param[in,out] dummy 生成時に使用されるダミー引数。引数の配列へのポインタで置き換える必要がある。
+ * @return
  */
-status addargs(
-	pid32 pid,	  /* ID of process to use		*/
-	int32 ntok,	  /* Count of arguments		*/
-	int32 tok[],  /* Index of tokens in tokbuf	*/
-	int32 tlen,	  /* Length of data in tokbuf	*/
-	char *tokbuf, /* Array of null-term. tokens	*/
-	void *dummy	  /* Dummy argument that was	*/
-				  /*   used at creation and must	*/
-				  /*   be replaced by a pointer	*/
-				  /*   to an argument vector	*/
-)
+status addargs(pid32 pid, int32 ntok, int32 tok[], int32 tlen, char *tokbuf, void *dummy)
 {
 	intmask mask;		   /* Saved interrupt mask		*/
 	struct procent *prptr; /* Ptr to process' table entry	*/
-	uint32 aloc;		   /* Argument location in process	*/
-	/*   stack as an integer	*/
-	uint32 *argloc; /* Location in process's stack	*/
-	/*   to place args vector	*/
-	char *argstr; /* Location in process's stack	*/
-	/*   to place arg strings	*/
-	uint32 *search; /* pointer that searches for	*/
-	/*   dummy argument on stack	*/
-	uint32 *aptr; /* Walks through args array	*/
-	int32 i;	  /* Index into tok array		*/
+	uint32 aloc;		   /* Argument location in process stack as an integer	*/
+	uint32 *argloc;		   /* Location in process's stack to place args vector	*/
+	char *argstr;		   /* Location in process's stack to place arg strings	*/
+	uint32 *search;		   /* pointer that searches for dummy argument on stack	*/
+	uint32 *aptr;		   /* Walks through args array	*/
+	int32 i;			   /* Index into tok array		*/
 
 	mask = disable();
 

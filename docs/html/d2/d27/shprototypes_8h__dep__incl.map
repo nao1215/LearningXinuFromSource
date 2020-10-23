@@ -1,4 +1,4 @@
 <map id="include/shprototypes.h" name="include/shprototypes.h">
-<area shape="rect" id="node2" href="$d1/dbb/addargs_8c.html" title="shell/addargs.c" alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node2" href="$d1/dbb/addargs_8c.html" title="XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。 ..." alt="" coords="5,80,116,107"/>
 <area shape="rect" id="node3" href="$d6/d4f/shell_8c.html" title="shell/shell.c" alt="" coords="141,80,231,107"/>
 </map>

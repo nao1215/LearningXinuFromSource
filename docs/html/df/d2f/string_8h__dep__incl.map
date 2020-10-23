@@ -36,7 +36,7 @@
 <area shape="rect" id="node16" href="$d7/d5f/net_8c.html" title="net/net.c" alt="" coords="1163,155,1236,181"/>
 <area shape="rect" id="node17" href="$d8/db4/pdump_8c.html" title="net/pdump.c" alt="" coords="1260,155,1355,181"/>
 <area shape="rect" id="node19" href="$dd/dc4/udp_8c.html" title="net/udp.c" alt="" coords="1379,155,1455,181"/>
-<area shape="rect" id="node20" href="$d1/dbb/addargs_8c.html" title="shell/addargs.c" alt="" coords="1479,155,1589,181"/>
+<area shape="rect" id="node20" href="$d1/dbb/addargs_8c.html" title="XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。 ..." alt="" coords="1479,155,1589,181"/>
 <area shape="rect" id="node21" href="$d2/d95/lexan_8c.html" title="shell/lexan.c" alt="" coords="1613,155,1708,181"/>
 <area shape="rect" id="node22" href="$d6/d4f/shell_8c.html" title="shell/shell.c" alt="" coords="1733,155,1823,181"/>
 <area shape="rect" id="node23" href="$dd/db7/xsh__argecho_8c.html" title="shell/xsh_argecho.c" alt="" coords="1847,155,1986,181"/>

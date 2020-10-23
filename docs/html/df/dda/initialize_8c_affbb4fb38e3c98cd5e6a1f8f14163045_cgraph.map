@@ -37,7 +37,7 @@
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#aefa1f94ba42f2adced2e0dae25552fe9" title="shell" alt="" coords="269,1372,319,1399"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a9e46affb5a43246969d23975434c1a5b" title="sleepms" alt="" coords="432,1778,503,1804"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="609,1980,663,2007"/>
-<area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="addargs" alt="" coords="433,714,501,740"/>
+<area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。 ..." alt="" coords="433,714,501,740"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="605,1068,667,1095"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1" title="lexan" alt="" coords="441,1423,494,1450"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="611,1322,661,1348"/>

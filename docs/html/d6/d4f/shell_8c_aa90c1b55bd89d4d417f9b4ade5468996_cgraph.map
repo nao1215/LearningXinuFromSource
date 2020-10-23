@@ -1,5 +1,5 @@
 <map id="shell" name="shell">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="addargs" alt="" coords="217,5,285,32"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ad830c9d0f42bac4d7b134418aaaa6d4b" title="XINUシェルが作成したコマンドプロセスのスタックに引数argv（任意個）のローカルコピーを追加する。 ..." alt="" coords="217,5,285,32"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="220,56,281,83"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="106,335,165,361"/>
 <area shape="rect" id="node11" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="108,676,163,703"/>
