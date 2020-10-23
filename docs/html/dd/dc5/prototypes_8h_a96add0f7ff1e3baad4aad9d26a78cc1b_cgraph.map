@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="153,81,216,108"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="467,157,529,184"/>
 <area shape="rect" id="node6" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="165,1297,204,1324"/>
-<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="311,157,372,184"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="311,157,372,184"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="305,258,377,285"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="313,56,369,82"/>
 <area shape="rect" id="node7" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="320,1373,363,1400"/>

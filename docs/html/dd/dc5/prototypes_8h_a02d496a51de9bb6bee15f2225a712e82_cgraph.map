@@ -27,7 +27,7 @@
 <area shape="rect" id="node25" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="597,1272,655,1299"/>
 <area shape="rect" id="node27" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="467,487,533,513"/>
 <area shape="rect" id="node28" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="879,107,933,133"/>
-<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="875,1221,937,1248"/>
+<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="875,1221,937,1248"/>
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="870,56,942,83"/>
 <area shape="rect" id="node33" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="731,588,769,615"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="1035,56,1097,83"/>

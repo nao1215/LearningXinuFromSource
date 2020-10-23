@@ -26,7 +26,7 @@
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="457,613,515,640"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="453,563,519,589"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="652,968,715,995"/>
-<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="653,1221,714,1248"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="653,1221,714,1248"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="647,2184,719,2211"/>
 <area shape="rect" id="node28" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="467,1677,505,1704"/>
 <area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="811,2159,873,2185"/>

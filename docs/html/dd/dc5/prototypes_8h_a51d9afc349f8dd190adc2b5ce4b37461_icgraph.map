@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="521,1124,603,1151"/>
 <area shape="rect" id="node5" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="543,1251,581,1278"/>
 <area shape="rect" id="node9" href="$d7/db9/ready_8c.html#aa81bda195058cce0a7fed3068037d912" title="プロセスをCPUサービスの対象にする。 " alt="" coords="247,782,302,808"/>
-<area shape="rect" id="node32" href="$dc/da3/receive_8c.html#aa26f1e530912c25cd4051a3580ea6bad" title="receive" alt="" coords="530,72,594,99"/>
+<area shape="rect" id="node32" href="$dc/da3/receive_8c.html#aa26f1e530912c25cd4051a3580ea6bad" title="メッセージの受信を待ち、受信後にreceive()の呼び出し者にメッセージを返す。 " alt="" coords="530,72,594,99"/>
 <area shape="rect" id="node33" href="$d1/d4f/recvtime_8c.html#af2c526c524a5db524ca16e9701ce6efd" title="recvtime" alt="" coords="239,1339,311,1366"/>
 <area shape="rect" id="node38" href="$da/d89/resched_8c.html#aa45cc47e450e55e8b012b3f8846da84e" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="227,934,323,960"/>
 <area shape="rect" id="node43" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="385,31,456,58"/>

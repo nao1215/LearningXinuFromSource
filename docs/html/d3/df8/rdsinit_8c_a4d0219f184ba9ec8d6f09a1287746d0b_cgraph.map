@@ -41,7 +41,7 @@
 <area shape="rect" id="node36" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="859,715,916,741"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="843,765,932,792"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1264,284,1319,311"/>
-<area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="1136,1221,1197,1248"/>
+<area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="1136,1221,1197,1248"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="1131,1475,1203,1501"/>
 <area shape="rect" id="node41" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="1010,1373,1049,1400"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="981,968,1077,995"/>

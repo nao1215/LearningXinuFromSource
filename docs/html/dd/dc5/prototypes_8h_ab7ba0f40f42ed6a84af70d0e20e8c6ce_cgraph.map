@@ -34,7 +34,7 @@
 <area shape="rect" id="node29" href="$dd/d53/dhcp_8c.html#aa2bfc9508712b23d05793c7b7ec080c3" title="dhcp_get_opt_val" alt="" coords="659,765,783,792"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="675,917,767,944"/>
 <area shape="rect" id="node26" href="$dd/d53/dhcp_8c.html#a6a401945ba7d61ee1d20a90f10897615" title="dhcp_bld_bootp_msg" alt="" coords="648,867,793,893"/>
-<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="996,1171,1057,1197"/>
+<area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="996,1171,1057,1197"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="991,1424,1063,1451"/>
 <area shape="rect" id="node34" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="870,1019,909,1045"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="858,867,921,893"/>

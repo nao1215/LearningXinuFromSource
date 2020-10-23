@@ -12,7 +12,7 @@
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="501,549,576,576"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="774,448,867,475"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="375,271,453,297"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="790,549,851,576"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="790,549,851,576"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="785,499,857,525"/>
 <area shape="rect" id="node18" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="641,1360,679,1387"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="629,549,691,576"/>

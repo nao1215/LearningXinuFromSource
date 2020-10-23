@@ -23,7 +23,7 @@
 <area shape="rect" id="node20" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="541,1677,599,1704"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="861,1677,917,1704"/>
 <area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="697,588,735,615"/>
-<area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="858,1221,919,1248"/>
+<area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="858,1221,919,1248"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="853,1373,925,1400"/>
 <area shape="rect" id="node24" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="867,968,910,995"/>
 <area shape="rect" id="node25" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="861,1019,916,1045"/>
