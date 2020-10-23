@@ -16,7 +16,7 @@
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="793,791,855,817"/>
 <area shape="rect" id="node18" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="258,816,325,843"/>
 <area shape="rect" id="node32" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="655,1095,713,1121"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="931,765,987,792"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="931,765,987,792"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1055,917,1109,944"/>
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="654,892,714,919"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="384,689,451,716"/>

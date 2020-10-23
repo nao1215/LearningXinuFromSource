@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="385,195,443,221"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="786,853,855,880"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="253,296,327,323"/>
-<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="793,752,849,779"/>
+<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="793,752,849,779"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="797,93,844,120"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a66fd7a32fc73c585b6d2181ee224c95e" title="rfsndmsg" alt="" coords="129,245,205,272"/>
 <area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="506,43,571,69"/>

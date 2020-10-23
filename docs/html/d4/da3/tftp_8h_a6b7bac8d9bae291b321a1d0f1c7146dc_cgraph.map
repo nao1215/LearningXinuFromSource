@@ -21,7 +21,7 @@
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="685,1652,747,1679"/>
 <area shape="rect" id="node19" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="537,1627,603,1653"/>
 <area shape="rect" id="node20" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="541,1677,599,1704"/>
-<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="861,1677,917,1704"/>
+<area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="861,1677,917,1704"/>
 <area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="697,588,735,615"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="858,1221,919,1248"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="853,1373,925,1400"/>

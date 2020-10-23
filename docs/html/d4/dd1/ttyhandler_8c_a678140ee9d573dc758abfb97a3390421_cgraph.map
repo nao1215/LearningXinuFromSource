@@ -46,6 +46,6 @@
 <area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#a9ae7dd87893ed6cebc02d0d5f84c2ede" title="yywrap" alt="" coords="325,2032,389,2059"/>
 <area shape="rect" id="node45" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="323,2083,391,2109"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="318,2133,397,2160"/>
-<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="329,2184,385,2211"/>
+<area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="329,2184,385,2211"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0571933dc2e2010168f368542c62213d" title="ttykickout" alt="" coords="318,2235,397,2261"/>
 </map>

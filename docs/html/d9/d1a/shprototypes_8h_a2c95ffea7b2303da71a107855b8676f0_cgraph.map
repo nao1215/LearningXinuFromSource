@@ -3,7 +3,7 @@
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a134fdddf6ae1f23dbc9c326a0c74263a" title="lfscheck" alt="" coords="113,157,184,184"/>
 <area shape="rect" id="node6" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="123,56,174,83"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="125,259,172,285"/>
-<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="121,208,177,235"/>
+<area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="121,208,177,235"/>
 <area shape="rect" id="node19" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="114,360,183,387"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="125,309,172,336"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="244,56,291,83"/>

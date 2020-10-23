@@ -3,7 +3,7 @@
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a175a69dbe62ae210917367c7e968c715" title="lfgetmode" alt="" coords="117,309,196,336"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a134fdddf6ae1f23dbc9c326a0c74263a" title="lfscheck" alt="" coords="121,360,192,387"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="253,157,300,184"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="129,208,185,235"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="129,208,185,235"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="253,259,300,285"/>
 <area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="244,5,309,32"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="249,56,304,83"/>

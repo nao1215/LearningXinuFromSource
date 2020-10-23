@@ -27,7 +27,7 @@
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1061,740,1116,767"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="933,575,999,601"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1056,575,1121,601"/>
-<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="938,828,994,855"/>
+<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="938,828,994,855"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="647,777,735,804"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="927,777,1005,804"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a84662366147c7ffea0f111675e1d5967" title="udp_hton" alt="" coords="793,1436,868,1463"/>

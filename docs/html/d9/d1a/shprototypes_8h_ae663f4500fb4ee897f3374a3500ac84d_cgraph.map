@@ -33,7 +33,7 @@
 <area shape="rect" id="node23" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="569,296,607,323"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="877,499,939,525"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="872,271,944,297"/>
-<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1026,1135,1082,1161"/>
+<area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="1026,1135,1082,1161"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="885,701,931,728"/>
 <area shape="rect" id="node26" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="873,600,943,627"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="1023,296,1085,323"/>

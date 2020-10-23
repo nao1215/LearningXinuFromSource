@@ -3,7 +3,7 @@
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="906,765,975,792"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="253,689,327,716"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="917,107,964,133"/>
-<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="913,56,969,83"/>
+<area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="913,56,969,83"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a66fd7a32fc73c585b6d2181ee224c95e" title="rfsndmsg" alt="" coords="129,715,205,741"/>
 <area shape="rect" id="node3" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="502,867,567,893"/>
 <area shape="rect" id="node4" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="913,613,968,640"/>

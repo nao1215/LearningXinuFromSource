@@ -19,7 +19,7 @@
 <area shape="rect" id="node17" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="447,740,486,767"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="recvclr" alt="" coords="609,1424,671,1451"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="604,1525,676,1552"/>
-<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="612,1728,668,1755"/>
+<area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="612,1728,668,1755"/>
 <area shape="rect" id="node18" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="619,968,661,995"/>
 <area shape="rect" id="node19" href="$dc/d9c/stdlib_8h.html#aa259cbf373c7b2a08f027df451dfa729" title="free" alt="" coords="618,1019,662,1045"/>
 <area shape="rect" id="node20" href="$d3/d58/lex_8yy_8c.html#a171692544b8e065853e387755849a433" title="input" alt="" coords="615,1069,665,1096"/>

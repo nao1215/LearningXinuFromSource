@@ -1,6 +1,6 @@
 <map id="lflclose" name="lflclose">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8c9dcdb25f8fff540995df90c8639745" title="lfflush" alt="" coords="116,81,173,108"/>
-<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="222,233,278,260"/>
+<area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="222,233,278,260"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="331,208,377,235"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a191819464d7fddd2309f0c7e62222fbe" title="lfibput" alt="" coords="221,31,279,57"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="329,56,379,83"/>

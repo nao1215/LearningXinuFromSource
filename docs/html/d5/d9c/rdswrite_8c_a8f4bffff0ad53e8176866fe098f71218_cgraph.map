@@ -5,7 +5,7 @@
 <area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="469,259,535,285"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="463,208,541,235"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="464,360,540,387"/>
-<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="474,309,530,336"/>
+<area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="474,309,530,336"/>
 <area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="479,5,525,32"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="255,132,308,159"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="606,183,669,209"/>

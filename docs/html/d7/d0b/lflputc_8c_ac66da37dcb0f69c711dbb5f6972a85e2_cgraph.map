@@ -1,7 +1,7 @@
 <map id="lflputc" name="lflputc">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a6271892f72653ebe7808f95a8cf55ac8" title="lfsetup" alt="" coords="111,360,172,387"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="350,461,397,488"/>
-<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="227,588,283,615"/>
+<area shape="rect" id="node26" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="227,588,283,615"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8c9dcdb25f8fff540995df90c8639745" title="lfflush" alt="" coords="227,385,284,412"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#a191819464d7fddd2309f0c7e62222fbe" title="lfibput" alt="" coords="345,360,402,387"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="468,208,515,235"/>

@@ -39,7 +39,7 @@
 <area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#af4a399540c15d953f8b01085bfdc93ea" title="yy_init_buffer" alt="" coords="1021,1675,1121,1702"/>
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="1207,1751,1254,1778"/>
 <area shape="rect" id="node25" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="1196,1802,1265,1829"/>
-<area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1043,459,1099,486"/>
+<area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="1043,459,1099,486"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="851,807,947,834"/>
 <area shape="rect" id="node42" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1037,865,1105,891"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="869,257,928,283"/>

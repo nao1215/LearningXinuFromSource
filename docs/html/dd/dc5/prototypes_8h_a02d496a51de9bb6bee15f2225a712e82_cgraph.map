@@ -1,7 +1,7 @@
 <map id="rflgetc" name="rflgetc">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a638922c9cb0d657f3b1d56d3db954532" title="rflread" alt="" coords="112,1076,171,1103"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="883,1576,929,1603"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="878,1677,934,1704"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="878,1677,934,1704"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="871,5,941,32"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa0445556edf69374df47e838524852af" title="rfscomm" alt="" coords="219,1076,292,1103"/>
 <area shape="rect" id="node26" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="350,765,409,792"/>

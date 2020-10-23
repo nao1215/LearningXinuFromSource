@@ -8,7 +8,7 @@
 <area shape="rect" id="node19" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="セマフォテーブルエントリを解放し、セマフォを削除する。 " alt="" coords="608,5,691,32"/>
 <area shape="rect" id="node21" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="611,56,687,83"/>
 <area shape="rect" id="node4" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="348,461,416,488"/>
-<area shape="rect" id="node28" href="$d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8" title="signal" alt="" coords="621,411,677,437"/>
+<area shape="rect" id="node28" href="$d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="621,411,677,437"/>
 <area shape="rect" id="node40" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="signaln" alt="" coords="618,208,681,235"/>
 <area shape="rect" id="node41" href="$db/db4/wakeup_8c.html#a99d36e6369b4349026dd99b0cee66033" title="wakeup" alt="" coords="616,107,683,133"/>
 <area shape="rect" id="node5" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="741,107,823,133"/>
