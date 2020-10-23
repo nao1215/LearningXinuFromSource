@@ -1,5 +1,5 @@
 <map id="rdsbufalloc" name="rdsbufalloc">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="139,35,192,62"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="139,35,192,62"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="356,125,403,151"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="464,23,527,50"/>
 <area shape="rect" id="node4" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="240,35,299,62"/>

@@ -24,7 +24,7 @@
 <area shape="rect" id="node20" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="356,360,449,387"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="497,639,585,665"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="652,335,711,361"/>
-<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="515,309,568,336"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="515,309,568,336"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="904,81,975,108"/>
 <area shape="rect" id="node26" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="784,233,849,260"/>
 <area shape="rect" id="node27" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="789,335,844,361"/>

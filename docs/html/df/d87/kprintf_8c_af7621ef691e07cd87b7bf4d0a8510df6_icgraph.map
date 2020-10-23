@@ -24,7 +24,7 @@
 <area shape="rect" id="node32" href="$d2/d91/lfsopen_8c.html#aed42ff64ddeed085c468a1e347045948" title="lfsopen" alt="" coords="232,1309,296,1336"/>
 <area shape="rect" id="node33" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="main" alt="" coords="382,499,433,525"/>
 <area shape="rect" id="node34" href="$da/df5/naminit_8c.html#ad271c9332be3cf72a3d4cfcc64ee5acc" title="naminit" alt="" coords="232,1360,296,1387"/>
-<area shape="rect" id="node35" href="$d2/daf/panic_8c.html#a92ad17d19a46880dd5e6c99143666b4a" title="panic" alt="" coords="237,321,291,348"/>
+<area shape="rect" id="node35" href="$d2/daf/panic_8c.html#a92ad17d19a46880dd5e6c99143666b4a" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="237,321,291,348"/>
 <area shape="rect" id="node37" href="$d8/db4/pdump_8c.html#ad927bbbf038ab772666a6e3175573b13" title="pdump" alt="" coords="233,1411,295,1437"/>
 <area shape="rect" id="node38" href="$d8/db4/pdump_8c.html#a86eed85e4ff396e2a565f29ee9ee3d43" title="pdumph" alt="" coords="230,1461,298,1488"/>
 <area shape="rect" id="node39" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="378,1512,437,1539"/>

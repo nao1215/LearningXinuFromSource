@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="860,107,919,133"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="519,1316,576,1343"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="992,1323,1061,1349"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="381,1551,435,1577"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="381,1551,435,1577"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#ac28ef0ae0c6dcfbd0fcf0b2e557fd618" title="rdsprocess" alt="" coords="111,1449,197,1476"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="985,1728,1068,1755"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="1120,1196,1183,1223"/>

@@ -1,6 +1,6 @@
 <map id="rdsprocess" name="rdsprocess">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="1045,165,1114,192"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="415,64,469,91"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="415,64,469,91"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#aa7860da1b02e73b50cd75e039811f6b9" title="rdscomm" alt="" coords="140,951,216,977"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1056,1635,1103,1661"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="1051,1685,1107,1712"/>

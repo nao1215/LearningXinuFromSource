@@ -9,7 +9,7 @@
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#aafb147940d70d8e43057fc744ca91808" title="mkbufpool" alt="" coords="641,968,724,995"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="772,1120,855,1147"/>
 <area shape="rect" id="node41" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="129,1120,180,1147"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="249,1576,303,1603"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="249,1576,303,1603"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="781,1779,846,1805"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ae7f7431ce99333577d7b82b26619309e" title="udp_init" alt="" coords="121,1905,188,1932"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="907,1019,969,1045"/>

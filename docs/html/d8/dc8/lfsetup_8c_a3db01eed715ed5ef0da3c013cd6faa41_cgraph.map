@@ -8,7 +8,7 @@
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#a6a26da9145ea249ac742a012b5816141" title="lfibclear" alt="" coords="117,563,183,589"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="signal" alt="" coords="352,461,408,488"/>
 <area shape="rect" id="node25" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="467,512,513,539"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="241,56,295,83"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="241,56,295,83"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ad262c0ba4aa3228b1efd639655f059b0" title="write" alt="" coords="355,335,405,361"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="233,259,303,285"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="575,183,637,209"/>

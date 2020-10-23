@@ -1,6 +1,6 @@
 <map id="ptinit" name="ptinit">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="312,125,381,152"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="panic" alt="" coords="104,36,157,62"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="104,36,157,62"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="429,24,492,50"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="429,100,492,126"/>
 <area shape="rect" id="node6" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="205,36,264,62"/>
