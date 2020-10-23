@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ac8ad5a32790d172fcec2eac97a87ee9f" title="arp_init" alt="" coords="123,56,187,83"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a32a3114bac063ce04d3708292fed1065" title="control" alt="" coords="783,309,844,336"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="653,107,712,133"/>
-<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a2ea659767492993cbb222c3ed2704015" title="getticks" alt="" coords="121,1804,189,1831"/>
+<area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a2ea659767492993cbb222c3ed2704015" title="CPUリセット以降のclock tick数を取得する。 " alt="" coords="121,1804,189,1831"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a9e4475beded62aafcf3e5e9ebf430433" title="icmp_init" alt="" coords="117,1855,192,1881"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="251,1120,301,1147"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="648,1145,717,1172"/>

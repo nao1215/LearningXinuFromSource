@@ -68,6 +68,9 @@ $(function() {
 <div class="title">getticks.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>CPUリセット以降のclock tick数を取得する。  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d2/dbe/xinu_8h_source.html">xinu.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for getticks.c:</div>
@@ -124,9 +127,14 @@ Include dependency graph for getticks.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a37a5957fb3d3b2c1722ff49351c506c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/getticks_8c.html#a37a5957fb3d3b2c1722ff49351c506c8">getticks</a> ()</td></tr>
+<tr class="memdesc:a37a5957fb3d3b2c1722ff49351c506c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUリセット以降のclock tick数を取得する。  <a href="#a37a5957fb3d3b2c1722ff49351c506c8">More...</a><br /></td></tr>
 <tr class="separator:a37a5957fb3d3b2c1722ff49351c506c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>CPUリセット以降のclock tick数を取得する。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dc/df2/getticks_8c_source.html">getticks.c</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a37a5957fb3d3b2c1722ff49351c506c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37a5957fb3d3b2c1722ff49351c506c8">&#9670;&nbsp;</a></span>getticks()</h2>
 
@@ -143,10 +151,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/df2/getticks_8c_source.html#l00009">9</a> of file <a class="el" href="../../dc/df2/getticks_8c_source.html">getticks.c</a>.</p>
+<p>CPUリセット以降のclock tick数を取得する。 </p>
+<dl class="section return"><dt>Returns</dt><dd>CPUリセット以降のclock tick </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>インラインアセンブラ部分はPMCNT0〜PMCNT3レジスタを読み込んでいる。<br />
+ なお、CP15（コプロセッサ15、p15）は、システム制御機能を提供する。<br />
+ c9はパフォーマンスモニターカウントレジスタ、c13はサイクルカウントレジスタである。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df2/getticks_8c_source.html#l00014">14</a> of file <a class="el" href="../../dc/df2/getticks_8c_source.html">getticks.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d5f/net_8c_source.html#l00015">net_init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> ret;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">asm</span> <span class="keyword">volatile</span> ( <span class="stringliteral">&quot;MRC p15, 0, %0, c9, c13, 0\t\n&quot;</span>: <span class="stringliteral">&quot;=r&quot;</span>(ret) );</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> ret;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div><div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> ret;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">asm</span> <span class="keyword">volatile</span>(<span class="stringliteral">&quot;MRC p15, 0, %0, c9, c13, 0\t\n&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                 : <span class="stringliteral">&quot;=r&quot;</span>(ret));</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> ret;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div><div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
