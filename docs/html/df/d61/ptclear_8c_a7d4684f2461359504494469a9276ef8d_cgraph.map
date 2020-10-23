@@ -1,6 +1,6 @@
 <map id="_ptclear" name="_ptclear">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a23f41e11395741366e5381bda9b9496b" title="semdelete" alt="" coords="121,136,204,162"/>
-<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="semreset" alt="" coords="125,85,201,112"/>
+<area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a1a51cb59fe5c023b19eaa35ba833138a" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="125,85,201,112"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="269,85,331,112"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="631,85,693,112"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="273,186,327,213"/>

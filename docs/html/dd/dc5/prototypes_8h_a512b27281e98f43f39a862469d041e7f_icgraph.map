@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$df/d61/icmp_8c.html#a25c0e4c6a0547266b55df34204c55e8a" title="icmp_release" alt="" coords="149,335,248,361"/>
 <area shape="rect" id="node5" href="$d4/dd3/evec_8c.html#a3bd964dfcfd269d320476ed3977a7425" title="irq_dispatch" alt="" coords="153,436,245,463"/>
 <area shape="rect" id="node6" href="$d8/d13/semdelete_8c.html#aba4a7aa8eeb19742285455c9771fa0ac" title="semdelete" alt="" coords="157,487,240,513"/>
-<area shape="rect" id="node10" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="semreset" alt="" coords="161,537,237,564"/>
+<area shape="rect" id="node10" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="161,537,237,564"/>
 <area shape="rect" id="node12" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="signaln" alt="" coords="167,639,230,665"/>
 <area shape="rect" id="node14" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="462,639,541,665"/>
 <area shape="rect" id="node16" href="$dd/dc4/udp_8c.html#aecf024bbcd2ce1ff8cae4a518f9bfa76" title="udp_release" alt="" coords="153,259,245,285"/>
