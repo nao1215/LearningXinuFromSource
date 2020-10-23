@@ -8,7 +8,7 @@
 <area shape="rect" id="node8" href="$d8/d0c/xsh__memstat_8c.html#a9f0b59c1d9d3acb4a045bd65ad77a9d3" title="printMemUse" alt="" coords="111,309,211,336"/>
 <area shape="rect" id="node9" href="$dd/db7/xsh__argecho_8c.html#a9265169f63dd177e651e97b88c54adf3" title="引数を順に表示する。 " alt="" coords="113,360,209,387"/>
 <area shape="rect" id="node10" href="$d0/d1c/xsh__cat_8c.html#a393f9d45428aa0d3d938ee504c077884" title="xsh_cat" alt="" coords="127,411,195,437"/>
-<area shape="rect" id="node11" href="$dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="xsh_clear" alt="" coords="122,461,201,488"/>
+<area shape="rect" id="node11" href="$dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="ディスプレイウィンドウをクリアする（xtermやVT100を想定している） " alt="" coords="122,461,201,488"/>
 <area shape="rect" id="node12" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="124,512,199,539"/>
 <area shape="rect" id="node13" href="$d1/d5e/xsh__devdump_8c.html#afd35eb09fb290fdefe2eee79dfa75c6c" title="xsh_devdump" alt="" coords="110,563,213,589"/>
 <area shape="rect" id="node14" href="$d6/d6d/xsh__echo_8c.html#a682f93c6259a5a482677907847144ea1" title="xsh_echo" alt="" coords="122,613,201,640"/>

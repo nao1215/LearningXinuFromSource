@@ -92,6 +92,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a41c7d363ef5fcd859669a4b2c4a3b238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1a/shprototypes_8h.html#a41c7d363ef5fcd859669a4b2c4a3b238">xsh_cat</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>, char *[])</td></tr>
 <tr class="separator:a41c7d363ef5fcd859669a4b2c4a3b238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e49fb91ee50c832362ebdf3e576fa2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1a/shprototypes_8h.html#a5e49fb91ee50c832362ebdf3e576fa2c">xsh_clear</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>, char *[])</td></tr>
+<tr class="memdesc:a5e49fb91ee50c832362ebdf3e576fa2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ディスプレイウィンドウをクリアする（xtermやVT100を想定している）  <a href="#a5e49fb91ee50c832362ebdf3e576fa2c">More...</a><br /></td></tr>
 <tr class="separator:a5e49fb91ee50c832362ebdf3e576fa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d14f3b71bff6fd7ae53ed61c348d696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1a/shprototypes_8h.html#a9d14f3b71bff6fd7ae53ed61c348d696">xsh_date</a> (<a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>, char *[])</td></tr>
 <tr class="separator:a9d14f3b71bff6fd7ae53ed61c348d696"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,14 +341,14 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="../../d0/daa/kernel_8h.html#a148156d214297f60eb457e2d67db3f1c">shellcmd</a> xsh_clear </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nargs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname">[]&#160;</td>
+          <td class="paramname"><em>args</em>[]&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -357,10 +358,22 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dc0/xsh__clear_8c_source.html#l00010">10</a> of file <a class="el" href="../../dd/dc0/xsh__clear_8c_source.html">xsh_clear.c</a>.</p>
+<p>ディスプレイウィンドウをクリアする（xtermやVT100を想定している） </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nargs</td><td>引数の数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>引数（引数を持つ配列） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>成功時は0、コマンド名以外の引数が存在する場合は1を返す。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf()</a>で使用されているエスケープシーケンスは、以下の意味を持つ。<br />
+ ・\033[0m ：エスケープシーケンス指定をリセットして、未指定状態に戻す。 ・\033[2J\：画面クリアを行う。 ・\033[H ：カーソルを画面の左上隅（最初の行、最初の列）に移動させる。 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dc0/xsh__clear_8c_source.html#l00018">18</a> of file <a class="el" href="../../dd/dc0/xsh__clear_8c_source.html">xsh_clear.c</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf()</a>, <a class="el" href="../../d1/d3d/printf_8c_source.html#l00013">printf()</a>, and <a class="el" href="../../d6/dd1/stdio_8h_source.html#l00017">stderr</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">/* Insure no arguments were passed */</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (nargs &gt; 1) {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39">fprintf</a>(<a class="code" href="../../d6/dd1/stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a>,<span class="stringliteral">&quot;use is: %s\n&quot;</span>, args[0]);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\033[0m\033[2J\033[H\n&quot;</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd1/stdio_8h_source.html#l00017">stdio.h:17</a></div></div>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">/* Insure no arguments were passed */</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (nargs &gt; 1)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39">fprintf</a>(<a class="code" href="../../d6/dd1/stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a>, <span class="stringliteral">&quot;use is: %s\n&quot;</span>, args[0]);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a>(<span class="stringliteral">&quot;\033[0m\033[2J\033[H\n&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div><div class="ttc" id="stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd1/stdio_8h_source.html#l00017">stdio.h:17</a></div></div>
 <div class="ttc" id="stdio_8h_html_a1f0ce183d035cdcba2488a3bd2eff765"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765">printf</a></div><div class="ttdeci">int32 printf(const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3d/printf_8c_source.html#l00013">printf.c:13</a></div></div>
 <div class="ttc" id="stdio_8h_html_a0eaa1f4e269e735a399bbefde4ccba39"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39">fprintf</a></div><div class="ttdeci">int32 fprintf(int, char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df2/fprintf_8c_source.html#l00014">fprintf.c:14</a></div></div>
 </div><!-- fragment --><div class="dynheader">

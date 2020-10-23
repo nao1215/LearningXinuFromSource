@@ -20,7 +20,7 @@
 <area shape="rect" id="node21" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="225,410,291,437"/>
 <area shape="rect" id="node23" href="$d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="223,208,293,234"/>
 <area shape="rect" id="node24" href="$d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="233,613,283,640"/>
-<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="xsh_clear" alt="" coords="219,1170,297,1197"/>
+<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html#a6aebf6b25449eae8dba44ad55dbdfb66" title="ディスプレイウィンドウをクリアする（xtermやVT100を想定している） " alt="" coords="219,1170,297,1197"/>
 <area shape="rect" id="node27" href="$d1/d5e/xsh__devdump_8c.html#afd35eb09fb290fdefe2eee79dfa75c6c" title="xsh_devdump" alt="" coords="207,1221,309,1248"/>
 <area shape="rect" id="node28" href="$d4/dfe/xsh__help_8c.html#a867900f401d5a5f408989ee5f5a7a863" title="xsh_help" alt="" coords="221,1272,295,1298"/>
 <area shape="rect" id="node29" href="$da/d0a/xsh__kill_8c.html#ab741cde43cefee74249b54ff7f70c458" title="xsh_kill" alt="" coords="225,1322,291,1349"/>

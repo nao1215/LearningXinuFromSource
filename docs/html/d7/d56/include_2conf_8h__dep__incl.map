@@ -23,7 +23,7 @@
 <area shape="rect" id="node23" href="$dd/db7/xsh__argecho_8c.html" title="引数を順に表示する。 " alt="" coords="2244,155,2383,181"/>
 <area shape="rect" id="node24" href="$dc/dac/xsh__arp_8c.html" title="shell/xsh_arp.c" alt="" coords="2407,155,2518,181"/>
 <area shape="rect" id="node25" href="$d0/d1c/xsh__cat_8c.html" title="shell/xsh_cat.c" alt="" coords="2542,155,2653,181"/>
-<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="shell/xsh_clear.c" alt="" coords="2677,155,2797,181"/>
+<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="ディスプレイウィンドウをクリアする（xtermやVT100を想定している） " alt="" coords="2677,155,2797,181"/>
 <area shape="rect" id="node27" href="$dd/d6b/xsh__date_8c.html" title="shell/xsh_date.c" alt="" coords="2821,155,2939,181"/>
 <area shape="rect" id="node28" href="$d1/d5e/xsh__devdump_8c.html" title="shell/xsh_devdump.c" alt="" coords="2963,155,3109,181"/>
 <area shape="rect" id="node29" href="$d6/d6d/xsh__echo_8c.html" title="shell/xsh_echo.c" alt="" coords="3133,155,3253,181"/>

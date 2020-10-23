@@ -40,7 +40,7 @@
 <area shape="rect" id="node21" href="$d2/d95/lexan_8c.html" title="shell/lexan.c" alt="" coords="1613,155,1708,181"/>
 <area shape="rect" id="node22" href="$d6/d4f/shell_8c.html" title="shell/shell.c" alt="" coords="1733,155,1823,181"/>
 <area shape="rect" id="node23" href="$dd/db7/xsh__argecho_8c.html" title="引数を順に表示する。 " alt="" coords="1847,155,1986,181"/>
-<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="shell/xsh_clear.c" alt="" coords="2010,155,2130,181"/>
+<area shape="rect" id="node26" href="$dd/dc0/xsh__clear_8c.html" title="ディスプレイウィンドウをクリアする（xtermやVT100を想定している） " alt="" coords="2010,155,2130,181"/>
 <area shape="rect" id="node28" href="$d1/d5e/xsh__devdump_8c.html" title="shell/xsh_devdump.c" alt="" coords="2155,155,2300,181"/>
 <area shape="rect" id="node29" href="$d6/d6d/xsh__echo_8c.html" title="shell/xsh_echo.c" alt="" coords="2325,155,2445,181"/>
 <area shape="rect" id="node30" href="$d0/df4/xsh__exit_8c.html" title="XINUシェルにおけるexitコマンドを提供する。 " alt="" coords="2469,155,2583,181"/>
