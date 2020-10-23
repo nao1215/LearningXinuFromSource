@@ -1,12 +1,16 @@
+/**
+ * @file ioerr.c
+ * @brief ステータスとしてエラーを返す（デバイステーブルの"error"エントリに対して使用する）
+ */
 /* ioerr.c - ioerr */
 
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  ioerr  -  Return an error status (used for "error" entries in devtab)
- *------------------------------------------------------------------------
+/**
+ * @brief ステータスとしてエラーを返す（デバイステーブルの"error"エントリに対して使用する）。
+ * @return  SYSERRを返す。
  */
-devcall	ioerr(void)
+devcall ioerr(void)
 {
 	return SYSERR;
 }
