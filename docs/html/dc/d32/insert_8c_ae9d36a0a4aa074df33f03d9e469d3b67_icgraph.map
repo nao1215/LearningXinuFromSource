@@ -6,7 +6,7 @@
 <area shape="rect" id="node14" href="$d8/dba/semreset_8c.html#af31f4fc1aa8bbbeec9267ca024a5f5b9" title="セマフォカウントをリセットし、待機中のプロセスを全て解放する。 " alt="" coords="371,636,447,663"/>
 <area shape="rect" id="node15" href="$dd/ded/send_8c.html#ab89e607c5e35f5a1b767e71da28b40f3" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="384,535,435,561"/>
 <area shape="rect" id="node21" href="$d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="381,1092,437,1119"/>
-<area shape="rect" id="node40" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="signaln" alt="" coords="378,737,441,764"/>
+<area shape="rect" id="node40" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="セマフォにシグナルをN回送り、N個の待機プロセスがある場合はそれらをREADY状態にする。 ..." alt="" coords="378,737,441,764"/>
 <area shape="rect" id="node41" href="$db/db4/wakeup_8c.html#a99d36e6369b4349026dd99b0cee66033" title="wakeup" alt="" coords="376,1371,443,1397"/>
 <area shape="rect" id="node4" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="505,281,584,308"/>
 <area shape="rect" id="node5" href="$df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="512,231,577,257"/>

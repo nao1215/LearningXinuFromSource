@@ -1,7 +1,7 @@
 <map id="dequeue" name="dequeue">
 <area shape="rect" id="node2" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="124,613,192,640"/>
 <area shape="rect" id="node18" href="$d8/d36/signal_8c.html#a5b637734888aea3761084040315ceea8" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="397,867,453,893"/>
-<area shape="rect" id="node41" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="signaln" alt="" coords="394,1157,457,1184"/>
+<area shape="rect" id="node41" href="$db/d5f/signaln_8c.html#a0df2fc7ca63b15309e1cf72849fee116" title="セマフォにシグナルをN回送り、N個の待機プロセスがある場合はそれらをREADY状態にする。 ..." alt="" coords="394,1157,457,1184"/>
 <area shape="rect" id="node43" href="$db/db4/wakeup_8c.html#a99d36e6369b4349026dd99b0cee66033" title="wakeup" alt="" coords="392,563,459,589"/>
 <area shape="rect" id="node3" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="524,31,605,57"/>
 <area shape="rect" id="node5" href="$d2/d1d/kill_8c.html#ad2fe1cd23d94955c22ad0a6abe96d0d8" title="指定のプロセスを終了させ、システムから終了させたプロセス情報を取り除く。 " alt="" coords="545,81,584,108"/>

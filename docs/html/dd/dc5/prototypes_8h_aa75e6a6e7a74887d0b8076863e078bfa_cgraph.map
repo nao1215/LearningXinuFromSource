@@ -5,7 +5,7 @@
 <area shape="rect" id="node5" href="$d6/d00/ttyhandle__in_8c.html#ad2cf913995d8c9e6df7edd84cf179500" title="erase1" alt="" coords="154,107,215,133"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a8a77b85fae526419c81dc5a53ac9bf76" title="セマフォのカウント値を返す。 " alt="" coords="145,347,224,373"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="157,296,213,323"/>
-<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="signaln" alt="" coords="153,220,216,247"/>
+<area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a8f447390797bc748c62071875fc676c0" title="セマフォにシグナルをN回送り、N個の待機プロセスがある場合はそれらをREADY状態にする。 ..." alt="" coords="153,220,216,247"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="289,315,351,341"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="289,365,351,392"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#a75f6191de81b4646671cc9a3dbf4b052" title="プロセスキューテーブルからキューを削除し、リスト先頭のプロセスIDを返す。 " alt="" coords="543,264,613,291"/>
