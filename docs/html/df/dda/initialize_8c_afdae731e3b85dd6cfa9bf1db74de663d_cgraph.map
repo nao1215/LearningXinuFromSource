@@ -1,5 +1,5 @@
 <map id="sysinit" name="sysinit">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#aa8dd8076b99effee8b3de582f99bd59d" title="bufinit" alt="" coords="119,5,176,32"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#aa8dd8076b99effee8b3de582f99bd59d" title="バッファプールデータ構造を初期化する。 " alt="" coords="119,5,176,32"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="119,56,175,83"/>
 <area shape="rect" id="node15" href="$dd/dc5/prototypes_8h.html#acbb0134181f8e0672f1c8119ee60f669" title="グローバルキューテーブルにキューを割り当て、テーブルを初期化する。 " alt="" coords="230,107,311,133"/>
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="241,157,300,184"/>

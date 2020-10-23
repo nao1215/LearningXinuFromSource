@@ -1,15 +1,20 @@
-/* bufinit.c - bufinit */
-
+/**
+ * @file bufinit.c
+ * @brief バッファプールデータ構造を初期化する。
+ */
 #include <xinu.h>
 
-struct	bpentry	buftab[NBPOOLS];		/* Buffer pool table	*/
-bpid32	nbpools;
+//! バッファプールエントリテーブル
+struct bpentry buftab[NBPOOLS];
+//! 割り当てられたバッファプールの現在の数
+bpid32 nbpools;
 
-/*------------------------------------------------------------------------
- *  bufinit  -  Initialize the buffer pool data structure
- *------------------------------------------------------------------------
+/**
+ * @brief バッファプールデータ構造を初期化する。
+ * @details 現在のバッファプール数を0にする。
+ * @return OKを返す。
  */
-status	bufinit(void)
+status bufinit(void)
 {
 	nbpools = 0;
 	return OK;
