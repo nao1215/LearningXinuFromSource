@@ -33,7 +33,7 @@
 <area shape="rect" id="node42" href="$d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="521,1664,597,1691"/>
 <area shape="rect" id="node43" href="$dc/d24/rfsndmsg_8c.html#a88cbdd6daf9e0d8490f3eb38df16420e" title="rfsndmsg" alt="" coords="369,1664,445,1691"/>
 <area shape="rect" id="node44" href="$dd/d24/rfsopen_8c.html#a95ed586c43f0805605d24fb2d644a816" title="rfsopen" alt="" coords="375,1715,440,1741"/>
-<area shape="rect" id="node45" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="stop" alt="" coords="241,1816,287,1843"/>
+<area shape="rect" id="node45" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="処理を停止させる。無限ループによる停止のため、復帰にはリセットが必要である。 " alt="" coords="241,1816,287,1843"/>
 <area shape="rect" id="node46" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="673,676,733,703"/>
 <area shape="rect" id="node47" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="223,1917,305,1944"/>
 <area shape="rect" id="node48" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="365,1892,449,1919"/>

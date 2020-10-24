@@ -1,5 +1,5 @@
 <map id="xsh_sleep" name="xsh_sleep">
-<area shape="rect" id="node2" href="$df/dda/initialize_8c.html#a7d8ecfa13b7a9eaa178976a8f5e2da3f" title="delay" alt="" coords="143,5,196,32"/>
+<area shape="rect" id="node2" href="$df/dda/initialize_8c.html#a7d8ecfa13b7a9eaa178976a8f5e2da3f" title="マイクロ秒単位で処理を遅らせる。 " alt="" coords="143,5,196,32"/>
 <area shape="rect" id="node3" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="142,56,197,83"/>
 <area shape="rect" id="node6" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="144,107,195,133"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#af170dd92a4b76a8d6588ad3dd96d186e" title="sleep" alt="" coords="143,157,196,184"/>
