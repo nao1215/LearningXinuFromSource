@@ -23,7 +23,7 @@
 <area shape="rect" id="node28" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="379,259,457,285"/>
 <area shape="rect" id="node29" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="529,360,610,387"/>
 <area shape="rect" id="node31" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="538,715,601,741"/>
-<area shape="rect" id="node32" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="685,715,751,741"/>
+<area shape="rect" id="node32" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="685,715,751,741"/>
 <area shape="rect" id="node35" href="$db/da9/hexdump_8c.html#a45b75d699302a8a608d9af828809dde1" title="hexdump" alt="" coords="237,1475,312,1501"/>
 <area shape="rect" id="node36" href="$db/da9/hexdump_8c.html#a6f211b2ac68b92d0d12c875bc8774d25" title="hexadump" alt="" coords="233,1525,316,1552"/>
 <area shape="rect" id="node37" href="$d0/dc8/ip_8c.html#a9b2038aa18171f352bd2b8b4f92db286" title="ip_in" alt="" coords="393,968,443,995"/>

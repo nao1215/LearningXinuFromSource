@@ -91,7 +91,7 @@
 
 /**
  * @struct cmdent
- * @brief XINUシェルコマンドエントリテーブル用の構造体
+ * @brief XINUシェルコマンドテーブルエントリ用の構造体
  * @details 本構造体1個が1コマンド分であり、本構造体の配列でXINUシェルコマンドを全て管理する。
  */
 struct cmdent

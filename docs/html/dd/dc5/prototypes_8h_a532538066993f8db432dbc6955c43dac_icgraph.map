@@ -1,4 +1,4 @@
 <map id="initevec" name="initevec">
 <area shape="rect" id="node2" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="120,5,180,32"/>
-<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="228,5,295,32"/>
+<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="228,5,295,32"/>
 </map>

@@ -9,7 +9,7 @@
 <area shape="rect" id="node32" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="115,461,215,488"/>
 <area shape="rect" id="node4" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="578,132,653,159"/>
 <area shape="rect" id="node6" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="435,56,498,83"/>
-<area shape="rect" id="node7" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="582,56,649,83"/>
+<area shape="rect" id="node7" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="582,56,649,83"/>
 <area shape="rect" id="node12" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="429,360,505,387"/>
 <area shape="rect" id="node16" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="275,588,349,615"/>
 <area shape="rect" id="node24" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="273,259,351,285"/>

@@ -4,7 +4,7 @@
  */
 #include <xinu.h>
 
-//! バッファプールエントリテーブル
+//! バッファプールテーブルエントリ
 struct bpentry buftab[NBPOOLS];
 //! 割り当てられたバッファプールの現在の数
 bpid32 nbpools;

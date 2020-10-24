@@ -10,7 +10,7 @@
 <area shape="rect" id="node9" href="$d0/dc8/ip_8c.html#a3961ee626e875d99fabeffd5a90f3166" title="ip_send" alt="" coords="483,373,549,400"/>
 <area shape="rect" id="node39" href="$d0/dc8/ip_8c.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="491,424,541,451"/>
 <area shape="rect" id="node7" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="752,461,816,488"/>
-<area shape="rect" id="node8" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="1054,436,1121,463"/>
+<area shape="rect" id="node8" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="1054,436,1121,463"/>
 <area shape="rect" id="node11" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="1050,284,1125,311"/>
 <area shape="rect" id="node13" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="898,309,979,336"/>
 <area shape="rect" id="node14" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="903,360,975,387"/>

@@ -29,7 +29,7 @@
 <area shape="rect" id="node24" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="800,385,857,412"/>
 <area shape="rect" id="node26" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="519,487,582,513"/>
 <area shape="rect" id="node28" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="506,436,595,463"/>
-<area shape="rect" id="node27" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="666,512,733,539"/>
+<area shape="rect" id="node27" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="666,512,733,539"/>
 <area shape="rect" id="node32" href="$d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="670,588,729,615"/>
 <area shape="rect" id="node34" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="238,569,302,596"/>
 </map>

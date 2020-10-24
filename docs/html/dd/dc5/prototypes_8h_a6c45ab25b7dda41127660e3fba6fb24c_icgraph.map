@@ -36,7 +36,7 @@
 <area shape="rect" id="node21" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="789,259,863,285"/>
 <area shape="rect" id="node25" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="793,309,859,336"/>
 <area shape="rect" id="node26" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="917,309,992,336"/>
-<area shape="rect" id="node28" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="793,512,859,539"/>
+<area shape="rect" id="node28" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="793,512,859,539"/>
 <area shape="rect" id="node31" href="$d4/d9f/tftp_8c.html#a2783ff42ff380418e57b05332d6261f3" title="tftp_send1" alt="" coords="481,563,564,589"/>
 <area shape="rect" id="node32" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="635,563,719,589"/>
 <area shape="rect" id="node33" href="$d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="797,563,855,589"/>

@@ -22,7 +22,7 @@
 
 /**
  * @struct bpentry
- * @brief バッファプールエントリテーブル
+ * @brief バッファプールテーブルエントリ
  */
 struct bpentry
 {

@@ -3,7 +3,7 @@
 <area shape="rect" id="node9" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="437,284,497,311"/>
 <area shape="rect" id="node3" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="219,5,276,32"/>
 <area shape="rect" id="node4" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="324,56,388,83"/>
-<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="547,157,613,184"/>
+<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="547,157,613,184"/>
 <area shape="rect" id="node6" href="$d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="223,157,272,184"/>
 <area shape="rect" id="node7" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="331,183,381,209"/>
 <area shape="rect" id="node8" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="436,183,499,209"/>

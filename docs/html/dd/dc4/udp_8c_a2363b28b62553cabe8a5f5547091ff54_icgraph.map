@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$d0/dc8/ip_8c.html#a9b2038aa18171f352bd2b8b4f92db286" title="ip_in" alt="" coords="128,5,177,32"/>
 <area shape="rect" id="node3" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="225,5,276,32"/>
 <area shape="rect" id="node4" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="324,5,388,32"/>
-<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="436,5,503,32"/>
+<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="436,5,503,32"/>
 </map>

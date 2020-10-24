@@ -5,7 +5,7 @@
 <area shape="rect" id="node37" href="$d0/dc8/ip_8c.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="236,5,287,32"/>
 <area shape="rect" id="node4" href="$d7/d5f/net_8c.html#aa7a7ae3cfb2c15b86f794c177faff03c" title="netin" alt="" coords="362,56,413,83"/>
 <area shape="rect" id="node5" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="489,5,553,32"/>
-<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="783,17,850,44"/>
+<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="783,17,850,44"/>
 <area shape="rect" id="node8" href="$df/d61/icmp_8c.html#a6bcd53409160a53b8cd6b0aa1a6325ed" title="icmp_send" alt="" coords="345,309,430,336"/>
 <area shape="rect" id="node10" href="$dd/dc4/udp_8c.html#a3eaf2d921ae869bcc337f3289e073428" title="udp_send" alt="" coords="482,397,561,424"/>
 <area shape="rect" id="node24" href="$dd/dc4/udp_8c.html#aee332124b3223f42218c14ece97f1563" title="udp_sendto" alt="" coords="343,213,432,240"/>

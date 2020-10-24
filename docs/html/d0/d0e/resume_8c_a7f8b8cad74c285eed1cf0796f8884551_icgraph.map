@@ -1,7 +1,7 @@
 <map id="resume" name="resume">
 <area shape="rect" id="node2" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="252,64,303,91"/>
 <area shape="rect" id="node3" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="357,90,420,116"/>
-<area shape="rect" id="node4" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="468,90,535,116"/>
+<area shape="rect" id="node4" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="468,90,535,116"/>
 <area shape="rect" id="node5" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="245,242,309,268"/>
 <area shape="rect" id="node6" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="119,166,197,192"/>
 <area shape="rect" id="node7" href="$df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="125,216,191,243"/>

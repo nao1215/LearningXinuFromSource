@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="107,5,156,32"/>
 <area shape="rect" id="node3" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="204,5,255,32"/>
 <area shape="rect" id="node4" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="303,5,365,32"/>
-<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="413,5,480,32"/>
+<area shape="rect" id="node5" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="413,5,480,32"/>
 </map>

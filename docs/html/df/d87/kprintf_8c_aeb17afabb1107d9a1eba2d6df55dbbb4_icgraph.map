@@ -1,7 +1,7 @@
 <map id="kprintf" name="kprintf">
 <area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a73d31e5f01444754bbbef2c64d2cf8ac" title="arp_alloc" alt="" coords="124,512,199,539"/>
 <area shape="rect" id="node3" href="$d6/d94/arp_8c.html#a6a94ff09b67a636361d0e2df1e695ba3" title="arp_in" alt="" coords="276,765,333,792"/>
-<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="688,956,755,983"/>
+<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="688,956,755,983"/>
 <area shape="rect" id="node8" href="$d8/d5c/arp__dump_8c.html#af25d3601949384689349f53a4a7d0b93" title="arp_dump" alt="" coords="122,157,201,184"/>
 <area shape="rect" id="node9" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="112,259,211,285"/>
 <area shape="rect" id="node10" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="266,208,343,235"/>
