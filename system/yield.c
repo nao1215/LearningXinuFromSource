@@ -1,14 +1,17 @@
-/* yield.c - yield */
-
+/**
+ * @file yield.c
+ * @brief CPU実行権を自発的に放棄する（タイムスライスを終了する）
+ */
 #include <xinu.h>
 
-/*------------------------------------------------------------------------
- *  yield  -  Voluntarily relinquish the CPU (end a timeslice)
- *------------------------------------------------------------------------
+/**
+ * @brief CPU実行権を自発的に放棄する（タイムスライスを終了する）。
+ * @details 割り込みを禁止して再スケジューリングを行う。復帰後、割り込み状態を復元する。
+ * @return OKを返す。
  */
-syscall	yield(void)
+syscall yield(void)
 {
-	intmask	mask;			/* Saved interrupt mask		*/
+	intmask mask; /* Saved interrupt mask		*/
 
 	mask = disable();
 	resched();
