@@ -21,7 +21,7 @@
 <area shape="rect" id="node31" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="304,107,388,133"/>
 <area shape="rect" id="node33" href="$db/d9f/xsh__udpecho_8c.html#a0ee61210c2e2a2b118cd749e1f881566" title="xsh_udpecho" alt="" coords="297,56,395,83"/>
 <area shape="rect" id="node22" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="463,107,539,133"/>
-<area shape="rect" id="node27" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="619,259,681,285"/>
+<area shape="rect" id="node27" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="619,259,681,285"/>
 <area shape="rect" id="node29" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="457,208,546,235"/>
 <area shape="rect" id="node30" href="$d7/d5d/xsh__udpserver_8c.html#af5c7aaeb7803a753a44483e67bc04fb0" title="xsh_udpeserver" alt="" coords="444,157,559,184"/>
 <area shape="rect" id="node20" href="$dd/d63/gettime_8c.html#a4f3ed9f8833815866919c0e0a5063896" title="1970年1月1日からの経過時間（秒単位）にロケーション（時差）を反映した時間を返す。 " alt="" coords="617,56,683,83"/>
@@ -34,5 +34,5 @@
 <area shape="rect" id="node32" href="$d4/d9f/tftp_8c.html#aa391ce957e891396c0b6c40cea2710a9" title="tftpget" alt="" coords="472,5,531,32"/>
 <area shape="rect" id="node35" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="305,411,387,437"/>
 <area shape="rect" id="node36" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="473,411,529,437"/>
-<area shape="rect" id="node37" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="sysinit" alt="" coords="620,397,680,424"/>
+<area shape="rect" id="node37" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="620,397,680,424"/>
 </map>

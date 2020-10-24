@@ -3,6 +3,6 @@
 <area shape="rect" id="node5" href="$d8/d3b/ethinit_8c.html#a2f841a22dffc44df159007bd9fe51065" title="ethinit" alt="" coords="131,56,188,83"/>
 <area shape="rect" id="node6" href="$dc/df1/gpioinit_8c.html#a04f69ecc097f9fb858f6f5f28d5f6fa8" title="gpioinit" alt="" coords="128,107,191,133"/>
 <area shape="rect" id="node7" href="$db/daf/ttyinit_8c.html#ac5c08414e4fc0586bfa3bcfebc1eb0ba" title="ttyinit" alt="" coords="132,157,187,184"/>
-<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="sysinit" alt="" coords="239,5,299,32"/>
+<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="239,5,299,32"/>
 <area shape="rect" id="node4" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="347,5,413,32"/>
 </map>

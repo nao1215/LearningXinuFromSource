@@ -1,6 +1,6 @@
 <map id="create" name="create">
-<area shape="rect" id="node2" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="main" alt="" coords="224,53,275,80"/>
-<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="329,72,392,99"/>
+<area shape="rect" id="node2" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="224,53,275,80"/>
+<area shape="rect" id="node3" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="329,72,392,99"/>
 <area shape="rect" id="node4" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="440,72,507,99"/>
 <area shape="rect" id="node5" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="217,180,281,207"/>
 <area shape="rect" id="node6" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="112,155,169,181"/>

@@ -21,7 +21,7 @@
 <area shape="rect" id="node26" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="215,259,313,285"/>
 <area shape="rect" id="node27" href="$dd/d53/dhcp_8c.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="369,233,446,260"/>
 <area shape="rect" id="node28" href="$d9/d54/dns_8c.html#a75767a0c770ddf92c2d6f9180abf46f4" title="dnslookup" alt="" coords="518,107,599,133"/>
-<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="527,715,590,741"/>
+<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="527,715,590,741"/>
 <area shape="rect" id="node34" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="674,715,741,741"/>
 <area shape="rect" id="node35" href="$db/da9/hexdump_8c.html#a45b75d699302a8a608d9af828809dde1" title="hexdump" alt="" coords="227,1475,301,1501"/>
 <area shape="rect" id="node36" href="$db/da9/hexdump_8c.html#a6f211b2ac68b92d0d12c875bc8774d25" title="hexadump" alt="" coords="223,1525,305,1552"/>
@@ -34,9 +34,9 @@
 <area shape="rect" id="node43" href="$d4/d9f/tftp_8c.html#a6b7bac8d9bae291b321a1d0f1c7146dc" title="tftpget_mb" alt="" coords="365,1804,449,1831"/>
 <area shape="rect" id="node44" href="$d4/da3/xsh__rdstest_8c.html#a47bfa13b05c1e409dcc7e4f9eef4b319" title="xsh_rdstest" alt="" coords="219,1880,309,1907"/>
 <area shape="rect" id="node45" href="$d4/dd3/evec_8c.html#a3bd964dfcfd269d320476ed3977a7425" title="irq_dispatch" alt="" coords="361,664,453,691"/>
-<area shape="rect" id="node46" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="sysinit" alt="" coords="377,461,437,488"/>
+<area shape="rect" id="node46" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="377,461,437,488"/>
 <area shape="rect" id="node47" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="stop" alt="" coords="241,1931,287,1957"/>
-<area shape="rect" id="node48" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="main" alt="" coords="382,765,433,792"/>
+<area shape="rect" id="node48" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="382,765,433,792"/>
 <area shape="rect" id="node49" href="$d2/daf/panic_8c.html#a92ad17d19a46880dd5e6c99143666b4a" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="237,613,291,640"/>
 <area shape="rect" id="node50" href="$d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="235,1981,293,2008"/>
 <area shape="rect" id="node12" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="664,524,751,551"/>

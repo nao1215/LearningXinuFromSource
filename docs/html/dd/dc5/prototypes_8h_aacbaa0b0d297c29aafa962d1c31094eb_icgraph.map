@@ -1,14 +1,14 @@
 <map id="recvclr" name="recvclr">
 <area shape="rect" id="node2" href="$d6/d94/arp_8c.html#a5f499b0abfe400f5e19d384500858a91" title="arp_resolve" alt="" coords="120,5,209,32"/>
 <area shape="rect" id="node3" href="$df/d61/icmp_8c.html#ab45ea28f1dbe0276855653b86b6cc9fc" title="icmp_recv" alt="" coords="271,107,353,133"/>
-<area shape="rect" id="node5" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="main" alt="" coords="287,56,337,83"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="287,56,337,83"/>
 <area shape="rect" id="node8" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="576,411,655,437"/>
 <area shape="rect" id="node9" href="$df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="132,208,197,235"/>
 <area shape="rect" id="node10" href="$d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="140,56,189,83"/>
 <area shape="rect" id="node11" href="$dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="127,259,202,285"/>
 <area shape="rect" id="node32" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="115,461,215,488"/>
 <area shape="rect" id="node4" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="578,132,653,159"/>
-<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="startup" alt="" coords="435,56,498,83"/>
+<area shape="rect" id="node6" href="$df/dda/initialize_8c.html#affbb4fb38e3c98cd5e6a1f8f14163045" title="スタートアップタスクを完了するプロセス " alt="" coords="435,56,498,83"/>
 <area shape="rect" id="node7" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="nulluser" alt="" coords="582,56,649,83"/>
 <area shape="rect" id="node12" href="$d9/d36/rdscomm_8c.html#a7ab6a9b545d4c19fb11b45476528a0dc" title="rdscomm" alt="" coords="429,360,505,387"/>
 <area shape="rect" id="node16" href="$d9/d78/rfscomm_8c.html#a21cea45d6cebda7863a5641ee34f7aec" title="rfscomm" alt="" coords="275,588,349,615"/>

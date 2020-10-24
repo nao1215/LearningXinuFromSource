@@ -68,6 +68,9 @@ $(function() {
 <div class="title">delay.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>ミリ秒もしくはマイクロ秒単位で処理を遅らせる。  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -130,11 +133,17 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a356fe8020a7cded607b0e7879cff1962"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dee/delay_8h.html#a356fe8020a7cded607b0e7879cff1962">DELAY</a>(n)</td></tr>
+<tr class="memdesc:a356fe8020a7cded607b0e7879cff1962"><td class="mdescLeft">&#160;</td><td class="mdescRight">マイクロ秒単位で処理を遅らせる。  <a href="#a356fe8020a7cded607b0e7879cff1962">More...</a><br /></td></tr>
 <tr class="separator:a356fe8020a7cded607b0e7879cff1962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af547e26fec85148e3086f5c53d3fc9b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dee/delay_8h.html#af547e26fec85148e3086f5c53d3fc9b0">MDELAY</a>(n)</td></tr>
+<tr class="memdesc:af547e26fec85148e3086f5c53d3fc9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ミリ秒単位で処理を遅らせる。  <a href="#af547e26fec85148e3086f5c53d3fc9b0">More...</a><br /></td></tr>
 <tr class="separator:af547e26fec85148e3086f5c53d3fc9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>ミリ秒もしくはマイクロ秒単位で処理を遅らせる。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dd/dee/delay_8h_source.html">delay.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a356fe8020a7cded607b0e7879cff1962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a356fe8020a7cded607b0e7879cff1962">&#9670;&nbsp;</a></span>DELAY</h2>
 
@@ -150,10 +159,18 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{                                                   \</div><div class="line">    volatile <span class="keywordtype">long</span> N = 2*n;              \</div><div class="line">                            \</div><div class="line">    while(N &gt; 0) {                  \</div><div class="line">        N--;                    \</div><div class="line">    }                       \</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dd/dee/delay_8h_source.html#l00006">6</a> of file <a class="el" href="../../dd/dee/delay_8h_source.html">delay.h</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line">{                            \</div><div class="line">        volatile <span class="keywordtype">long</span> N = 2 * n; \</div><div class="line">                                 \</div><div class="line">        while (N &gt; 0)            \</div><div class="line">        {                        \</div><div class="line">            N--;                 \</div><div class="line">        }                        \</div><div class="line">    }</div></div><!-- fragment -->
+<p>マイクロ秒単位で処理を遅らせる。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>遅延時間（マイクロ秒） </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00232">delay()</a>, and <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00107">eth_phy_reset()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dee/delay_8h_source.html#l00011">11</a> of file <a class="el" href="../../dd/dee/delay_8h_source.html">delay.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../df/dda/initialize_8c_source.html#l00245">delay()</a>, and <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00107">eth_phy_reset()</a>.</p>
 
 </div>
 </div>
@@ -172,8 +189,16 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{                           \</div><div class="line">    register <span class="keywordtype">long</span> i;                \</div><div class="line">                            \</div><div class="line">    for (i=n;i&gt;0;i--) {             \</div><div class="line">        DELAY(1000);                \</div><div class="line">    }                       \</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dd/dee/delay_8h_source.html#l00018">18</a> of file <a class="el" href="../../dd/dee/delay_8h_source.html">delay.h</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line">{                           \</div><div class="line">        register <span class="keywordtype">long</span> i;        \</div><div class="line">                                \</div><div class="line">        for (i = n; i &gt; 0; i--) \</div><div class="line">        {                       \</div><div class="line">            DELAY(1000);        \</div><div class="line">        }                       \</div><div class="line">    }</div></div><!-- fragment -->
+<p>ミリ秒単位で処理を遅らせる。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>遅延時間（ミリ秒） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dee/delay_8h_source.html#l00026">26</a> of file <a class="el" href="../../dd/dee/delay_8h_source.html">delay.h</a>.</p>
 
 </div>
 </div>

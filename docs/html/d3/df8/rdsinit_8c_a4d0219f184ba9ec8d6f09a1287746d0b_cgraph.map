@@ -1,7 +1,7 @@
 <map id="rdsinit" name="rdsinit">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="1000,157,1059,184"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#af49fd3301691835b83f4465c9eee3e47" title="dot2ip" alt="" coords="519,613,576,640"/>
-<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="1132,1424,1201,1451"/>
+<area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="ヒープ領域を割り当て、最下位のワードアドレスを返す。 " alt="" coords="1132,1424,1201,1451"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="381,1627,435,1653"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#ac28ef0ae0c6dcfbd0fcf0b2e557fd618" title="rdsprocess" alt="" coords="111,1221,197,1248"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="1125,1728,1208,1755"/>

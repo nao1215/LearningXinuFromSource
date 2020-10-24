@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a1e3027ce5f69d9e095e0fb7fabb9ba2e" title="関数の実行を開始するプロセスを作成する。 " alt="" coords="438,1474,497,1500"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="116,410,193,436"/>
 <area shape="rect" id="node14" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="438,574,497,600"/>
-<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="main" alt="" coords="129,1499,180,1526"/>
+<area shape="rect" id="node33" href="$df/dda/initialize_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="129,1499,180,1526"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a3c2251c4f91d8925d75fa3a26cdcfc49" title="プロセスを休止状態（サスペンド）からREADY状態に遷移させる。 " alt="" coords="435,1676,500,1703"/>
 <area shape="rect" id="node45" href="$d6/dd1/stdio_8h.html#ad758bab83cc36d11a287a3c6614af261" title="sprintf" alt="" coords="125,1854,184,1880"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="735,1170,797,1196"/>

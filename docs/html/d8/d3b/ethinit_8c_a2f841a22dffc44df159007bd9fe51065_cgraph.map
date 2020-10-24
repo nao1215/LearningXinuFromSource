@@ -1,7 +1,7 @@
 <map id="ethinit" name="ethinit">
 <area shape="rect" id="node2" href="$d8/d3b/ethinit_8c.html#ab83fa5426f644fc0ae43655d5edf3a10" title="eth_phy_read" alt="" coords="264,5,364,32"/>
 <area shape="rect" id="node3" href="$d8/d3b/ethinit_8c.html#a4ca0f07b0757e35ed39bb73d3b729375" title="eth_phy_reset" alt="" coords="111,56,215,83"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="getmem" alt="" coords="279,107,349,133"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="ヒープ領域を割り当て、最下位のワードアドレスを返す。 " alt="" coords="279,107,349,133"/>
 <area shape="rect" id="node8" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="133,157,192,184"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#ae14851f4c075e84b0ae3dc1df923fbef" title="指定のByteブロックに対して、同じ値をNバイト分書き込む。 " alt="" coords="128,259,197,285"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a0815b76c35d59a5a3ecdde279c7e27fb" title="未使用セマフォを割り当て、そのセマフォへのインデックス（セマフォID）を返す。 " alt="" coords="273,259,355,285"/>
