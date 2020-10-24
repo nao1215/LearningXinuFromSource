@@ -22,7 +22,7 @@
 <area shape="rect" id="node31" href="$df/d63/ttyputc_8c.html#ae0d43c733d06cd2b74889716e0b54e60" title="ttyputc" alt="" coords="231,1069,293,1096"/>
 <area shape="rect" id="node33" href="$d0/dc8/ip_8c.html#ab3ab042aa894ef815ff928e201d73677" title="ipout" alt="" coords="375,1019,425,1045"/>
 <area shape="rect" id="node36" href="$dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="232,1120,292,1147"/>
-<area shape="rect" id="node37" href="$da/d45/getbuf_8c.html#aad413eb1cf228a4af539168e48e0b2b7" title="getbuf" alt="" coords="233,816,291,843"/>
+<area shape="rect" id="node37" href="$da/d45/getbuf_8c.html#aad413eb1cf228a4af539168e48e0b2b7" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="233,816,291,843"/>
 <area shape="rect" id="node48" href="$d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999" title="mark" alt="" coords="237,1171,287,1197"/>
 <area shape="rect" id="node49" href="$d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ptrecv" alt="" coords="233,1221,291,1248"/>
 <area shape="rect" id="node50" href="$d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="ptsend" alt="" coords="231,1272,293,1299"/>

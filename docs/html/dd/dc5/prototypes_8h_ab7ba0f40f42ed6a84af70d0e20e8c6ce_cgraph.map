@@ -43,7 +43,7 @@
 <area shape="rect" id="node36" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="999,968,1054,995"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1124,1576,1179,1603"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="841,765,937,792"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="860,411,919,437"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="860,411,919,437"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="687,613,754,640"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="993,1677,1060,1704"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#a0ec55230e236b916df86694dc313e2f3" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1119,1677,1184,1704"/>

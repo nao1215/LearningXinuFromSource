@@ -39,7 +39,7 @@
 <area shape="rect" id="node35" href="$d3/d58/lex_8yy_8c.html#aaba3a8c0a4caad352ee68b5742c4a9d1" title="yy_scan_string" alt="" coords="940,1627,1051,1653"/>
 <area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#a3098c48a74ef8fd852f7dd4b3331cbce" title="yy_switch_to_buffer" alt="" coords="926,1677,1065,1704"/>
 <area shape="rect" id="node37" href="$d3/d58/lex_8yy_8c.html#a45a1e65d8dcd5cb30c5d315c91800a5f" title="yy_try_NUL_trans" alt="" coords="931,1728,1059,1755"/>
-<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="793,411,852,437"/>
+<area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="793,411,852,437"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="512,436,579,463"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="641,512,713,539"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="972,411,1019,437"/>

@@ -42,7 +42,7 @@
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a90626bc426cbabbcd45a4a967f5e866d" title="セマフォにシグナルを送り、待機プロセスがある場合は解除する。 " alt="" coords="1043,459,1099,486"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="851,807,947,834"/>
 <area shape="rect" id="node42" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1037,865,1105,891"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="869,257,928,283"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="869,257,928,283"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="557,459,623,486"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="1048,409,1095,435"/>
 <area shape="rect" id="node47" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="723,459,790,486"/>

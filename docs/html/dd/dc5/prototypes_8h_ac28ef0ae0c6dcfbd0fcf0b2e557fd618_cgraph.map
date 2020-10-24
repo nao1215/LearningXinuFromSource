@@ -43,7 +43,7 @@
 <area shape="rect" id="node36" href="$d3/d58/lex_8yy_8c.html#a2f59cc88e85e5455c62e4ef7ce095ea8" title="yy_flush_buffer" alt="" coords="884,625,995,651"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1055,1841,1109,1867"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="736,321,832,347"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="755,1283,813,1310"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="755,1283,813,1310"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="582,878,649,905"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#a45a644f053ae9be979d9ebe464c8996e" title="プロセスをプロセスキューテーブルの末尾に挿入する。 " alt="" coords="1047,1739,1117,1766"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#ae53076c0c6287bad1017ec173ca62276" title="unsleep" alt="" coords="906,1739,973,1766"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#ad5d82db2cf0fcf96054431c9ccf733c3" title="arp_in" alt="" coords="501,841,558,868"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="763,259,826,285"/>
 <area shape="rect" id="node27" href="$d7/d5f/net_8c.html#a205b2c1bb62a3321c43334d072ff2ce8" title="eth_ntoh" alt="" coords="104,1145,176,1172"/>
-<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="765,56,824,83"/>
+<area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="765,56,824,83"/>
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a234bff003bfedf4dcad78b902c65d0cc" title="ip_in" alt="" coords="115,436,165,463"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#ada38fdb2913f040f6eeb6189eeb42d32" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="641,917,695,944"/>
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="893,563,940,589"/>

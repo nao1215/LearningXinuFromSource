@@ -1,7 +1,7 @@
 <map id="wait" name="wait">
 <area shape="rect" id="node2" href="$d8/d2d/ethread_8c.html#aff3dcf122cac8bd39fe38f01acdcff03" title="ethread" alt="" coords="110,5,175,32"/>
 <area shape="rect" id="node3" href="$d2/d7f/ethwrite_8c.html#af32c59131407e14e8316391a4accb709" title="ethwrite" alt="" coords="109,56,177,83"/>
-<area shape="rect" id="node4" href="$da/d45/getbuf_8c.html#aad413eb1cf228a4af539168e48e0b2b7" title="getbuf" alt="" coords="113,537,172,564"/>
+<area shape="rect" id="node4" href="$da/d45/getbuf_8c.html#aad413eb1cf228a4af539168e48e0b2b7" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="113,537,172,564"/>
 <area shape="rect" id="node14" href="$db/da8/rflread_8c.html#a373a3853d96d5825718180421d4b05ef" title="rflread" alt="" coords="533,113,591,140"/>
 <area shape="rect" id="node16" href="$dc/d7a/rflwrite_8c.html#a15adcb4b02dbca7b16940984c9280d7c" title="rflwrite" alt="" coords="531,189,593,216"/>
 <area shape="rect" id="node18" href="$d6/df4/rfscontrol_8c.html#aca1f40387e22f7195d882d626cde30f0" title="rfscontrol" alt="" coords="524,247,600,273"/>

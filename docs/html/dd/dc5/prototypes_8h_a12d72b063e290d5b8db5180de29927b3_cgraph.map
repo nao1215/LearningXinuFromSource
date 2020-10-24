@@ -46,6 +46,6 @@
 <area shape="rect" id="node42" href="$d3/d58/lex_8yy_8c.html#a70f82d43d4797bb2a50f7678ddbfbda5" title="yyfree" alt="" coords="669,208,728,235"/>
 <area shape="rect" id="node43" href="$d3/d58/lex_8yy_8c.html#a4d4e3dd7e6f1d795e01b61794b31ac34" title="yyget_debug" alt="" coords="651,259,747,285"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="477,1703,573,1729"/>
-<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="496,1399,555,1425"/>
+<area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="496,1399,555,1425"/>
 <area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="323,1247,390,1273"/>
 </map>

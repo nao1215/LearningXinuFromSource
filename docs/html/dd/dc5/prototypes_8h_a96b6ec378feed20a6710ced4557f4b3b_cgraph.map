@@ -18,7 +18,7 @@
 <area shape="rect" id="node17" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="862,1323,955,1349"/>
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="343,1284,421,1311"/>
 <area shape="rect" id="node29" href="$dd/dc5/prototypes_8h.html#a8149612d72982d807409bd00eba280c5" title="udp_recv" alt="" coords="591,1019,666,1045"/>
-<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="723,1369,782,1396"/>
+<area shape="rect" id="node19" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="723,1369,782,1396"/>
 <area shape="rect" id="node20" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="593,1525,665,1552"/>
 <area shape="rect" id="node21" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="469,1348,536,1375"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="584,1323,673,1349"/>

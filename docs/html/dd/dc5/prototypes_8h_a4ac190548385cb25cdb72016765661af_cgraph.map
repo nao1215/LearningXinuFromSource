@@ -42,7 +42,7 @@
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#a4784823f60649b93d9f04025bcdaea4d" title="メモリブロックを解放し、ブロックを空きリストに戻す。 " alt="" coords="777,917,850,944"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="ヒープ領域を割り当て、最下位のワードアドレスを返す。 " alt="" coords="779,1019,848,1045"/>
 <area shape="rect" id="node40" href="$d3/df0/semcreate_8c.html#a885d76682d97a4ecb8a4d35bdfcd4c77" title="未使用のセマフォIDを返す。 " alt="" coords="903,1120,973,1147"/>
-<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="653,208,712,235"/>
+<area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="653,208,712,235"/>
 <area shape="rect" id="node43" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="790,461,837,488"/>
 <area shape="rect" id="node45" href="$d7/d5f/net_8c.html#a205b2c1bb62a3321c43334d072ff2ce8" title="eth_ntoh" alt="" coords="240,1019,312,1045"/>
 <area shape="rect" id="node46" href="$dd/dc5/prototypes_8h.html#ad5d82db2cf0fcf96054431c9ccf733c3" title="arp_in" alt="" coords="376,765,433,792"/>

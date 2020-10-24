@@ -40,7 +40,7 @@
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1020,1769,1088,1795"/>
 <area shape="rect" id="node34" href="$dd/dc5/prototypes_8h.html#a512b27281e98f43f39a862469d041e7f" title="再スケジューリングを延期させるか、もしくは許可させるかを制御する。 " alt="" coords="860,1515,956,1542"/>
 <area shape="rect" id="node35" href="$da/d89/resched_8c.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="1020,1515,1088,1542"/>
-<area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="721,907,779,934"/>
+<area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="721,907,779,934"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="555,1161,621,1187"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="705,1161,795,1187"/>
 <area shape="rect" id="node40" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="717,1313,783,1339"/>

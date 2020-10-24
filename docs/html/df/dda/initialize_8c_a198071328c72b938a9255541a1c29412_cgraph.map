@@ -34,7 +34,7 @@
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#afda6db4710e85d7bb5b1c18f6d8e1dfb" title="ヒープ領域を割り当て、最下位のワードアドレスを返す。 " alt="" coords="624,208,693,235"/>
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#ad5d82db2cf0fcf96054431c9ccf733c3" title="arp_in" alt="" coords="365,461,422,488"/>
 <area shape="rect" id="node31" href="$d7/d5f/net_8c.html#a205b2c1bb62a3321c43334d072ff2ce8" title="eth_ntoh" alt="" coords="357,411,429,437"/>
-<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="getbuf" alt="" coords="495,259,554,285"/>
+<area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="495,259,554,285"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#a234bff003bfedf4dcad78b902c65d0cc" title="ip_in" alt="" coords="369,512,418,539"/>
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="631,867,686,893"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#a12d72b063e290d5b8db5180de29927b3" title="getlocalip" alt="" coords="355,613,432,640"/>
