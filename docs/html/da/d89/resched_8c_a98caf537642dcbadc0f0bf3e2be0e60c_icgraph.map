@@ -8,7 +8,7 @@
 <area shape="rect" id="node43" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="280,33,351,59"/>
 <area shape="rect" id="node45" href="$d2/d39/suspend_8c.html#a1b6cea93010482eb59d6897338013a85" title="プロセスを一時停止し、休止状態（サスペンド）に遷移させる。 " alt="" coords="134,1415,205,1442"/>
 <area shape="rect" id="node46" href="$dd/d10/wait_8c.html#ac3a582eac1d7675ce175f0d3a72d2637" title="wait" alt="" coords="292,529,339,555"/>
-<area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="145,130,194,157"/>
+<area shape="rect" id="node50" href="$d4/d4c/yield_8c.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="CPU実行権を自発的に放棄する（タイムスライスを終了する）。 " alt="" coords="145,130,194,157"/>
 <area shape="rect" id="node3" href="$d9/dcb/clkinit_8c.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="559,1150,615,1177"/>
 <area shape="rect" id="node5" href="$d1/d85/exit_8c.html#aaf98ef7cdde3a0dfb2e49919de3298b1" title="現在実行中のプロセスを終了させる。 " alt="" coords="566,1277,609,1303"/>
 <area shape="rect" id="node6" href="$d1/de4/userret_8c.html#afd2dbc8bba51fd7dce39d0dc189a93f0" title="プロセスが最上位の関数に戻る時に呼ばれる。現在のプロセスを終了させる。 " alt="" coords="556,1327,619,1354"/>

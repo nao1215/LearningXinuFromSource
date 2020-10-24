@@ -42,7 +42,7 @@
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a6064f783661a7a0ec5a674d45042e4d1" title="lexan" alt="" coords="441,1423,494,1450"/>
 <area shape="rect" id="node41" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="611,1322,661,1348"/>
 <area shape="rect" id="node42" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="613,1372,659,1399"/>
-<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="yield" alt="" coords="611,1828,661,1855"/>
+<area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="CPU実行権を自発的に放棄する（タイムスライスを終了する）。 " alt="" coords="611,1828,661,1855"/>
 <area shape="rect" id="node46" href="$d9/d2d/sprintf_8c.html#ade145de37911b31ab6f3dc56ae98ca0e" title="_fdoprnt" alt="" coords="259,1854,329,1880"/>
 <area shape="rect" id="node50" href="$d9/d2d/sprintf_8c.html#a771eadc8bcc18acf9bb7c2e37aeee3bc" title="sprntf" alt="" coords="267,1904,321,1931"/>
 <area shape="rect" id="node47" href="$d5/d1c/fdoprnt_8c.html#a5def9d86db0b81493a1216b0866f426e" title="_prtl10" alt="" coords="437,1879,498,1906"/>
