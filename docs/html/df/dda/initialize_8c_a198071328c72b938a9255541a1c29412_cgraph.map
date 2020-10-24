@@ -8,7 +8,7 @@
 <area shape="rect" id="node42" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="363,1221,423,1248"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="748,512,811,539"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a9c6b0129f9ed31a9259a5ae7d350d6e3" title="現在実行中のプロセスIDを返す。 " alt="" coords="630,1019,687,1045"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="getstk" alt="" coords="629,1069,688,1096"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="スタックメモリを割り当て、最上位のワードアドレスを返す。 " alt="" coords="629,1069,688,1096"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="748,385,811,412"/>
 <area shape="rect" id="node7" href="$d8/d73/create_8c.html#a95054dc16369e90328dfdd9c49dcf52d" title="新しいプロセスIDを取得するnewpid()の宣言 " alt="" coords="627,968,690,995"/>
 <area shape="rect" id="node10" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="626,664,691,691"/>

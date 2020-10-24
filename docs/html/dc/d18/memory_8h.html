@@ -141,7 +141,7 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:afbaa953760d51e147a40c0858b86c921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#afbaa953760d51e147a40c0858b86c921">freestk</a>(p,  len)</td></tr>
-<tr class="memdesc:afbaa953760d51e147a40c0858b86c921"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0">getstk()</a>で割り当てたスタックメモリを解放する。  <a href="#afbaa953760d51e147a40c0858b86c921">More...</a><br /></td></tr>
+<tr class="memdesc:afbaa953760d51e147a40c0858b86c921"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="スタックメモリを割り当て、最上位のワードアドレスを返す。 ">getstk()</a>で割り当てたスタックメモリを解放する。  <a href="#afbaa953760d51e147a40c0858b86c921">More...</a><br /></td></tr>
 <tr class="separator:afbaa953760d51e147a40c0858b86c921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/memory_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>&#160;&#160;&#160;4096</td></tr>
 <tr class="memdesc:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ページサイズ(メモリ領域を管理する一定のサイズ。Byte単位)  <a href="#a7d467c1d283fdfa1f2081ba1e0d01b6e">More...</a><br /></td></tr>
@@ -220,7 +220,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="memory_8h_html_a7cea716d0e0b7d875047cb28158fe8e1"><div class="ttname"><a href="../../dc/d18/memory_8h.html#a7cea716d0e0b7d875047cb28158fe8e1">roundmb</a></div><div class="ttdeci">#define roundmb(x)</div><div class="ttdoc">メモリブロックサイズ（8の倍数）にアドレスを変換するために、8の倍数で丸める。 </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d18/memory_8h_source.html#l00025">memory.h:25</a></div></div>
 <div class="ttc" id="kernel_8h_html_a1134b580f8da4de94ca6b1de4d37975e"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a></div><div class="ttdeci">unsigned int uint32</div><div class="ttdoc">符号なし32ビット整数（unsigned int） </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/kernel_8h_source.html#l00015">kernel.h:15</a></div></div>
 </div><!-- fragment -->
-<p><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0">getstk()</a>で割り当てたスタックメモリを解放する。 </p>
+<p><a class="el" href="../../dd/dc5/prototypes_8h.html#a1e76b5c58571b3f1d53078352cd458d0" title="スタックメモリを割り当て、最上位のワードアドレスを返す。 ">getstk()</a>で割り当てたスタックメモリを解放する。 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>解放するメモリブロックの基点 </td></tr>
@@ -286,7 +286,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d18/memory_8h_source.html#l00025">25</a> of file <a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00033">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00025">getmem()</a>, and <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00033">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00025">getmem()</a>, and <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00025">getstk()</a>.</p>
 
 </div>
 </div>
@@ -464,7 +464,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/dda/initialize_8c_source.html#l00027">27</a> of file <a class="el" href="../../df/dda/initialize_8c_source.html">initialize.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00033">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00025">getmem()</a>, <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00009">getstk()</a>, <a class="el" href="../../d5/d80/meminit_8c_source.html#l00019">meminit()</a>, <a class="el" href="../../df/dda/initialize_8c_source.html#l00053">nulluser()</a>, <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00050">printFreeList()</a>, and <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00074">printMemUse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/dd3/freemem_8c_source.html#l00033">freemem()</a>, <a class="el" href="../../d5/dfa/getmem_8c_source.html#l00025">getmem()</a>, <a class="el" href="../../d9/d2c/getstk_8c_source.html#l00025">getstk()</a>, <a class="el" href="../../d5/d80/meminit_8c_source.html#l00019">meminit()</a>, <a class="el" href="../../df/dda/initialize_8c_source.html#l00053">nulluser()</a>, <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00050">printFreeList()</a>, and <a class="el" href="../../d8/d0c/xsh__memstat_8c_source.html#l00074">printMemUse()</a>.</p>
 
 </div>
 </div>
