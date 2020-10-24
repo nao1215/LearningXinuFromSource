@@ -7,8 +7,8 @@
 <area shape="rect" id="node8" href="$d5/def/y_8tab_8c.html#ad06139f66f750443eeba5fe420fc1dfa" title="getattrid" alt="" coords="129,305,198,332"/>
 <area shape="rect" id="node9" href="$db/d5d/getutime_8c.html#a090c7dcf53807f2a3d7fe6ce9899d950" title="getutime" alt="" coords="583,711,655,737"/>
 <area shape="rect" id="node11" href="$dd/d6b/xsh__date_8c.html#a7392ad8b437ebe4d2963a9b085bad338" title="xsh_date" alt="" coords="859,565,933,592"/>
-<area shape="rect" id="node12" href="$d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="hexdump" alt="" coords="279,964,354,991"/>
-<area shape="rect" id="node13" href="$d1/d72/debug_8c.html#ab9c3e93510176e2f107e55f6016b4226" title="hexdump_print" alt="" coords="110,913,217,940"/>
+<area shape="rect" id="node12" href="$d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="メモリ内容をダンプする。 " alt="" coords="279,964,354,991"/>
+<area shape="rect" id="node13" href="$d1/d72/debug_8c.html#a4386dbef5cb253966a3575f9e1a93ea4" title="ByteをASCIIか16進数でSTDOUT（標準出力）に出力する。 " alt="" coords="110,913,217,940"/>
 <area shape="rect" id="node14" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="144,660,183,687"/>
 <area shape="rect" id="node25" href="$da/dc8/xsh__ping_8c.html#a8b8ddbded8ce87d8e462fce16459b960" title="xsh_ping" alt="" coords="730,545,805,572"/>
 <area shape="rect" id="node26" href="$d8/dcd/xsh__netinfo_8c.html#a38ddf7789e386a8bf79d32ff010d8f8d" title="xsh_netinfo" alt="" coords="574,584,663,611"/>

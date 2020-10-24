@@ -27,7 +27,7 @@
 <area shape="rect" id="node43" href="$d7/d5d/xsh__udpserver_8c.html" title="shell/xsh_udpserver.c" alt="" coords="5227,155,5376,181"/>
 <area shape="rect" id="node44" href="$d9/dd8/xsh__uptime_8c.html" title="shell/xsh_uptime.c" alt="" coords="5400,155,5531,181"/>
 <area shape="rect" id="node45" href="$dc/d82/ascdate_8c.html" title="system/ascdate.c" alt="" coords="5555,155,5682,181"/>
-<area shape="rect" id="node46" href="$d1/d72/debug_8c.html" title="system/debug.c" alt="" coords="5707,155,5821,181"/>
+<area shape="rect" id="node46" href="$d1/d72/debug_8c.html" title="メモリの内容をASCIIか16進数で表示する。 " alt="" coords="5707,155,5821,181"/>
 <area shape="rect" id="node47" href="$d4/dd3/evec_8c.html" title="system/evec.c" alt="" coords="5846,155,5954,181"/>
 <area shape="rect" id="node48" href="$db/d5d/getutime_8c.html" title="system/getutime.c" alt="" coords="5979,155,6109,181"/>
 <area shape="rect" id="node49" href="$d3/d58/lex_8yy_8c.html" title="flexにより生成された字句解析 " alt="" coords="6003,80,6109,107"/>

@@ -30,8 +30,8 @@
 <area shape="rect" id="node38" href="$d5/d78/xsh__sleep_8c.html#ad2766c4af261e4cbf2e0b24811ddb94d" title="xsh_sleep" alt="" coords="217,1459,299,1486"/>
 <area shape="rect" id="node39" href="$df/d55/xsh__udpdump_8c.html#aecd143307dfd5b51ebd8ad11f5141f50" title="xsh_udpdump" alt="" coords="207,1510,309,1537"/>
 <area shape="rect" id="node40" href="$d9/dd8/xsh__uptime_8c.html#a71f023dd04d34987d834245d2ff29f5b" title="xsh_uptime" alt="" coords="213,1561,303,1587"/>
-<area shape="rect" id="node41" href="$d1/d72/debug_8c.html#ab9c3e93510176e2f107e55f6016b4226" title="hexdump_print" alt="" coords="205,395,311,422"/>
-<area shape="rect" id="node42" href="$d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="hexdump" alt="" coords="375,446,449,473"/>
+<area shape="rect" id="node41" href="$d1/d72/debug_8c.html#a4386dbef5cb253966a3575f9e1a93ea4" title="ByteをASCIIか16進数でSTDOUT（標準出力）に出力する。 " alt="" coords="205,395,311,422"/>
+<area shape="rect" id="node42" href="$d1/d72/debug_8c.html#ac125e903330864b594873ada7596c99c" title="メモリ内容をダンプする。 " alt="" coords="375,446,449,473"/>
 <area shape="rect" id="node4" href="$d4/dd1/ttyhandler_8c.html#a678140ee9d573dc758abfb97a3390421" title="ttyhandler" alt="" coords="373,91,451,118"/>
 <area shape="rect" id="node5" href="$dd/dc4/udp_8c.html#aca1f2b88c4972e743f158cfbc6cdda84" title="udp_recv" alt="" coords="375,41,449,67"/>
 <area shape="rect" id="node11" href="$dd/dc4/udp_8c.html#a011d0f31644c4f3808e2607bfe72b698" title="udp_recvaddr" alt="" coords="362,243,462,270"/>
