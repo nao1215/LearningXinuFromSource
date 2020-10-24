@@ -37,7 +37,7 @@
 <area shape="rect" id="node45" href="$d4/dd3/evec_8c.html#a3bd964dfcfd269d320476ed3977a7425" title="irq_dispatch" alt="" coords="372,563,464,589"/>
 <area shape="rect" id="node46" href="$df/dda/initialize_8c.html#afdae731e3b85dd6cfa9bf1db74de663d" title="内部システムの初期化を行うsysinit()のextern宣言 " alt="" coords="388,816,448,843"/>
 <area shape="rect" id="node47" href="$df/dda/initialize_8c.html#a1f3e2129955902867c06c35d7490f5b0" title="処理を停止させる。無限ループによる停止のため、復帰にはリセットが必要である。 " alt="" coords="251,1931,298,1957"/>
-<area shape="rect" id="node48" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="393,765,443,792"/>
+<area shape="rect" id="node48" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="XINUシェルを起動する。 " alt="" coords="393,765,443,792"/>
 <area shape="rect" id="node49" href="$d2/daf/panic_8c.html#a92ad17d19a46880dd5e6c99143666b4a" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="248,512,301,539"/>
 <area shape="rect" id="node50" href="$d2/d9b/xdone_8c.html#a1660c9984ab15425f280b8649d318a53" title="最終プロセスの終了時、システム終了メッセージを表示する。 " alt="" coords="246,1981,303,2008"/>
 <area shape="rect" id="node13" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="675,436,761,463"/>

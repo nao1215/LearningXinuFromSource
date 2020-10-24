@@ -1,5 +1,5 @@
 <map id="receive" name="receive">
-<area shape="rect" id="node2" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="244,50,295,77"/>
+<area shape="rect" id="node2" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="XINUシェルを起動する。 " alt="" coords="244,50,295,77"/>
 <area shape="rect" id="node5" href="$d7/da2/rdscontrol_8c.html#a069190603b28b0831842a8d66f64f17d" title="rdscontrol" alt="" coords="117,25,196,52"/>
 <area shape="rect" id="node6" href="$df/d3c/rdsread_8c.html#a891514ba29d04e120e97969383f5aed1" title="rdsread" alt="" coords="124,76,189,102"/>
 <area shape="rect" id="node7" href="$d6/d4f/shell_8c.html#aa90c1b55bd89d4d417f9b4ade5468996" title="shell" alt="" coords="132,126,181,153"/>

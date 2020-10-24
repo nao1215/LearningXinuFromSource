@@ -22,7 +22,7 @@
 <area shape="rect" id="node30" href="$d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="229,1259,299,1285"/>
 <area shape="rect" id="node31" href="$d1/dd1/lfsckfmt_8c.html#a07b4240d32d44e5ea76b4b80b0774760" title="lfsckfmt" alt="" coords="373,397,442,424"/>
 <area shape="rect" id="node32" href="$d2/d91/lfsopen_8c.html#aed42ff64ddeed085c468a1e347045948" title="lfsopen" alt="" coords="232,1309,296,1336"/>
-<area shape="rect" id="node33" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="最初に生成されるmainプロセスのextern宣言 " alt="" coords="382,499,433,525"/>
+<area shape="rect" id="node33" href="$d0/d29/main_8c.html#ac36669c7cc093e3b7b4ba60ed955a3d5" title="XINUシェルを起動する。 " alt="" coords="382,499,433,525"/>
 <area shape="rect" id="node34" href="$da/df5/naminit_8c.html#ad271c9332be3cf72a3d4cfcc64ee5acc" title="naminit" alt="" coords="232,1360,296,1387"/>
 <area shape="rect" id="node35" href="$d2/daf/panic_8c.html#a92ad17d19a46880dd5e6c99143666b4a" title="Panic状態に陥った旨のメッセージを表示し、全てのプロセスを停止させる。 " alt="" coords="237,321,291,348"/>
 <area shape="rect" id="node37" href="$d8/db4/pdump_8c.html#ad927bbbf038ab772666a6e3175573b13" title="pdump" alt="" coords="233,1411,295,1437"/>
