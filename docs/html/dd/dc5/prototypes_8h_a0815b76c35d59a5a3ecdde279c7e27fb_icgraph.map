@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$db/df2/lflinit_8c.html#a183a3a7f4a4efcb5e76a0be307f4ea1d" title="lflinit" alt="" coords="153,56,202,83"/>
 <area shape="rect" id="node4" href="$db/dd7/lfsinit_8c.html#aa29a58330343a9fd442c2c2fb20b615f" title="lfsinit" alt="" coords="151,107,204,133"/>
 <area shape="rect" id="node5" href="$d1/db7/mark_8c.html#a92bdcd2dc25bae62c23c60b3a62d0da3" title="markinit" alt="" coords="143,157,211,184"/>
-<area shape="rect" id="node6" href="$df/dcd/mkbufpool_8c.html#a4d53f7fc488eb831e80748c265c1738b" title="mkbufpool" alt="" coords="136,208,219,235"/>
+<area shape="rect" id="node6" href="$df/dcd/mkbufpool_8c.html#a4d53f7fc488eb831e80748c265c1738b" title="バッファプール用のメモリを割り当て、バッファ同士をリンクする。 " alt="" coords="136,208,219,235"/>
 <area shape="rect" id="node7" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="267,233,331,260"/>
 <area shape="rect" id="node9" href="$dc/dca/ptcreate_8c.html#ae05bd3a264a789b071b909b4409122c3" title="ptcreate" alt="" coords="143,309,212,336"/>
 <area shape="rect" id="node10" href="$d3/df8/rdsinit_8c.html#a4d0219f184ba9ec8d6f09a1287746d0b" title="rdsinit" alt="" coords="149,360,206,387"/>

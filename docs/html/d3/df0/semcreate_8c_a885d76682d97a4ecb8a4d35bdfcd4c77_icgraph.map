@@ -8,7 +8,7 @@
 <area shape="rect" id="node8" href="$db/daf/ttyinit_8c.html#ac5c08414e4fc0586bfa3bcfebc1eb0ba" title="ttyinit" alt="" coords="269,259,323,285"/>
 <area shape="rect" id="node9" href="$d7/d5f/net_8c.html#a4ac190548385cb25cdb72016765661af" title="net_init" alt="" coords="385,360,449,387"/>
 <area shape="rect" id="node11" href="$d1/db7/mark_8c.html#a92bdcd2dc25bae62c23c60b3a62d0da3" title="markinit" alt="" coords="262,360,330,387"/>
-<area shape="rect" id="node12" href="$df/dcd/mkbufpool_8c.html#a4d53f7fc488eb831e80748c265c1738b" title="mkbufpool" alt="" coords="255,411,337,437"/>
+<area shape="rect" id="node12" href="$df/dcd/mkbufpool_8c.html#a4d53f7fc488eb831e80748c265c1738b" title="バッファプール用のメモリを割り当て、バッファ同士をリンクする。 " alt="" coords="255,411,337,437"/>
 <area shape="rect" id="node13" href="$dc/dca/ptcreate_8c.html#ae05bd3a264a789b071b909b4409122c3" title="ptcreate" alt="" coords="261,461,331,488"/>
 <area shape="rect" id="node10" href="$df/dda/initialize_8c.html#a198071328c72b938a9255541a1c29412" title="システムの初期化を処理し、nullプロセスとなる。 " alt="" coords="497,360,564,387"/>
 </map>
