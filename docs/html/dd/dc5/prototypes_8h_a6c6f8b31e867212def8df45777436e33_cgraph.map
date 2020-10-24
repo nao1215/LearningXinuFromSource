@@ -1,5 +1,5 @@
 <map id="ip_local" name="ip_local">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="512,309,575,336"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="512,309,575,336"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a01bcde36b3f9311dbedf59f746d28630" title="icmp_in" alt="" coords="120,360,187,387"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#abdc8da75c885eb7c26c958eb1c6880fc" title="udp_in" alt="" coords="390,157,450,184"/>
 <area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="753,588,816,615"/>

@@ -1,6 +1,6 @@
 <map id="ipout" name="ipout">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="104,5,193,32"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="650,791,713,817"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="650,791,713,817"/>
 <area shape="rect" id="node14" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="115,740,182,767"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#aaeef97ccfef49e1fd27a8ebc52d5bc6e" title="wait" alt="" coords="793,81,840,108"/>
 <area shape="rect" id="node25" href="$d0/daa/kernel_8h.html#aeb17afabb1107d9a1eba2d6df55dbbb4" title="ポーリングI/Oを使用して、フォーマットされた文字列をコンソールに出力する。 " alt="" coords="652,284,711,311"/>

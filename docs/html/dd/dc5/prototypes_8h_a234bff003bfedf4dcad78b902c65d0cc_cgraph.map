@@ -1,5 +1,5 @@
 <map id="ip_in" name="ip_in">
-<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="639,276,701,303"/>
+<area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="639,276,701,303"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a9172ba1c16b94c29ecfa34f951f6658f" title="icmp_cksum" alt="" coords="103,960,199,987"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a4658cf30da0854379ea4e99037c3dc55" title="icmp_ntoh" alt="" coords="109,1011,192,1038"/>
 <area shape="rect" id="node15" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="117,327,184,354"/>

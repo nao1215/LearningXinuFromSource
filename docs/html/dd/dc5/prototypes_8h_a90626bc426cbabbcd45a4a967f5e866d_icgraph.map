@@ -1,6 +1,6 @@
 <map id="signal" name="signal">
 <area shape="rect" id="node2" href="$d0/d83/ethhandler_8c.html#a0772d37e041094e9f06bfe447765444b" title="ethhandler" alt="" coords="114,309,197,336"/>
-<area shape="rect" id="node3" href="$d9/d29/freebuf_8c.html#a440d3456ec381ea81d8961d19e18fecb" title="freebuf" alt="" coords="124,411,187,437"/>
+<area shape="rect" id="node3" href="$d9/d29/freebuf_8c.html#a440d3456ec381ea81d8961d19e18fecb" title="バッファプールから取得したバッファを解放する。 " alt="" coords="124,411,187,437"/>
 <area shape="rect" id="node17" href="$d0/dc8/ip_8c.html#adb623e862fbb0143c7ce166fdcb18d08" title="ip_enqueue" alt="" coords="255,5,343,32"/>
 <area shape="rect" id="node22" href="$d9/db3/lflclose_8c.html#ae4e1d432a0eb4564252ad5c5c63e020f" title="lflclose" alt="" coords="124,613,187,640"/>
 <area shape="rect" id="node23" href="$d9/de8/lflcontrol_8c.html#a23ebc6712eb87aa6472f5b2a0251b6af" title="lflcontrol" alt="" coords="120,664,191,691"/>

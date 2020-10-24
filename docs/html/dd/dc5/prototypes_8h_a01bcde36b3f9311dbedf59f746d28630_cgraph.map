@@ -1,6 +1,6 @@
 <map id="icmp_in" name="icmp_in">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="639,360,701,387"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="397,563,460,589"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="397,563,460,589"/>
 <area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="639,613,701,640"/>
 <area shape="rect" id="node13" href="$df/d61/icmp_8c.html#a197c267020ba66d49f3af478ac06cb84" title="icmp_mkpkt" alt="" coords="120,277,213,304"/>
 <area shape="rect" id="node22" href="$dd/dc5/prototypes_8h.html#adfb62407476cd3085e86e9fc134aa87e" title="ip_enqueue" alt="" coords="261,512,349,539"/>

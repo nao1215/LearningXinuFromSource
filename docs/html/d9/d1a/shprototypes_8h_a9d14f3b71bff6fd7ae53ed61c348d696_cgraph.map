@@ -33,7 +33,7 @@
 <area shape="rect" id="node26" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="1013,1271,1067,1297"/>
 <area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="1124,1220,1187,1247"/>
 <area shape="rect" id="node28" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1124,1448,1187,1475"/>
-<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="865,1549,928,1576"/>
+<area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="865,1549,928,1576"/>
 <area shape="rect" id="node32" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="697,651,736,677"/>
 <area shape="rect" id="node39" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="1009,1169,1071,1196"/>
 <area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="1004,1119,1076,1145"/>

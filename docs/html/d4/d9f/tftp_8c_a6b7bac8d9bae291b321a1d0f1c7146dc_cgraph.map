@@ -13,7 +13,7 @@
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="1013,639,1076,665"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="1013,385,1076,412"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a96add0f7ff1e3baad4aad9d26a78cc1b" title="udp_recvaddr" alt="" coords="520,683,620,709"/>
-<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="685,411,747,437"/>
+<area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="685,411,747,437"/>
 <area shape="rect" id="node15" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="697,1424,735,1451"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="858,563,919,589"/>
 <area shape="rect" id="node38" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="853,715,925,741"/>

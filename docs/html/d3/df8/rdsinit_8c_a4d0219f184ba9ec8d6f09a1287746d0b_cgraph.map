@@ -37,7 +37,7 @@
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#abd8b01fc3fa619ac526a7c3fbc2e99af" title="事前に確保されたバッファプールからバッファを取得する。 " alt="" coords="1000,544,1059,571"/>
 <area shape="rect" id="node31" href="$dd/dc5/prototypes_8h.html#a5fdac53e7b9a15b24f00e845bc5cd21d" title="ip_send" alt="" coords="687,740,754,767"/>
 <area shape="rect" id="node32" href="$d0/dc8/ip_8c.html#a056dfbf92e9a783db74bec5c50d04dab" title="ip_local" alt="" coords="854,613,921,640"/>
-<area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="998,740,1061,767"/>
+<area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="998,740,1061,767"/>
 <area shape="rect" id="node36" href="$d0/dc8/ip_8c.html#a358192675901ab67971096772df907f0" title="ip_out" alt="" coords="859,715,916,741"/>
 <area shape="rect" id="node37" href="$dd/dc5/prototypes_8h.html#af5408f861f0c778f59a0e753d411892c" title="arp_resolve" alt="" coords="843,765,932,792"/>
 <area shape="rect" id="node35" href="$dd/dc5/prototypes_8h.html#a8cb0ac1d712fcf1132b5cc5ad96dca3b" title="プロセスをCPUサービスの対象にする。 " alt="" coords="1264,284,1319,311"/>

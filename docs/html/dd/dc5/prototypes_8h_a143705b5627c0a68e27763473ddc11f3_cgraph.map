@@ -15,7 +15,7 @@
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aacbaa0b0d297c29aafa962d1c31094eb" title="受信メッセージをクリアし、待機している場合はメッセージを返す。 " alt="" coords="669,1309,730,1336"/>
 <area shape="rect" id="node11" href="$dd/dc5/prototypes_8h.html#a030d96e60c325a3c491200879b670c57" title="recvtime" alt="" coords="663,43,735,69"/>
 <area shape="rect" id="node18" href="$d3/d58/lex_8yy_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="519,701,558,728"/>
-<area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="freebuf" alt="" coords="507,1613,570,1640"/>
+<area shape="rect" id="node40" href="$dd/dc5/prototypes_8h.html#a8a36afacd6bc26ad6a0d0c8c05e84b7e" title="バッファプールから取得したバッファを解放する。 " alt="" coords="507,1613,570,1640"/>
 <area shape="rect" id="node12" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="829,43,890,69"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a98caf537642dcbadc0f0bf3e2be0e60c" title="最優先の適切なプロセスにCPU実行権を渡す。 " alt="" coords="943,1867,1011,1893"/>
 <area shape="rect" id="node14" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="1065,1867,1123,1893"/>
