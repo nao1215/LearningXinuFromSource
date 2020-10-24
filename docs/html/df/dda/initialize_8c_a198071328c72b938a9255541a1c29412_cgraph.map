@@ -47,5 +47,5 @@
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#acbb0134181f8e0672f1c8119ee60f669" title="グローバルキューテーブルにキューを割り当て、テーブルを初期化する。 " alt="" coords="618,1323,699,1349"/>
 <area shape="rect" id="node48" href="$dd/dc5/prototypes_8h.html#aa8dd8076b99effee8b3de582f99bd59d" title="バッファプールデータ構造を初期化する。 " alt="" coords="496,1475,553,1501"/>
 <area shape="rect" id="node49" href="$dd/dc5/prototypes_8h.html#a9c64cb49afce1942c0a09f87068c20d4" title="clkinit" alt="" coords="497,1171,553,1197"/>
-<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ac926ae0ce6d55ee46fe07a47e9ee4904" title="init" alt="" coords="639,1120,678,1147"/>
+<area shape="rect" id="node50" href="$dd/dc5/prototypes_8h.html#ac926ae0ce6d55ee46fe07a47e9ee4904" title="デバイスとデバイスドライバを初期化する。 " alt="" coords="639,1120,678,1147"/>
 </map>
