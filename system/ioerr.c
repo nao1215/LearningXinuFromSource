@@ -2,7 +2,6 @@
  * @file ioerr.c
  * @brief ステータスとしてエラーを返す（デバイステーブルの"error"エントリに対して使用する）
  */
-/* ioerr.c - ioerr */
 
 #include <xinu.h>
 
