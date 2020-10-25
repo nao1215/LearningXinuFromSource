@@ -65,36 +65,47 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>ポートテーブルエントリ  
+ <a href="../../d7/d14/structptentry.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ptentry:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/d9a/structptentry__coll__graph.png" border="0" usemap="#ptentry_coll__map" alt="Collaboration graph"/></div>
 <map name="ptentry_coll__map" id="ptentry_coll__map">
-<area shape="rect" id="node2" href="../../d6/dca/structptnode.html" title="ptnode" alt="" coords="6,5,67,32"/>
+<area shape="rect" id="node2" href="../../d6/dca/structptnode.html" title="メッセージリストのノード " alt="" coords="6,5,67,32"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a1c13016f380692d139a36be3a936ef8c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d6/dca/structptnode.html">ptnode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#a1c13016f380692d139a36be3a936ef8c">pthead</a></td></tr>
+<tr class="memdesc:a1c13016f380692d139a36be3a936ef8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">メッセージリストの先頭ポインタ  <a href="#a1c13016f380692d139a36be3a936ef8c">More...</a><br /></td></tr>
 <tr class="separator:a1c13016f380692d139a36be3a936ef8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81b2b005e29286cedb50f02dd1cfc4ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#a81b2b005e29286cedb50f02dd1cfc4ad">ptmaxcnt</a></td></tr>
+<tr class="memdesc:a81b2b005e29286cedb50f02dd1cfc4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポートに挿入できる最大メッセージ数  <a href="#a81b2b005e29286cedb50f02dd1cfc4ad">More...</a><br /></td></tr>
 <tr class="separator:a81b2b005e29286cedb50f02dd1cfc4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d1d337f525ba1620edc26e1e671188"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#a08d1d337f525ba1620edc26e1e671188">ptrsem</a></td></tr>
+<tr class="memdesc:a08d1d337f525ba1620edc26e1e671188"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信側セマフォ  <a href="#a08d1d337f525ba1620edc26e1e671188">More...</a><br /></td></tr>
 <tr class="separator:a08d1d337f525ba1620edc26e1e671188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aef630df35f4077bd69e706b497b7a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a56f1a81c92849566ae864511088eb7e8">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#a0aef630df35f4077bd69e706b497b7a6">ptseq</a></td></tr>
+<tr class="memdesc:a0aef630df35f4077bd69e706b497b7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成時に変更されたメッセージ  <a href="#a0aef630df35f4077bd69e706b497b7a6">More...</a><br /></td></tr>
 <tr class="separator:a0aef630df35f4077bd69e706b497b7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0110c8f9caea501973234ed92067138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a44faf24326da0fe0391d01a9c1e3f7ba">sid32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#ab0110c8f9caea501973234ed92067138">ptssem</a></td></tr>
+<tr class="memdesc:ab0110c8f9caea501973234ed92067138"><td class="mdescLeft">&#160;</td><td class="mdescRight">送信側セマフォ  <a href="#ab0110c8f9caea501973234ed92067138">More...</a><br /></td></tr>
 <tr class="separator:ab0110c8f9caea501973234ed92067138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58b5212411999fbe0530031f138e64d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/daa/kernel_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#a58b5212411999fbe0530031f138e64d9">ptstate</a></td></tr>
+<tr class="memdesc:a58b5212411999fbe0530031f138e64d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポート状態（FREE／LIMBO／ALLOC）  <a href="#a58b5212411999fbe0530031f138e64d9">More...</a><br /></td></tr>
 <tr class="separator:a58b5212411999fbe0530031f138e64d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad839f1cc17fee1a680d4ed9c2b100492"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d6/dca/structptnode.html">ptnode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/structptentry.html#ad839f1cc17fee1a680d4ed9c2b100492">pttail</a></td></tr>
+<tr class="memdesc:ad839f1cc17fee1a680d4ed9c2b100492"><td class="mdescLeft">&#160;</td><td class="mdescRight">メッセージリストの末尾ポインタ  <a href="#ad839f1cc17fee1a680d4ed9c2b100492">More...</a><br /></td></tr>
 <tr class="separator:ad839f1cc17fee1a680d4ed9c2b100492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00014">14</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<div class="textblock"><p>ポートテーブルエントリ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00033">33</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a1c13016f380692d139a36be3a936ef8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c13016f380692d139a36be3a936ef8c">&#9670;&nbsp;</a></span>pthead</h2>
@@ -108,7 +119,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00020">20</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>メッセージリストの先頭ポインタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00046">46</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
@@ -126,7 +139,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00018">18</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>ポートに挿入できる最大メッセージ数 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00042">42</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, and <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>.</p>
 
@@ -144,7 +159,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00016">16</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>受信側セマフォ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00038">38</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../df/d3a/ptcount_8c_source.html#l00014">ptcount()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
@@ -162,7 +179,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00019">19</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>生成時に変更されたメッセージ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00044">44</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../dc/d41/ptinit_8c_source.html#l00013">ptinit()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
@@ -180,7 +199,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00015">15</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>送信側セマフォ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00036">36</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../df/d3a/ptcount_8c_source.html#l00014">ptcount()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
@@ -198,7 +219,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00017">17</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>ポート状態（FREE／LIMBO／ALLOC） </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00040">40</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../df/d3a/ptcount_8c_source.html#l00014">ptcount()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../d1/da2/ptdelete_8c_source.html#l00009">ptdelete()</a>, <a class="el" href="../../dc/d41/ptinit_8c_source.html#l00013">ptinit()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, <a class="el" href="../../d8/d8b/ptreset_8c_source.html#l00010">ptreset()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
@@ -216,7 +239,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00021">21</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
+<p>メッセージリストの末尾ポインタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d54/ports_8h_source.html#l00048">48</a> of file <a class="el" href="../../d2/d54/ports_8h_source.html">ports.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d61/ptclear_8c_source.html#l00011">_ptclear()</a>, <a class="el" href="../../dc/dca/ptcreate_8c_source.html#l00009">ptcreate()</a>, <a class="el" href="../../d7/dd7/ptrecv_8c_source.html#l00009">ptrecv()</a>, and <a class="el" href="../../d9/dca/ptsend_8c_source.html#l00009">ptsend()</a>.</p>
 
