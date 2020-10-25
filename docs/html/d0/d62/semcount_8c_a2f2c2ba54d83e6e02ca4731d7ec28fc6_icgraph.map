@@ -1,7 +1,7 @@
 <map id="semcount" name="semcount">
 <area shape="rect" id="node2" href="$d0/d83/ethhandler_8c.html#a0772d37e041094e9f06bfe447765444b" title="ethhandler" alt="" coords="141,512,223,539"/>
 <area shape="rect" id="node3" href="$d0/dc8/ip_8c.html#adb623e862fbb0143c7ce166fdcb18d08" title="ip_enqueue" alt="" coords="138,563,226,589"/>
-<area shape="rect" id="node41" href="$df/d3a/ptcount_8c.html#a440dfbcdcb4fa8f02d86785e8134d931" title="ptcount" alt="" coords="149,613,215,640"/>
+<area shape="rect" id="node41" href="$df/d3a/ptcount_8c.html#a440dfbcdcb4fa8f02d86785e8134d931" title="ポートを用いたメッセージ送受信において、メッセージ数を数える。 " alt="" coords="149,613,215,640"/>
 <area shape="rect" id="node42" href="$d5/d9c/rdswrite_8c.html#a8f4bffff0ad53e8176866fe098f71218" title="rdswrite" alt="" coords="148,664,216,691"/>
 <area shape="rect" id="node43" href="$df/d2b/ttycontrol_8c.html#a7bbd10bffb1121e6ab5bd9bec2f24ff1" title="ttycontrol" alt="" coords="144,715,220,741"/>
 <area shape="rect" id="node44" href="$d6/d00/ttyhandle__in_8c.html#a3ab6476c018417bab682d8c71857407d" title="ttyhandle_in" alt="" coords="136,765,228,792"/>
