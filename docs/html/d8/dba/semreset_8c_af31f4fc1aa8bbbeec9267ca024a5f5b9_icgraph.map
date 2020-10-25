@@ -1,5 +1,5 @@
 <map id="semreset" name="semreset">
-<area shape="rect" id="node2" href="$df/d61/ptclear_8c.html#a7d4684f2461359504494469a9276ef8d" title="_ptclear" alt="" coords="129,31,197,57"/>
+<area shape="rect" id="node2" href="$df/d61/ptclear_8c.html#a7d4684f2461359504494469a9276ef8d" title="ポートを用いたメッセージと待機中プロセスを解放する。 " alt="" coords="129,31,197,57"/>
 <area shape="rect" id="node5" href="$d5/d9c/rdswrite_8c.html#a8f4bffff0ad53e8176866fe098f71218" title="rdswrite" alt="" coords="129,81,197,108"/>
 <area shape="rect" id="node3" href="$d1/da2/ptdelete_8c.html#ab5eb87f0b989e06885eedfa6bfabb5e6" title="ptdelete" alt="" coords="245,5,313,32"/>
 <area shape="rect" id="node4" href="$d8/d8b/ptreset_8c.html#a78838dc77afada25b1cb704c5dfbcc64" title="ptreset" alt="" coords="248,56,311,83"/>

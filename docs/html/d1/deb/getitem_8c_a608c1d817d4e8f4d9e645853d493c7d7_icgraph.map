@@ -31,7 +31,7 @@
 <area shape="rect" id="node15" href="$d5/def/y_8tab_8c.html#aceec3cbcd3524743af5a655baed01a2a" title="newdev" alt="" coords="990,1095,1057,1121"/>
 <area shape="rect" id="node16" href="$d5/def/y_8tab_8c.html#aacfb8bb801aa65b1c508a3a4767ab00a" title="newtype" alt="" coords="988,1145,1059,1172"/>
 <area shape="rect" id="node23" href="$dd/ded/send_8c.html#ab89e607c5e35f5a1b767e71da28b40f3" title="プロセスにメッセージを送信し、受信側が待機状態の場合はREADY状態にする。 " alt="" coords="624,828,675,855"/>
-<area shape="rect" id="node20" href="$df/d61/ptclear_8c.html#a7d4684f2461359504494469a9276ef8d" title="_ptclear" alt="" coords="748,5,816,32"/>
+<area shape="rect" id="node20" href="$df/d61/ptclear_8c.html#a7d4684f2461359504494469a9276ef8d" title="ポートを用いたメッセージと待機中プロセスを解放する。 " alt="" coords="748,5,816,32"/>
 <area shape="rect" id="node22" href="$d5/d9c/rdswrite_8c.html#a8f4bffff0ad53e8176866fe098f71218" title="rdswrite" alt="" coords="748,56,816,83"/>
 <area shape="rect" id="node24" href="$d5/db7/rdsprocess_8c.html#adddde593544084e6ead61075c839bee2" title="rdsprocess" alt="" coords="739,816,825,843"/>
 <area shape="rect" id="node25" href="$d6/d94/arp_8c.html#a6a94ff09b67a636361d0e2df1e695ba3" title="arp_in" alt="" coords="753,968,811,995"/>
