@@ -40,7 +40,7 @@ struct ptentry
 	uint16 ptstate;
 	//! ポートに挿入できる最大メッセージ数
 	uint16 ptmaxcnt;
-	//! 生成時に変更されたメッセージ
+	//! 生成時に変更されたシーケンス
 	int32 ptseq;
 	//! メッセージリストの先頭ポインタ
 	struct ptnode *pthead;
