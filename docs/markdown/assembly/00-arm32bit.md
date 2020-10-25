@@ -3,6 +3,7 @@
 ## Cortex-A8 （BeageleBone Black の CPU）テクニカルリファレンス
 
 - [ARM 公式のテクニカルリファレンス](https://developer.arm.com/documentation/ddi0344/k/)
+- [AM335X リファレンスマニュアル](https://www.ti.com/lit/ug/spruh73q/spruh73q.pdf)
 - [APS：コプロセッサに関する参考サイト](https://www.aps-web.jp/academy/ca/229/)
 
 ## ARM 32bit レジスタ

@@ -65,42 +65,53 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Ethernet subsystemレジスタ構造体  
+ <a href="../../d7/d6e/structeth__a__csreg.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for eth_a_csreg:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/def/structeth__a__csreg__coll__graph.png" border="0" usemap="#eth__a__csreg_coll__map" alt="Collaboration graph"/></div>
 <map name="eth__a__csreg_coll__map" id="eth__a__csreg_coll__map">
-<area shape="rect" id="node2" href="../../d2/d22/structeth__a__mdio.html" title="eth_a_mdio" alt="" coords="5,5,95,32"/>
-<area shape="rect" id="node3" href="../../d6/d40/structeth__a__sl.html" title="eth_a_sl" alt="" coords="119,5,189,32"/>
-<area shape="rect" id="node4" href="../../db/d65/structeth__a__stateram.html" title="eth_a_stateram" alt="" coords="214,5,326,32"/>
-<area shape="rect" id="node5" href="../../d4/da1/structeth__a__ale.html" title="eth_a_ale" alt="" coords="351,5,429,32"/>
-<area shape="rect" id="node6" href="../../d4/d09/structeth__a__ss.html" title="eth_a_ss" alt="" coords="454,5,529,32"/>
-<area shape="rect" id="node7" href="../../dc/d9e/structeth__a__wr.html" title="eth_a_wr" alt="" coords="553,5,627,32"/>
-<area shape="rect" id="node8" href="../../db/de8/structeth__a__cpdma.html" title="eth_a_cpdma" alt="" coords="652,5,752,32"/>
+<area shape="rect" id="node2" href="../../d2/d22/structeth__a__mdio.html" title="Management Data Input/Output(MDIO)レジスタ用の構造体 " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node3" href="../../d6/d40/structeth__a__sl.html" title="CPSW_SLレジスタ用の構造体 " alt="" coords="119,5,189,32"/>
+<area shape="rect" id="node4" href="../../db/d65/structeth__a__stateram.html" title="CPDMA_STATERAMレジスタ用の構造体 " alt="" coords="214,5,326,32"/>
+<area shape="rect" id="node5" href="../../d4/da1/structeth__a__ale.html" title="Address Lookup Engine(ALE)レジスタ用の構造体 " alt="" coords="351,5,429,32"/>
+<area shape="rect" id="node6" href="../../d4/d09/structeth__a__ss.html" title="CPSW_SSレジスタ用の構造体 " alt="" coords="454,5,529,32"/>
+<area shape="rect" id="node7" href="../../dc/d9e/structeth__a__wr.html" title="CPSW_WRレジスタ用の構造体 " alt="" coords="553,5,627,32"/>
+<area shape="rect" id="node8" href="../../db/de8/structeth__a__cpdma.html" title="Cryptographic Processor RAM DMA(CPDMA、暗号化DMA)レジスタ用の構造体 " alt="" coords="652,5,752,32"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a776091c8ef26c04d9c8c99eba7ef5e42"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../d4/da1/structeth__a__ale.html">eth_a_ale</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#a776091c8ef26c04d9c8c99eba7ef5e42">ale</a></td></tr>
+<tr class="memdesc:a776091c8ef26c04d9c8c99eba7ef5e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_ALEレジスタ  <a href="#a776091c8ef26c04d9c8c99eba7ef5e42">More...</a><br /></td></tr>
 <tr class="separator:a776091c8ef26c04d9c8c99eba7ef5e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f37d91e4e9024a0be82e1bef261312"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../db/de8/structeth__a__cpdma.html">eth_a_cpdma</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#ab2f37d91e4e9024a0be82e1bef261312">cpdma</a></td></tr>
+<tr class="memdesc:ab2f37d91e4e9024a0be82e1bef261312"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_CPDMAレジスタ  <a href="#ab2f37d91e4e9024a0be82e1bef261312">More...</a><br /></td></tr>
 <tr class="separator:ab2f37d91e4e9024a0be82e1bef261312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc99c2d0ab34cebcfca06005c08c0e0b"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../d2/d22/structeth__a__mdio.html">eth_a_mdio</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#abc99c2d0ab34cebcfca06005c08c0e0b">mdio</a></td></tr>
+<tr class="memdesc:abc99c2d0ab34cebcfca06005c08c0e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">MDIOレジスタ  <a href="#abc99c2d0ab34cebcfca06005c08c0e0b">More...</a><br /></td></tr>
 <tr class="separator:abc99c2d0ab34cebcfca06005c08c0e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27a3308f83c191c5a1538b0d9735d58"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../d6/d40/structeth__a__sl.html">eth_a_sl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#ac27a3308f83c191c5a1538b0d9735d58">sl</a></td></tr>
+<tr class="memdesc:ac27a3308f83c191c5a1538b0d9735d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_SLレジスタ  <a href="#ac27a3308f83c191c5a1538b0d9735d58">More...</a><br /></td></tr>
 <tr class="separator:ac27a3308f83c191c5a1538b0d9735d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea61249e798ba8b4a6e6c5ab2e95bea"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../d4/d09/structeth__a__ss.html">eth_a_ss</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#aaea61249e798ba8b4a6e6c5ab2e95bea">ss</a></td></tr>
+<tr class="memdesc:aaea61249e798ba8b4a6e6c5ab2e95bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_SSレジスタ  <a href="#aaea61249e798ba8b4a6e6c5ab2e95bea">More...</a><br /></td></tr>
 <tr class="separator:aaea61249e798ba8b4a6e6c5ab2e95bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0727f22c10bcdd3a8131cd2cc4b19de4"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../db/d65/structeth__a__stateram.html">eth_a_stateram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#a0727f22c10bcdd3a8131cd2cc4b19de4">stateram</a></td></tr>
+<tr class="memdesc:a0727f22c10bcdd3a8131cd2cc4b19de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_STATERANレジスタ  <a href="#a0727f22c10bcdd3a8131cd2cc4b19de4">More...</a><br /></td></tr>
 <tr class="separator:a0727f22c10bcdd3a8131cd2cc4b19de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaab500dc994f0b9a4ad4c3252e7e77c"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="../../dc/d9e/structeth__a__wr.html">eth_a_wr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/structeth__a__csreg.html#acaab500dc994f0b9a4ad4c3252e7e77c">wr</a></td></tr>
+<tr class="memdesc:acaab500dc994f0b9a4ad4c3252e7e77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPSW_WRレジスタ  <a href="#acaab500dc994f0b9a4ad4c3252e7e77c">More...</a><br /></td></tr>
 <tr class="separator:acaab500dc994f0b9a4ad4c3252e7e77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00143">143</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<div class="textblock"><p>Ethernet subsystemレジスタ構造体 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00297">297</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a776091c8ef26c04d9c8c99eba7ef5e42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a776091c8ef26c04d9c8c99eba7ef5e42">&#9670;&nbsp;</a></span>ale</h2>
@@ -114,7 +125,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00144">144</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_ALEレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00300">300</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 
@@ -132,7 +145,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00145">145</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_CPDMAレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00302">302</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d83/ethhandler_8c_source.html#l00009">ethhandler()</a>, and <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 
@@ -150,7 +165,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00150">150</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>MDIOレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00312">312</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 
@@ -168,7 +185,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00147">147</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_SLレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00306">306</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 
@@ -186,7 +205,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00148">148</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_SSレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00308">308</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 
@@ -204,7 +225,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00146">146</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_STATERANレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00304">304</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d83/ethhandler_8c_source.html#l00009">ethhandler()</a>, <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>, <a class="el" href="../../d8/d2d/ethread_8c_source.html#l00009">ethread()</a>, and <a class="el" href="../../d2/d7f/ethwrite_8c_source.html#l00009">ethwrite()</a>.</p>
 
@@ -222,7 +245,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00149">149</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
+<p>CPSW_WRレジスタ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dd3/am335x__eth_8h_source.html#l00310">310</a> of file <a class="el" href="../../da/dd3/am335x__eth_8h_source.html">am335x_eth.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d3b/ethinit_8c_source.html#l00173">ethinit()</a>.</p>
 

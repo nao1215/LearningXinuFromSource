@@ -1,9 +1,9 @@
 <map id="eth_a_csreg" name="eth_a_csreg">
-<area shape="rect" id="node2" href="$d2/d22/structeth__a__mdio.html" title="eth_a_mdio" alt="" coords="5,5,95,32"/>
-<area shape="rect" id="node3" href="$d6/d40/structeth__a__sl.html" title="eth_a_sl" alt="" coords="119,5,189,32"/>
-<area shape="rect" id="node4" href="$db/d65/structeth__a__stateram.html" title="eth_a_stateram" alt="" coords="214,5,326,32"/>
-<area shape="rect" id="node5" href="$d4/da1/structeth__a__ale.html" title="eth_a_ale" alt="" coords="351,5,429,32"/>
-<area shape="rect" id="node6" href="$d4/d09/structeth__a__ss.html" title="eth_a_ss" alt="" coords="454,5,529,32"/>
-<area shape="rect" id="node7" href="$dc/d9e/structeth__a__wr.html" title="eth_a_wr" alt="" coords="553,5,627,32"/>
-<area shape="rect" id="node8" href="$db/de8/structeth__a__cpdma.html" title="eth_a_cpdma" alt="" coords="652,5,752,32"/>
+<area shape="rect" id="node2" href="$d2/d22/structeth__a__mdio.html" title="Management Data Input/Output(MDIO)レジスタ用の構造体 " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node3" href="$d6/d40/structeth__a__sl.html" title="CPSW_SLレジスタ用の構造体 " alt="" coords="119,5,189,32"/>
+<area shape="rect" id="node4" href="$db/d65/structeth__a__stateram.html" title="CPDMA_STATERAMレジスタ用の構造体 " alt="" coords="214,5,326,32"/>
+<area shape="rect" id="node5" href="$d4/da1/structeth__a__ale.html" title="Address Lookup Engine(ALE)レジスタ用の構造体 " alt="" coords="351,5,429,32"/>
+<area shape="rect" id="node6" href="$d4/d09/structeth__a__ss.html" title="CPSW_SSレジスタ用の構造体 " alt="" coords="454,5,529,32"/>
+<area shape="rect" id="node7" href="$dc/d9e/structeth__a__wr.html" title="CPSW_WRレジスタ用の構造体 " alt="" coords="553,5,627,32"/>
+<area shape="rect" id="node8" href="$db/de8/structeth__a__cpdma.html" title="Cryptographic Processor RAM DMA(CPDMA、暗号化DMA)レジスタ用の構造体 " alt="" coords="652,5,752,32"/>
 </map>
