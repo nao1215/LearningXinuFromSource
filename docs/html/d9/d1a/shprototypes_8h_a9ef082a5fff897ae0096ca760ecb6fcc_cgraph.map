@@ -10,7 +10,7 @@
 <area shape="rect" id="node44" href="$dd/dc5/prototypes_8h.html#ad10748409a674a8994226de35b9cb71a" title="udp_register" alt="" coords="593,1968,687,1995"/>
 <area shape="rect" id="node45" href="$dd/dc5/prototypes_8h.html#aefacef94a7e58eb4b165beb04e9dc3cb" title="udp_release" alt="" coords="279,1765,371,1792"/>
 <area shape="rect" id="node47" href="$dd/dc5/prototypes_8h.html#a8c833c991d5aaa7252a564b9ea8cb66b" title="udp_send" alt="" coords="152,2044,231,2071"/>
-<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="777,195,823,221"/>
+<area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="777,195,823,221"/>
 <area shape="rect" id="node7" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="765,144,835,171"/>
 <area shape="rect" id="node9" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="290,195,359,221"/>
 <area shape="rect" id="node13" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="769,1689,831,1716"/>

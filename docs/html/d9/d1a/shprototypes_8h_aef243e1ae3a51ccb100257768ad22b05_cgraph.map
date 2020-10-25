@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="125,31,179,57"/>
 <area shape="rect" id="node5" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="127,81,177,108"/>
 <area shape="rect" id="node7" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="117,132,187,159"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="246,56,293,83"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="246,56,293,83"/>
 <area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="235,5,304,32"/>
 <area shape="rect" id="node6" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="235,107,304,133"/>
 </map>

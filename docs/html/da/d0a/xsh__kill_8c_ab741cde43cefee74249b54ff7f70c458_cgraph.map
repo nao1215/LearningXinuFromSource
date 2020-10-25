@@ -4,7 +4,7 @@
 <area shape="rect" id="node24" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="129,107,180,133"/>
 <area shape="rect" id="node26" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="120,385,189,412"/>
 <area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="237,5,307,32"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="249,56,295,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="249,56,295,83"/>
 <area shape="rect" id="node6" href="$dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="477,208,530,235"/>
 <area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a18f362b436c863d9edfb0c5912c33e00" title="割り込み禁止（intr.Sに定義がある） " alt="" coords="589,512,652,539"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ad61c732fda15799c90d50e35f5d43dd8" title="restore" alt="" coords="589,309,652,336"/>

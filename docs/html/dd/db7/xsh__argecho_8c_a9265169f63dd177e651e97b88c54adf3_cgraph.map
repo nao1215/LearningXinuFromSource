@@ -1,5 +1,5 @@
 <map id="xsh_argecho" name="xsh_argecho">
 <area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="149,31,200,57"/>
 <area shape="rect" id="node3" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="248,5,317,32"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="259,56,306,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="259,56,306,83"/>
 </map>

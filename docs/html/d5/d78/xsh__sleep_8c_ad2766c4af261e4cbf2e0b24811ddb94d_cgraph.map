@@ -5,7 +5,7 @@
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#af170dd92a4b76a8d6588ad3dd96d186e" title="sleep" alt="" coords="143,157,196,184"/>
 <area shape="rect" id="node20" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="135,208,204,235"/>
 <area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="253,5,322,32"/>
-<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="264,56,311,83"/>
+<area shape="rect" id="node5" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="264,56,311,83"/>
 <area shape="rect" id="node7" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="253,107,322,133"/>
 <area shape="rect" id="node9" href="$d9/dbd/sleep_8c.html#ac6caf5bc5ebb9f7e9c6986539d664257" title="sleepms" alt="" coords="252,157,323,184"/>
 <area shape="rect" id="node10" href="$dd/dc5/prototypes_8h.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="CPU実行権を自発的に放棄する（タイムスライスを終了する）。 " alt="" coords="377,157,426,184"/>

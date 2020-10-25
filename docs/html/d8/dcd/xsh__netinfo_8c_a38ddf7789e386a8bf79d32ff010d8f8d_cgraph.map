@@ -5,7 +5,7 @@
 <area shape="rect" id="node42" href="$d6/dd1/stdio_8h.html#ad758bab83cc36d11a287a3c6614af261" title="sprintf" alt="" coords="152,1601,211,1628"/>
 <area shape="rect" id="node50" href="$da/d66/string_8h.html#a5a62142cddb641a09f5ca9df0d8c608f" title="strncmp" alt="" coords="147,1652,216,1679"/>
 <area shape="rect" id="node3" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="940,5,1009,32"/>
-<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="951,56,998,83"/>
+<area shape="rect" id="node4" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="951,56,998,83"/>
 <area shape="rect" id="node6" href="$dd/d53/dhcp_8c.html#a8d2bd95a6a4d8ccdc834c9a8182abd01" title="dhcp_bld_disc" alt="" coords="268,1436,373,1463"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="627,1475,699,1501"/>
 <area shape="rect" id="node10" href="$dd/d53/dhcp_8c.html#aca2c183b3b6258af4f9d24908ab0768a" title="dhcp_bld_req" alt="" coords="271,1525,370,1552"/>

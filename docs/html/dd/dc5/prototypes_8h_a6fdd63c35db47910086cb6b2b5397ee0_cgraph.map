@@ -28,6 +28,6 @@
 <area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#aee01d3a42fbcda425a19cbc4bd0194cd" title="システムを停止させる（intr.Sに定義がある） " alt="" coords="593,56,636,83"/>
 <area shape="rect" id="node22" href="$df/d87/kprintf_8c.html#a49c8287a97e377418c24763342ed9367" title="_doprnt" alt="" coords="697,157,763,184"/>
 <area shape="rect" id="node23" href="$df/d87/kprintf_8c.html#af7621ef691e07cd87b7bf4d0a8510df6" title="ポーリングI/Oを使用して、コンソールのシリアルラインに文字を書き込む。 " alt="" coords="703,360,757,387"/>
-<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="370,233,417,260"/>
+<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="370,233,417,260"/>
 <area shape="rect" id="node28" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="359,284,428,311"/>
 </map>

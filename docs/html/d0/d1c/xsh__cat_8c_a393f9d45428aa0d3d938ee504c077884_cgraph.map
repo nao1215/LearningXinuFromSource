@@ -1,7 +1,7 @@
 <map id="xsh_cat" name="xsh_cat">
 <area shape="rect" id="node2" href="$dd/dc5/prototypes_8h.html#a94af61bdfe2b561395a32423188ec9ef" title="close" alt="" coords="129,56,183,83"/>
 <area shape="rect" id="node5" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="129,107,183,133"/>
-<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="250,157,297,184"/>
+<area shape="rect" id="node7" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="250,157,297,184"/>
 <area shape="rect" id="node8" href="$dd/dc5/prototypes_8h.html#a0e819dccdf63564202aa1716cb24e3fa" title="getc" alt="" coords="133,259,179,285"/>
 <area shape="rect" id="node9" href="$dd/dc5/prototypes_8h.html#a4a0694c37c93b0ed64ad7906fb9e25af" title="open" alt="" coords="131,5,181,32"/>
 <area shape="rect" id="node10" href="$d6/dd1/stdio_8h.html#a1f0ce183d035cdcba2488a3bd2eff765" title="printf" alt="" coords="131,208,181,235"/>

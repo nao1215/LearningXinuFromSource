@@ -25,7 +25,7 @@
 <area shape="rect" id="node18" href="$dd/dc5/prototypes_8h.html#a51d9afc349f8dd190adc2b5ce4b37461" title="コンテキストスイッチを行う（ctxsw.S に定義がある） " alt="" coords="928,546,985,573"/>
 <area shape="rect" id="node16" href="$dd/dc5/prototypes_8h.html#aa71d82ed71314c01c6a0e3c03664c8b0" title="キューの先頭からプロセスを取り出す。 " alt="" coords="1040,597,1103,624"/>
 <area shape="rect" id="node17" href="$d1/deb/getitem_8c.html#a608c1d817d4e8f4d9e645853d493c7d7" title="キューの任意の位置からプロセスを取り出す。 " alt="" coords="1151,597,1216,624"/>
-<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="479,394,526,421"/>
+<area shape="rect" id="node24" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="479,394,526,421"/>
 <area shape="rect" id="node25" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="468,496,537,522"/>
 <area shape="rect" id="node28" href="$d1/d3d/printf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="229,141,299,168"/>
 <area shape="rect" id="node31" href="$d5/def/y_8tab_8c.html#a9a7bd1b3d14701eb97c03f3ef34deff1" title="yylex" alt="" coords="237,496,291,522"/>

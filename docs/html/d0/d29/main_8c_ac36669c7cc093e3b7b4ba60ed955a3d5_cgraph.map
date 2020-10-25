@@ -28,7 +28,7 @@
 <area shape="rect" id="node30" href="$dd/dc5/prototypes_8h.html#a31942cd94059356ab097a9ba96d1acdf" title="read" alt="" coords="331,512,378,539"/>
 <area shape="rect" id="node23" href="$dd/dc5/prototypes_8h.html#ab33694659100041c9b2e6af6f7ef2fca" title="メモリAの領域（source）からメモリBの領域（Destination）にN Byteコピーする。 " alt="" coords="437,816,509,843"/>
 <area shape="rect" id="node26" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="320,613,389,640"/>
-<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="331,664,378,691"/>
+<area shape="rect" id="node27" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="331,664,378,691"/>
 <area shape="rect" id="node32" href="$dd/dc5/prototypes_8h.html#a17b99d7824f0a780559295a2acaba375" title="insertd" alt="" coords="324,1120,385,1147"/>
 <area shape="rect" id="node33" href="$dd/dc5/prototypes_8h.html#aacc998b2f45d9a7a067e6511dc1dbbe3" title="CPU実行権を自発的に放棄する（タイムスライスを終了する）。 " alt="" coords="330,968,379,995"/>
 </map>

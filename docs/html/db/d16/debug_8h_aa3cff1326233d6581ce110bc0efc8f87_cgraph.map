@@ -1,6 +1,6 @@
 <map id="hexdump" name="hexdump">
 <area shape="rect" id="node2" href="$d6/dd1/stdio_8h.html#a0eaa1f4e269e735a399bbefde4ccba39" title="fprintf" alt="" coords="283,31,337,57"/>
 <area shape="rect" id="node5" href="$d1/d72/debug_8c.html#a4386dbef5cb253966a3575f9e1a93ea4" title="ByteをASCIIか16進数でSTDOUT（標準出力）に出力する。 " alt="" coords="128,56,235,83"/>
-<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="putc" alt="" coords="397,5,443,32"/>
+<area shape="rect" id="node3" href="$dd/dc5/prototypes_8h.html#a24c124d17612742de6abb11a1436aa14" title="デバイスへ文字１Byteを送信する。 " alt="" coords="397,5,443,32"/>
 <area shape="rect" id="node4" href="$d1/df2/fprintf_8c.html#a6986491c7020f319abf7d784c1312c8f" title="_fdoprnt" alt="" coords="385,56,455,83"/>
 </map>
