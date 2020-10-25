@@ -1,32 +1,43 @@
-/* ptinit.c - ptinit */
-
+/**
+ * @file ptinit.c
+ * @brief ポートを用いたメッセージ送受信機能を初期化する。
+ */
 #include <xinu.h>
 
-struct	ptnode	*ptfree;		/* List of free message nodes	*/
-struct	ptentry	porttab[NPORTS];	/* Port table			*/
-int32	ptnextid;			/* Next table entry to try	*/
+//! フリーメッセージノードのリスト
+struct ptnode *ptfree;
+//! ポートテーブルエントリ
+struct ptentry porttab[NPORTS];
+//! 次に試みるテーブルエントリ
+int32 ptnextid;
 
-/*------------------------------------------------------------------------
- *  ptinit  -  Initialize all ports
- *------------------------------------------------------------------------
+/**
+ * @brief 全てのポートを初期化する。
+ * @details
+ * Step1. 全てのポート中の最大メッセージ数分だけメモリを確保する。<br>
+ * メモリが確保できなかった場合はpanic状態となり、再起動が必要となる。<br>
+ * Step2. 全てのポートテーブルエントリをFREE状態として初期化する。<br>
+ * Step3. フリーメッセージリストをリンクさせる。
+ * @param[in] maxmsgs 全てのポート中の最大メッセージ数
+ * @return 初期化成功時はOK、メモリ確保失敗時はpanic状態となって再起動が必須となる。
  */
-syscall	ptinit(
-	  int32	maxmsgs			/* Total messages in all ports	*/
-	)
+syscall ptinit(int32 maxmsgs)
 {
-	int32	i;			/* Runs through the port table	*/
-	struct	ptnode	*next, *curr;	/* Used to build a free list	*/
+	int32 i;					/* Runs through the port table	*/
+	struct ptnode *next, *curr; /* Used to build a free list	*/
 
 	/* Allocate memory for all messages on all ports */
 
-	ptfree = (struct ptnode *)getmem(maxmsgs*sizeof(struct ptnode));
-	if (ptfree == (struct ptnode *)SYSERR) {
+	ptfree = (struct ptnode *)getmem(maxmsgs * sizeof(struct ptnode));
+	if (ptfree == (struct ptnode *)SYSERR)
+	{
 		panic("ptinit - insufficient memory");
 	}
 
 	/* Initialize all port table entries to free */
 
-	for (i=0 ; i<NPORTS ; i++) {
+	for (i = 0; i < NPORTS; i++)
+	{
 		porttab[i].ptstate = PT_FREE;
 		porttab[i].ptseq = 0;
 	}
@@ -34,7 +45,8 @@ syscall	ptinit(
 
 	/* Create a free list of message nodes linked together */
 
-	for ( curr=next=ptfree ;  --maxmsgs > 0  ; curr=next ) {
+	for (curr = next = ptfree; --maxmsgs > 0; curr = next)
+	{
 		curr->ptnext = ++next;
 	}
 
