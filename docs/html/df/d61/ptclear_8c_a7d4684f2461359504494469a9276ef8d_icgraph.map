@@ -1,4 +1,4 @@
 <map id="_ptclear" name="_ptclear">
 <area shape="rect" id="node2" href="$d1/da2/ptdelete_8c.html#ab5eb87f0b989e06885eedfa6bfabb5e6" title="ポートを削除し、待機中のプロセスとメッセージを解放する。 " alt="" coords="121,5,189,32"/>
-<area shape="rect" id="node3" href="$d8/d8b/ptreset_8c.html#a78838dc77afada25b1cb704c5dfbcc64" title="ptreset" alt="" coords="124,56,187,83"/>
+<area shape="rect" id="node3" href="$d8/d8b/ptreset_8c.html#a78838dc77afada25b1cb704c5dfbcc64" title="ポートをリセットを行う。 " alt="" coords="124,56,187,83"/>
 </map>
