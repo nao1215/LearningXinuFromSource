@@ -17,7 +17,7 @@
 <area shape="rect" id="node36" href="$d2/d91/lfsopen_8c.html#aed42ff64ddeed085c468a1e347045948" title="lfsopen" alt="" coords="111,1145,175,1172"/>
 <area shape="rect" id="node37" href="$d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999" title="mark" alt="" coords="117,1196,168,1223"/>
 <area shape="rect" id="node38" href="$d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ptrecv" alt="" coords="113,1247,172,1273"/>
-<area shape="rect" id="node39" href="$d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="ptsend" alt="" coords="112,1297,173,1324"/>
+<area shape="rect" id="node39" href="$d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="メッセージをキューに追加する事によってポートへメッセージを送信する。 " alt="" coords="112,1297,173,1324"/>
 <area shape="rect" id="node40" href="$d6/d7d/rdsbufalloc_8c.html#a21ef193f2c2d6e6fb3d0ca13d1aed8a1" title="rdsbufalloc" alt="" coords="100,740,185,767"/>
 <area shape="rect" id="node43" href="$d1/dd4/rflclose_8c.html#aa01777004681c533257eb2ddfd3c800f" title="rflclose" alt="" coords="111,1348,175,1375"/>
 <area shape="rect" id="node44" href="$db/d25/rflseek_8c.html#aed90b4e7a0932d3565eb7336723fbbac" title="rflseek" alt="" coords="112,1399,173,1425"/>
