@@ -44,7 +44,7 @@
 <area shape="rect" id="node42" href="$dd/dab/xsh__ls_8c.html#a1e8b5f9365fa0f3f2f91098e280aa0b9" title="xsh_ls" alt="" coords="259,1069,319,1096"/>
 <area shape="rect" id="node43" href="$d9/d29/freebuf_8c.html#a440d3456ec381ea81d8961d19e18fecb" title="バッファプールから取得したバッファを解放する。 " alt="" coords="257,1272,320,1299"/>
 <area shape="rect" id="node44" href="$d1/db7/mark_8c.html#a84b0157ded9cc75b53ddbe8273633999" title="mark" alt="" coords="263,1120,314,1147"/>
-<area shape="rect" id="node45" href="$d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ptrecv" alt="" coords="259,1171,318,1197"/>
+<area shape="rect" id="node45" href="$d7/dd7/ptrecv_8c.html#a9cc49ed1658810fbf7d33926d287149e" title="ポートからメッセージを受信する。受信前にメッセージが空の場合はブロッキングする。 " alt="" coords="259,1171,318,1197"/>
 <area shape="rect" id="node46" href="$d9/dca/ptsend_8c.html#a517d37404388d9a701c75853fec0e26d" title="メッセージをキューに追加する事によってポートへメッセージを送信する。 " alt="" coords="258,1221,319,1248"/>
 <area shape="rect" id="node48" href="$d6/d0f/ttyhandle__out_8c.html#ab2b7d9ef85836a3bb13fb2129f1895db" title="ttyhandle_out" alt="" coords="239,1728,339,1755"/>
 <area shape="rect" id="node50" href="$d8/de3/clkhandler_8c.html#a3ea3a21f857ded512d91f99d356ba5c2" title="clkhandler" alt="" coords="248,1779,329,1805"/>
