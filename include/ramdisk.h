@@ -1,12 +1,22 @@
-/* ramdisk.h - definitions for a ram disk (for testing) */
+/**
+ * @file ramdisk.h
+ * @brief RAMディスクに関する定義（testing）
+ */
 
-/* Ram disk block size */
+//! RAMディスクのブロックサイズ
+#define RM_BLKSIZ 512
+//! RAMディスクのブロック数
+#define RM_BLKS 200
 
-#define	RM_BLKSIZ	512		/* block size			*/
-#define	RM_BLKS		200		/* number of blocks		*/
+/**
+ * @struct ramdisk
+ * @brief RAMディスク操作用の構造体
+ */
+struct ramdisk
+{
+	//! RAMディスク操作用の配列
+	char disk[RM_BLKSIZ * RM_BLKS];
+};
 
-struct	ramdisk	{
-	char	disk[RM_BLKSIZ * RM_BLKS];
-	};
-
-extern	struct	ramdisk	Ram;
+//! RAMディスク操作用の構造体のextern宣言
+extern struct ramdisk Ram;
