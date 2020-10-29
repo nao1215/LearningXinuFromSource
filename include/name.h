@@ -1,19 +1,32 @@
-/* name.h */
+/**
+ * @file name.h
+ * @brief 名前空間（ネームスペースマッピング）に関する宣言
+ */
 
-/* Constants that define the namespace mapping table sizes */
+//! プレフィックス文字列の最大サイズ
+#define NM_PRELEN 64
+//! 置換（1個）の最大サイズ
+#define NM_REPLLEN 96
+//! ファイル名の最大サイズ
+#define NM_MAXLEN 256
+//! プレフィックス定義の数
+#define NNAMES 40
 
-#define	NM_PRELEN	64		/* Max size of a prefix string	*/
-#define	NM_REPLLEN	96		/* Maximum size of a replacement*/
-#define	NM_MAXLEN	256		/* Maximum size of a file name	*/
-#define	NNAMES		40		/* Number of prefix definitions	*/
-
-/* Definition of the name prefix table that defines all name mappings */
-
-struct	nmentry	{			/* Definition of prefix table	*/
-	char	nprefix[NM_PRELEN];	/* Null-terminated prefix	*/
-	char	nreplace[NM_REPLLEN];	/* Null-terminated replacement	*/
-	did32	ndevice;		/* Device descriptor for prefix	*/
+/**
+ * @struct nmentry
+ * @brief  全ての名前マッピングを定義する名前プレフィックステーブルの定義（ネームテーブルエントリ）
+ */
+struct nmentry
+{
+	//! NULL終端のプレフィックス
+	char nprefix[NM_PRELEN];
+	//! NULL終端置換
+	char nreplace[NM_REPLLEN];
+	//! プレフィックス用のデバイスディスクリプタ
+	did32 ndevice;
 };
 
-extern	struct	nmentry	nametab[];	/* Table of name mappings	*/
-extern	int32	nnames;			/* Number of entries allocated	*/
+//! 名前マッピングのテーブル
+extern struct nmentry nametab[];
+//! 割り当てられたネームテーブルエントリの数
+extern int32 nnames;
