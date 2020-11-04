@@ -37,7 +37,7 @@
 <area shape="rect" id="node36" href="$dd/dc5/prototypes_8h.html" title="関数のプロトタイプ宣言を集約したヘッダ " alt="" coords="2956,155,3051,181"/>
 <area shape="rect" id="node37" href="$dd/dee/delay_8h.html" title="ミリ秒もしくはマイクロ秒単位で処理を遅らせる。 " alt="" coords="3075,155,3139,181"/>
 <area shape="rect" id="node38" href="$d6/dd1/stdio_8h.html" title="stdio.h" alt="" coords="3163,155,3225,181"/>
-<area shape="rect" id="node40" href="$d7/df6/am335x__control_8h.html" title="am335x_control.h" alt="" coords="3249,155,3374,181"/>
+<area shape="rect" id="node40" href="$d7/df6/am335x__control_8h.html" title="AM335X SoCのThe PAD制御レジスタに関する定義 " alt="" coords="3249,155,3374,181"/>
 <area shape="rect" id="node41" href="$da/dd3/am335x__eth_8h.html" title="AM335X SoCのEthernetデバイスに関する定義。 " alt="" coords="3398,155,3502,181"/>
 <area shape="rect" id="node42" href="$d9/d16/am335x__watchdog_8h.html" title="am335x_watchdog.h" alt="" coords="3527,155,3669,181"/>
 <area shape="rect" id="node43" href="$d8/d8e/armv7a_8h.html" title="ARMv7&#45;A命令セット（Cortex&#45;A8）に関する宣言。 " alt="" coords="3693,155,3769,181"/>

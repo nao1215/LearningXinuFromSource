@@ -68,6 +68,9 @@ $(function() {
 <div class="title">am335x_control.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>AM335X SoCのThe PAD制御レジスタに関する定義  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -130,23 +133,36 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ab7828522ea1bad31f9cc0db75a5eb1d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#ab7828522ea1bad31f9cc0db75a5eb1d7">am335x_padctl</a>(addr,  val)&#160;&#160;&#160;(*((<a class="el" href="../../d0/daa/kernel_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> *)(addr))) = (val)</td></tr>
+<tr class="memdesc:ab7828522ea1bad31f9cc0db75a5eb1d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数で指定されたアドレスに値を代入する。  <a href="#ab7828522ea1bad31f9cc0db75a5eb1d7">More...</a><br /></td></tr>
 <tr class="separator:ab7828522ea1bad31f9cc0db75a5eb1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48dcccf7cb1cab37c6b9247adfd80271"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a48dcccf7cb1cab37c6b9247adfd80271">AM335X_PADCTL_PDN</a>&#160;&#160;&#160;0x00000000	/* Pull down selected	*/</td></tr>
+<tr class="memitem:a48dcccf7cb1cab37c6b9247adfd80271"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a48dcccf7cb1cab37c6b9247adfd80271">AM335X_PADCTL_PDN</a>&#160;&#160;&#160;0x00000000</td></tr>
+<tr class="memdesc:a48dcccf7cb1cab37c6b9247adfd80271"><td class="mdescLeft">&#160;</td><td class="mdescRight">プルダウンが選択された  <a href="#a48dcccf7cb1cab37c6b9247adfd80271">More...</a><br /></td></tr>
 <tr class="separator:a48dcccf7cb1cab37c6b9247adfd80271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab703d9e28c374eb7d49e15802d7b0b8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#ab703d9e28c374eb7d49e15802d7b0b8e">AM335X_PADCTL_PEN</a>&#160;&#160;&#160;0x00000008	/* Pull up-down enabled	*/</td></tr>
+<tr class="memitem:ab703d9e28c374eb7d49e15802d7b0b8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#ab703d9e28c374eb7d49e15802d7b0b8e">AM335X_PADCTL_PEN</a>&#160;&#160;&#160;0x00000008</td></tr>
+<tr class="memdesc:ab703d9e28c374eb7d49e15802d7b0b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">プルアップダウンが有効  <a href="#ab703d9e28c374eb7d49e15802d7b0b8e">More...</a><br /></td></tr>
 <tr class="separator:ab703d9e28c374eb7d49e15802d7b0b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a292e620d3249dff69110804b64a19391"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a292e620d3249dff69110804b64a19391">AM335X_PADCTL_PUP</a>&#160;&#160;&#160;0x00000010	/* Pull up selected	*/</td></tr>
+<tr class="memitem:a292e620d3249dff69110804b64a19391"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a292e620d3249dff69110804b64a19391">AM335X_PADCTL_PUP</a>&#160;&#160;&#160;0x00000010</td></tr>
+<tr class="memdesc:a292e620d3249dff69110804b64a19391"><td class="mdescLeft">&#160;</td><td class="mdescRight">プルアップが選択された  <a href="#a292e620d3249dff69110804b64a19391">More...</a><br /></td></tr>
 <tr class="separator:a292e620d3249dff69110804b64a19391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c4970c5434a95f29c889761f8240c8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a6c4970c5434a95f29c889761f8240c8d">AM335X_PADCTL_RXTX</a>&#160;&#160;&#160;0x00000020	/* Input or Output mode	*/</td></tr>
+<tr class="memitem:a6c4970c5434a95f29c889761f8240c8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a6c4970c5434a95f29c889761f8240c8d">AM335X_PADCTL_RXTX</a>&#160;&#160;&#160;0x00000020</td></tr>
+<tr class="memdesc:a6c4970c5434a95f29c889761f8240c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力モードもしくは出力モード  <a href="#a6c4970c5434a95f29c889761f8240c8d">More...</a><br /></td></tr>
 <tr class="separator:a6c4970c5434a95f29c889761f8240c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af910989afa23003a01898e4a64d03c83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#af910989afa23003a01898e4a64d03c83">AM335X_PADCTL_SF</a>&#160;&#160;&#160;0x00000000	/* Slew control fast	*/</td></tr>
+<tr class="memitem:af910989afa23003a01898e4a64d03c83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#af910989afa23003a01898e4a64d03c83">AM335X_PADCTL_SF</a>&#160;&#160;&#160;0x00000000</td></tr>
+<tr class="memdesc:af910989afa23003a01898e4a64d03c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">スルーコントロールが速い状態  <a href="#af910989afa23003a01898e4a64d03c83">More...</a><br /></td></tr>
 <tr class="separator:af910989afa23003a01898e4a64d03c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3cbe771ae184de1fb07ff7946f67ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a0d3cbe771ae184de1fb07ff7946f67ef">AM335X_PADCTL_SS</a>&#160;&#160;&#160;0x00000040	/* Slew control slow	*/</td></tr>
+<tr class="memitem:a0d3cbe771ae184de1fb07ff7946f67ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#a0d3cbe771ae184de1fb07ff7946f67ef">AM335X_PADCTL_SS</a>&#160;&#160;&#160;0x00000040</td></tr>
+<tr class="memdesc:a0d3cbe771ae184de1fb07ff7946f67ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">スルーコントロールが遅い状態  <a href="#a0d3cbe771ae184de1fb07ff7946f67ef">More...</a><br /></td></tr>
 <tr class="separator:a0d3cbe771ae184de1fb07ff7946f67ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2696c77bd3576d1d09ee904ef6bf241"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#ac2696c77bd3576d1d09ee904ef6bf241">AM335X_PADCTL_TX</a>&#160;&#160;&#160;0x00000000	/* Output only mode	*/</td></tr>
+<tr class="memitem:ac2696c77bd3576d1d09ee904ef6bf241"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df6/am335x__control_8h.html#ac2696c77bd3576d1d09ee904ef6bf241">AM335X_PADCTL_TX</a>&#160;&#160;&#160;0x00000000</td></tr>
+<tr class="memdesc:ac2696c77bd3576d1d09ee904ef6bf241"><td class="mdescLeft">&#160;</td><td class="mdescRight">出力限定モード  <a href="#ac2696c77bd3576d1d09ee904ef6bf241">More...</a><br /></td></tr>
 <tr class="separator:ac2696c77bd3576d1d09ee904ef6bf241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>AM335X SoCのThe PAD制御レジスタに関する定義 </p>
+<p>PAD制御レジスタ（32bit）は、各I/Oの信号多重化およびその他の側面を制御する。 </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ab7828522ea1bad31f9cc0db75a5eb1d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7828522ea1bad31f9cc0db75a5eb1d7">&#9670;&nbsp;</a></span>am335x_padctl</h2>
 
@@ -173,7 +189,16 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00009">9</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>引数で指定されたアドレスに値を代入する。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">addr</td><td>代入先のアドレス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>代入する値（OR条件で指定されたBit値） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00026">26</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/dcd/platinit_8c_source.html#l00031">platinit()</a>, and <a class="el" href="../../d9/d5c/spiinit_8c_source.html#l00014">spiinit()</a>.</p>
 
@@ -186,12 +211,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_PDN&#160;&#160;&#160;0x00000000	/* Pull down selected	*/</td>
+          <td class="memname">#define AM335X_PADCTL_PDN&#160;&#160;&#160;0x00000000</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00003">3</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>プルダウンが選択された </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00011">11</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 </div>
 </div>
@@ -202,12 +229,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_PEN&#160;&#160;&#160;0x00000008	/* Pull up-down enabled	*/</td>
+          <td class="memname">#define AM335X_PADCTL_PEN&#160;&#160;&#160;0x00000008</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00001">1</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>プルアップダウンが有効 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00007">7</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d5c/spiinit_8c_source.html#l00014">spiinit()</a>.</p>
 
@@ -220,12 +249,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_PUP&#160;&#160;&#160;0x00000010	/* Pull up selected	*/</td>
+          <td class="memname">#define AM335X_PADCTL_PUP&#160;&#160;&#160;0x00000010</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00002">2</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>プルアップが選択された </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00009">9</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d5c/spiinit_8c_source.html#l00014">spiinit()</a>.</p>
 
@@ -238,12 +269,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_RXTX&#160;&#160;&#160;0x00000020	/* Input or Output mode	*/</td>
+          <td class="memname">#define AM335X_PADCTL_RXTX&#160;&#160;&#160;0x00000020</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00004">4</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>入力モードもしくは出力モード </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00013">13</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/dcd/platinit_8c_source.html#l00031">platinit()</a>, and <a class="el" href="../../d9/d5c/spiinit_8c_source.html#l00014">spiinit()</a>.</p>
 
@@ -256,12 +289,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_SF&#160;&#160;&#160;0x00000000	/* Slew control fast	*/</td>
+          <td class="memname">#define AM335X_PADCTL_SF&#160;&#160;&#160;0x00000000</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00007">7</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>スルーコントロールが速い状態 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00019">19</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 </div>
 </div>
@@ -272,12 +307,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_SS&#160;&#160;&#160;0x00000040	/* Slew control slow	*/</td>
+          <td class="memname">#define AM335X_PADCTL_SS&#160;&#160;&#160;0x00000040</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00006">6</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>スルーコントロールが遅い状態 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00017">17</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 </div>
 </div>
@@ -288,12 +325,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AM335X_PADCTL_TX&#160;&#160;&#160;0x00000000	/* Output only mode	*/</td>
+          <td class="memname">#define AM335X_PADCTL_TX&#160;&#160;&#160;0x00000000</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00005">5</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
+<p>出力限定モード </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df6/am335x__control_8h_source.html#l00015">15</a> of file <a class="el" href="../../d7/df6/am335x__control_8h_source.html">am335x_control.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/dcd/platinit_8c_source.html#l00031">platinit()</a>, and <a class="el" href="../../d9/d5c/spiinit_8c_source.html#l00014">spiinit()</a>.</p>
 
