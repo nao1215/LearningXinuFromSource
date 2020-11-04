@@ -70,6 +70,9 @@ $(function() {
 <div class="title">arp.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>ARPのパケットフォーマットやキャッシュに関する定義  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -132,43 +135,63 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d30/structarpentry.html">arpentry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPキャッシュエントリ  <a href="../../d5/d30/structarpentry.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbf/structarppacket.html">arppacket</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IP&amp;Ethernet用のARPパケットフォーマット  <a href="../../d5/dbf/structarppacket.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a57bc7991f45257ac666e5dc92968ed77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a57bc7991f45257ac666e5dc92968ed77">AR_FREE</a>&#160;&#160;&#160;0		/* Slot is unused		*/</td></tr>
+<tr class="memitem:a57bc7991f45257ac666e5dc92968ed77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a57bc7991f45257ac666e5dc92968ed77">AR_FREE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a57bc7991f45257ac666e5dc92968ed77"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPキャッシュエントリ状態：スロットが未使用  <a href="#a57bc7991f45257ac666e5dc92968ed77">More...</a><br /></td></tr>
 <tr class="separator:a57bc7991f45257ac666e5dc92968ed77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23571f804866ee3a57266b68db0aaaa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a23571f804866ee3a57266b68db0aaaa5">AR_PENDING</a>&#160;&#160;&#160;1		/* Resolution in progress	*/</td></tr>
+<tr class="memitem:a23571f804866ee3a57266b68db0aaaa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a23571f804866ee3a57266b68db0aaaa5">AR_PENDING</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a23571f804866ee3a57266b68db0aaaa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPキャッシュエントリ状態：解決中  <a href="#a23571f804866ee3a57266b68db0aaaa5">More...</a><br /></td></tr>
 <tr class="separator:a23571f804866ee3a57266b68db0aaaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5a822c4b436fc76a125c9e4ca038fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a1a5a822c4b436fc76a125c9e4ca038fe">AR_RESOLVED</a>&#160;&#160;&#160;2		/* Entry is valid		*/</td></tr>
+<tr class="memitem:a1a5a822c4b436fc76a125c9e4ca038fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a1a5a822c4b436fc76a125c9e4ca038fe">AR_RESOLVED</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a1a5a822c4b436fc76a125c9e4ca038fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPキャッシュエントリ状態：エントリが正常  <a href="#a1a5a822c4b436fc76a125c9e4ca038fe">More...</a><br /></td></tr>
 <tr class="separator:a1a5a822c4b436fc76a125c9e4ca038fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6236d7a32b04dd71ea681ffe9f9a3cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a6236d7a32b04dd71ea681ffe9f9a3cb2">ARP_HALEN</a>&#160;&#160;&#160;6		/* Size of Ethernet MAC address	*/</td></tr>
+<tr class="memitem:a6236d7a32b04dd71ea681ffe9f9a3cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a6236d7a32b04dd71ea681ffe9f9a3cb2">ARP_HALEN</a>&#160;&#160;&#160;6</td></tr>
+<tr class="memdesc:a6236d7a32b04dd71ea681ffe9f9a3cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">EthernetのMACアドレスサイズ  <a href="#a6236d7a32b04dd71ea681ffe9f9a3cb2">More...</a><br /></td></tr>
 <tr class="separator:a6236d7a32b04dd71ea681ffe9f9a3cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad220a057c9f7f1bedb02b8fe93ada9df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#ad220a057c9f7f1bedb02b8fe93ada9df">ARP_HTYPE</a>&#160;&#160;&#160;1		/* Ethernet hardware type	*/</td></tr>
+<tr class="memitem:ad220a057c9f7f1bedb02b8fe93ada9df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#ad220a057c9f7f1bedb02b8fe93ada9df">ARP_HTYPE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ad220a057c9f7f1bedb02b8fe93ada9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ethernetハードウェアタイプ  <a href="#ad220a057c9f7f1bedb02b8fe93ada9df">More...</a><br /></td></tr>
 <tr class="separator:ad220a057c9f7f1bedb02b8fe93ada9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f632b1b352df8e5cc74016ea4369359"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a2f632b1b352df8e5cc74016ea4369359">ARP_OP_REQ</a>&#160;&#160;&#160;1		/* Request op code		*/</td></tr>
+<tr class="memitem:a2f632b1b352df8e5cc74016ea4369359"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a2f632b1b352df8e5cc74016ea4369359">ARP_OP_REQ</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a2f632b1b352df8e5cc74016ea4369359"><td class="mdescLeft">&#160;</td><td class="mdescRight">リクエストオペコード  <a href="#a2f632b1b352df8e5cc74016ea4369359">More...</a><br /></td></tr>
 <tr class="separator:a2f632b1b352df8e5cc74016ea4369359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc02b4ef7ce556168b05032f8d65e71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a4fc02b4ef7ce556168b05032f8d65e71">ARP_OP_RPLY</a>&#160;&#160;&#160;2		/* Reply op code		*/</td></tr>
+<tr class="memitem:a4fc02b4ef7ce556168b05032f8d65e71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a4fc02b4ef7ce556168b05032f8d65e71">ARP_OP_RPLY</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a4fc02b4ef7ce556168b05032f8d65e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">リプライオペコード  <a href="#a4fc02b4ef7ce556168b05032f8d65e71">More...</a><br /></td></tr>
 <tr class="separator:a4fc02b4ef7ce556168b05032f8d65e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76f91ff4d79bd288b0008de184d69f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#af76f91ff4d79bd288b0008de184d69f0">ARP_PALEN</a>&#160;&#160;&#160;4		/* Size of IP address		*/</td></tr>
+<tr class="memitem:af76f91ff4d79bd288b0008de184d69f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#af76f91ff4d79bd288b0008de184d69f0">ARP_PALEN</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:af76f91ff4d79bd288b0008de184d69f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPアドレスサイズ  <a href="#af76f91ff4d79bd288b0008de184d69f0">More...</a><br /></td></tr>
 <tr class="separator:af76f91ff4d79bd288b0008de184d69f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add63a32f62996eadbcd2332948f26436"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#add63a32f62996eadbcd2332948f26436">ARP_PTYPE</a>&#160;&#160;&#160;0x0800		/* IP protocol type		*/</td></tr>
+<tr class="memitem:add63a32f62996eadbcd2332948f26436"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#add63a32f62996eadbcd2332948f26436">ARP_PTYPE</a>&#160;&#160;&#160;0x0800</td></tr>
+<tr class="memdesc:add63a32f62996eadbcd2332948f26436"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPプロトコルタイプ  <a href="#add63a32f62996eadbcd2332948f26436">More...</a><br /></td></tr>
 <tr class="separator:add63a32f62996eadbcd2332948f26436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea83b51de450d94c4290f0bf0d2e4ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#abea83b51de450d94c4290f0bf0d2e4ac">ARP_RETRY</a>&#160;&#160;&#160;3		/* Num. retries for ARP request	*/</td></tr>
+<tr class="memitem:abea83b51de450d94c4290f0bf0d2e4ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#abea83b51de450d94c4290f0bf0d2e4ac">ARP_RETRY</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:abea83b51de450d94c4290f0bf0d2e4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPリクエストのリトライ回数  <a href="#abea83b51de450d94c4290f0bf0d2e4ac">More...</a><br /></td></tr>
 <tr class="separator:abea83b51de450d94c4290f0bf0d2e4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76e7abd384d3205b5b59753ab5fe47e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a76e7abd384d3205b5b59753ab5fe47e8">ARP_SIZ</a>&#160;&#160;&#160;16		/* Number of entries in a cache	*/</td></tr>
+<tr class="memitem:a76e7abd384d3205b5b59753ab5fe47e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#a76e7abd384d3205b5b59753ab5fe47e8">ARP_SIZ</a>&#160;&#160;&#160;16</td></tr>
+<tr class="memdesc:a76e7abd384d3205b5b59753ab5fe47e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャシュ中のエントリ数  <a href="#a76e7abd384d3205b5b59753ab5fe47e8">More...</a><br /></td></tr>
 <tr class="separator:a76e7abd384d3205b5b59753ab5fe47e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acadcd25bea19657185a5fcb4f65a7669"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#acadcd25bea19657185a5fcb4f65a7669">ARP_TIMEOUT</a>&#160;&#160;&#160;300		/* Retry timer in milliseconds	*/</td></tr>
+<tr class="memitem:acadcd25bea19657185a5fcb4f65a7669"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#acadcd25bea19657185a5fcb4f65a7669">ARP_TIMEOUT</a>&#160;&#160;&#160;300 /* Retry timer in milliseconds	*/</td></tr>
+<tr class="memdesc:acadcd25bea19657185a5fcb4f65a7669"><td class="mdescLeft">&#160;</td><td class="mdescRight">[ms]毎のリトライタイマ  <a href="#acadcd25bea19657185a5fcb4f65a7669">More...</a><br /></td></tr>
 <tr class="separator:acadcd25bea19657185a5fcb4f65a7669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aaeffef8384c72f4b56098984b969ae85"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d5/d30/structarpentry.html">arpentry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddc/arp_8h.html#aaeffef8384c72f4b56098984b969ae85">arpcache</a> []</td></tr>
+<tr class="memdesc:aaeffef8384c72f4b56098984b969ae85"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARPキャッシュエントリテーブル  <a href="#aaeffef8384c72f4b56098984b969ae85">More...</a><br /></td></tr>
 <tr class="separator:aaeffef8384c72f4b56098984b969ae85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>ARPのパケットフォーマットやキャッシュに関する定義 </p>
+<p>ARP(Address Resolution Protocolは、IPアドレスからEthernetのMACアドレスの情報を得られるプロトコル </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a57bc7991f45257ac666e5dc92968ed77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57bc7991f45257ac666e5dc92968ed77">&#9670;&nbsp;</a></span>AR_FREE</h2>
 
@@ -176,12 +199,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AR_FREE&#160;&#160;&#160;0		/* Slot is unused		*/</td>
+          <td class="memname">#define AR_FREE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00022">22</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>ARPキャッシュエントリ状態：スロットが未使用 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00027">27</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00298">arp_alloc()</a>, <a class="el" href="../../dc/dac/xsh__arp_8c_source.html#l00037">arp_dmp()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00011">arp_init()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -194,12 +219,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AR_PENDING&#160;&#160;&#160;1		/* Resolution in progress	*/</td>
+          <td class="memname">#define AR_PENDING&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00023">23</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>ARPキャッシュエントリ状態：解決中 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00029">29</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/dac/xsh__arp_8c_source.html#l00037">arp_dmp()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -212,12 +239,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AR_RESOLVED&#160;&#160;&#160;2		/* Entry is valid		*/</td>
+          <td class="memname">#define AR_RESOLVED&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00024">24</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>ARPキャッシュエントリ状態：エントリが正常 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00031">31</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00298">arp_alloc()</a>, <a class="el" href="../../dc/dac/xsh__arp_8c_source.html#l00037">arp_dmp()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -230,12 +259,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_HALEN&#160;&#160;&#160;6		/* Size of Ethernet MAC address	*/</td>
+          <td class="memname">#define ARP_HALEN&#160;&#160;&#160;6</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00005">5</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>EthernetのMACアドレスサイズ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00008">8</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/dac/xsh__arp_8c_source.html#l00037">arp_dmp()</a>, <a class="el" href="../../d8/d5c/arp__dump_8c_source.html#l00014">arp_dump()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -248,12 +279,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_HTYPE&#160;&#160;&#160;1		/* Ethernet hardware type	*/</td>
+          <td class="memname">#define ARP_HTYPE&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00008">8</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>Ethernetハードウェアタイプ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00012">12</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>, <a class="el" href="../../d8/db4/pdump_8c_source.html#l00009">pdump()</a>, and <a class="el" href="../../d8/db4/pdump_8c_source.html#l00164">pdumph()</a>.</p>
 
@@ -266,12 +299,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_OP_REQ&#160;&#160;&#160;1		/* Request op code		*/</td>
+          <td class="memname">#define ARP_OP_REQ&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00011">11</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>リクエストオペコード </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00016">16</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>, <a class="el" href="../../d8/db4/pdump_8c_source.html#l00009">pdump()</a>, and <a class="el" href="../../d8/db4/pdump_8c_source.html#l00164">pdumph()</a>.</p>
 
@@ -284,12 +319,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_OP_RPLY&#160;&#160;&#160;2		/* Reply op code		*/</td>
+          <td class="memname">#define ARP_OP_RPLY&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00012">12</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>リプライオペコード </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00018">18</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, <a class="el" href="../../d8/db4/pdump_8c_source.html#l00009">pdump()</a>, and <a class="el" href="../../d8/db4/pdump_8c_source.html#l00164">pdumph()</a>.</p>
 
@@ -302,12 +339,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_PALEN&#160;&#160;&#160;4		/* Size of IP address		*/</td>
+          <td class="memname">#define ARP_PALEN&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00006">6</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>IPアドレスサイズ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00010">10</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -320,12 +359,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_PTYPE&#160;&#160;&#160;0x0800		/* IP protocol type		*/</td>
+          <td class="memname">#define ARP_PTYPE&#160;&#160;&#160;0x0800</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00009">9</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>IPプロトコルタイプ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00014">14</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>, <a class="el" href="../../d8/db4/pdump_8c_source.html#l00009">pdump()</a>, and <a class="el" href="../../d8/db4/pdump_8c_source.html#l00164">pdumph()</a>.</p>
 
@@ -338,12 +379,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_RETRY&#160;&#160;&#160;3		/* Num. retries for ARP request	*/</td>
+          <td class="memname">#define ARP_RETRY&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00016">16</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>ARPリクエストのリトライ回数 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00022">22</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -356,12 +399,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_SIZ&#160;&#160;&#160;16		/* Number of entries in a cache	*/</td>
+          <td class="memname">#define ARP_SIZ&#160;&#160;&#160;16</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00014">14</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>キャシュ中のエントリ数 </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00020">20</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00298">arp_alloc()</a>, <a class="el" href="../../dc/dac/xsh__arp_8c_source.html#l00037">arp_dmp()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00158">arp_in()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00011">arp_init()</a>, and <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -374,12 +419,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ARP_TIMEOUT&#160;&#160;&#160;300		/* Retry timer in milliseconds	*/</td>
+          <td class="memname">#define ARP_TIMEOUT&#160;&#160;&#160;300 /* Retry timer in milliseconds	*/</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00018">18</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
+<p>[ms]毎のリトライタイマ </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/ddc/arp_8h_source.html#l00024">24</a> of file <a class="el" href="../../d7/ddc/arp_8h_source.html">arp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d94/arp_8c_source.html#l00024">arp_resolve()</a>.</p>
 
@@ -397,6 +444,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ARPキャッシュエントリテーブル </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d94/arp_8c_source.html#l00005">5</a> of file <a class="el" href="../../d6/d94/arp_8c_source.html">arp.c</a>.</p>
 

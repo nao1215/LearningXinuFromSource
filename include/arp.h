@@ -1,50 +1,85 @@
-/* arp.h */
+/**
+ * @file arp.h
+ * @brief ARPのパケットフォーマットやキャッシュに関する定義
+ * @details ARP(Address Resolution Protocolは、IPアドレスからEthernetのMACアドレスの情報を得られるプロトコル
+ */
 
-/* Items related to ARP - definition of cache and the packet format */
+//! EthernetのMACアドレスサイズ
+#define ARP_HALEN 6
+//! IPアドレスサイズ
+#define ARP_PALEN 4
+//! Ethernetハードウェアタイプ
+#define ARP_HTYPE 1
+//! IPプロトコルタイプ
+#define ARP_PTYPE 0x0800
+//! リクエストオペコード
+#define ARP_OP_REQ 1
+//! リプライオペコード
+#define ARP_OP_RPLY 2
+//! キャシュ中のエントリ数
+#define ARP_SIZ 16
+//! ARPリクエストのリトライ回数
+#define ARP_RETRY 3
+//! [ms]毎のリトライタイマ
+#define ARP_TIMEOUT 300 /* Retry timer in milliseconds	*/
 
-#define	ARP_HALEN	6		/* Size of Ethernet MAC address	*/
-#define	ARP_PALEN	4		/* Size of IP address		*/
-
-#define	ARP_HTYPE	1		/* Ethernet hardware type	*/
-#define ARP_PTYPE	0x0800		/* IP protocol type		*/
-
-#define ARP_OP_REQ	1		/* Request op code		*/
-#define ARP_OP_RPLY	2		/* Reply op code		*/
-
-#define	ARP_SIZ		16		/* Number of entries in a cache	*/
-
-#define	ARP_RETRY	3		/* Num. retries for ARP request	*/
-
-#define	ARP_TIMEOUT	300		/* Retry timer in milliseconds	*/
-
-/* State of an ARP cache entry */
-
-#define	AR_FREE		0		/* Slot is unused		*/
-#define	AR_PENDING	1		/* Resolution in progress	*/
-#define	AR_RESOLVED	2		/* Entry is valid		*/
+//! ARPキャッシュエントリ状態：スロットが未使用
+#define AR_FREE 0
+//! ARPキャッシュエントリ状態：解決中
+#define AR_PENDING 1
+//! ARPキャッシュエントリ状態：エントリが正常
+#define AR_RESOLVED 2
 
 #pragma pack(2)
-struct	arppacket {			/* ARP packet for IP & Ethernet	*/
-	byte	arp_ethdst[ETH_ADDR_LEN];/* Ethernet dest. MAC addr	*/
-	byte	arp_ethsrc[ETH_ADDR_LEN];/* Ethernet source MAC address */
-	uint16	arp_ethtype;		/* Ethernet type field		*/
-	uint16	arp_htype;		/* ARP hardware type		*/
-	uint16	arp_ptype;		/* ARP protocol type		*/
-	byte	arp_hlen;		/* ARP hardware address length	*/
-	byte	arp_plen;		/* ARP protocol address length	*/
-	uint16	arp_op;			/* ARP operation		*/
-	byte	arp_sndha[ARP_HALEN];	/* ARP sender's Ethernet addr 	*/
-	uint32	arp_sndpa;		/* ARP sender's IP address	*/
-	byte	arp_tarha[ARP_HALEN];	/* ARP target's Ethernet addr	*/
-	uint32	arp_tarpa;		/* ARP target's IP address	*/
+/**
+ * @struct arppacket
+ * @brief IP&Ethernet用のARPパケットフォーマット
+ * @note 構造体メンバが2Byte境界を超えないよう、#pragma pack(2)で制御している
+ */
+struct arppacket
+{
+	//! Ethernet転送先のMACアドレス
+	byte arp_ethdst[ETH_ADDR_LEN];
+	//! Ethernet送信元のMACアドレス
+	byte arp_ethsrc[ETH_ADDR_LEN];
+	//! Ethernetタイプ領域
+	uint16 arp_ethtype;
+	//! ARPハードウェアタイプ
+	uint16 arp_htype;
+	//! ARPプロトコルタイプ
+	uint16 arp_ptype;
+	//! ARPハードウェアアドレス長さ
+	byte arp_hlen;
+	//! ARPプロトコルアドレス長さ
+	byte arp_plen;
+	//! ARPオペレーション
+	uint16 arp_op;
+	//! ARP送信者のEthernetアドレス
+	byte arp_sndha[ARP_HALEN];
+	//! ARP送信者のIPアドレス
+	uint32 arp_sndpa;
+	//! ARPターゲットのEthernetアドレス
+	byte arp_tarha[ARP_HALEN];
+	//! ARPターゲットのIPアドレス
+	uint32 arp_tarpa;
 };
 #pragma pack()
 
-struct	arpentry {			/* Entry in the ARP cache	*/
-	int32	arstate;		/* State of the entry		*/
-	uint32	arpaddr;		/* IP address of the entry	*/
-	pid32	arpid;			/* Waiting process or -1 	*/
-	byte	arhaddr[ARP_HALEN];	/* Ethernet address of the entry*/
+/**
+ * @struct arpentry
+ * @brief ARPキャッシュエントリ
+ */
+struct arpentry
+{
+	//! エントリの状態
+	int32 arstate;
+	//! エントリのIPアドレス
+	uint32 arpaddr;
+	//! 待機中プロセスか-1
+	pid32 arpid;
+	//! エントリのEthernetアドレス
+	byte arhaddr[ARP_HALEN];
 };
 
-extern struct	arpentry arpcache[];
+//! ARPキャッシュエントリテーブル
+extern struct arpentry arpcache[];
